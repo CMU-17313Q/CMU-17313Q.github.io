@@ -5,10 +5,7 @@ hide:
 ---
 
 ## Course Syllabus and Policies
-The course is currently planned to be entirely in person for lectures and recitations. Most office hours will be in person, but some may be held over Zoom as well. The course uses Canvas and Gradescope for homework submission, grading, discussions, questions, and supplementary documents; slides and handouts are posted here on the course website; GitHub is used to coordinate group work. We also use Slack for communication and group work: check your email during the first week of classes for the Slack sign up link.
-
-## Waitlist
-The class has a waitlist long enough that we don't expect to clear it all. However, we will add as many students as we can. 
+The course is currently planned to be entirely in person for lectures and recitations. Most office hours will be in person, but some may be held over Zoom as well. The course uses Gradescope for homework submission, grading, discussions, questions, and supplementary documents; slides and handouts are posted here on the course website; GitHub is used to coordinate group work. We also use Slack for communication and group work: check your email during the first week of classes for the Slack sign up link.
 
 ## Prerequisites
 There are no formal prerequisites, but we strongly recommend having a solid foundation in programming before taking this class (e.g. 15-121, 15-122). You will also get more out of the course if you have experience with some larger development projects, for example, through larger class projects (e.g. 17-214, 15-410), internships, or open-source contributions. If you have questions, please don't hesitate to reach out to the class instructors.
@@ -16,14 +13,14 @@ There are no formal prerequisites, but we strongly recommend having a solid foun
 ## Communication
 The primary form of communication within this course is through Slack. We will make announcements through a dedicated channel in Slack, and also provide channels for homework clarifications and team-based communication. As such, we **highly recommend** that students install Slack on their phones / desktop with notifications enabled.
 
-The instructors and TAs will also hold weekly office hours to provide support with course materials and projects. You can find the office hours schedule updated weekly here on the course website.
+The instructor, TA, and CAs will also hold weekly office hours to provide support with course materials and projects. You can find the office hours schedule updated weekly here on the course website.
 
-You can contact the course instructors and TAs via both Slack and email. Your team will also have assigned TAs as your primary point of contact for additional support with assignment or recitation-related questions. When contacting instructors or your designated TAs, please email/message all instructors/both TAs at the same time.
+You can contact the course staff via both Slack and email.
 
 ## Teamwork
-Teamwork is an essential part of this course. Most projects are done in teams of 3-5 students. Teams will be assigned by the instructors and stay together for multiple projects. Most projects have a component that is graded for the entire group and a component that is graded individually. 
+Teamwork is an essential part of this course. Most projects are done in teams of 3-5 students. Teams will be assigned by the instructors and stay together for multiple projects. Most projects have a component that is graded for the entire group and a component that is graded individually.
 
-Being able to address team issues in software projects is one of the core learning objectives of this class. Guidance on teamwork, reflection, and conflict resolution will be provided throughout the semester and are an essential component of the class. We expect significant efforts in attempting to address the team issues before asking instructors and teaching assistants to step in. However, we will always be available to provide advice on how to navigate these issues.
+Being able to address team issues in software projects is one of the core learning objectives of this class. Guidance on teamwork, reflection, and conflict resolution will be provided throughout the semester and are an essential component of the class. We expect significant efforts in attempting to address the team issues before asking instructors and teaching/course assistants to step in. However, we will always be available to provide advice on how to navigate these issues.
 
 ## Textbook
 Various readings throughout the semester are available online or through the library; we do not have a single textbook but rather assemble readings from different sources.
@@ -31,18 +28,18 @@ Various readings throughout the semester are available online or through the lib
 As optional supplementary reading consider the (freely available) [Software Engineering at Google, Lessons Learned from Programming Over Time](https://abseil.io/resources/swe-book).
 
 ## Assessment
-Evaluation will be based on the following distribution: 60% projects, 20% midterm, 20% participation (including lecture exercises, pre-lecture reading quizzes, and recitation exercises). 
+Evaluation will be based on the following distribution: 60% projects, 20% midterm, 20% participation (including lecture exercises, pre-lecture reading quizzes, and recitation exercises).
 
 **Project Points Breakdown**
 
 | Project | # Days Given | Points | % of total grade |
 | --- | --- | --- | --- |
 | 1 | 10 | 100 | 5.77% |
-| 2 | 35 | 320 | 18.46% |
+| 2 | 36 | 320 | 18.46% |
 | 3 | 10  | 120 | 6.92% |
-| 4 | 14  | 180 | 10.38% |
+| 4 | 19  | 180 | 10.38% |
 | 5 | 27 | 320 | 18.46% |
-|   | **TOTAL**   | 1040 | 60.00% | 
+|   | **TOTAL**   | 1040 | 60.00% |
 
 ## Regrades
 Regrade requests can be submitted via Gradescope. The regrade period is open for one week after grades have been released for a particular assignment.
@@ -57,13 +54,10 @@ There will be **no make-ups** for participation points, but you are strongly enc
 If you find yourself in a situation that calls for an extended absence, please have your academic advisor reach out to the instructors, and they will work to find a solution on a case by case basis.
 
 ### Projects
-Late work will receive feedback but no credit. Due to heavy emphasis on planning & teamwork in this course there are no late days; we expect that you **anticipate unexpected events in your planning**, and coordinate with your teammates when they arise. Exceptions to this policy will be made only in extraordinary circumstances, almost always involving a family or medical emergency, with your academic advisor or the Dean of Student Affairs requesting the exception on your behalf. 
+Late work will receive feedback but no credit. Due to heavy emphasis on planning & teamwork in this course there are no late days; we expect that you **anticipate unexpected events in your planning**, and coordinate with your teammates when they arise. Exceptions to this policy will be made only in extraordinary circumstances, almost always involving a family or medical emergency, with your academic advisor or the Dean of Student Affairs requesting the exception on your behalf.
 
 ## Time Management
 This is a 12-unit course, and it is our intention to manage it so that you spend close to 12 hours a week on the course, on average. In general, 4 hours/week will be spent in lectures & recitation and 8 hours on readings and projects. Notice that most projects are done in groups, so please account for the overhead and decreased time flexibility that comes with group work. Throughout the semester, please feel free to give the course staff feedback on how much time the course is taking for you.
-
-## Writing
-Describing tradeoffs among decisions and communication with less technical stakeholders are key aspects of this class. Most projects have a component that requires discussing issues in written form or reflecting about experiences. To practice writing skills, the [Global Communications Center](https://www.cmu.edu/student-success/programs/communication-support/index.html) (GCC) offers one-on-one help for students, along with workshops. The instructors are also happy to provide additional guidance if requested.
 
 ## Professionalism
 Your classmates are your colleagues. This is particularly true in this course, where we aim to provide you with principles, practices, tools, and paradigms that will enable you to be an effective, real-world Software Engineer. We ask that you treat one another like the professionals you are and that you are preparing to be.
@@ -108,12 +102,36 @@ If you have any question about how this policy applies in a particular situation
 Note that the instructors respect honesty in these (and indeed most!) situations.
 
 ## Accommodations
-If you wish to request an accommodation due to a documented disability, please inform the instructors as soon as possible and contact Disability Resources at 412-268-2013 or [access@andrew.cmu.edu](mailto:access@andrew.cmu.edu).
+
+Carnegie Mellon University is committed to providing reasonable accommodations
+for all persons with disabilities. To access accommodation services you are
+expected to initiate the request and submit a Voluntary Disclosure of Disability
+Form to the office of Health & Wellness or CaPS-Q. In order to receive
+services/accommodations, verification of a disability is required as recommended
+in writing by a doctor, licensed psychologist or psycho-educational specialist.
+The office of Health & Wellness, CaPS-Q and Office of Disability Resources in
+Pittsburgh will review the information you provide. All information will be
+considered confidential and only released to appropriate persons on a need to
+know basis.
+
+Once the accommodations have been approved, you will be issued a Summary of Accommodations Memorandum documenting the disability and describing the accommodation. You are responsible for providing the Memorandum to your professors at the beginning of each semester.
+
+
+For more information on policies and procedures, please visit [Assistance for Individuals with Disabilities on Scotty](https://scotty.qatar.cmu.edu/qword/student-affairs/office-of-health-and-wellness/assistance-for-individuals-with-disabilities/).
+
 
 ## Policy on Healthcare-Related Absence
 We don't record our lectures, because they are highly interactive and tricky to record, but we do post slides at the end of the day. Please go over them and come to any of the instructors' office hours to discuss the material.
 
 ## A Note on Self Care
-Please take care of yourself. Do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol, getting enough sleep and taking some time to relax. This will help you achieve your goals and cope with stress. All of us benefit from support during times of struggle. You are not alone. There are many helpful resources available on campus and an important part of the college experience is learning how to ask for help. Asking for support sooner rather than later is often helpful.
+We all feel stress at different times and for different reasons, and when we do, it is good to reach out for support. Do your best to maintain a healthy lifestyle by eating well, exercising, getting enough sleep and taking some time to relax. Please know that you are not alone. There are many helpful resources available on campus and an important part of the college experience is learning how to ask for help. Asking for support sooner, rather than later, can often help your situation from getting more complicated. If you or any of your CMUQ peers are experiencing academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support.
 
-If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support. Counseling and Psychological Services (CaPS) is here to help: call 412-268-2922 and visit their website at [http://www.cmu.edu/counseling/](http://www.cmu.edu/counseling/). Consider reaching out to a friend, faculty or family member you trust for help getting connected to the support that can help.
+Our Student Affairs staff are here to help:
+
+- Dr. Dalia Rehal, Associate Dean for Student Affairs (CMB 1094), [mailto:drehal@qatar.cmu.edu](drehal@qatar.cmu.edu), 4454-8545
+- Amie Rollins, Office of Health and Wellness (CMB 1103), [amier@andrew.cmu.edu](mailto:amier@andrew.cmu.edu), 4454-8680
+- Dr. Atorina Benjamin, Counseling and Psychological Services (CMB 1104), [atorinab@qatar.cmu.edu](mailto:atorinab@qatar.cmu.edu), 4454-8525
+
+You can also visit the Ilona Wyers Student Lounge and connect with anyone on the Student Affairs Team. Consider also reaching out to a friend, faculty, staff, or family member you trust for help. If you would like to speak to a trained professional for mental health support, day or night, call our ProtoCall hotline at 5554 7913, which is staffed by trained mental health care providers.
+
+If the situation is life threatening, call 999.
