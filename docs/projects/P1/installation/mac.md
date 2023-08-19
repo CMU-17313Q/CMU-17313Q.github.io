@@ -23,7 +23,7 @@ Start the redis server:
 
 ## Installing NodeBB
 
-You should have already forked the [class-specific repository](https://github.com/CMU-313/NodeBB). Clone your forked repository onto your local machine.
+You should have already forked the [class-specific repository](https://github.com/CMU-17313Q/NodeBB). Clone your forked repository onto your local machine.
 
 Enter the directory where you have cloned the repository:
 
@@ -37,21 +37,21 @@ Run the interactive installation command:
 % ./nodebb setup
 ```
 
-You will then be presented with a series of setup questions. 
+You will then be presented with a series of setup questions.
 
 For each of the questions — **except for "Which database to use (mongo)"**, which you should answer with "redis" — you may accept the default answer by pressing ++enter++
 
 ```console
-URL used to access this NodeBB (http://127.0.0.1:4567) 
-Please enter a NodeBB secret (ee18b7c3-1d23-41c9-800f-78d74acc0861) 
-Would you like to submit anonymous plugin usage to nbbpm? (yes) 
+URL used to access this NodeBB (http://127.0.0.1:4567)
+Please enter a NodeBB secret (ee18b7c3-1d23-41c9-800f-78d74acc0861)
+Would you like to submit anonymous plugin usage to nbbpm? (yes)
 Which database to use (mongo) redis
 
 Now configuring redis database:
-Host IP or address of your Redis instance (127.0.0.1) 
-Host port of your Redis instance (6379) 
-Password of your Redis database 
-Which database to use (0..n) (0) 
+Host IP or address of your Redis instance (127.0.0.1)
+Host port of your Redis instance (6379)
+Password of your Redis database
+Which database to use (0..n) (0)
 ```
 
 The first time you run the `setup` command, you will also be asked to configure a forum administrator. When prompted, enter the desired information for the admin account.

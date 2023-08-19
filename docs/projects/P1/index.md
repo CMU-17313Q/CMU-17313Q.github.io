@@ -14,14 +14,14 @@ Welcome to the 17-313 development team! To get started, you will be going throug
 
 This semester, we will be building upon NodeBB, an open-source community forum software project that was started in 2014. You can learn more about this project from the original development team's [website](https://nodebb.org/).
 
-For your own development, you will be forking your own repository off of a class-specific fork of NodeBB, which you can find at [https://github.com/CMU-313/NodeBB](https://github.com/CMU-313/NodeBB).
+For your own development, you will be forking your own repository off of a class-specific fork of NodeBB, which you can find at [https://github.com/CMU-17313Q/NodeBB](https://github.com/CMU-17313Q/NodeBB).
 
 Our fork contains some tweaks to make the project easier to modify and debug. This will also allow you to create issues and pull requests that are visible to the instructors, which will be the primary way of submitting code deliverables for this project.
 
 ## Deliverables and Deadlines
 This is an **individual assignment**. There are four (4) deliverables and one (1) deadline for this homework.
 
-**Onboarding** – 100 points – due Thursday, January 26th, 11:59pm
+**Onboarding** – 100 points – due Wednesday, August 30th, 10:00pm
 
 - [Build Checkpoint](#getting-started) (5 pts)
 - [GitHub Issue](#github-issue-20-pts) (20 pts)
@@ -33,8 +33,7 @@ This is an **individual assignment**. There are four (4) deliverables and one (1
 Before jumping into the codebase, please review the [course syllabus](/syllabus) and be sure you have access to each of the following:
 
 - Course Slack - check your email for an invite link
-- [Canvas](https://canvas.cmu.edu/courses/33307)
-- [Gradescope](https://www.gradescope.com/courses/488839)
+- [Gradescope](https://www.gradescope.com/courses/554799)
 
 If you run into any trouble accessing the above or have any questions, reach out to the instructors.
 
@@ -52,10 +51,10 @@ If you are not familiar with any of these steps, you are **highly recommended** 
 ## Getting Started
 
 ### Repository Setup
-Fork the [class-specific repository](https://github.com/CMU-313/NodeBB) into your personal GitHub account.
+Fork the [class-specific repository](https://github.com/CMU-17313Q/NodeBB) into your personal GitHub account.
 
 !!! warning
-	Even though this project is based off of an active open source project, we have made significant changes to ensure its suitability for our class. As such, be sure you are forking off of **CMU-313/NodeBB** and direct any questions to course staff. Do **not** contact the maintainers of NodeBB for assistance with your homework questions.
+	Even though this project is based off of an active open source project, we have made significant changes to ensure its suitability for our class. As such, be sure you are forking off of **CMU-17313Q/NodeBB** and direct any questions to course staff. Do **not** contact the maintainers of NodeBB for assistance with your homework questions.
 
 Ensure that GitHub Actions are enabled (click the green button under the "Actions" tab), then follow the below installation instructions based on your computer's operating system:
 
@@ -75,11 +74,11 @@ Take some time to click through the pages and explore the different features tha
 ### Analysis Tools
 When working on an existing codebase, especially in a collaborative setting, we want to ensure that none of our changes introduce unexpected bugs or issues for other developers. To fulfill these goals, we often use different tools to help us evaluate our code. Luckily, NodeBB is already packaged with a number of neat tools!
 
-Follow the **Development Tools** section in the repository README to run both the linter and testing tools provided by NodeBB on your computer. Without any changes to the repository, both tools should pass. 
+Follow the **Development Tools** section in the repository README to run both the linter and testing tools provided by NodeBB on your computer. Without any changes to the repository, both tools should pass.
 
 After the test suite finishes running, NodeBB will also generate a **code coverage report**. This report gives you measurements with regards to what percentage of the codebase is covered by the test suite. Open the `index.html` file in the `coverage` folder to see the full report.
 
-!!! note "Coverage Report (added 1/19/23)"
+!!! note "Coverage Report"
 	As this is an existing codebase with a decently-sized test suite, you should expect to see a relatively **high percentage of coverage**, i.e. the majority of the bars/cells displayed should be green.
 
 	If you are seeing **a lot** of red bars, it may mean that the test suite was not run properly. Double-check that all of the tests passed and that there were no failures.
@@ -97,7 +96,7 @@ Upon completing the above steps, take screenshots of
 
 opened in your browser. **Be sure the URL is clearly visible in both screenshots** (i.e. `localhost:4567` and the file path to your coverage file), so we can confirm that you have everything running locally.
 
-Submit the two screenshots to [Gradescope](https://www.gradescope.com/courses/488839).
+Submit the two screenshots to [Gradescope](https://www.gradescope.com/courses/554799).
 
 
 ## Onboarding
@@ -108,15 +107,15 @@ Now that you have explored the repository, the development team would like to gi
 As part of the efforts to integrate this new language into the repository, all future code will be written using TypeScript and the old files are translated as necessary. To prepare you for TypeScript development, the team would like you to contribute towards rewriting the codebase.
 
 ### GitHub Issue (20 pts)
-First, choose a single JavaScript file to translate and open a GitHub Issue in the [class repository](https://github.com/CMU-313/NodeBB/issues) to declare which file you will be translating.
+First, choose a single JavaScript file to translate and open a GitHub Issue in the [class repository](https://github.com/CMU-17313Q/NodeBB/issues) to declare which file you will be translating.
 
 There are some restrictions on the `.js` file that you can pick. Specifically, the file must:
 
 - **Be in the `src/` folder**
-- **Contain at least 50 lines of non-import statement code** before you start translating it. Files like [`src/api/index.js`](https://github.com/CMU-313/NodeBB/blob/main/src/api/index.js) and [`src/controllers/admin.js`](https://github.com/CMU-313/NodeBB/blob/main/src/controllers/admin.js) are not allowed
+- **Contain at least 50 lines of non-import statement code** before you start translating it. Files like [`src/api/index.js`](https://github.com/CMU-17313Q/NodeBB/blob/main/src/api/index.js) and [`src/controllers/admin.js`](https://github.com/CMU-17313Q/NodeBB/blob/main/src/controllers/admin.js) are not allowed
 - **Not be a file that someone else has already picked**. We expect you to look through existing issues, if any, to avoid such duplication (thus, there is an incentive for you to start early!)
 
-Title the task appropriately, such as `Converting <file name> from JS to TS`, and mention the file name in the description. To prevent ambiguities between similarly-named files, be sure to use the **full file path** (`src/../xx.js`) in the title and description. 
+Title the task appropriately, such as `Converting <file name> from JS to TS`, and mention the file name in the description. To prevent ambiguities between similarly-named files, be sure to use the **full file path** (`src/../xx.js`) in the title and description.
 
 ??? info "Issue Guidelines"
     **Issues titles** should provide a high-level overview of what the problem is (e.g. *"Navbar button UI bugs"*, *"Unexpected registration validation errors"*). Sometimes, issues are used to propose new features (e.g. *"Add CSV export feature"*).
@@ -130,8 +129,8 @@ You should soon see another comment by the `github-actions` bot informing you th
 ![Bot Issue Assignment](/assets/images/hw/bot_assignment.png)
 
 ??? info "Why Bot Assignment?"
-	You might be curious as to why we are using a GitHub bot instead of directly assigning yourself to the issue. As you aren’t officially recognized as a collaborator of CMU-313/NodeBB, GitHub adds some restrictions to your permissions for security purposes, including not being able to assign yourself to an issue. Hence, we are using a bot to work around these restrictions. This is similar to how you would request issues on an Open Source project!
-	
+	You might be curious as to why we are using a GitHub bot instead of directly assigning yourself to the issue. As you aren’t officially recognized as a collaborator of CMU-17313Q/NodeBB, GitHub adds some restrictions to your permissions for security purposes, including not being able to assign yourself to an issue. Hence, we are using a bot to work around these restrictions. This is similar to how you would request issues on an Open Source project!
+
 	For future projects, you will have full control over these GitHub features such as managing assignees, adding labels, creating milestones, and more.
 
 ### GitHub Pull Request (35 pts)
@@ -147,7 +146,7 @@ Your changes must still pass both the linter and the test suite, so be sure to t
 
 !!! note "Dependencies on Untranslated Files"
 	There will be some instances where your file may reference functions or variables from modules in other files that have not been translated yet. This may cause the linter to throw errors as these values will be of type `any`. In those situations, **and only in those situations**, you may add the following comments to suppress the linter warnings:
-	
+
 	```TypeScript
 	// The next line calls a function in a module that has not been updated to TS yet
 	// eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call
@@ -159,7 +158,7 @@ As you work, be sure to periodically commit your changes. Your commit message(s)
 
 ??? info "Branch and Commit Guidelines"
     **Branch names** should be short and provide a description of what you will be doing on that branch (e.g. *"fix-header-sizing-issue"*, *"fix-multiple-dialog-bug"*, *"add-sorting-feature"*). When working with others, you can also append your username to signal which branches are yours (e.g. *"313ta/add-sorting-feature"*).
-	
+
 	**Commits** should start with a verb and provide a description of what they are doing to the codebase (e.g. *"Remove faulty condition from getCustomerDetails"*, *"Fix failing CompositeTestCase"*, *"Fix issue #21"* ).
 
 Once you are satisfied, open a pull request from your personal branch back to the **class** repository. Similar to the Issue, your PR title should mention the full path of the file you’ve changed. The PR body should summarize the changes you made and [use one of the linking keywords](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) to link the issue that you previously opened (e.g. adding `resolves #313` will signal to GitHub that this PR resolves issue number 313).
@@ -177,7 +176,7 @@ There will be automated checks that run on your pull request to ensure you meet 
 If all of the actions have passed, you will see a green checkmark next to your pull request. This signals that you have completed the implementation aspect of this assignment! ✅
 
 ### Written Assignment (40 pts)
-After you have completed all of the above tasks, we will ask you some questions relevant to the NodeBB project and the course [syllabus](/syllabus). Fill out and submit the HW1 Written Assignment available on Gradescope. 
+After you have completed all of the above tasks, we will ask you some questions relevant to the NodeBB project and the course [syllabus](/syllabus). Fill out and submit the HW1 Written Assignment available on Gradescope.
 
 ## Grading
 To receive full credit for this project, we expect:
@@ -220,8 +219,8 @@ The repository README contains links to different documentation material that yo
 
 You will also find some sample translated TypeScript files within the repository. You can use these as guidance for your translation process:
 
-- [`src/social.ts`](https://github.com/CMU-313/NodeBB/blob/main/src/social.ts)
-- [`src/controllers/composer.ts`](https://github.com/CMU-313/NodeBB/blob/main/src/controllers/composer.ts)
+- [`src/social.ts`](https://github.com/CMU-17313Q/NodeBB/blob/main/src/social.ts)
+- [`src/controllers/composer.ts`](https://github.com/CMU-17313Q/NodeBB/blob/main/src/controllers/composer.ts)
 
 ### Additional TypeScript Background
 This section provides more context on how TypeScript is used for this project and when it is appropriate to suppress ESLint warnings in your translated TypeScript files.
@@ -230,7 +229,7 @@ As native JavaScript does not have any typing, by default, all functions/values/
 
 Using the `any` type, however, will defeat the purpose of the various type-checking features TypeScript provides. As such, we’ve set our linter to **check for strict typing** and **disallow the use of the `any` type**. For the most part, this should check that you explicitly type everything within your files and ensure that you are able to make the most out of TypeScript.
 
-A limitation of this strictness is that there will be errors thrown when using non-translated JavaScript imports, which TypeScript will assume to have type `any`. As an example from one of our sample translated files [`src/social.ts`](https://github.com/CMU-313/NodeBB/blob/main/src/social.ts):
+A limitation of this strictness is that there will be errors thrown when using non-translated JavaScript imports, which TypeScript will assume to have type `any`. As an example from one of our sample translated files [`src/social.ts`](https://github.com/CMU-17313Q/NodeBB/blob/main/src/social.ts):
 
 ```TypeScript title="src/social.ts"
 // A module import from a non-translated JavaScript file database/index.js
@@ -241,7 +240,7 @@ const activated = await db.getSetMembers('social:posts.activated');
 
 Running the linter will give the following errors:
 ```sh
-error  Unsafe member access .getSetMembers on an `any` value 
+error  Unsafe member access .getSetMembers on an `any` value
 @typescript-eslint/no-unsafe-member-access
 
 error  Unsafe call of an `any` typed value
@@ -281,7 +280,7 @@ In some cases, if your file imports an `npm` package (such as `lodash`, `nconf`,
 % npm install @types/[packagename] --save-dev
 ```
 
-You should then see the `@types/[packagename]` added to your `package.json` file. 
+You should then see the `@types/[packagename]` added to your `package.json` file.
 
 !!! note "GitHub Actions Packages"
 	To make sure your GitHub Actions also install the correct packages, you should copy the `package.json` file to `install/package.json`.

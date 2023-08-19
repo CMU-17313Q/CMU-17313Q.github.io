@@ -15,7 +15,7 @@ The purpose of this exercise is to provide support for students who may be less 
 
 ## Forking a Repository
 
-Start by forking [this repository](https://github.com/CMU-313/github-recitation-with-test) to your personal account by clicking the Fork button at the top of the page. Then, under the General tab in **Settings**, check the "Issues" checkbox in the "Features" section to enable the issues pane for your repository.
+Start by forking [this repository](https://github.com/CMU-17313Q/github-recitation-with-test) to your personal account by clicking the Fork button at the top of the page. Then, under the General tab in **Settings**, check the "Issues" checkbox in the "Features" section to enable the issues pane for your repository.
 
 ![GitHub Permissions](/assets/images/reci/reci1-github-permissions.png)
 
@@ -53,7 +53,7 @@ You may also want to experiment with adding [labels](https://docs.github.com/en/
 
 ## Branching, Committing, and Pushing
 
-On your local machine, create a new branch with a relevant name to the issue you are addressing. 
+On your local machine, create a new branch with a relevant name to the issue you are addressing.
 
 !!! info "Branch Guidelines"
     **Branch names** should be short and provide a description of what you will be doing on that branch (e.g. *"fix-header-sizing-issue"*, *"fix-multiple-dialog-bug"*, *"add-sorting-feature"*). When working with others, you can also append your username to signal which branches are yours (e.g. *"313ta/add-sorting-feature"*).
@@ -73,7 +73,7 @@ Push the branch to remote by running:
 On GitHub, create a pull request to merge the changes from the branch you have just pushed to the main branch.
 
 !!! warning
-    **Make sure you are merging to the `main` of your own forked repository!** By default, GitHub will select the original repository (CMU-313/...) instead of your own forked repository (your-username/...).
+    **Make sure you are merging to the `main` of your own forked repository!** By default, GitHub will select the original repository (CMU-17313Q/...) instead of your own forked repository (your-username/...).
 
 Give your pull request an appropriate title and description.
 
@@ -86,5 +86,5 @@ Link the issue you created initially to the PR by using the [linking keywords](h
 
 Notice that the GitHub action workflow runs automatically once you create the pull request! You should check that the relevant test case to your fix now passes.
 
-## Check GitHub Actions 
+## Check GitHub Actions
 Click on the **Actions** tab. If you have resolved all the issues correctly, the tests should now pass, and a green check should show.
