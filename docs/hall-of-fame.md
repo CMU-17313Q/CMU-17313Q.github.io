@@ -8,6 +8,9 @@ A list of student groups with links to their merged PRs in open source projects.
 
 ## 2023 Spring
 
+TBD
+
+<!-
 | Group Name | Team Members | Project | Merged PRs |
 | ---------- | ------------ | ------- | ---------- |
 | C2 | Doreen Valmyr, Ryan Lin, Steven Shou, Zhijie Gao | [Teammates](https://github.com/TEAMMATES/teammates) | [#12406](https://github.com/TEAMMATES/teammates/pull/12406), [#12408](https://github.com/TEAMMATES/teammates/pull/12408)|
@@ -16,7 +19,7 @@ A list of student groups with links to their merged PRs in open source projects.
 | hecl.io | Colin May, E.j. Ezuma-Ngwu, Hye In Lee, Liam Gersten | [CPython](https://github.com/python/cpython) | [#103974](https://github.com/python/cpython/pull/103974)|
 | team-up | Amita Goyal, Ayla Wang, Frank Chen, Kunal Sharda, Rio Pacheco | [LAION-AI Open Assistant](https://github.com/LAION-AI/Open-Assistant) | [#2684](https://github.com/LAION-AI/Open-Assistant/pull/2684), [#2794](https://github.com/LAION-AI/Open-Assistant/pull/2794), [#3057](https://github.com/LAION-AI/Open-Assistant/pull/3057)|
 
-<!-- ## 2023 Fall
+ ## 2023 Fall
 
 | Group Name | Team Members | Project | Merged PRs |
 | ---------- | ------------ | ------- | ---------- |
