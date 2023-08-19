@@ -1,0 +1,1332 @@
+- date: Sun Aug 20
+  homework:
+    homework:
+    deadline: "Due Wed Aug 30 @ 10:00pm"
+    link: "/projects/P1"
+    name: "Project 1"
+    numDays: 9
+  lecture:
+    link: ''
+    name: 'Intro'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: 'Recitation 1 - GitHub and TS'
+    quiz: ''
+    slides: ''
+
+- date: Mon Aug 21
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Tue Aug 22
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: 'Metrics and Measurements'
+  reading:
+    link: "https://www.gradescope.com/courses/554799/assignments/3108660"
+    name: 'Team Formation Survey'
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Aug 23
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Aug 24
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: 'Recitation'
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Sun Aug 27
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Aug 28
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Tue Aug 29
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Aug 30
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Aug 31
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Sun Sep 03
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Sep 04
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Tue Sep 05
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Sep 06
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Sep 07
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Sun Sep 10
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Sep 11
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Tue Sep 12
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Sep 13
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Sep 14
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Sun Sep 17
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Sep 18
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Tue Sep 19
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Sep 20
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Sep 21
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Sun Sep 24
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Sep 25
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Tue Sep 26
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Sep 27
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Sep 28
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Sun Oct 01
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Oct 02
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Tue Oct 03
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Oct 04
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Oct 05
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Sun Oct 08
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Oct 09
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Tue Oct 10
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Oct 11
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Oct 12
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Sun Oct 15
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Oct 16
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Tue Oct 17
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Oct 18
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Oct 19
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Sun Oct 22
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Oct 23
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Tue Oct 24
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Oct 25
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Oct 26
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Sun Oct 29
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Oct 30
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Tue Oct 31
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Nov 01
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Nov 02
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Sun Nov 05
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Nov 06
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Tue Nov 07
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Nov 08
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Nov 09
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Sun Nov 12
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Nov 13
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Tue Nov 14
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Nov 15
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Nov 16
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Sun Nov 19
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Nov 20
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Tue Nov 21
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Nov 22
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Thu Nov 23
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Sun Nov 26
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Mon Nov 27
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Tue Nov 28
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''
+
+- date: Wed Nov 29
+  homework:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
+  lecture:
+    link: ''
+    name: ''
+  reading:
+    link: ''
+    name: ''
+  recitation:
+    handout: ''
+    name: ''
+    quiz: ''
+    slides: ''

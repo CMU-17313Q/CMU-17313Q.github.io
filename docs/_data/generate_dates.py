@@ -20,12 +20,12 @@ end_date = get_input_datetime("Enter semester end date (mm/dd/yyyy):")
 
 dict_file = []
 for single_date in daterange(start_date, end_date):
-    if (single_date.weekday() > 4):
+    if (single_date.weekday() == 4 or single_date.weekday() == 5 ):
         continue
 
     str_date = single_date.strftime("%a %b %d")
     dict_file.append({
-        "date": str_date, 
+        "date": str_date,
         "lecture": {
             "name": "",
             "link": ""
@@ -35,11 +35,11 @@ for single_date in daterange(start_date, end_date):
             "slides": "",
             "handout": "",
             "quiz": ""
-        }, 
+        },
         "reading": {
             "name": "",
             "link": ""
-        }, 
+        },
         "homework": {
             "name": "",
             "deadline": "",
@@ -56,5 +56,5 @@ class LineBreakDumper(yaml.SafeDumper):
         if len(self.indents) == 1:
             super().write_line_break()
 
-with open(r'schedule.yaml', 'w') as file:    
+with open(r'schedule.yaml', 'w') as file:
     yaml.dump(dict_file, file, Dumper=LineBreakDumper, default_flow_style=False)
