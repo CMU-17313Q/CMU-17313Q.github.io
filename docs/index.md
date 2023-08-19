@@ -12,7 +12,7 @@ hide:
 
 {%- set this_week = extra.this_week -%}
 
-<div class="card"> 
+<div class="card">
     <div class="header">
         Lectures & Readings
     </div>
@@ -23,7 +23,7 @@ hide:
                     {{ lecture.name }}
                 </div>
                 <div class="lecture-date">
-                    <span class="material-symbols-outlined">calendar_month</span> 
+                    <span class="material-symbols-outlined">calendar_month</span>
                     {{ lecture.date }}
                 </div>
 
@@ -51,7 +51,7 @@ hide:
 
 </div>
 
-<div class="card"> 
+<div class="card">
     <div class="header">
         Recitation
     </div>
@@ -87,12 +87,12 @@ hide:
         Office Hours
     </div>
     <div class="content">
-        Held on the first floor lobby of TCS. See <a href="#class-calendar">class calendar</a> below for exact times!
+        Held on the ARC. See <a href="#class-calendar">class calendar</a> below for exact times!
     </div>
 
 </div>
 
-<div class="card"> 
+<div class="card">
     <div class="header">
         Projects
     </div>
@@ -135,7 +135,7 @@ hide:
 
 ## Class Calendar
 
-Coming Soon!
+<iframe src="https://calendar.google.com/calendar/embed?src=c_d2e7f0oegtb7jiloo98sdff160%40group.calendar.google.com&ctz=ctz=Asia%2FQatar&mode=WEEK" style="border: 0" width="1000" height="600" frameborder="0" scrolling="no"></iframe>
 
 ## Weekly Schedule
 
@@ -247,16 +247,16 @@ Coming Soon!
 
 ## Staff
 
-### Instructors
+### Instructor
 
 <div id="course-instructors">
 {%- set instructors = extra.staff | selectattr("role", "==", "Instructor") | list -%}
 {% for instructor in instructors %}
-<div class="staffer card"> 
+<div class="staffer card">
     <div class="container">
         <img class="staffer-image" src="/assets/images/{{instructor.photo}}" alt="">
         <div>
-            <h3 class="staffer-name"> 
+            <h3 class="staffer-name">
                 {{instructor.name}}
             </h3>
             <div class="staffer-links">
@@ -281,17 +281,53 @@ Coming Soon!
 
 {% if num_teaching_assistants > 0 %}
 
-### Teaching Assistants
+### Teaching Assistant
 
 <div id="course-assistants">
 
 {% for assistant in assistants %}
 
-<div class="staffer card"> 
+<div class="staffer card">
     <div class="container">
         <img class="staffer-image" src="/assets/images/{{assistant.photo}}" alt="">
         <div>
-            <h3 class="staffer-name"> 
+            <h3 class="staffer-name">
+                {{assistant.name}}
+            </h3>
+            <div class="staffer-links">
+                <a href="mailto:{{assistant.email}}"><span class="material-symbols-outlined">
+                    mail
+                </span></a>
+                {% if assistant.website %}
+                <a href="{{assistant.website}}" target="_blank"><span class="material-symbols-outlined">
+                    public
+                </span></a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+</div>
+{% endif %}
+
+{%- set assistants = extra.staff | selectattr("role", "==", "Course Assistant") | list -%}
+{%- set num_teaching_assistants = assistants | count -%}
+
+{% if num_teaching_assistants > 0 %}
+
+### Course Assistants
+
+<div id="course-assistants">
+
+{% for assistant in assistants %}
+
+<div class="staffer card">
+    <div class="container">
+        <img class="staffer-image" src="/assets/images/{{assistant.photo}}" alt="">
+        <div>
+            <h3 class="staffer-name">
                 {{assistant.name}}
             </h3>
             <div class="staffer-links">
