@@ -6,7 +6,7 @@
     name: "Project 1"
     numDays: 9
   lecture:
-    link: ''
+    link: "assets/pdfs/01-introduction.pdf"
     name: 'Intro'
   reading:
     link: ''
