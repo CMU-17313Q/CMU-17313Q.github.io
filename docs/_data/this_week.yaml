@@ -1,5 +1,21 @@
-lectures: []
+lectures:
+- date: Tue Aug 22
+  link: ''
+  name: Metrics and Measurements
+  reading:
+    link: https://www.gradescope.com/courses/554799/assignments/3108660
+    name: Team Formation Survey
+- date: Thu Aug 24
+  link: ''
+  name: Recitation
 
-projects: []
+projects:
+- date: Sun Aug 20
+  deadline: Due Wed Aug 30 @ 10:00pm
+  end_date: 2023-08-31 00:00:00
+  homework: null
+  link: /projects/P1
+  name: Project 1
+  numDays: 9
 
 recitation: null
