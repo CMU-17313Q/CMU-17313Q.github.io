@@ -99,8 +99,8 @@
     link: ''
     name: ''
   reading:
-    link: ''
-    name: ''
+    link: 'assets/pdfs/17313-reading_quiz_1.pdf'
+    name: 'Boeing 737 Max'
   recitation:
     handout: ''
     name: ''
