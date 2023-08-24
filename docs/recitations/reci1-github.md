@@ -19,7 +19,7 @@ After this recitation, the students should be able to use Git and GitHub for the
 
 ## Activity 1a: Forking a repo and adding a collaborator
 
-- Have either you or your partner fork [this repository](https://github.com/CMU-313/github-recitation-ts), then add the other person as a collaborator on GitHub. You can do so by clicking on **Settings**, then **Collaborators**
+- Have either you or your partner fork [this repository](https://github.com/CMU-17313Q/github-recitation-ts), then add the other person as a collaborator on GitHub. You can do so by clicking on **Settings**, then **Collaborators**
 - Under the General tab in **Settings**, check the "Issues" checkbox in the "Features" section to enable the issues pane for your repository
   ![Github Permissions](../assets/images/reci/reci1-github-permissions.png)
 - Clone the repository onto your local machine
