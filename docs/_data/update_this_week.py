@@ -4,7 +4,7 @@ import yaml
 def add_business_days(start_date, add_days, current_year):
     rem_days_to_add = add_days
     current_date = datetime.strptime(start_date, "%a %b %d").replace(year=current_year)
-    
+
     while rem_days_to_add > 0:
         current_date += timedelta(days=1)
         weekday = current_date.weekday()
@@ -21,7 +21,7 @@ class LineBreakDumper(yaml.SafeDumper):
 
         if len(self.indents) == 1:
             super().write_line_break()
-    
+
     def ignore_aliases(self, data):
         return True
 
@@ -31,14 +31,14 @@ with open('schedule.yaml', 'r') as file:
 today = datetime.now()
 
 # Go back to the most recent Sunday
-todays_weekday = (today.weekday() + 1) % 7
+todays_weekday = (today.weekday() + 2) % 7
 start_date = today - timedelta(todays_weekday)
 
 projects = []
 recitation = None
 lectures = []
 
-if schedule: 
+if schedule:
     week_start_date = None
     current_date = start_date
 
@@ -50,7 +50,7 @@ if schedule:
         elif week_start_date and schedule_date >= week_start_date + timedelta(weeks=1):
             # We left the current week
             break
-        
+
         if schedule_day['homework']['name'] != '':
             projects.append(schedule_day['homework'])
             projects[-1]['date'] = schedule_day['date']
@@ -76,5 +76,5 @@ output = {
     "lectures": lectures
 }
 
-with open(r'this_week.yaml', 'w') as file:    
+with open(r'this_week.yaml', 'w') as file:
     documents = yaml.dump(output, file, Dumper=LineBreakDumper, default_flow_style=False)
