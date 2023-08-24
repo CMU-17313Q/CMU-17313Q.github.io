@@ -1,4 +1,7 @@
 lectures:
+- date: Sun Aug 20
+  link: assets/pdfs/01-introduction.pdf
+  name: Intro
 - date: Tue Aug 22
   link: ''
   name: Metrics and Measurements
@@ -18,4 +21,9 @@ projects:
   name: Project 1
   numDays: 9
 
-recitation: null
+recitation:
+  date: Thu Aug 24
+  handout: recitations/reci1-github/
+  name: Recitation 1 - GitHub and TS
+  quiz: ''
+  slides: ''
