@@ -10,6 +10,7 @@ hide:
 
 <div id="this-week">
 
+
 {%- set this_week = extra.this_week -%}
 
 <div class="card">
