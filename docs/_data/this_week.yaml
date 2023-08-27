@@ -1,16 +1,4 @@
-lectures:
-- date: Sun Aug 20
-  link: assets/pdfs/01-introduction.pdf
-  name: Intro
-- date: Tue Aug 22
-  link: ''
-  name: Metrics and Measurements
-  reading:
-    link: https://www.gradescope.com/courses/554799/assignments/3108660
-    name: Team Formation Survey
-- date: Thu Aug 24
-  link: ''
-  name: Recitation
+lectures: []
 
 projects:
 - date: Sun Aug 20
@@ -21,9 +9,4 @@ projects:
   name: Project 1
   numDays: 9
 
-recitation:
-  date: Thu Aug 24
-  handout: recitations/reci1-github/
-  name: Recitation 1 - GitHub and TS
-  quiz: ''
-  slides: ''
+recitation: null
