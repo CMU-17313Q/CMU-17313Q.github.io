@@ -8,6 +8,7 @@ hide:
 
 ## This Week
 
+
 <div id="this-week">
 
 {%- set this_week = extra.this_week -%}
