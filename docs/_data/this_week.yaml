@@ -1,4 +1,10 @@
-lectures: []
+lectures:
+- date: Sun Aug 27
+  link: assets/pdfs/03-boeing_case_study.pdf
+  name: 'Boeing 737 MAX: Case Study'
+  reading:
+    link: assets/pdfs/17313-reading_quiz_1.pdf
+    name: Boeing 737 Max
 
 projects:
 - date: Sun Aug 20
