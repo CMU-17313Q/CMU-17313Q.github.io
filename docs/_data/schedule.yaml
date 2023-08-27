@@ -42,7 +42,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: "assets/pdfs/02-measurement.pdf"
     name: 'Metrics and Measurements'
   reading:
     link: "https://www.gradescope.com/courses/554799/assignments/3108660"
