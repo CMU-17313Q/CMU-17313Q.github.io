@@ -175,10 +175,10 @@
     link: ''
     name: ''
   recitation:
-    handout: 'recitations/reci2-teamcontract/'
+    handout: ''
     name: 'Recitation 2 - Team Contract'
     quiz: ''
-    slides: ''
+    slides: 'https://docs.google.com/presentation/d/1IgTl6hp3GR2ZNurp8GEsVobEbdxMw7cNK-oM9MoVKx8/edit?usp=sharing'
 
 - date: Sun Sep 03
   homework:

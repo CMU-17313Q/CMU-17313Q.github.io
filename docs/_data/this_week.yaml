@@ -6,13 +6,11 @@ lectures:
     link: assets/pdfs/17313-reading_quiz_1.pdf
     name: Boeing 737 Max
 
-projects:
-- date: Sun Aug 20
-  deadline: Due Wed Aug 30 @ 10:00pm
-  end_date: 2023-08-31 00:00:00
-  homework: null
-  link: /projects/P1
-  name: Project 1
-  numDays: 9
+projects: []
 
-recitation: null
+recitation:
+  date: Thu Aug 31
+  handout: ''
+  name: Recitation 2 - Team Contract
+  quiz: ''
+  slides: https://docs.google.com/presentation/d/1IgTl6hp3GR2ZNurp8GEsVobEbdxMw7cNK-oM9MoVKx8/edit?usp=sharing
