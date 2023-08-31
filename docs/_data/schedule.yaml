@@ -254,11 +254,10 @@
 
 - date: Thu Sep 07
   homework:
-    homework:
-    deadline: "Due Tue September 19 @ 11:59pm"
-    link: "/projects/P2/2_firstsprint"
-    name: "Project 2B"
-    numDays: 12
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
     link: ''
     name: ''
@@ -273,10 +272,10 @@
 
 - date: Sun Sep 10
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: "Due Tue September 19 @ 11:59pm"
+    link: "/projects/P2/2_firstsprint"
+    name: "Project 2B"
+    numDays: 9
   lecture:
     link: ''
     name: ''
