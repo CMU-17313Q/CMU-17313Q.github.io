@@ -9,11 +9,11 @@ lectures:
 projects:
 - date: Thu Aug 31
   deadline: Due Thu September 7 @ 11:59pm
-  end_date: 2023-09-11 00:00:00
+  end_date: 2023-09-08 00:00:00
   homework: null
   link: /projects/P2
   name: Project 2A
-  numDays: 7
+  numDays: 6
 
 recitation:
   date: Thu Aug 31
