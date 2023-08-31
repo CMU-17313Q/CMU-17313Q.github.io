@@ -1,13 +1,10 @@
 lectures:
-- date: Tue Aug 22
-  link: ''
-  name: Metrics and Measurements
+- date: Sun Aug 27
+  link: assets/pdfs/03-boeing_case_study.pdf
+  name: 'Boeing 737 MAX: Case Study'
   reading:
-    link: https://www.gradescope.com/courses/554799/assignments/3108660
-    name: Team Formation Survey
-- date: Thu Aug 24
-  link: ''
-  name: Recitation
+    link: assets/pdfs/17313-reading_quiz_1.pdf
+    name: Boeing 737 Max
 
 projects:
 - date: Sun Aug 20
