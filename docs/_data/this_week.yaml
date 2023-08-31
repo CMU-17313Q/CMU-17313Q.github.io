@@ -6,7 +6,14 @@ lectures:
     link: assets/pdfs/17313-reading_quiz_1.pdf
     name: Boeing 737 Max
 
-projects: []
+projects:
+- date: Thu Aug 31
+  deadline: Due Thu September 7 @ 11:59pm
+  end_date: 2023-09-11 00:00:00
+  homework: null
+  link: /projects/P2
+  name: Project 2A
+  numDays: 7
 
 recitation:
   date: Thu Aug 31
