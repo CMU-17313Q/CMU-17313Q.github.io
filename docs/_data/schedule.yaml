@@ -163,10 +163,11 @@
 
 - date: Thu Aug 31
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    homework:
+    deadline: "Due Thu September 7 @ 11:59pm"
+    link: "/projects/P2"
+    name: "Project 2A"
+    numDays: 7
   lecture:
     link: ''
     name: ''
@@ -253,10 +254,11 @@
 
 - date: Thu Sep 07
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    homework:
+    deadline: "Due Tue September 19 @ 11:59pm"
+    link: "/projects/P2/2_firstsprint"
+    name: "Project 2B"
+    numDays: 12
   lecture:
     link: ''
     name: ''
@@ -415,10 +417,11 @@
 
 - date: Wed Sep 20
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    homework:
+    deadline: "Due Thu October 5 @ 11:59pm"
+    link: "/projects/P2/2_secondsprint"
+    name: "Project 2C"
+    numDays: 16
   lecture:
     link: ''
     name: ''
