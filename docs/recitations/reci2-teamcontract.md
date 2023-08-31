@@ -13,17 +13,17 @@ After this recitation, students will have met their teams and completed a rough 
 
 **You will be doing the activities in your teams. Sit with them!**
 
-## Activity 1: Get to know your team! 
+## Activity 1: Get to know your team!
 
-See team assignments [here](https://docs.google.com/spreadsheets/d/1THtHxBS126DU6_Uk18Z_WlPe-Xf5v14FBtsQHSolA6A/edit#gid=0). Do some quick intros, then get ready for.. 
-  
+See team assignments. Do some quick intros, then get ready for..
+
 ### **Activity 1a: Similarities!**
 
 In your group, spend 5 minutes finding things that every group member has in common. If your team has n people, find n such similarities. Try to avoid simple things like: everyone is a CMU student, everyone is enrolled in 313, everyone loves 313, etc…
 
 ### **Activity 1b: Team Name**
 
-As part of Project 2, you’ll need to come up with a name for your team. Do so now! 
+As part of Project 2, you’ll need to come up with a name for your team. Do so now!
 
 As per the project handout, your name should be *“unique, pronounceable, short, and something you would be proud to shout in your team cheer on the streets of Pittsburgh in the presence of small, impressionable, multilingual children.”*
 

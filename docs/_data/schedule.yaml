@@ -174,8 +174,8 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
+    handout: 'recitations/reci2-teamcontract/'
+    name: 'Recitation 2 - Team Contract'
     quiz: ''
     slides: ''
 
