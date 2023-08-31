@@ -275,7 +275,7 @@
     deadline: "Due Tue September 19 @ 11:59pm"
     link: "/projects/P2/2_firstsprint"
     name: "Project 2B"
-    numDays: 9
+    numDays: 8
   lecture:
     link: ''
     name: ''
@@ -416,11 +416,10 @@
 
 - date: Wed Sep 20
   homework:
-    homework:
     deadline: "Due Thu October 5 @ 11:59pm"
     link: "/projects/P2/2_secondsprint"
     name: "Project 2C"
-    numDays: 16
+    numDays: 12
   lecture:
     link: ''
     name: ''
