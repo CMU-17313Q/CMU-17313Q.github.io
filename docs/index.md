@@ -182,7 +182,7 @@ hide:
             </span></td>
 
             {% if schedule_day.recitation.name != "" %}
-                <td rowspan="5"><span class="schedule-recitation">
+                <td rowspan="1"><span class="schedule-recitation">
                     <b>{{schedule_day.recitation.name}}</b>
                     <br/>
 
@@ -204,7 +204,7 @@ hide:
                     </a>
                     {% endif %}
                 </span></td>
-                {% set ns.recitation_days_left = 4 %}
+                {% set ns.recitation_days_left = 0 %}
             {% else %}
                 {% if ns.recitation_days_left > 0 %}
                     {% set ns.recitation_days_left = ns.recitation_days_left - 1 %}
