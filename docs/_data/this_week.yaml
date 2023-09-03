@@ -1,10 +1,4 @@
-lectures:
-- date: Sun Aug 27
-  link: assets/pdfs/03-boeing_case_study.pdf
-  name: 'Boeing 737 MAX: Case Study'
-  reading:
-    link: assets/pdfs/17313-reading_quiz_1.pdf
-    name: Boeing 737 Max
+lectures: []
 
 projects:
 - date: Thu Aug 31
@@ -15,9 +9,4 @@ projects:
   name: Project 2A
   numDays: 6
 
-recitation:
-  date: Thu Aug 31
-  handout: ''
-  name: Recitation 2 - Team Contract
-  quiz: ''
-  slides: https://docs.google.com/presentation/d/1IgTl6hp3GR2ZNurp8GEsVobEbdxMw7cNK-oM9MoVKx8/edit?usp=sharing
+recitation: null
