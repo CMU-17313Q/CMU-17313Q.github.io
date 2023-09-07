@@ -14,7 +14,7 @@ Check out [this issue](https://github.com/CMU-313/CMU-313-spring23-sw-archaeolog
 
 ## Task 0: Clone the repo
 
-- Fork [this repository](https://github.com/CMU-313/CMU-313-spring23-sw-archaeology-recitation) and clone it. Follow the README to install the necessary modules and run Albumy.
+- Fork [this repository](https://github.com/CMU-313/CMU-313-spring23-sw-archaeology-recitation/issues/1) and clone it. Follow the README to install the necessary modules and run Albumy.
 
 ## Task 1: Reproduce the bug
 
