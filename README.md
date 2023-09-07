@@ -37,3 +37,4 @@ mkdocs build
 5. Replace the Class Calendar iframe within `docs/index.md`
 
 6. Toggle which sites can be navigated to in the `mkdocs.yml` file under the `nav` section
+
