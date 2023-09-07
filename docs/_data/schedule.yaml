@@ -187,8 +187,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: 'assets/pdfs/05-Teams.pdf'
+    name: 'Teams'
   reading:
     link: ''
     name: ''
@@ -223,8 +223,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: 'assets/pdfs/06-archaelogy-and-anthropology.pdf'
+    name: 'Software Archeology and Anthropology'
   reading:
     link: ''
     name: ''
@@ -265,8 +265,8 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
+    handout: 'recitations/reci3-archaeology/'
+    name: 'Recitation 3 - Software Archeology'
     quiz: ''
     slides: ''
 
