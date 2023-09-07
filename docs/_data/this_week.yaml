@@ -1,4 +1,10 @@
-lectures: []
+lectures:
+- date: Sun Sep 03
+  link: assets/pdfs/05-Teams.pdf
+  name: Teams
+- date: Tue Sep 05
+  link: assets/pdfs/06-archaelogy-and-anthropology.pdf
+  name: Software Archeology and Anthropology
 
 projects:
 - date: Thu Aug 31
@@ -9,4 +15,9 @@ projects:
   name: Project 2A
   numDays: 6
 
-recitation: null
+recitation:
+  date: Thu Sep 07
+  handout: recitations/reci3-archaeology/
+  name: Recitation 3 - Software Archeology
+  quiz: ''
+  slides: ''
