@@ -278,7 +278,7 @@
     numDays: 8
   lecture:
     link: ''
-    name: ''
+    name: 'NO CLASS'
   reading:
     link: ''
     name: ''
@@ -313,8 +313,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: 'assets/pdfs/07-risk-management.pdf'
+    name: 'Risk Management'
   reading:
     link: ''
     name: ''
@@ -356,7 +356,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Team Dysfunctions'
     quiz: ''
     slides: ''
 
@@ -367,8 +367,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: 'assets/pdfs/08-Intro-to-Arch.pdf'
+    name: 'Intro to Architecture'
   reading:
     link: ''
     name: ''
@@ -403,8 +403,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: 'assets/pdfs/09-microservices-and-more.pdf'
+    name: 'Microservices'
   reading:
     link: ''
     name: ''
@@ -440,7 +440,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Sprint#1 Presentations'
   reading:
     link: ''
     name: ''
