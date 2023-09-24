@@ -1,13 +1,4 @@
-lectures:
-- date: Sun Sep 17
-  link: assets/pdfs/08-Intro-to-Arch.pdf
-  name: Intro to Architecture
-- date: Tue Sep 19
-  link: assets/pdfs/09-microservices-and-more.pdf
-  name: Microservices
-- date: Thu Sep 21
-  link: ''
-  name: Sprint#1 Presentations
+lectures: []
 
 projects:
 - date: Wed Sep 20
