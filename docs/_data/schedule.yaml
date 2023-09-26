@@ -356,7 +356,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Team Dysfunctions'
+    name: 'Recitation 4: Team Dysfunctions'
     quiz: ''
     slides: ''
 
@@ -535,8 +535,8 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
+    handout: 'recitations/reci5-midterm-review/'
+    name: 'Recitation 5: Midterm Review'
     quiz: ''
     slides: ''
 
@@ -583,7 +583,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'recitations/reci5-midterm-review/'
     name: 'Midterm'
   reading:
     link: ''
