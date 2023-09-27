@@ -1,4 +1,10 @@
-lectures: []
+lectures:
+- date: Sun Sep 24
+  link: assets/pdfs/10-arch-design-docs.pdf
+  name: Architecture/Design Docs
+- date: Tue Sep 26
+  link: assets/pdfs/11-software-testing.pdf
+  name: Software Testing
 
 projects:
 - date: Wed Sep 20
