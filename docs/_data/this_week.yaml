@@ -1,4 +1,10 @@
 lectures:
+- date: Sun Oct 01
+  link: ''
+  name: Cloud Deployment
+  reading:
+    link: recitations/deployment-workshop/
+    name: Cloud Deployment Workshop
 - date: Tue Oct 03
   link: recitations/reci5-midterm-review/
   name: Midterm
