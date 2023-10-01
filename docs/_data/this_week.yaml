@@ -1,10 +1,7 @@
 lectures:
-- date: Sun Sep 24
-  link: assets/pdfs/10-arch-design-docs.pdf
-  name: Architecture/Design Docs
-- date: Tue Sep 26
-  link: assets/pdfs/11-software-testing.pdf
-  name: Software Testing
+- date: Tue Oct 03
+  link: recitations/reci5-midterm-review/
+  name: Midterm
 
 projects:
 - date: Wed Sep 20
@@ -14,9 +11,4 @@ projects:
   name: Project 2C
   numDays: 12
 
-recitation:
-  date: Thu Sep 28
-  handout: recitations/reci5-midterm-review/
-  name: 'Recitation 5: Midterm Review'
-  quiz: ''
-  slides: ''
+recitation: null
