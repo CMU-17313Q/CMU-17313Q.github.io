@@ -548,10 +548,10 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Cloud Deployment'
   reading:
-    link: ''
-    name: ''
+    link: 'recitations/deployment-workshop/'
+    name: 'Cloud Deployment Workshop'
   recitation:
     handout: ''
     name: ''
