@@ -537,8 +537,8 @@
   recitation:
     handout: 'recitations/reci5-midterm-review/'
     name: 'Recitation 5: Midterm Review'
-    quiz: ''
-    slides: ''
+    quiz: 'https://drive.google.com/drive/folders/1J1dNDhxBTHjjWQNKxgv_FnL9AfCaIAQw?usp=sharing'
+    slides: 'https://docs.google.com/document/d/1NlrdjnsVj3VtcIzfLjDHDtqTXNXSgcLr-DoDiYQ_2to/edit?usp=sharing'
 
 - date: Sun Oct 01
   homework:
