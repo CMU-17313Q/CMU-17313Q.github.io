@@ -87,7 +87,7 @@
     handout: 'recitations/reci1-github/'
     name: 'Recitation 1 - GitHub and TS'
     quiz: ''
-    slides: ''
+    slides: 'https://docs.google.com/presentation/d/1Su_j8zAbKId4RKYRR9hAp2HFPBZkZyzm/edit?usp=sharing&ouid=115732152274655493451&rtpof=true&sd=true'
 
 - date: Sun Aug 27
   homework:
@@ -268,7 +268,7 @@
     handout: 'recitations/reci3-archaeology/'
     name: 'Recitation 3 - Software Archeology'
     quiz: ''
-    slides: ''
+    slides: 'https://docs.google.com/presentation/d/1vFCbqaz0qD8aZojp8Hj5K9p7UC9Lo-1PLq6U3qZOyq8/edit?usp=sharing'
 
 - date: Sun Sep 10
   homework:
@@ -358,7 +358,7 @@
     handout: ''
     name: 'Recitation 4: Team Dysfunctions'
     quiz: ''
-    slides: ''
+    slides: 'https://docs.google.com/presentation/d/17w2rZNH_-8IUBVyshduaCY-MCfK8HTziVXKYOowtQMw/edit?usp=sharing'
 
 - date: Sun Sep 17
   homework:
@@ -537,8 +537,8 @@
   recitation:
     handout: 'recitations/reci5-midterm-review/'
     name: 'Recitation 5: Midterm Review'
-    quiz: ''
-    slides: ''
+    quiz: 'https://drive.google.com/drive/folders/1J1dNDhxBTHjjWQNKxgv_FnL9AfCaIAQw?usp=sharing'
+    slides: 'https://docs.google.com/document/d/1NlrdjnsVj3VtcIzfLjDHDtqTXNXSgcLr-DoDiYQ_2to/edit?usp=sharing'
 
 - date: Sun Oct 01
   homework:
