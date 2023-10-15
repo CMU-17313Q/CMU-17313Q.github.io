@@ -1,101 +1,102 @@
-# Deploying NodeBB to Fly.io
+# Serverless NodeBB Deployment on GCP
 
-This document will provide instructions to deploy NodeBB on Fly.io. We recommend following this tutorial with a clean install of NodeBB to ensure it works. Once you successfully deploy, you can add your changes. 
+This document will provide instructions to create a serverless deployment of NodeBB on GCP.
 
-The steps are as follows:
+## Setup Redis Database on upstash
 
-## Install Fly.io command line tools
+We'll be using a database-as-a-service called upstash to host the Redis database associated with our NodeBB deployment.
 
-First, you should install and log into Fly.io’s command line utility. Follow these guides!
+1. Visit [upstash](upstash.com) and create an account.
+2. Make sure Redis and selected, and click "Create Database"
+3. Name your database, select an appropriate region and hit "Create"
 
-- [https://fly.io/docs/hands-on/install-flyctl/](https://fly.io/docs/hands-on/install-flyctl/)
-- [https://fly.io/docs/getting-started/log-in-to-fly/](https://fly.io/docs/getting-started/log-in-to-fly/)
+You should see a page that contains the endpoint, port, password, and other details associated with the redis instance you just created.
 
-## Edit database connection file
+## Update your Dockerfile
 
-In `src/database/redis/connection.js`. Add
+To have all the packages we need to build NodeBB, we need to change our Dockerfile. Make the following change and push your changes to your repository.
 
-```JS
-family: 6,
+```
+- RUN npm install --only=prod && \
++ RUN npm install && \
 ```
 
-to whenever a new Redis object is created. ~ lines 20, 28, 37. i.e.
+## Redeem your GCP Credits
 
-```JS hl_lines="4"
-new Redis({
-    sentinels: options.sentinels,
-    ...options.options,
-    family: 6,
-});
+First, you need to redeem your GCP credits using the following instructions.
+
+1. Fill out the [this form](https://gcp.secure.force.com/GCPEDU?cid=XufGAKC79oWNCFv7SSDIXbCrKy3MTPzQgZwC9%2FJ1AuF%2Fv89lUW0CmubO%2FsGm2Izw/) link with your first/last name, and Andrew ID
+2. Go to your school email and click the link in an email from "Google Cloud Notifications" to verify your email address
+3. Go back to your email, click on the link ("click here to redeem") within a second email from "Google Cloud Notifications," and copy the provided code into the field within the new link
+
+Once you submit, a $50 credit should be applied to your GCP billing account.
+
+!!! Warning "Do not misuse!"
+	We've been awarded enough credits such that each student in 17-313 can redeem one coupon. We'll be closely monitoring coupon redemption. Any and all misuse including sharing redemption instructions, redeeming multiple times, etc. will be punished.
+
+
+## Deploy on GCP Cloud Run
+
+Make sure you're logged into the Google account you used to redeem your GCP credits.
+
+Once you're logged into the right credit-bearing Google account, use the following instructions to deploy on GCP Cloud Run.
+
+1. Create a project called "NodeBB" using the [GCP Cloud Console](https://console.cloud.google.com/projectcreate?previousPage=%2Fwelcome%3Fproject%3Dextreme-startup&organizationId=703967796528) (you can set the location to "Students")
+2. Visit the [Cloud Run console](https://console.cloud.google.com/run) and select the project you just created using the project selector drop down(top-left)
+3. Click on "Create Service"
+4. Select "Continuously deploy new revisions from a source repository" and click "Set up with Cloud Build"
+5. Set the Source repository to be your team's NodeBB repository - you may need to click on "Manage connected repositories" and authenticate with GitHub if you don't see the repository.
+6. Set the Build Type to the "Dockerfile" option
+7. In the "Autoscaling" section, set the minimum number of instances to 1
+8. In the "Authentication" section select "Allow unauthenticated invocations"
+9. Click on the "Container, Networking, and Security" dropdown and set the "Container Port" to 4567
+10.Click "Create"
+11. Once the deployment is complete, click on the URL of the form `*.run.app` at the top of the page to view the deployment.
+
+You should see a form that says "NodeBB Web Installer". Keep this URL handy because you'll need it later :)
+
+## Create Config Script
+
+At this point, we could use the web installer to generate the `config.json` file in our container and setup NodeBB. However, since this a serverless deployment, we're not guaranteed any persistence of data generated at runtime.
+
+Therefore, we need to change our Dockerfile to generate the `config.json` file at build time of the container.
+
+To do so, first create a template file called `config_template.json` that looks exactly like the following, and push your changes to your repository.
+
+```
+{
+  "url": "",
+  "secret": "c5502d62-84a5-41f1-87eb-ee33a76fb7bc",
+  "database": "redis",
+  "redis": {
+    "host": "",
+    "port": "",
+    "password": "",
+    "database": "0"
+  },
+  "port": "4567"
+}
 ```
 
-The Redis database that Fly.io creates connects via IPv6, so we must change our connection config to account for this. 
+!!! info "Why can't we just push a pre-populated `config.json` file?"
+    This would solve the persistence problem and deploy NodeBB correctly. However, as a result, we expose secrets like the upstash redis connection details on a public GitHub repository. Injecting these secrets as environment variables at runtime gives our deployment access to them, while ensuring that the secrets remain secret.
 
-### Initial Launch
+Configure the following environment variables by visiting the Cloud Run dashboard for your deployment, clicking on "Edit and deploy new revision" and then clicking on "Add Variable" in the "Environment Variables" section.
 
-1. In your NodeBB directory, run `flyctl launch`
-2. For the following prompts, answer as follows:
-    - **Name** -> Anything reasonable you’d like for your app name
-    - **Region** -> Ashburn, Virginia (or any reasonable US ones)
-    - **Setup a Postgres DB?** -> No
-    - **Setup a Redis DB?** -> Yes
-        - Choose the free 100MB data plan
-        - It’ll output something along these lines
-        ```console
-        Your Upstash Redis database nodebb-redis is ready.
-        Apps in the personal org can connect to at
-        redis://default:a2b2e64367fa4b7c8a14f8f8d558f3dc@fly-nodebb-redis.upstash.io
-        ```
-        - Keep this URL handy!
-    - **Create a .dockerignore?** -> No
-    - **Deploy now?** -> No
-        - We still need to update some config files
-3. Edit `fly.toml`
-    - Change internal_port to 4567. This is the port that NodeBB uses as default.
-  
-    !!! warning
-        Make sure to delete your local `config.json` file before proceeding to the next step This will be generated by NodeBB when it runs`./nodebb setup` remotely.
+* `DEPLOYMENT_URL`: URL of the form `*.run.app` that your Cloud Run deployment is live at.
+* `REDIS_HOST`: Endpoint value from your upstash redis database dashboard.
+* `REDIS_PORT`: Port value from your upstash redis database dashboard.
+* `REDIS_PASSWORD`: Password value from your upstash redis database dashboard.
 
-4. Run `flyctl deploy`
-    - This will build the image.
-    - Click the monitoring link, which will open your app’s dashboard on Fly.io
+Click on "Deploy" at the bottom of the page to save your changes.
 
-## Remote Setup
+We'll now add a bash script that will populate this template with environment variables defined at build time of our Docker container. Create a file called `create_config.sh` in your NodeBB repo, and populate the file with the following bash script.
 
-1. On the monitoring page, click Overview on the left navbar, and click the purple hostname link. You should now see the NodeBB installer page
-2. Enter admin username, email, and password, as usual
-3. For database type, select Redis
-4. Populate database form. Remember that URL from the initial launch?
-    - Host IP or address: the `fly-XXXX-redis.upstash.io` part of the link above
-    - Host port: 6379
-    - Password: the string between the `:` and `@` of the link
-        - Example URL: redis://default:==a2b2e64367fa4b7c8a14f8f8d558f3dc==@^^fly-nodebb-redis.upstash.io^^
-        - The underlined text is your host, and highlighted text is your password.
-5. Click **Install NodeBB**
-6. Monitor deployment back on Fly.io page
-7. It will run, and eventually attempt to build the TypeScript files. **Here, it will fail. This is okay!** The free Fly.io instances don’t have enough memory to fully build NodeBB. To get around this, we’ll build NodeBB locally and deploy the compiled files. The steps we’ve completed thus far just served to set up our database correctly.
-
-## Local Setup
-
-1. Run `./nodebb setup` and set it up like usual. No need to run `./nodebb start`
-2. The above command will build NodeBB and generate a `config.json` file. We’ll need to edit this so that it matches the `config.json` of our deployed app. 
-3. Edit `config.json`
-    a. Run `flyctl ssh console` to SSH into your app.
-    b. Run `cd usr/src/app`
-    c. Run `cat config.json`
-    d. Copy the output from the console into your local `config.json` file
-4. Next, we’ll update the Dockerfile (which are the instructions Fly.io uses to deploy your app)
-    a. Open the `Dockerfile` file in your local NodeBB directory
-    b. Update line 25 as follows. We remove the build command from the deployment instructions. This way, we use the build artifacts from our local build.
-```Dockerfile
--CMD test -n "${SETUP}" && ./nodebb setup || node ./nodebb build; node ./nodebb start
-+CMD test -n "${SETUP}" && ./nodebb setup || node ./nodebb start
 ```
+#!/bin/bash
 
-## Deploy
-1. Run `flyctl deploy`
-2. Click the monitoring link, which will open your app’s dashboard on Fly.io. Wait until the log output shows that NodeBB was initialized. Click the overview again and open your app!
-
-Congratulations, you have now successfully deployed NodeBB!
-
-Be sure to share the application link with your teammates to ensure they can also access the application and test that all your added features from Project 2 have been successfully applied.
+# Check that environment variables have been defined
+if [[ -z "${REDIS_HOST+x}" ]]; then
+  # var is not defined
+  echo "Error: REDIS_HOST is not defined!"
+  exit 1
