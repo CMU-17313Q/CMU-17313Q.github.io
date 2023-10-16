@@ -6,7 +6,7 @@ This document will provide instructions to create a serverless deployment of Nod
 
 We'll be using a database-as-a-service called upstash to host the Redis database associated with our NodeBB deployment.
 
-1. Visit [upstash](upstash.com) and create an account.
+1. Visit [upstash](https://www.upstash.com) and create an account.
 2. Make sure Redis and selected, and click "Create Database"
 3. Name your database, select an appropriate region and hit "Create"
 
@@ -88,7 +88,6 @@ Configure the following environment variables by visiting the Cloud Run dashboar
 * `REDIS_PORT`: Port value from your upstash redis database dashboard.
 * `REDIS_PASSWORD`: Password value from your upstash redis database dashboard.
 
-Click on "Deploy" at the bottom of the page to save your changes.
 
 We'll now add a bash script that will populate this template with environment variables defined at build time of our Docker container. Create a file called `create_config.sh` in your NodeBB repo, and populate the file with the following bash script.
 
@@ -100,3 +99,75 @@ if [[ -z "${REDIS_HOST+x}" ]]; then
   # var is not defined
   echo "Error: REDIS_HOST is not defined!"
   exit 1
+fi
+
+if [[ -z "${REDIS_PORT+x}" ]]; then
+  # var is not defined
+  echo "Error: REDIS_PORT is not defined!"
+  exit 1
+fi
+
+if [[ -z "${REDIS_PASSWORD+x}" ]]; then
+  # var is not defined
+  echo "Error: REDIS_PASSWORD is not defined!"
+  exit 1
+fi
+
+if [[ -z "${DEPLOYMENT_URL+x}" ]]; then
+  # var is not defined
+  echo "Error: DEPLOYMENT_URL is not defined!"
+  exit 1
+fi
+
+# Read the JSON file
+json_data=$(cat "/usr/src/app/config_template.json")
+
+# Update the JSON file with the environment variables
+json_data=$(jq --arg deployment_url "$DEPLOYMENT_URL" '.url = $deployment_url' <<< "$json_data")
+json_data=$(jq --arg host "$REDIS_HOST" '.redis.host = $host' <<< "$json_data")
+json_data=$(jq --arg port "$REDIS_PORT" '.redis.port = $port' <<< "$json_data")
+json_data=$(jq --arg password "$REDIS_PASSWORD" '.redis.password = $password' <<< "$json_data")
+
+# Write the updated JSON file to config.json
+echo "$json_data" > "/usr/src/app/config.json"
+
+cat /usr/src/app/config.json
+```
+
+Now, update your Dockerfile so that it looks like the following.
+
+```
+FROM node:lts
+
+RUN mkdir -p /usr/src/app && \
+    chown -R node:node /usr/src/app
+WORKDIR /usr/src/app
+
+RUN apt-get update && apt-get install -y jq
+
+ARG NODE_ENV
+ENV NODE_ENV $NODE_ENV
+
+COPY --chown=node:node install/package.json /usr/src/app/package.json
+
+USER node
+
+RUN npm install && \
+    npm cache clean --force
+
+COPY --chown=node:node . /usr/src/app
+
+ENV NODE_ENV=production \
+    daemon=false \
+    silent=false
+
+EXPOSE 4567
+
+CMD  ./create_config.sh -n "${SETUP}" && ./nodebb setup || node ./nodebb build; node ./nodebb start
+```
+
+We're making two changes here: (1) installing the jq package to read/edit json files from our bash script, and (2) running the `create_config.sh` script on container startup.
+
+Once you push your changes, a new deployment should get triggered and it should be good to go once complete. Congratulations! You've now setup a continuous deployment of NodeBB on GCP.
+
+Be sure to share the application link with your teammates to ensure they can also access the application and test that all your added features from Project 2 have been successfully applied.
