@@ -20,17 +20,17 @@ Secondly, evaluating existing tools and practices beyond simple linting or unit 
 ## Deliverables and Deadlines
 There are two (2) deadlines for this project. This project is worth a total of 120 points.
 
-**Checkpoint Deliverables** – 35 points – due Thursday, October 26th, 11:59pm
+**Checkpoint Deliverables** – 35 points – due Sunday, October 22, 11:59pm
 
 - [Deployed Application (25 pts)](#deployed-application-25-pts)
 - [Tools Checkpoint (10 pts)](#tools-checkpoint-10-pts)
 
-**Final Deliverables** – 65 points – due Thursday, November 2, 11:59pm
+**Final Deliverables** – 65 points – due Sunday, October 29, 11:59pm
 
 - [Tool Analysis Design Doc (50 pts)](#tool-analysis-design-doc-60-pts)
 - [Tool Integration (15 pts)](#tool-integration-15-pts)
 
-**Extra Credit (Individual)** - 6 points - due Thursday, November 2, 11:59pm
+**Extra Credit (Individual)** - 6 points - due Sunday, October 29, 11:59pm
 
 - [Feature Review (6 pts)](#feature-review-6-pts)
 
@@ -145,3 +145,98 @@ In this section, provide a brief summary of your findings along with items that 
 
 - Are there any open questions?
 - Are there any issues you consider to be out of scope?
+- What drawbacks of the proposed process/tooling are you accepting for some (good) reason?
+
+This section should be used to wrap everything up and ensure you have a good/complete design document!
+
+Submit the Design Document as a single PDF to Gradescope.
+
+### Tool Integration (15 pts)
+
+Once you have a tool selected along with a general integration plan, you should fully integrate one of the tools into your project’s workflow. For your checkpoint research, you should have successfully run this tool locally; you should then create a new workflow within the project to run it as part of the development cycle.
+
+Your team should discuss:
+
+- How often should this new integration be run (on each pull request? on commits to main?)
+- What level of customization is needed for this tool?
+- How should the integration of this tool be enforced?
+
+This configuration must have been justified in your design document under the Integration section.
+
+To be considered successfully integrated, the tool must:
+
+- Be **merged into your main branch**
+- **Have been run at least once in the Git flow cycle** (i.e. either during the pull request, merge, or commit stage).
+- **Pass** when run on your codebase. This is indicated by having a green checkmark.
+
+!!! note "Ensuring Passing Checks"
+    In order to ensure your checks pass successfully, you may have to make additional changes to your repository, such as fixing reported issues or tweaking tool configuration.
+
+    These changes should be documented and addressed in your design document. Continually failing builds show you have *not* completely integrated the tool into your workflow.
+
+On Gradescope, submit a link to your repository and a link to one of the successful GitHub Action runs.
+
+## Extra Credit
+
+Now that you and your classmates have deployed your applications, you will be able to test out each other’s features and provide constructive feedback on your experience and how to improve them! Take this as an opportunity to learn about what your classmates have been working on for the past few weeks.
+
+Note that this is an **individual** task, unlike the rest of project.
+
+### Feature Review (6 pts)
+
+For extra credit, you will conduct reviews of features developed by three other teams' project. Pick **three** teams's deployment from the [public spreadsheet](https://docs.google.com/spreadsheets/d/1eb9TWeP4X-deuvQHutRBf9c-fd9CnFJs-i6ayvYDpSo/edit?usp=sharing) to review.
+
+For each team, you will submit a review of their feature(s). You will need to test the feature(s) as described in their UserGuide and provide feedback on the following:
+
+1. How was the experience of using the feature(s), would this be something you think would help enable better communication between faculty and students and why?
+2. How do you think the feature can be improved? and/or What do you think the feature did well in?
+3. Did you discover any bugs using the feature(s)?
+
+To qualify for extra credit, you will have to submit your review:
+
+- on Gradescope
+- in the appropriate sheet in the [public spreadsheet](https://docs.google.com/spreadsheets/d/1eb9TWeP4X-deuvQHutRBf9c-fd9CnFJs-i6ayvYDpSo/edit?usp=sharing). There should be one sheet per team, and you should add your review to the sheet for the team you are reviewing.
+
+## Grading
+To receive full credit for the checkpoint, we expect:
+
+- [ ] A link to your successfully deployed web application for your team repository
+- [ ] A list of N-1 different static and dynamic analysis tools, where N is the number of members on your team. This list must satisfy all the following criteria:
+    - Contain at least one static analysis tool
+    - Contain at least one dynamic analysis tool
+    - Contain at least one tool not on our starter list of tools
+- [ ] Links to N-1 pull requests for each of the selected tools containing evidence of the tool being run at least once on your repository
+
+To receive full credit for the final deadline, we expect:
+
+- [ ] A link to your successfully run CD GitHub action that deploys the website while following proper GitHub practices in handling deployment secrets
+- [ ] A design document describing your research into each of the potential tools, justification for your selection of integrated tool(s), and your final integration plan
+- [ ] A link to a succuessful run of a GitHub Action that demonstrates your integration of your selected tool(s) into your team workflow
+
+To receive full credit for the extra credit, we expect:
+
+- [ ] Your review of three different teams' features on Gradescope and on the [public spreadsheet](https://docs.google.com/spreadsheets/d/1eb9TWeP4X-deuvQHutRBf9c-fd9CnFJs-i6ayvYDpSo/edit?usp=sharing), addressing the three questions described.
+## Resources & Documentation
+
+### Starter List of Tools
+
+NodeBB is built in Javascript/Typescript using Node.js and uses Benchpress for its frontend templating. Below are non-exhaustive lists of analysis tools that are available.
+
+For other resources, [Awesome Static Analysis page](https://github.com/david-a-wheeler/awesome-static-analysis) and [Awesome Dynamic Analysis page](https://github.com/analysis-tools-dev/dynamic-analysis) have extensive listings of available static and dynamic analysis tools for a pretty hefty list of programming languages.
+
+Some of the tools already have existing GitHub Actions workflows on GitHub Marketplace; use your Googling skills, and see what you find!
+
+#### Static Tools
+
+- [flow](https://flow.org/): Static type checker for JavaScript
+- [JScent](https://github.com/moskirathe/JScent): Program analyzer for detecting “code smells”
+- [JSHint](https://jshint.com/docs/): Used to flag suspicious usage in JavaScript programs
+- [StandardJS](https://standardjs.com/)/[ts-standard](https://github.com/standard/ts-standard): Static analysis tool for code quality within JavaScript/TypeScript projects
+- [Retire.js](https://retirejs.github.io/retire.js/): Finds library/node module vulnerabilities within your project
+
+#### Dynamic Tools
+
+- [Iroh](https://maierfelix.github.io/Iroh/): Runtime code tracking and visualization
+- [Jalangi](https://github.com/Samsung/jalangi2): Framework for dynamic analyses in JavaScript
+- [Fast-Fuzz](https://www.npmjs.com/package/fast-fuzz): Fuzzing framework for TypeScript
+- [Stryker Mutator](https://stryker-mutator.io/): Mutation testing tool for JavaScript

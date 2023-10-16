@@ -76,9 +76,9 @@ nav:
            - "2A Team Process & Planning": projects/P2/1_teamprocess.md
            - "2B First Sprint": projects/P2/2_firstsprint.md
            - "2C Second Sprint": projects/P2/3_secondsprint.md
-      # - "Project 3: Continuous Integration + Deployment":
-      #     - projects/P3/index.md
-      #     - "Deployment Instructions": projects/P3/deployment.md
+       - "Project 3: Continuous Integration + Deployment":
+           - projects/P3/index.md
+           - "Deployment Instructions": projects/P3/deployment.md
       # - "Project 4: Software Architecture + ML Evaluation":
       #     - projects/P4/index.md
       # - "Project 5: Open Source Excursion":
@@ -90,8 +90,8 @@ nav:
        - Recitation 1 - Git & GitHub: recitations/reci1-github.md
        - Recitation 2 - Team Contract Workshop: recitations/reci2-teamcontract.md
        - Recitation 3 - Software Archaeology: recitations/reci3-archaeology.md
-      # - Recitation 4 - Team Dysfunction: recitations/reci4-dysfunction.md
-      # - Recitation 5 - Midterm Review: recitations/reci5-midterm-review.md
+       - Recitation 4 - Team Dysfunction: recitations/reci4-dysfunction.md
+       - Recitation 5 - Midterm Review: recitations/reci5-midterm-review.md
       # - Recitation 6 - Deployment: recitations/reci6-deployment.md
       # - Recitation 7 - Docker and Containerization: recitations/reci7-docker.md
       # - Recitation 8 - Team Feedback: recitations/reci8-team-feedback.md
