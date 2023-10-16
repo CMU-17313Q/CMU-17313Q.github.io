@@ -634,14 +634,14 @@
   homework:
     deadline: ''
     link: ''
-    name: ''
-    numDays: 0
+    name: "Fall Break - No HW"
+    numDays: 5
   lecture:
     link: ''
     name: ''
   reading:
     link: ''
-    name: ''
+     name: "Fall Break - No Lecture"
   recitation:
     handout: ''
     name: ''
@@ -674,7 +674,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: "Fall Break - No Lecture"
   reading:
     link: ''
     name: ''
@@ -716,7 +716,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: "Fall Break - No Recitation"
     quiz: ''
     slides: ''
 
