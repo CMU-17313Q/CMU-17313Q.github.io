@@ -805,10 +805,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
+    handout: 'recitations/reci7-docker/'
+    name: 'Recitation 7 : Docker & Containerization'
+    quiz: 'https://www.gradescope.com/courses/554799/assignments/2959398'
+    slides: 'https://docs.google.com/presentation/d/1Ms97OTL-rOO-CoCxSXImceVNR-glceU56-L6NCKAU4E/edit?usp=sharing'
 
 - date: Sun Oct 22
   homework:

@@ -6,20 +6,20 @@ You should have downloaded Docker. If you haven't follow the installation instru
 
 ## Setup Instructions (10 min):
 
-Fork [this repo](https://github.com/CMU-313/s23-docker-recitation) and clone it.
-Also start the docker engine.
+Fork [this repo](https://github.com/CMU-17313Q/f23-docker-recitation) and clone it.
 
 ## Overview
 
 During this recitation, students will create a simple FastAPI app, containerize it and deploy it.
 
 ## Context
-
-Sadly, you still are unsure when your recitation time is AND who your TAs are. There exist a microservice that tells you which TA's are responsible for each section.
+Whos-my-ta is a microservice that provides information about recitation sections. By using the `section_id` endpoint, you can enter the section id (for example: a) to get the names of the TAs that are in charge of that section.
 
 Try it out using this link: [https://whos-my-ta.fly.dev/section_id/a](https://whos-my-ta.fly.dev/section_id/a)
 
-All you have to do is build a new service that builds on top of this microservice by including the time of the recitation as well.
+Sadly, you still are unsure when your recitation time is. 
+
+All you have to do is build a new service that builds on top of this microservice by including the time of the recitation as well. You will do this by implementing the `section_info` endpoint.
 
 The endpoint has to return a JSON object in the following form:
 
