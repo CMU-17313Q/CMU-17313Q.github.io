@@ -11,4 +11,9 @@ projects:
   name: Project 3
   numDays: 11
 
-recitation: null
+recitation:
+  date: Thu Oct 19
+  handout: recitations/reci7-docker/
+  name: 'Recitation 7 : Docker & Containerization'
+  quiz: https://www.gradescope.com/courses/554799/assignments/2959398
+  slides: https://docs.google.com/presentation/d/1Ms97OTL-rOO-CoCxSXImceVNR-glceU56-L6NCKAU4E/edit?usp=sharing
