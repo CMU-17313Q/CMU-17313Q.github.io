@@ -209,9 +209,8 @@ To receive full credit for the checkpoint, we expect:
 
 To receive full credit for the final deadline, we expect:
 
-- [ ] A link to your successfully run CD GitHub action that deploys the website while following proper GitHub practices in handling deployment secrets
 - [ ] A design document describing your research into each of the potential tools, justification for your selection of integrated tool(s), and your final integration plan
-- [ ] A link to a succuessful run of a GitHub Action that demonstrates your integration of your selected tool(s) into your team workflow
+- [ ] A link to a successful run of a GitHub Action that demonstrates your integration of your selected tool(s) into your team workflow
 
 To receive full credit for the extra credit, we expect:
 
