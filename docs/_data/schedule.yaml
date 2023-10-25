@@ -548,10 +548,10 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Cloud Deployment'
   reading:
-    link: ''
-    name: ''
+    link: 'recitations/deployment-workshop/'
+    name: 'Cloud Deployment Workshop'
   recitation:
     handout: ''
     name: ''
@@ -634,14 +634,14 @@
   homework:
     deadline: ''
     link: ''
-    name: ''
-    numDays: 0
+    name: "Fall Break - No HW"
+    numDays: 5
   lecture:
     link: ''
     name: ''
   reading:
     link: ''
-    name: ''
+    name: "Fall Break - No Lecture"
   recitation:
     handout: ''
     name: ''
@@ -674,7 +674,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: "Fall Break - No Lecture"
   reading:
     link: ''
     name: ''
@@ -716,16 +716,16 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: "Fall Break - No Recitation"
     quiz: ''
     slides: ''
 
 - date: Sun Oct 15
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: "Due Sunday October 29 @ 11:59pm"
+    link: "/projects/P3/"
+    name: "Project 3"
+    numDays: 11
   lecture:
     link: 'https://docs.google.com/presentation/d/102r_kJ2HTe8LB6xr_swMtyn26Tc5ofTP70izcxIvId0/edit?usp=sharing'
     name: '	QA/Static Analysis'
