@@ -727,8 +727,8 @@
     name: "Project 3"
     numDays: 11
   lecture:
-    link: ''
-    name: 'QA/Static Analysis'
+    link: 'https://docs.google.com/presentation/d/102r_kJ2HTe8LB6xr_swMtyn26Tc5ofTP70izcxIvId0/edit?usp=sharing'
+    name: '	QA/Static Analysis'
   reading:
     link: ''
     name: ''
@@ -763,8 +763,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: 'https://docs.google.com/presentation/d/1wxQiHWSZxlDLsRFj02aB-Mo2LaxI3i1dQ1K6-_G7HJM/edit?usp=sharing'
+    name: 'Advanced Testing'
   reading:
     link: ''
     name: ''
@@ -817,8 +817,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: 'https://docs.google.com/presentation/d/1RdavGQDnTEmUi8cDhO4S45fQegXAGeXr0Gi5qCvBgnY/edit?usp=sharing'
+    name: 'SE4ML'
   reading:
     link: ''
     name: ''
@@ -849,8 +849,8 @@
 - date: Tue Oct 24
   homework:
     deadline: ''
-    link: ''
-    name: ''
+    link: 'https://docs.google.com/presentation/d/1RdavGQDnTEmUi8cDhO4S45fQegXAGeXr0Gi5qCvBgnY/edit?usp=sharing'
+    name: 'SE4ML'
     numDays: 0
   lecture:
     link: ''
@@ -896,9 +896,9 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Recitation 8: Feedback'
     quiz: ''
-    slides: ''
+    slides: 'https://docs.google.com/presentation/d/1wsODIYVCmeg26pvUTl-TvuQcCYgOxAoBMeaSQF8fXhI/edit?usp=sharing'
 
 - date: Sun Oct 29
   homework:
