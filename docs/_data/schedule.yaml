@@ -727,7 +727,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: 'https://docs.google.com/presentation/d/102r_kJ2HTe8LB6xr_swMtyn26Tc5ofTP70izcxIvId0/edit?usp=sharing'
+    link: 'assets/pdf/12-static-and-dynamic-analysis-tools.pdf'
     name: '	QA/Static Analysis'
   reading:
     link: ''
@@ -763,7 +763,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: 'https://docs.google.com/presentation/d/1wxQiHWSZxlDLsRFj02aB-Mo2LaxI3i1dQ1K6-_G7HJM/edit?usp=sharing'
+    link: 'assets/pdf/13-advanced-testing.pdf'
     name: 'Advanced Testing'
   reading:
     link: ''
