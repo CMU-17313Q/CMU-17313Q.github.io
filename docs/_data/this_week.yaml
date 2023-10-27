@@ -1,14 +1,16 @@
 lectures:
-- date: Sun Oct 15
-  link: ''
-  name: QA/Static Analysis
+- date: Sun Oct 22
+  link: https://docs.google.com/presentation/d/1RdavGQDnTEmUi8cDhO4S45fQegXAGeXr0Gi5qCvBgnY/edit?usp=sharing
+  name: SE4ML
+- date: Tue Oct 24
+  link: https://docs.google.com/presentation/d/1RdavGQDnTEmUi8cDhO4S45fQegXAGeXr0Gi5qCvBgnY/edit?usp=sharing
+  name: SE4ML
 
-projects:
-- date: Sun Oct 15
-  deadline: Due Sunday October 29 @ 11:59pm
-  end_date: 2023-10-30 00:00:00
-  link: /projects/P3/
-  name: Project 3
-  numDays: 11
+projects: []
 
-recitation: null
+recitation:
+  date: Thu Oct 26
+  handout: ''
+  name: 'Recitation 8: Feedback'
+  quiz: ''
+  slides: https://docs.google.com/presentation/d/1wsODIYVCmeg26pvUTl-TvuQcCYgOxAoBMeaSQF8fXhI/edit?usp=sharing
