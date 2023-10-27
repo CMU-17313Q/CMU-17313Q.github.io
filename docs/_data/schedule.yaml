@@ -727,7 +727,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdf/12-static-and-dynamic-analysis-tools.pdf'
+    link: 'assets/pdfs/12-static-and-dynamic-analysis-tools.pdf'
     name: '	QA/Static Analysis'
   reading:
     link: ''
@@ -763,7 +763,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdf/13-advanced-testing.pdf'
+    link: 'assets/pdfs/13-advanced-testing.pdf'
     name: 'Advanced Testing'
   reading:
     link: ''
@@ -817,8 +817,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: 'https://docs.google.com/presentation/d/1RdavGQDnTEmUi8cDhO4S45fQegXAGeXr0Gi5qCvBgnY/edit?usp=sharing'
-    name: 'SE4ML'
+    link: 'assets/pdfs/14-SE4ML-part-1.pdf'
+    name: 'SE4ML (I)'
   reading:
     link: ''
     name: ''
@@ -853,8 +853,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: 'https://docs.google.com/presentation/d/1RdavGQDnTEmUi8cDhO4S45fQegXAGeXr0Gi5qCvBgnY/edit?usp=sharing'
-    name: 'SE4ML'
+    link: 'assets/pdfs/15-SE4ML-part-2.pdf'
+    name: 'SE4ML (II)'
   reading:
     link: ''
     name: ''
@@ -908,7 +908,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'SE4ML QA'
   reading:
     link: ''
     name: ''
