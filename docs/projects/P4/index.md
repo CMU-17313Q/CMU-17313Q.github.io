@@ -8,7 +8,7 @@
 - Evaluate the performance and fairness of machine learning models
 - Engage meaningfully with engineering ethics
 
-## Project Context 
+## Project Context
 As you and your team continue developing the new system, your CMU contact suddenly bursts into the room shouting, “Careers! Hiring! Machine learning!”
 
 Your manager follows closely behind and provides an explanation: a significant number of job recruiters have taken interest in your project and would like to use the platform as a means to reach out to students for career opportunities. However, the population of students is too large, and increasing annually. They are concerned by the sheer number of students to review for job applications, and recruiters want a simpler way to narrow the applicant pool.
@@ -34,16 +34,16 @@ Along with architectural issues, as the feature will be evaluating student infor
 1. **Evaluating** the pre-trained model's performance and fairness
 2. **Writing a report** on the evaluation of the model
 3. **Provide a decision** on whether the model should be used in production
-  
+
 ## Deliverables and Deadlines
 There are two (2) deadlines for this project. This project is worth a total of 180 points.
 
-**Checkpoint Deliverables** – 80 points - due Tuesday, April 4th, 11:59pm
+**Checkpoint Deliverables** – 80 points - due Monday, November 5th, 11:59pm
 
 - [Architectural Design Document (60 pts)](#architectural-design-document-60-points)
 - [Jupyter Notebook Setup (20 pts)](#jupyter-notebook-setup-20-points)
 
-**Final Deliverables** – 100 points - due Tuesday, April 11th, 11:59pm
+**Final Deliverables** – 100 points - due Monday, November 12th, 11:59pm
 
 - [Feature Integration Implementation (60 pts)](#feature-integration-implementation-60-points)
 - [Evaluation Report (40 pts)](#evaluation-report-40-points)
@@ -56,7 +56,7 @@ To start off, your manager has requested a **concrete design document** on how y
 
 ==You will later follow this design document in order to fully integrate this feature into NodeBB.==
 
-Your team should start by evaluating what components of the feature have been implemented for you by the previous engineer as detailed in their [draft pull request](https://github.com/CMU-313/NodeBB/pull/186), then consider potential architectural solutions. It is **highly recommended** that at least one team member does a fresh clone and run the draft pull request locally to get a better understanding of the feature before proceeding. (Note: You can clone template repositories without forking them.)
+Your team should start by evaluating what components of the feature have been implemented for you by the previous engineer as detailed in their [draft pull request](https://github.com/CMU-17313Q/NodeBB/pull/110), then consider potential architectural solutions. It is **highly recommended** that at least one team member does a fresh clone and run the draft pull request locally to get a better understanding of the feature before proceeding. (Note: You can clone template repositories without forking them.)
 
 Some initial solutions to consider include:
 
@@ -69,37 +69,37 @@ Some initial solutions to consider include:
 
 Once you have finished evaluating the codebase, create the design document highlighting your findings and decisions. Below is a sample outline for your design document along with recommended page lengths.
 
-1. **Feature Overview (<1 pages)**  
+1. **Feature Overview (<1 pages)**
     Describe concisely how the career feature works and how it will be used by the relevant stakeholders, with screenshots if necessary.
 
-2. **Current Architecture (<1 page)**  
+2. **Current Architecture (<1 page)**
     Provide a brief description of the current NodeBB architecture and the current state of the new career feature (i.e. unintegrated with the rest of the codebase).
 
     Include an **architectural diagram** to support your description.
 
-3. **Quality Requirements (<1 page)**  
+3. **Quality Requirements (<1 page)**
     Provide a concise, prioritized list of the overall quality requirements you considered in arguing for the integration of the feature into the system and a short justification for each. Your team should decide on **at least three** requirements to focus on.
 
     Rank your requirements in decreasing order of importance. This allows readers to quickly understand what you were designing for.
 
-4. **Potential Solutions (~1 page each)**  
+4. **Potential Solutions (~1 page each)**
     Your team should consider **at least two** different potential solutions for integrating the new feature. For each, provide at least one architectural diagram, a brief description of the solution's architectural design, and a discussion of the design's tradeoffs.
 
     Tradeoffs must involve (but are not limited to) the quality attributes described in the previous section. Justify such arguments with reference to appropriate diagrams and concrete examples, as appropriate.
 
-5. **Selected Architecture + Justification (<1 page)**  
+5. **Selected Architecture + Justification (<1 page)**
     Describe which design your team decided to proceed with in architecturally integrating the feature into existing codebase. Justify your design decisions, including why your design is adequate for the quality attributes important to this system, and what assumptions you made in your design (if any).
 
     Within your justification, you should explicitly include a timeline demonstrating how you plan on dividing development work within your team to ensure you **finish implementation before the final deadline.**.
 
 !!! note "On Diagrams"
     Diagrams should **involve suitable architectural views**; **must include a legend**; and **should involve appropriate levels of abstraction** for the components in the diagram. If necessary, use color/shape/text to differentiate between types of components and connectors.
-    
+
     You may find it appropriate to merge more than one view into a single diagram. If you do this, **you must be explicit about what views you are merging**, and why. Otherwise, diagrams should clearly represent legitimate architectural views. Make sure that multiple views of the architecture are consistent with each other and the links are clear; if necessary provide a mapping in additional text.
 
 !!! info "Drawing Diagrams"
     Drawing diagrams is much easier with the right software. Consider tools like [draw.io](https://draw.io/) (free, online, and collaborative), [Dia](http://dia-installer.de/), [OmniGraffle](https://www.omnigroup.com/omnigraffle), [MS Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software), or even just the drawing editor of [Google Docs](https://docs.google.com/). [Google Slides](https://slides.google.com/) will also likely work for this purpose.
-    
+
     Pictures of whiteboard drawings are also acceptable, if clearly readable.
 
 More resources to assist you with creating your design document can be found in the [Resources & Documentation](#resource-documentation) section below.
@@ -119,11 +119,11 @@ The model specification is as follows:
 ```
 X variable (input parameters)
 - Age (18 - 25)
-- Major (Computer Science, Information Systems, Business, Math, 
+- Major (Computer Science, Information Systems, Business, Math,
          Electrical and Computer Engineering, Statistics and Machine Learning)
 - GPA (0 - 4.0)
-- Extra Curricular Activities (Student Theatre, Buggy, Teaching Assistant, Student Government, 
-    Society of Women Engineers, Women in CS, Volleyball, Sorority, Men's Basketball, 
+- Extra Curricular Activities (Student Theatre, Buggy, Teaching Assistant, Student Government,
+    Society of Women Engineers, Women in CS, Volleyball, Sorority, Men's Basketball,
     American Football, Men's Golf, Fraternity)
 - Number of Programming Languages (1, 2, 3, 4, 5)
 - Number of Past Internships (0, 1, 2, 3, 4)
@@ -131,7 +131,7 @@ X variable (input parameters)
 Y variable (output)
 - Good Candidate (0, 1)
 ```
-The previous engineer has provided some examples on the usage of the model in the [draft pull request](https://github.com/CMU-313/NodeBB/pull/186).
+The previous engineer has provided some examples on the usage of the model in the [draft pull request](https://github.com/CMU-17313Q/NodeBB/pull/110).
 
 You are provided with a [test dataset](/assets/project/student_data.csv), which contains a similar set of features and output (whether the student is a good candidate or not). This test dataset is a different set of students from the training dataset, and the evaluation of whether the student is a good candidate **is done by a fair panel of recruiters, so it can be considered to be unbiased. **Additionally, the panel of recruiters have provided you with **additional context on the extracurricular activities in comments** (marked with #).
 
@@ -141,11 +141,11 @@ X variable
 - Student ID
 - Gender (M, F)
 - Age (18 - 25)
-- Major (Computer Science, Information Systems, Business, Math, 
+- Major (Computer Science, Information Systems, Business, Math,
          Electrical and Computer Engineering, Statistics and Machine Learning)
 - GPA (0 - 4.0)
-- Extra Curricular Activities (Student Theatre, Buggy, Teaching Assistant, Student Government, 
-    Society of Women Engineers, Women in CS, Volleyball, Sorority, Men's Basketball, 
+- Extra Curricular Activities (Student Theatre, Buggy, Teaching Assistant, Student Government,
+    Society of Women Engineers, Women in CS, Volleyball, Sorority, Men's Basketball,
     American Football, Men's Golf, Fraternity)
   # Likely Co-Ed (Student Theatre, Buggy, Teaching Assistant, Student Government)
   # Likely Majority Female (Society of Women Engineers, Women in CS, Volleyball, Sorority)
@@ -173,7 +173,7 @@ After you have set up the notebook, you should:
 
 Refer to the [Resources & Documentation](#resource-documentation) section if you need help with any of the above steps.
 
-By the checkpoint deadline, your team will commit the Jupyter notebook to your repository, and submit a link to the Jupyter notebook with the basic analysis and usage of the model done. 
+By the checkpoint deadline, your team will commit the Jupyter notebook to your repository, and submit a link to the Jupyter notebook with the basic analysis and usage of the model done.
 
 ## Final Deliverables
 
@@ -188,7 +188,7 @@ Revisiting the [project context](#project-context), the feature:
       - allow students to submit relevant information about themselves for recruiters to see
       - allow recruiters to see a list of students who have submitted their information, together with the prediction of their success in industry
 
-You may freely use any and/or all of the development progress made available in the [draft pull request](https://github.com/CMU-313/NodeBB/pull/186) in your implementation. In fact, if the draft pull request matches your proposed design, you are highly encouraged to directly integrate all code from the draft pull request as a starting point for your implementation.
+You may freely use any and/or all of the development progress made available in the [draft pull request](https://github.com/CMU-17313Q/NodeBB/pull/110) in your implementation. In fact, if the draft pull request matches your proposed design, you are highly encouraged to directly integrate all code from the draft pull request as a starting point for your implementation.
 
 On Gradescope, you should:
 
@@ -211,34 +211,34 @@ You should have already evaluated the performance of the model in the checkpoint
 - Evaluate the model's performance on the test dataset, and report the accuracy and confusion matrix
 
 #### Fairness Evaluation
-When evaluating the fairness of the model, you should 
+When evaluating the fairness of the model, you should
 
 - Revisit the assumptions made by the previous engineer
 - Revisit the fairness discussion we had in class, and also in [ML Discrimination](https://research.google.com/bigpicture/attacking-discrimination-in-ml/)
 - Consider the fairness strategies and corresponding metrics that can be used to evaluate the fairness of the model
 
-#### Report 
+#### Report
 After evaluating the performance and fairness of the model, you should now write a report on your findings. You will also need to provide a decision on whether the model should be used in production.
 
 Your report should include the following sections with clear headings:
 
-1. **Introduction (< 0.5 page)**  
+1. **Introduction (< 0.5 page)**
    Provide a brief introduction to the model that you are evaluating, and the test dataset that you are using, and the context of use of the model.
-2. **Description of the test data (< 1 page)**  
+2. **Description of the test data (< 1 page)**
    Provide descriptive statistics of the test dataset (e.g. mean, median, mode, standard deviation, etc.) for each feature, preferably in a table. You should also provide a brief discussion on the distribution of the features.
-3. **Model Performance (< 0.5 page)**  
+3. **Model Performance (< 0.5 page)**
    Provide the accuracy and confusion matrix of the model on the test dataset and a brief discussion on the performance of the model.
-4. **Feature Exploration (< 1 page)**  
+4. **Feature Exploration (< 1 page)**
    Identify features that you think are important when it comes to evaluating the fairness of the model, and explain why.
-5. **Fairness Evaluation (~ 1.5 page)**  
+5. **Fairness Evaluation (~ 1.5 page)**
    Consider **three fairness strategies** that were discussed in class and then:
 
     1. Provide the corresponding **fairness metrics** for the model (if applicable) based on the features you selected in step 4.
     2. Determine whether the model is fair under each fairness strategy, and provide a brief discussion on why.
     3. Determine which fairness strategy is the most appropriate for the model, given the context of what the model is used for. Provide a brief discussion on why.
 
-6. **Recommendation (< 0.5 page)**  
-   Make a recommendation on whether the model should be used in production, and provide a brief discussion on why. 
+6. **Recommendation (< 0.5 page)**
+   Make a recommendation on whether the model should be used in production, and provide a brief discussion on why.
 
 On Gradescope submit the following:
 

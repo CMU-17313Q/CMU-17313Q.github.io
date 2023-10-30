@@ -722,10 +722,10 @@
 
 - date: Sun Oct 15
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: "Due Sun October 22 @ 11:59pm"
+    link: "/projects/P3/"
+    name: "Project 3: Checkpoint"
+    numDays: 6
   lecture:
     link: 'assets/pdfs/12-static-and-dynamic-analysis-tools.pdf'
     name: '	QA/Static Analysis'
@@ -830,10 +830,10 @@
 
 - date: Mon Oct 23
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: "Due Sun October 29 @ 11:59pm"
+    link: "/projects/P3/"
+    name: "Project 3: Final"
+    numDays: 5
   lecture:
     link: ''
     name: ''
@@ -920,10 +920,10 @@
 
 - date: Mon Oct 30
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: "Due Mon November 6 @ 11:59pm"
+    link: "/projects/P4/"
+    name: "Project 4: Checkpoint"
+    numDays: 6
   lecture:
     link: ''
     name: ''
@@ -1028,10 +1028,10 @@
 
 - date: Tue Nov 07
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: "Due Mon November 13 @ 11:59pm"
+    link: "/projects/P4/"
+    name: "Project 4: Final"
+    numDays: 5
   lecture:
     link: ''
     name: ''
