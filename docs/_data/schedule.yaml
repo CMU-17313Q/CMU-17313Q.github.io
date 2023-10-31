@@ -907,7 +907,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/16-QA-ML.pdf'
     name: 'SE4ML QA'
   reading:
     link: ''
