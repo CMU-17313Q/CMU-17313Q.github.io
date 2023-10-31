@@ -2,6 +2,9 @@ lectures:
 - date: Sun Oct 29
   link: ''
   name: SE4ML QA
+- date: Tue Oct 31
+  link: /workshops/ml/
+  name: ML Workshop
 
 projects:
 - date: Mon Oct 30
