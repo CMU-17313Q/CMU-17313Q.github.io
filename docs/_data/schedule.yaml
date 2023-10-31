@@ -943,8 +943,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: '/workshops/ml/'
+    name: 'ML Workshop'
   reading:
     link: ''
     name: ''
