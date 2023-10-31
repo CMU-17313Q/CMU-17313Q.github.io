@@ -1,6 +1,6 @@
 lectures:
 - date: Sun Oct 29
-  link: ''
+  link: assets/pdfs/16-QA-ML.pdf
   name: SE4ML QA
 - date: Tue Oct 31
   link: /workshops/ml/
