@@ -28,7 +28,7 @@ Pick 3 projects that you are interested in pursing for Project 5.
 
 ## Public Project Selection
 
-Once your team has decided on an open source project, add it to the [Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/19BR2IQkdzx4lWYWl2w7rf5vr-CeqNMhabNh7kqbCNxw/edit?usp=sharing).
+Once your team has decided on an open source project, add it to the [Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1YHKle3fXOpMK9WGkqGl6GRdEvE8VlznzMywzZ9N__OI/edit?usp=sharing).
  
 ## Resources
 - A list of beginner friendly projects: [https://github.com/MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners)
