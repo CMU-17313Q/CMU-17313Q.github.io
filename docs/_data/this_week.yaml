@@ -8,4 +8,9 @@ projects:
   name: 'Project 4: Final'
   numDays: 5
 
-recitation: null
+recitation:
+  date: Tue Nov 14
+  handout: recitations/reci10-open-source/
+  name: 'Recitation 10: Open Source Projects'
+  quiz: ''
+  slides: https://docs.google.com/presentation/d/1KkPMUDCpz3U1F7gO2ZxOcLVMUmiyXvuGRiiRWn9OB50/edit?usp=sharing
