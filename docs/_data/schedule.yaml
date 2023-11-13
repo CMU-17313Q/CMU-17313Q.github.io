@@ -985,10 +985,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
+    handout: 'recitations/reci9-actionplan/'
+    name: 'Recitation 9: Recieving Feedback'
     quiz: ''
-    slides: ''
+    slides: 'https://docs.google.com/presentation/d/1a39MbV8c9XogaS-FOWTEgXocLkuAQBZl6xa3zSvCycw/edit?usp=sharing'
 
 - date: Sun Nov 05
   homework:
@@ -1129,10 +1129,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
+    handout: 'recitations/reci10-open-source/'
+    name: 'Recitation 10: Open Source Projects'
     quiz: ''
-    slides: ''
+    slides: 'https://docs.google.com/presentation/d/1KkPMUDCpz3U1F7gO2ZxOcLVMUmiyXvuGRiiRWn9OB50/edit?usp=sharing'
 
 - date: Wed Nov 15
   homework:
