@@ -6,9 +6,12 @@ hide:
 
 A list of student groups with links to their merged PRs in open source projects.
 
-## 2023 Spring
+## 2022 Fall
 
-TBD
+| Group Name | Team Members | Project | Merged PRs |
+| ---------- | ------------ | ------- | ---------- |
+| allnighters | Fatima Alsafar, Mariam Al Thani, Danagul AzimzhanovaDoreen | [Open Library](https://github.com/internetarchive/openlibrary) | [#7149](https://github.com/internetarchive/openlibrary/pull/7149)|
+| Team Queens |Anastasia Cheypesh, Shaikha Al Emadi, Fangjiao Xu, Noor Altamimi | [Companionship Care](https://github.com/CompanionshipCare/companionship-care) | [#153](https://github.com/CompanionshipCare/companionship-care/pull/153) |
 
 <!-
 | Group Name | Team Members | Project | Merged PRs |
