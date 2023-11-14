@@ -66,7 +66,7 @@ The goal of the presentation is primarily to share with the class the project to
 
     Your summary of your experiences can be at whatever level of detail you think is interesting or informative. Given the time limit, selecting and highlighting the two or three most important or interesting observations is likely more useful than trying to be complete.
 
-You must upload your slides as **a single PDF document** to Gradescope by **Sunday, May 7th at 11:59pm**.
+You must upload your slides as **a single PDF document** to Gradescope by **Wednesday, December 6th at 11:59pm**.
 
 ## Project Report (120 pts)
 
@@ -96,7 +96,7 @@ Evidence of your quality assurance activities described above. For example, prov
 A description and justification of deviations between your initial plans and your performed activities (as in Homework 2). Changes are expected, but they should be tracked and explained. Describe changes in scope (e.g., fewer tasks) and in the schedule and work allocation. Provide an updated schedule and note differences. Explain the causes of the changes, such as unanticipated risks.
 
 8.	**Extra Credit**
-Evidence that your changes have been accepted into the code base of the open source project in forms of links or screenshots. **Note: You can also send the merged PR link via Slack to Michael Hilton by 10th May 1pm to claim this bonus as well**
+Evidence that your changes have been accepted into the code base of the open source project in forms of links or screenshots. **Note: You can also send the merged PR link via Slack to the instructor by December 10th 1pm to claim this bonus as well**
 
 Page limits are provided for guidance; we will not enforce them. Collect all parts in a **single PDF document with clear subsections** and the names of all team members and submit that file to **Gradescope**.
 

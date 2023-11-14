@@ -10,7 +10,7 @@
 
 ## Open Source Project Selection
 
-You may select any active open source project in any language, as long as it's not already being selected on by another team. You can find a list of open source projects selected by other teams on the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1R3n_kNPjzToVHiI9jGkrbhdxmNECpP7X35E_kX-prOo/edit?usp=sharing)**.
+You may select any active open source project in any language, as long as it's not already being selected on by another team. You can find a list of open source projects selected by other teams on the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1YHKle3fXOpMK9WGkqGl6GRdEvE8VlznzMywzZ9N__OI/edit?usp=sharing)**.
 
 Here are some helpful resources for finding open source projects:
 
@@ -28,7 +28,7 @@ The open source project you pick should be ^^active^^ and ^^have multiple contri
 
 If you have questions on if we would consider a project active, contact the course staff.
 
-Once you have selected a project, add it to the **[Public Project Selection Spreadsheet]((https://docs.google.com/spreadsheets/d/1R3n_kNPjzToVHiI9jGkrbhdxmNECpP7X35E_kX-prOo/edit?usp=sharing)**.
+Once you have selected a project, add it to the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1YHKle3fXOpMK9WGkqGl6GRdEvE8VlznzMywzZ9N__OI/edit?usp=sharing)**.
 
 ## Task Selection
 
