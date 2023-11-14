@@ -1118,10 +1118,10 @@
 
 - date: Tue Nov 14
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: "Due Tue Nov 21 @ 11:59pm"
+    link: "/projects/P5"
+    name: "Project 5 Checkpoint"
+    numDays: 6
   lecture:
     link: ''
     name: ''
