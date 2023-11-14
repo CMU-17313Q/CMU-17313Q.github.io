@@ -986,7 +986,7 @@
     name: ''
   recitation:
     handout: 'recitations/reci9-actionplan/'
-    name: 'Recitation 9: Recieving Feedback'
+    name: 'Recitation 9: Receiving Feedback'
     quiz: ''
     slides: 'https://docs.google.com/presentation/d/1a39MbV8c9XogaS-FOWTEgXocLkuAQBZl6xa3zSvCycw/edit?usp=sharing'
 
@@ -997,8 +997,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: "assets/pdfs/18-Ethics.pdf"
+    name: 'Ethics'
   reading:
     link: ''
     name: ''
@@ -1033,8 +1033,8 @@
     name: "Project 4: Final"
     numDays: 5
   lecture:
-    link: ''
-    name: ''
+    link: "assets/pdfs/18-Ethics.pdf"
+    name: 'SE Ethics'
   reading:
     link: ''
     name: ''
@@ -1070,7 +1070,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'NO CLASS (BREAK)'
   reading:
     link: ''
     name: ''
@@ -1088,7 +1088,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Open Source'
   reading:
     link: ''
     name: ''
