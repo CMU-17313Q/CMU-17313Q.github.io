@@ -1,7 +1,4 @@
-lectures:
-- date: Sun Nov 12
-  link: ''
-  name: Open Source
+lectures: []
 
 projects:
 - date: Tue Nov 14
@@ -10,10 +7,11 @@ projects:
   link: /projects/P5
   name: Project 5 Checkpoint
   numDays: 6
+- date: Wed Nov 22
+  deadline: Due Wed Dec 7 @ 11:59pm
+  end_date: 2023-12-08 00:00:00
+  link: /projects/P5
+  name: Project 5 Final
+  numDays: 12
 
-recitation:
-  date: Tue Nov 14
-  handout: recitations/reci10-open-source/
-  name: 'Recitation 10: Open Source Projects'
-  quiz: ''
-  slides: https://docs.google.com/presentation/d/1KkPMUDCpz3U1F7gO2ZxOcLVMUmiyXvuGRiiRWn9OB50/edit?usp=sharing
+recitation: null
