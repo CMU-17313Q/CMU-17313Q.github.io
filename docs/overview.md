@@ -47,8 +47,8 @@ This course has a strong technical focus, and includes assignments with and with
 
 ### Qatar
 
-[Fall 2022](https://web2.qatar.cmu.edu/cs/17313/)
+[Fall 2022](https://web2.qatar.cmu.edu/cs/17313/) | [Fall 2023](/_old/F23)
 
 ### Pittsburgh
 
-[Fall 2020](/_old/2020) | [Fall 2021](/_old/2021) | [Fall 2022](/_old/F22) | [Spring 2023](/_old/S23)
+[Fall 2020](https://cmu-313.github.io/_old/2020/) | [Fall 2021](https://cmu-313.github.io/_old/2021/) | [Fall 2022](https://cmu-313.github.io/_old/F22/) | [Spring 2023](https://cmu-313.github.io/_old/S23)
