@@ -5,17 +5,17 @@ hide:
 ---
 
 ## Course Syllabus and Policies
-The course is currently planned to be entirely in person for lectures and recitations. Most office hours will be in person, but some may be held over Zoom as well. The course uses Gradescope for homework submission, grading, discussions, questions, and supplementary documents; slides and handouts are posted here on the course website; GitHub is used to coordinate group work. We also use Slack for communication and group work: check your email during the first week of classes for the Slack sign up link.
+The course is currently planned to be entirely in person for lectures and recitations. Most office hours will be in person, but some may be held over Zoom as well. The course uses Gradescope for homework submission, grading; slides and handouts are posted here on the course website; GitHub is used to coordinate group work. We also use Slack for communication and group work: check your email during the first week of classes for the Slack sign up link.
 
 ## Prerequisites
-There are no formal prerequisites, but we strongly recommend having a solid foundation in programming before taking this class (e.g. 15-121, 15-122). You will also get more out of the course if you have experience with some larger development projects, for example, through larger class projects (e.g. 17-214, 15-410), internships, or open-source contributions. If you have questions, please don't hesitate to reach out to the class instructors.
+This class has a pre-requisite of 15-122 or 15-121. If you have not taken those classes, but you think you have similar experiences, please reach out to the instructors.
 
 ## Communication
 The primary form of communication within this course is through Slack. We will make announcements through a dedicated channel in Slack, and also provide channels for homework clarifications and team-based communication. As such, we **highly recommend** that students install Slack on their phones / desktop with notifications enabled.
 
 The instructor, TA, and CAs will also hold weekly office hours to provide support with course materials and projects. You can find the office hours schedule updated weekly here on the course website.
 
-You can contact the course staff via both Slack and email.
+You can contact the course staff via both Slack and email. Your team will also have assigned CAs as your primary point of contact for additional support with assignment or recitation-related questions. When contacting instructors or your designated CAs, please email/message the instructor, TA, and designated CA at the same time.
 
 ## Teamwork
 Teamwork is an essential part of this course. Most projects are done in teams of 3-5 students. Teams will be assigned by the instructors and stay together for multiple projects. Most projects have a component that is graded for the entire group and a component that is graded individually.
@@ -27,19 +27,25 @@ Various readings throughout the semester are available online or through the lib
 
 As optional supplementary reading consider the (freely available) [Software Engineering at Google, Lessons Learned from Programming Over Time](https://abseil.io/resources/swe-book).
 
+## Devices in Lecture and Recitation
+Research shows that using devices on non-class related activities harms both the device user's learning, and other students' learning as well. Therefore, in general, we do not allow the use of devices during lecture. If you genuinely use your laptop for class-related activities (note-taking, etc), tell us, and we will make an exception. However, we ask that if you do so, you are careful to keep your devices in note-taking mode (and don’t stray to Facebook, homework, etc). In addition, you will be required to sit in the back row of the lecture to minimize the impact your screen has on others.
+
+Note that recitation activities will often involve devices, so please do bring your laptop!
+
 ## Assessment
 Evaluation will be based on the following distribution: 60% projects, 20% midterm, 20% participation (including lecture exercises, pre-lecture reading quizzes, and recitation exercises).
 
-**Project Points Breakdown**
+**Project Points Breakdown (tentative)**
 
-| Project | # Days Given | Points | % of total grade |
-| --- | --- | --- | --- |
-| 1 | 10 | 100 | 5.77% |
-| 2 | 36 | 320 | 18.46% |
-| 3 | 10  | 120 | 6.92% |
-| 4 | 19  | 180 | 10.38% |
-| 5 | 27 | 320 | 18.46% |
-|   | **TOTAL**   | 1040 | 60.00% |
+| Project | # Days Given | Points | % of HW grade |  % of total grade |
+| --- | --- | --- | --- | --- |
+| 1 | 11 | 100 | 10% | 6% |
+| 2 | 35 | 275 | 27.5% | 16.5% |
+| 3 | 11  | 100 | 10% | 6% |
+| 4 | 14  | 125 | 12.5% | 7.5% |
+| 5 | 27 | 400 | 40% | 24% |
+|   | **TOTAL**   | 1000 | 100% | 60% |
+
 
 ## Regrades
 Regrade requests can be submitted via Gradescope. The regrade period is open for one week after grades have been released for a particular assignment.
@@ -47,7 +53,7 @@ Regrade requests can be submitted via Gradescope. The regrade period is open for
 ## Late Work Policy
 
 ### Participation
-Participation points in this class are earned through a series of pre-lecture reading assignments, lecture activities, and recitations. To accommodate for life's uncertainties (e.g. health issues, scheduling conflicts), at the end of the semester, we will drop the lowest 10% of scores to calculate your participation grade. In other words, **acquiring 90% of the available points will give you 100% in this category**. The amount of points available varies from semester to semester; generally, 10% would be equivalent to 3-4 lectures or recitations.
+Participation points in this class are earned through a series of pre-lecture reading assignments, lecture activities, and recitations. To accommodate for life's uncertainties (e.g. health issues, scheduling conflicts), you will automatically get full points for up to **four** missed participation activities to account for any absences. You do not need to email instructors individually for one-off absences of this sort.
 
 There will be **no make-ups** for participation points, but you are strongly encouraged to come to office hours to learn or review the materials that you may have missed.
 
@@ -58,6 +64,14 @@ Late work will receive feedback but no credit. Due to heavy emphasis on planning
 
 ## Time Management
 This is a 12-unit course, and it is our intention to manage it so that you spend close to 12 hours a week on the course, on average. In general, 4 hours/week will be spent in lectures & recitation and 8 hours on readings and projects. Notice that most projects are done in groups, so please account for the overhead and decreased time flexibility that comes with group work. Throughout the semester, please feel free to give the course staff feedback on how much time the course is taking for you.
+
+## Writing
+Describing tradeoffs among decisions and communication with less technical stakeholders are key aspects of this class. Most projects have a component that requires discussing issues in written form or reflecting about experiences. To practice writing skills, the [Academic Resource Center](https://www.qatar.cmu.edu/academics-research/enrichment-support/academic-support/) (ARC) offers individually-tailored English language support for students, along with workshops. The instructors are also happy to provide additional guidance if requested.
+
+### Policy on use of Generative AI for Writing
+
+You may use generative AI technologies such as *ChatGPT* or *CoPilot* for assisting in code development or writing responses to homework questions, **unless the question specifically prohibits it**. However, any use of AI comes with two caveats: (1) you must clearly indicate the use of such technology (and name the tool) in every homework question or source code file where an AI tool was used as a form of attribution, just as you would if you had taken help from a friend; (2) you are liable for factually inaccurate answers or unspecific rambling produced by AI tools; it is your responsibility to edit AI-produced content before submitting it for class purposes.
+
 
 ## Professionalism
 Your classmates are your colleagues. This is particularly true in this course, where we aim to provide you with principles, practices, tools, and paradigms that will enable you to be an effective, real-world Software Engineer. We ask that you treat one another like the professionals you are and that you are preparing to be.
@@ -74,11 +88,11 @@ This has two implications:
 (Thank you to Shriram Krishnamurthi and Evan Peck for sharing their own policies, from which we drew inspiration for this one.)
 
 ## Academic Honesty and Collaboration
-The usual policies apply, especially the University Policy on Academic Integrity. Many of the projects will be done in groups. We expect that group members collaborate with one another, but that groups work independently from one another, not exchanging results with other groups. Within groups, we expect that you are honest about your contribution to the group's work. This implies not taking credit for others' work and not covering for team members that have not contributed to the team. Otherwise, our expectations regarding academic honesty and collaboration for group work are the same as for individual work, substituting elevated to the level of "group."
+The usual policies apply, especially the [University Policy on Academic Integrity](https://www.cmu.edu/policies/student-and-student-life/academic-integrity.html). Many of the projects will be done in groups. We expect that group members collaborate with one another, but that groups work independently from one another, not exchanging results with other groups. Within groups, we expect that you are honest about your contribution to the group's work. This implies not taking credit for others' work and not covering for team members that have not contributed to the team. Otherwise, our expectations regarding academic honesty and collaboration for group work are the same as for individual work, substituting elevated to the level of "group."
 
 The course includes both individual projects  and individual components of group projects . Although your solutions for individual parts will be based on the content produced for the group component (e.g. written reflections on lessons learned), we treat individual components of group projects as equivalent to individual projects  overall, and expect you to complete such components independently of your groupmates.
 
-The rest of this academic honesty and collaboration content is taken from the policy used in 17-214, which we reuse almost directly (with minor modifications, and attribution).
+The rest of this academic honesty and collaboration content is taken from the policy used in 17-214:
 
 "You may not copy any part of a solution to a problem that was written by another student, or was developed together with another student, or was copied from another unauthorized source such as the Internet. You may not look at another student's solution, even if you have completed your own, nor may you knowingly give your solution to another student or leave your solution where another student can see it.
 
