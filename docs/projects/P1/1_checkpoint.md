@@ -30,6 +30,12 @@ Take some time to click through the pages and explore the different features tha
 ### Lint and Test
 When working on an existing codebase, especially in a collaborative setting, we want to ensure that none of our changes introduce unexpected bugs or issues for other developers. To fulfill these goals, we often use different tools to help us evaluate our code. Luckily, NodeBB is already packaged with a number of neat tools!
 
+First, make sure all dependencies are installed:
+
+```
+npm install
+```
+
 You can run the linter and test suite using the following two commands:
 ```
 npm run lint
