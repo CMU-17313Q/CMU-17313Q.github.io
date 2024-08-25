@@ -23,7 +23,7 @@ This is an **individual assignment**. There are four (4) deliverables and two (2
 
 A) [**Build Checkpoint**](/projects/P1/1_checkpoint) - 5 points - due Sunday, September 1st, 11:59pm
 
-B) [**Starter Task** (TBD)]() - 95 points - due Thursday, September 5th, 11:59pm
+B) [**Starter Task**](/projects/P1/2_refactoring) - 95 points - due Thursday, September 5th, 11:59pm
 
 - GitHub Issue (20 pts)
 - Code Refactoring and Validation (10 pts)
