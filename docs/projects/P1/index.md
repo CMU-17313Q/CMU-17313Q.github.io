@@ -14,7 +14,7 @@ Welcome to the 17-313 development team! To get started, you will be going throug
 
 This semester, we will be building upon NodeBB, an open-source community forum software project that was started in 2014. You can learn more about this project from the original development team's [website](https://nodebb.org/).
 
-For your own development, you will be forking your own repository off of a class-specific fork of NodeBB, which you can find at [https://github.com/CMU-17313Q/NodeBB](https://github.com/CMU-17313Q/NodeBB-f24-test).
+For your own development, you will be forking your own repository off of a class-specific fork of NodeBB, which you can find at [https://github.com/CMU-17313Q/NodeBB](https://github.com/CMU-17313Q/NodeBB).
 
 Our fork contains some tweaks to make the project easier to modify and debug. This will also allow you to create issues and pull requests that are visible to the instructors, which will be the primary way of submitting code deliverables for this project.
 
@@ -23,7 +23,7 @@ This is an **individual assignment**. There are four (4) deliverables and two (2
 
 A) [**Build Checkpoint**](/projects/P1/1_checkpoint) - 5 points - due Friday, August 30th, 11:59pm
 
-B) [**Starter Task**](/projects/P1/2_refactoring) - 95 points - due Thursday, September 5th, 11:59PM
+B) [**Starter Task** (TBD)]() - 95 points - due Thursday, September 5th, 11:59PM
 
 - GitHub Issue (20 pts)
 - Code Refactoring and Validation (10 pts)
