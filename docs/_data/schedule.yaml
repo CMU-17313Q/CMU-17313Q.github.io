@@ -1,10 +1,10 @@
 - date: Sun Aug 25
   homework:
     homework:
-    deadline: "Due Wed Aug 28 @ 10:00pm"
-    link: "/projects/P1"
-    name: "P1A - Build Checkpoint"
-    numDays: 4
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
   lecture:
     link: ""
     name: 'Intro'
@@ -45,7 +45,7 @@
     link: ""
     name: 'Software Archaeology and Anthropology'
   reading:
-    link: ""
+    link: "readings/R1"
     name: 'Software Archaeology'
   recitation:
     handout: ''
@@ -73,10 +73,10 @@
 
 - date: Thu Aug 29
   homework:
-    deadline: 'Due Thu Sep 5 @ 10:00pm'
-    link: '/projects/P1/2_translation'
-    name: 'P1B - Starter Task'
-    numDays: 6
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   lecture:
     link: ''
     name: ''
@@ -84,8 +84,8 @@
     link: ''
     name: ''
   recitation:
-    handout: 'recitations/reci1-github/'
-    name: 'Recitation 1 - Git, GitHub, and Typescript'
+    handout: ''
+    name: ''
     quiz: ''
     slides: ''
 
@@ -97,10 +97,10 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Metrics and Measurement'
+    name: ''
   reading:
     link: ''
-    name: 'TBD'
+    name: ''
   recitation:
     handout: ''
     name: ''
@@ -132,11 +132,11 @@
     name: ''
     numDays: 0
   lecture:
-    link: "assets/pdfs/03-boeing_case_study.pdf"
-    name: 'Boeing 737 MAX: Case Study'
+    link: ""
+    name: ''
   reading:
-    link: 'assets/pdfs/17313-reading_quiz_1.pdf'
-    name: 'Boeing 737 Max'
+    link: ''
+    name: ''
   recitation:
     handout: ''
     name: ''
