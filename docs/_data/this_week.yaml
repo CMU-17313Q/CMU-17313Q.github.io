@@ -9,6 +9,13 @@ lectures:
     link: readings/R1
     name: Software Archaeology
 
-projects: []
+projects:
+- date: Sun Aug 25
+  deadline: Due Sun Sep 1 @ 11:59pm
+  end_date: 2024-08-30 00:00:00
+  homework: null
+  link: /projects/P1
+  name: Project 1
+  numDays: 5
 
 recitation: null
