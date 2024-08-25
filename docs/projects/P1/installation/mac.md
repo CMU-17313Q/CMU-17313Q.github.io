@@ -54,17 +54,11 @@ Password of your Redis database
 Which database to use (0..n) (0)
 ```
 
-The first time you run the `setup` command, you will also be asked to configure a forum administrator. When prompted, enter the desired information for the admin account.
+The first time you run the `setup` command, you will also be asked to configure a forum administrator. When prompted, enter the desired information for the admin account. You can choose any admin username and password. Unfortunately (or fortunately), NodeBB won't accept weak passwords like `1234` :) so you need to come up with a slightly stronger password like `admin1234!`.
 
 Once everything has finished installing, a configuration file `config.json` will be created. This file can be modified if you need to make changes to the above settings, such as the database location or credentials used to access the database.
 
-After the installation, build the files:
-
-```console
-% ./nodebb build
-```
-
-And start the NodeBB server:
+After the installation, start the NodeBB server:
 
 ```console
 % ./nodebb start

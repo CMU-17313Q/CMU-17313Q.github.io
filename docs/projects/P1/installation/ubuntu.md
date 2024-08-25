@@ -29,15 +29,6 @@ The original NodeBB installation guide suggests the use of MongoDB database, but
 
 Here is an abbreviated version of the installation instructions provided by [Redis](https://redis.io/docs/getting-started/installation/install-redis-on-linux/):
 
-Add Redis repository to the apt index:
-
-```console
-% curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
-% echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
-```
-
-Update the apt packages and install redis:
-
 ```console
 % sudo apt-get update
 % sudo apt-get install redis
@@ -90,17 +81,11 @@ Password of your Redis database
 Which database to use (0..n) (0)
 ```
 
-The first time you run the `setup` command, you will also be asked to configure a forum administrator. When prompted, enter the desired information for the admin account.
+The first time you run the `setup` command, you will also be asked to configure a forum administrator. When prompted, enter the desired information for the admin account. You can choose any admin username and password. Unfortunately (or fortunately), NodeBB won't accept weak passwords like `1234` :) so you need to come up with a slightly stronger password like `admin1234!`.
 
 Once everything has finished installing, a configuration file `config.json` will be created. This file can be modified if you need to make changes to the above settings, such as the database location or credentials used to access the database.
 
-After the installation, build the files:
-
-```console
-% ./nodebb build
-```
-
-And start the NodeBB server:
+After the installation, start the NodeBB server:
 
 ```console
 % ./nodebb start
