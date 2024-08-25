@@ -16,12 +16,15 @@ Then, update the apt packages and install nodejs:
 % sudo apt-get install -y nodejs
 ```
 
-Verify installation of Node.js and npm. You should have version LTS of Node.js installed, and version 8 of npm installed:
+Verify installation of Node.js and npm. You should have version LTS of Node.js installed, and version 10 of npm installed:
 
 ```console
-% node -v
-% npm -v      # this should output "8.11.0" or similar
+% node -v     # this should output "20.17.0" or similar
+% npm -v      # this should output "10.8.2" or similar
 ```
+
+There might be issues later if you are using an older Node version (<20).
+
 
 ### Installing Redis
 
