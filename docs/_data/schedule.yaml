@@ -3,7 +3,7 @@
     homework:
     deadline: "Due Sun Sep 1 @ 11:59pm"
     link: "/projects/P1"
-    name: "Project 1"
+    name: "Project 1A: Build Checkpoint"
     numDays: 5
   lecture:
     link: "assets/pdfs/01-Intro.pdf"
@@ -91,10 +91,10 @@
 
 - date: Sun Sep 01
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: "Due Thu Sep 5 @ 11:59pm"
+    link: "/projects/P1"
+    name: "Project 1B: Starter Task"
+    numDays: 5
   lecture:
     link: ''
     name: ''

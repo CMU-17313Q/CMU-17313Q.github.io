@@ -19,11 +19,11 @@ Then, update the apt packages and install nodejs:
 Verify installation of Node.js and npm. You should have version LTS of Node.js installed, and version 10 of npm installed:
 
 ```console
-% node -v     # this should output "20.17.0" or similar
-% npm -v      # this should output "10.8.2" or similar
+% node -v     # ideally v18.x or v20.x
+% npm -v      # ideally 9.x or above
 ```
 
-There might be issues later if you are using an older Node version (<20).
+There might be issues if you are using an older Node version (<18). We recommend using the LTS version of Node (20.17.0).
 
 
 ### Installing Redis
