@@ -65,7 +65,8 @@ nav:
       #projects/index.md # Dummy home page; remove once we start adding homework below
        - "Project 1: Hello, NodeBB!":
            - projects/P1/index.md
-           - Project 1A Build Checkpoint: projects/P1/1_checkpoint.md
+           - 1A Build Checkpoint: projects/P1/1_checkpoint.md
+           - 1B Starter Task: projects/P1/2_refactoring.md
            - Github Exercise: projects/P1/github.md
            - NodeBB Installation:
                - Mac: projects/P1/installation/mac.md

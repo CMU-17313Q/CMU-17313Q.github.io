@@ -1,6 +1,6 @@
 # Project 1B: Starter Task
 ## Deliverables
-Starter Task - 95 points - due Thursday, September 5th, 11:59PM
+Starter Task - 95 points - due Thursday, September 5th, 11:59pm
 
 - [GitHub Issue](#github-issue-20-pts) (20 pts)
 - [Code Refactoring and Validation](#task-10-pts) (10 pts)
@@ -10,7 +10,7 @@ Starter Task - 95 points - due Thursday, September 5th, 11:59PM
 ## Onboarding
 Now that you have explored the repository, the development team would like to give you an onboarding assignment.
 
-The team has noticed an accumulation of warnings in [SonarCloud](https://sonarcloud.io/project/issues?issueStatuses=OPEN%2CCONFIRMED&id=CMU-17313Q_NodeBB-f24-test), a continuous code quality inspection tool. Your task is to remove SonarCloud warnings by refactoring code and validating that your change takes effect within the NodeBB codebase.
+The team has noticed an accumulation of warnings in [SonarCloud](https://sonarcloud.io/project/issues?issueStatuses=OPEN%2CCONFIRMED&id=CMU-17313Q_NodeBB), a continuous code quality inspection tool. Your task is to remove SonarCloud warnings by refactoring code and validating that your change takes effect within the NodeBB codebase.
 
 ## Prerequisites
 ### Onboarding Materials
@@ -30,16 +30,16 @@ In this project and throughout the rest of this course, you will be expected to 
 - [x] Creating GitHub Pull Requests and using related features (linking to issues)
 - [x] Creating GitHub Project Boards
 
-If you are not familiar with any of these steps, you are **highly recommended** to first complete Recitation 2 - Git, GitHub, as it will cover the standards we are expecting in this class (which you will be graded upon). Refer to the [Resources & Documentation](/projects/P1/documentation/#git--github-documentation) section if needed.
+If you are not familiar with any of these steps, you are **highly recommended** to first complete Recitation 1 - Git, GitHub, as it will cover the standards we are expecting in this class (which you will be graded upon). Refer to the [Resources & Documentation](/projects/P1/documentation/#git--github-documentation) section if needed.
 
 
 ### GitHub Issue (20 pts)
-First, choose a single file that has SonarCloud warning(s) and open a github issue in the [class repository](https://github.com/CMU-17313Q/NodeBB-f24-test/issues) to declare which file and SonarCloud warning(s) that you will be working on.
+First, choose a single file that has SonarCloud warning(s) and open a blank github issue in the [class repository](https://github.com/CMU-17313Q/NodeBB/issues) to declare which file and SonarCloud warning(s) that you will be working on.
 
 For the task, the file must
 
 - **Be a Javascript file.**
-- **Be in the `src/` folder.**
+- **Be in the `src/` folder.**  (Be careful **NOT** to select a file in `public/src`)
 - **Be a file that no one else in the class has picked and created an issue for.** We expect you to look through existing issues, if any, to avoid such duplication (thus, there is an incentive for you to start early!)
 
 The SonarCloud warning must be categorized under the Adaptability section and contain the "Refactor" key word. The goal of this task is to refactor code in the NodeBB codebase based on the specifications of the SonarCloud warning.
@@ -47,7 +47,7 @@ The SonarCloud warning must be categorized under the Adaptability section and co
 Title the task appropriately, such as `Refactoring code in <file name>`, and mention the file name in the description. To prevent ambiguities between similarly-named files, be sure to use the **full file path** (`src/../xx.js`) in the title and description. Additionally, within the issue description, be sure to include an explanation of the SonarCloud warnings that you are working on.
 
 ??? info "Issue Guidelines"
-    **Issues titles** should provide a high-level overview of what the problem is (e.g. *"Navbar button UI bugs"*, *"Unexpected registration validation errors"*). Sometimes, issues are used to propose new features (e.g. *"Add CSV export feature"*).
+    In general, **Issues titles** should provide a high-level overview of the problem (e.g. *"Navbar button UI bugs"*, *"Unexpected registration validation errors"*). Sometimes, issues are used to propose new features (e.g., *"Add CSV export feature"*). For this assignment, the issue title has been predetermined. In the future, please use appropriate titles.
 
     **Issue descriptions** should then elaborate on the title. For feature-level bugs, this may include providing information about how to reproduce the bug; for codebase-level changes, you can name specific files.
 
@@ -73,9 +73,9 @@ Back in your own fork, create a feature branch and implement the changes needed 
 - Implement the changes and ensure that they do not introduce new warnings or issues.
 - Run the linter and test suite to ensure your changes pass all checks.
 
-You can check that your refactored code removes the warning by following the SonarCloud links automatically generated in the PR after the checks are run. You could also go to [SonarCloud's Pull Request list](https://sonarcloud.io/project/pull_requests_list?id=CMU-17313Q_NodeBB-f24-test) and search for your PR there.
+You can check that your refactored code removes the warning by following the SonarCloud links automatically generated in the PR after the checks are run. You could also go to [SonarCloud's Pull Request list](https://sonarcloud.io/project/pull_requests_list?id=CMU-17313Q_NodeBB) and search for your PR there.
 
-For the validation part of the task, you only need to validate the refactored code you have worked on for one SonarCloud warning in the file you chose. You should examine the code coverage report (either the local HTML report or the online one generated by [CoverAlls](https://coveralls.io/github/CMU-17313Q/NodeBB-f24-test) when you make a pull request) to ensure that the refactored code are included in the test coverage. If not, continue with the following steps:
+For the validation part of the task, you only need to validate the refactored code you have worked on for one SonarCloud warning in the file you chose. You should examine the code coverage report (either the local HTML report or the online one generated by [CoverAlls](https://coveralls.io/github/CMU-17313Q/NodeBB) when you make a pull request) to ensure that the refactored code are included in the test coverage. If not, continue with the following steps:
 
 - Locate the tests that are currently covering that file.
 - Write tests that will add coverage to the refactored code you've written.
@@ -125,6 +125,5 @@ To receive full credit for this project, we expect:
 	- [ ] A meaningful title that includes the full path of the file
 	- [ ] A description body that describes the changes made and links the pull request to the issue
 	- [ ] Meaningful commit messages
-	- [ ] Appropriate usage of the eslint-ignore comment
 	- [ ] A green checkmark signaling that all checks have passed
 - [ ] Answers to the Gradescope Written Assignment that demonstrate successful completion of the project and understanding of the benefits and limitations of software metrics in the context of NodeBB
