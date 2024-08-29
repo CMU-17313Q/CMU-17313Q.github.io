@@ -84,10 +84,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
+    handout: '/recitations/reci1-github'
+    name: 'Recitation 1: Intro to Git'
+    quiz: 'https://www.gradescope.com/courses/837681/assignments/4799156/'
+    slides: 'https://docs.google.com/presentation/d/1DKH1Kla081qC9wt-nDFJ9rpG6JOuoy2A/edit?usp=sharing&ouid=115732152274655493451&rtpof=true&sd=true'
 
 - date: Sun Sep 01
   homework:
