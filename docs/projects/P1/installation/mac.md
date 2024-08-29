@@ -10,8 +10,8 @@ First, install the following programs:
 Verify installation of Node.js and npm. You should have version LTS of Node.js installed, and version 10 of npm installed:
 
 ```console
-% node -v     # this should output "20.17.0" or similar
-% npm -v      # this should output "10.8.2" or similar
+node -v     # this should output "20.17.0" or similar
+npm -v      # this should output "10.8.2" or similar
 ```
 
 There might be issues later if you are using an older Node version (<20).
@@ -22,13 +22,13 @@ There might be issues later if you are using an older Node version (<20).
 Install redis with homebrew:
 
 ```console
-% brew install redis
+brew install redis
 ```
 
 Start the redis server:
 
 ```console
-% redis-server
+redis-server
 ```
 
 ## Installing NodeBB
@@ -38,13 +38,13 @@ You should have already forked the [class-specific repository](https://github.co
 Enter the directory where you have cloned the repository:
 
 ```console
-% cd NodeBB
+cd NodeBB
 ```
 
 Run the interactive installation command:
 
 ```console
-% ./nodebb setup
+./nodebb setup
 ```
 
 You will then be presented with a series of setup questions.
@@ -71,7 +71,7 @@ Once everything has finished installing, a configuration file `config.json` will
 After the installation, start the NodeBB server:
 
 ```console
-% ./nodebb start
+./nodebb start
 ```
 
 You can now visit your forum at [`http://localhost:4567/`](http://localhost:4567/).
