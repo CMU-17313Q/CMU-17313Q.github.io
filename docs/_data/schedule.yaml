@@ -97,10 +97,10 @@
     numDays: 5
   lecture:
     link: ''
-    name: ''
+    name: 'Metrics and Measurements'
   reading:
-    link: ''
-    name: ''
+    link: "readings/R2"
+    name: 'John Doerr: Why the secret to success is setting the right goals'
   recitation:
     handout: ''
     name: ''
