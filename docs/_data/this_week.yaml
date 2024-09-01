@@ -1,6 +1,6 @@
 lectures:
 - date: Sun Sep 01
-  link: ''
+  link: assets/pdfs/03-metrics-and-measurement.pdf
   name: Metrics and Measurements
   reading:
     link: readings/R2
