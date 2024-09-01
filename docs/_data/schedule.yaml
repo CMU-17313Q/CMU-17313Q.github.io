@@ -133,10 +133,10 @@
     numDays: 0
   lecture:
     link: ""
-    name: ''
+    name: 'Boeing 737 MAX: Case study'
   reading:
-    link: ''
-    name: ''
+    link: "readings/R3"
+    name: 'Boeing 737 MAX'
   recitation:
     handout: ''
     name: ''
