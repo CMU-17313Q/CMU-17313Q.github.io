@@ -2,12 +2,12 @@
 
 ## Deliverables
 
-**Team Process & Planning** – 80 points – due Thursday, September 7th, 11:59pm
+**Team Process & Planning** – 70 points – due Thursday, September 12th, 11:59pm
 
 - **Prerequisite:** [Team Setup](#team-setup)
-- [Teamwork Contract](#teamwork-contract-40-pts) (40 pts)
-- [Project Planning](#project-planning-40-pts) (40 pts)
-- *[Extra Credit](#extra-credit-8-pts) (8 pts)*
+- [Teamwork Contract](#teamwork-contract-35-pts) (35 pts)
+- [Project Planning](#project-planning-35-pts) (35 pts)
+- *[Extra Credit](#extra-credit-up-to-12-pts) (up to 12 pts)*
 
 
 ## Team Setup
@@ -23,8 +23,7 @@ You can use this Slack channel for subsequent project-team related discussions o
 ### GitHub Repository
 
 You will be working on your team repository for this project. Once you have decided on a team name, go to the link below to set up your team:
-
-[https://classroom.github.com/a/6U8xuKTF](https://classroom.github.com/a/6U8xuKTF)
+[https://classroom.github.com/a/qyapJaFe](https://classroom.github.com/a/qyapJaFe)
 
 !!! warning
     After you join a team on GitHub, you cannot change teams! Make sure that **only one** of you creates the team, and make sure that the remaining teammates join the right team.
@@ -48,12 +47,12 @@ For each code-based deliverable, we will look at a snapshot of your repository a
 
 ### Teamwork Self-Assessment
 
-As the course moves into team-based projects, we will be releasing weekly self-assessments on Gradescope, each worth one participation point. These are meant to be short surveys and should not take more than a few minutes. They are intended to help you reflect on your team's process and prompt you to think about how to improve it. The first one will be released on **Thursday, August 31st** and due the following **Thursday, September 7th** (both at 11:59pm).
+As the course moves into team-based projects, we will be releasing weekly self-assessments, each worth one participation point. These are meant to be short surveys and should not take more than a few minutes. They are intended to help you reflect on your team's process and prompt you to think about how to improve it. The first one will be released on **Thursday, September 5th** and due the following **Thursday, September 12th** (both at 11:59pm).
 
 
 ## Main Deliverables
 
-### Teamwork Contract (40 pts)
+### Teamwork Contract (35 pts)
 
 When working with a team, it is important to discuss each team member’s background, and establish common expectations of the team. Miscommunication or the general lack of communication are often the most common causes of team conflict.
 
@@ -96,7 +95,7 @@ Once you have completed the contract itself, have all members sign and date the 
 We also **highly recommend** that you [bookmark](https://slack.com/help/articles/205239997-Pin-messages-and-bookmark-links) the teamwork contract in your team’s Slack channel.
 
 
-### Project Planning (40 pts)
+### Project Planning (35 pts)
 
 Before your team jumps into development, you must first determine what features to implement. Schedule and hold an initial project planning meeting with your team to complete the steps outlined below.
 
@@ -162,12 +161,12 @@ You should actively assign and move these issues across your Kanban board as you
 Include a link to your GitHub board in your Gradescope submission. If you are unsure about your planned changes, you can ask for feedback from a member of the course staff!
 
 
-### Extra Credit (8 pts)
-Getting to know your colleagues in a friendly context can often lead to more effective collaboration; for example, healthy teams often get lunch together. To incentivize this, we will give your team extra credit for this assignment if you meet for a team bonding experience outside of a working session.
+### Extra Credit (up to 12 pts)
+Getting to know your colleagues in a friendly context can often lead to more effective collaboration; for example, healthy teams often get lunch together. To incentivize this, your team will receive 2 extra credit points for each week that you engage in a team bonding activity outside of your regular working sessions
 
-You might want to eat together, go out for boba, or hold a board game session. If someone on your team is not feeling well, you may also do a virtual activity such as an online gaming session (Drawphone, Skribbl.io, etc.) or social "Zoom lunch".
+This could be an in-person activity like having lunch together, going for a walk at Oxygen Park, or playing board games in the student lounge. If someone on your team is not feeling well, you may also do a virtual activity such as an online gaming session (Drawphone, Skribbl.io, etc.) or social "Zoom lunch".
 
-To receive extra credit, share the photo or screenshot of your team activity with your CA mentor by sending it in your team Slack channel before the deadline. We encourage you to do these types of meetings often throughout the semester!
+To earn these extra credit points, simply share a photo or screenshot of your team activity in your team Slack channel and tag your CA mentor by the end of each week. Feel free to make these meetings a regular habit throughout the semester to strengthen your teamwork and collaboration!
 
 
 ## Grading
