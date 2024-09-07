@@ -187,10 +187,10 @@
     numDays: 5
   lecture:
     link: ''
-    name: ''
+    name: 'Planning'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R4'
+    name: 'The Toyota Production System'
   recitation:
     handout: ''
     name: ''
