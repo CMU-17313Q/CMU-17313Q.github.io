@@ -1,28 +1,22 @@
 lectures:
-- date: Sun Sep 01
-  link: assets/pdfs/03-metrics-and-measurement.pdf
-  name: Metrics and Measurements
-  reading:
-    link: readings/R2
-    name: 'John Doerr: Why the secret to success is setting the right goals'
-- date: Tue Sep 03
+- date: Sun Sep 08
   link: ''
-  name: 'Boeing 737 MAX: Case study'
+  name: Planning
   reading:
-    link: readings/R3
-    name: Boeing 737 MAX
+    link: readings/R4
+    name: The Toyota Production System
 
 projects:
-- date: Sun Sep 01
-  deadline: Due Thu Sep 5 @ 11:59pm
-  end_date: 2024-09-06 00:00:00
-  link: /projects/P1
-  name: 'Project 1B: Starter Task'
+- date: Sun Sep 08
+  deadline: Due Thu, Sep 9th @ 11:59pm
+  end_date: 2024-09-13 00:00:00
+  link: /projects/P2/1_teamprocess
+  name: P2A - Team Process & Planning
   numDays: 5
 
 recitation:
-  date: Thu Sep 05
+  date: Thu Sep 12
   handout: ''
-  name: 'Recitation 2 '
+  name: Recitation 3
   quiz: ''
   slides: ''
