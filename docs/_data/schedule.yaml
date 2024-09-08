@@ -182,7 +182,7 @@
 - date: Sun Sep 08
   homework:
     deadline: 'Due Thu, Sep 12th @ 11:59pm'
-    link: "/projects/P2/1_teamprocess"
+    link: "/projects/P2"
     name: 'P2A - Team Process & Planning'
     numDays: 5
   lecture:
