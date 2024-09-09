@@ -1,10 +1,16 @@
 lectures:
 - date: Sun Sep 08
   link: ''
-  name: Planning
+  name: Process & Planning
   reading:
     link: readings/R4
     name: The Toyota Production System
+- date: Tue Sep 10
+  link: ''
+  name: Software Teams and Communication
+  reading:
+    link: readings/R5
+    name: 'How to Work Well on Teams '
 
 projects:
 - date: Sun Sep 08
