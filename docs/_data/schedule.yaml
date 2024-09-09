@@ -174,10 +174,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
+    handout: 'https://docs.google.com/document/d/1a_rqDtL5dFOX6CpgzLGn7WlDJlNIb0oRLJsq29wXve0/edit?usp=sharing'
     name: 'Recitation 2 '
     quiz: ''
-    slides: ''
+    slides: 'https://docs.google.com/presentation/d/1lTXjD8HE9uhzn2-dpUHrNRQqMpOQ41aw3mhAtyUwncQ/edit?usp=sharing'
 
 - date: Sun Sep 08
   homework:
