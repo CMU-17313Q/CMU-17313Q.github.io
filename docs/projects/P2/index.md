@@ -42,7 +42,7 @@ A) [**Team Process & Planning**](/projects/P2/1_teamprocess) – 70 points – d
 - Project Planning (35 pts)
 - *Extra Credit (up to 12 pts)*
 
-B) **First Sprint**  (More details coming soon) – 95 points – due Thursday, September 26th, 11:59pm
+B) **First Sprint**  (/projects/P2/2_firstsprint) – 95 points – due Thursday, September 26th, 11:59pm
 
 - Process & Implementation Interim Snapshot (50 pts)
 - Checkpoint Presentation (45 pts) - **Held in Recitation on Thursday, September 26th**
