@@ -132,7 +132,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ""
+    link: "assets/pdfs/04-boeing.pdf"
     name: 'Boeing 737 MAX: Case study'
   reading:
     link: "readings/R3"
@@ -186,7 +186,7 @@
     name: 'P2A - Team Process & Planning'
     numDays: 5
   lecture:
-    link: ''
+    link: 'assets/pdfs/05-process.pdf'
     name: 'Process & Planning'
   reading:
     link: 'readings/R4'
@@ -222,7 +222,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/06-teams.pdf'
     name: 'Software Teams and Communication'
   reading:
     link: 'readings/R5'
