@@ -176,7 +176,7 @@
   recitation:
     handout: 'https://docs.google.com/document/d/1a_rqDtL5dFOX6CpgzLGn7WlDJlNIb0oRLJsq29wXve0/edit?usp=sharing'
     name: 'Recitation 2 '
-    quiz: ''
+    quiz: 'https://www.gradescope.com/courses/837681/assignments/4799160/'
     slides: 'https://docs.google.com/presentation/d/1lTXjD8HE9uhzn2-dpUHrNRQqMpOQ41aw3mhAtyUwncQ/edit?usp=sharing'
 
 - date: Sun Sep 08
@@ -264,10 +264,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
+    handout: '/recitations/reci3-archaeology
     name: 'Recitation 3'
-    quiz: ''
-    slides: ''
+    quiz: 'https://www.gradescope.com/courses/837681/assignments/4799161'
+    slides: 'https://docs.google.com/presentation/d/1b9IrPlNTQ0j3I9G_EyyhHUkZ-9U1hkk9gmdEzKwhpPI/edit?usp=sharing'
 
 - date: Sun Sep 15
   homework:
