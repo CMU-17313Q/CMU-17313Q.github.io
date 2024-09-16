@@ -1,28 +1,19 @@
 lectures:
-- date: Sun Sep 08
-  link: assets/pdfs/05-process.pdf
-  name: Process & Planning
-  reading:
-    link: readings/R4
-    name: The Toyota Production System
-- date: Tue Sep 10
-  link: assets/pdfs/06-teams.pdf
-  name: Software Teams and Communication
-  reading:
-    link: readings/R5
-    name: 'How to Work Well on Teams '
+- date: Sun Sep 15
+  link: ''
+  name: NO CLASS
 
 projects:
-- date: Sun Sep 08
-  deadline: Due Thu, Sep 12th @ 11:59pm
-  end_date: 2024-09-13 00:00:00
+- date: Sun Sep 15
+  deadline: Due Thu, Sep 26th @ 11:59pm
+  end_date: 2024-09-27 00:00:00
   link: /projects/P2
-  name: P2A - Team Process & Planning
-  numDays: 5
+  name: P2B - First Sprint
+  numDays: 10
 
 recitation:
-  date: Thu Sep 12
-  handout: /recitations/reci3-archaeology
-  name: Recitation 3
-  quiz: https://www.gradescope.com/courses/837681/assignments/4799161
-  slides: https://docs.google.com/presentation/d/1b9IrPlNTQ0j3I9G_EyyhHUkZ-9U1hkk9gmdEzKwhpPI/edit?usp=sharing
+  date: Thu Sep 19
+  handout: ''
+  name: Recitation 4
+  quiz: ''
+  slides: ''
