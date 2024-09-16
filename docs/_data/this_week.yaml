@@ -2,6 +2,12 @@ lectures:
 - date: Sun Sep 15
   link: ''
   name: NO CLASS
+- date: Tue Sep 17
+  link: ''
+  name: 'Architecture: Intro and Overview'
+  reading:
+    link: readings/R6
+    name: Who Needs an Architect?
 
 projects:
 - date: Sun Sep 15
