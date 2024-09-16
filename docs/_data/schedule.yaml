@@ -313,10 +313,10 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Architecture: Intro and Overview'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R6'
+    name: 'Who Needs an Architect?'
   recitation:
     handout: ''
     name: ''
