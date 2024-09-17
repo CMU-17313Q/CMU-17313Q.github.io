@@ -132,7 +132,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ""
+    link: "assets/pdfs/04-boeing.pdf"
     name: 'Boeing 737 MAX: Case study'
   reading:
     link: "readings/R3"
@@ -186,8 +186,8 @@
     name: 'P2A - Team Process & Planning'
     numDays: 5
   lecture:
-    link: ''
-    name: 'Planning'
+    link: 'assets/pdfs/05-process.pdf'
+    name: 'Process & Planning'
   reading:
     link: 'readings/R4'
     name: 'The Toyota Production System'
@@ -222,11 +222,11 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: 'assets/pdfs/06-teams.pdf'
+    name: 'Software Teams and Communication'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R5'
+    name: 'How to Work Well on Teams '
   recitation:
     handout: ''
     name: ''
@@ -271,10 +271,10 @@
 
 - date: Sun Sep 15
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: 'Due Thu, Sep 26th @ 11:59pm'
+    link: "/projects/P2"
+    name: 'P2B - First Sprint'
+    numDays: 10
   lecture:
     link: ''
     name: 'NO CLASS'
@@ -313,10 +313,10 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Architecture: Intro and Overview'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R6'
+    name: 'Who Needs an Architect?'
   recitation:
     handout: ''
     name: ''
