@@ -354,10 +354,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
+    handout: 'https://docs.google.com/document/d/18ZQ0kAQ1ZjpO_PEoQi6mnp0gXOQJM-6gXq0fIYsb52k/edit?usp=sharing'
     name: 'Recitation 4'
-    quiz: ''
-    slides: ''
+    quiz: 'https://www.gradescope.com/courses/837681/assignments/4799162'
+    slides: 'https://docs.google.com/presentation/d/1cbzO_MIPp34Sa7uh7vC9oBKgOrIjan9EaSG5ABPTyaA/edit?usp=sharing'
 
 - date: Sun Sep 22
   homework:
