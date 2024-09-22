@@ -77,7 +77,7 @@ nav:
            - projects/P2/index.md
            - "2A Team Process & Planning": projects/P2/1_teamprocess.md
            - "2B First Sprint": projects/P2/2_firstsprint.md
-      #     - "2C Second Sprint": projects/P2/3_secondsprint.md
+           - "2C Second Sprint": projects/P2/3_secondsprint.md
       # - "Project 3: Continuous Integration + Deployment":
       #     - projects/P3/index.md
       #     - "Deployment Instructions": projects/P3/deployment.md

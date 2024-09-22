@@ -451,10 +451,10 @@
 
 - date: Sun Sep 29
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Thu, Oct 10th @ 11:59pm'
+    link: "/projects/P2"
+    name: 'P2B - Second Sprint'
+    numDays: 10
   lecture:
     link: ''
     name: ''

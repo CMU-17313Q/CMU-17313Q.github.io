@@ -47,7 +47,7 @@ B) [**First Sprint**](/projects/P2/2_firstsprint) – 95 points – due Thursday
 - Process & Implementation Interim Snapshot (50 pts)
 - Checkpoint Presentation (45 pts) - **Held in Recitation on Thursday, September 26th**
 
-C) **Second Sprint**  (More details coming soon) – 110 points – due Thursday, October 10th, 11:59pm
+C) [**Second Sprint**](/projects/P2/3_secondsprint) – 110 points – due Thursday, October 10th, 11:59pm
 
 - Process & Implementation Final Snapshot (50 pts)
 - Team Reflection (30 pts)
