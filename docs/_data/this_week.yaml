@@ -1,4 +1,13 @@
 lectures:
+- date: Sun Sep 22
+  link: assets/pdfs/08-design-docs.pdf
+  name: Design Docs
+- date: Tue Sep 24
+  link: ''
+  name: Microservices
+  reading:
+    link: readings/R7
+    name: Microservices
 - date: Thu Sep 26
   link: ''
   name: Sprint#1 Presentations
