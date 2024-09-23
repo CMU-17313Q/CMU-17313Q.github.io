@@ -366,8 +366,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: 'assets/pdfs/08-design-docs.pdf'
+    name: 'Design Docs'
   reading:
     link: ''
     name: ''
@@ -403,10 +403,10 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Microservices'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R7'
+    name: 'Microservices'
   recitation:
     handout: ''
     name: ''
