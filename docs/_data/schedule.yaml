@@ -402,7 +402,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/09-microservices.pdf'
     name: 'Microservices'
   reading:
     link: 'readings/R7'
@@ -453,11 +453,11 @@
   homework:
     deadline: 'Due Thu, Oct 10th @ 11:59pm'
     link: "/projects/P2"
-    name: 'P2B - Second Sprint'
+    name: 'P2C - Second Sprint'
     numDays: 10
   lecture:
     link: ''
-    name: ''
+    name: 'Software Risks'
   reading:
     link: ''
     name: ''
