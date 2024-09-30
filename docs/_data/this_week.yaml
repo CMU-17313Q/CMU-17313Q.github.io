@@ -1,23 +1,16 @@
-lectures:
-- date: Sun Sep 22
-  link: assets/pdfs/08-design-docs.pdf
-  name: Design Docs
-- date: Tue Sep 24
-  link: ''
-  name: Microservices
-  reading:
-    link: readings/R7
-    name: Microservices
-- date: Thu Sep 26
-  link: ''
-  name: Sprint#1 Presentations
+lectures: []
 
 projects:
-- date: Sun Sep 15
-  deadline: Due Thu, Sep 26th @ 11:59pm
-  end_date: 2024-09-27 00:00:00
+- date: Sun Sep 29
+  deadline: Due Thu, Oct 10th @ 11:59pm
+  end_date: 2024-10-11 00:00:00
   link: /projects/P2
-  name: P2B - First Sprint
+  name: P2B - Second Sprint
   numDays: 10
 
-recitation: null
+recitation:
+  date: Thu Oct 03
+  handout: ''
+  name: 'Recitation 5: Midterm Review'
+  quiz: ''
+  slides: ''
