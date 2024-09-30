@@ -3,8 +3,11 @@ lectures:
   link: assets/pdfs/10-software-risks.pdf
   name: Software Risks
 - date: Tue Oct 01
-  link: readings/R8
+  link: ''
   name: 'QA: Code Review and Static Analysis'
+  reading:
+    link: readings/R8
+    name: How To Code Review Like A Human
 
 projects:
 - date: Sun Sep 29
