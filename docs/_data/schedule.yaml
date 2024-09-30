@@ -456,7 +456,7 @@
     name: 'P2C - Second Sprint'
     numDays: 10
   lecture:
-    link: ''
+    link: 'assets/pdfs/10-software-risks.pdf'
     name: 'Software Risks'
   reading:
     link: ''
@@ -492,8 +492,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: 'readings/R8'
+    name: 'QA: Code Review and Static Analysis'
   reading:
     link: ''
     name: ''
