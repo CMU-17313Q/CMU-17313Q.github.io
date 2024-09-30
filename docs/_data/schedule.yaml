@@ -549,8 +549,8 @@
     link: ''
     name: 'Midterm 1'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/midterm1-instructions'
+    name: 'Instructions and Past Exams'
   recitation:
     handout: ''
     name: ''
