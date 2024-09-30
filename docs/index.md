@@ -130,6 +130,25 @@ hide:
             None!
         {% endif %}
     </div>
+    <div class="header">
+        Team Survey
+    </div>
+    <div class="content">
+        {% if this_week.teamsurvey %}
+            <div class="recitation-name">
+                {{ this_week.teamsurvey.name }}
+            </div>
+
+            {% if this_week.teamsurvey.link != "" %}
+            <a class="label label-aqua" href="{{this_week.teamsurvey.link}}" target="_blank">
+                <span class="material-symbols-outlined">equalizer</span>Survey
+            </a>
+            {% endif %}
+        {% else %}
+            None!
+        {% endif %}
+    </div>
+
 
 </div>
 

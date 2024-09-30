@@ -70,10 +70,36 @@ if schedule:
 
 projects = list(filter(lambda project: project['end_date'] > today, projects))
 
+with open('teamsurveys.yaml', 'r') as file:
+    allteamsurveys = yaml.safe_load(file)
+
+teamsurvey =  None
+if allteamsurveys:
+    for survey in allteamsurveys:
+        if survey['name'] != '':
+            if survey['opendate'] != '':
+                ts_open_date = datetime.strptime(
+                    survey['opendate'],
+                    "%a %b %d").replace(year=current_date.year)
+                if survey['closedate'] != '':
+                    ts_close_date = datetime.strptime(
+                        survey['closedate'],
+                        "%a %b %d").replace(year=current_date.year)
+
+                    if ts_open_date >= current_date and current_date <= ts_close_date:
+                        teamsurvey = survey
+
+
+
+
+today = datetime.now()
+
+
 output = {
     "projects": projects,
     "recitation": recitation,
-    "lectures": lectures
+    "lectures": lectures,
+    "teamsurvey" : teamsurvey
 }
 
 with open(r'this_week.yaml', 'w') as file:
