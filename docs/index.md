@@ -144,7 +144,7 @@ hide:
                 <span class="material-symbols-outlined">equalizer</span>Survey
             </a>
 	    {% else %}
-	    Not opened yet!
+	    Not opened yet! Opens on {{ this_week.teamsurvey.opendate }}.
             {% endif %}
         {% else %}
             None!
