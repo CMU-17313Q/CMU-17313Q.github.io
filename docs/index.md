@@ -143,6 +143,8 @@ hide:
             <a class="label label-aqua" href="{{this_week.teamsurvey.link}}" target="_blank">
                 <span class="material-symbols-outlined">equalizer</span>Survey
             </a>
+	    {% else %}
+	    Not opened yet!
             {% endif %}
         {% else %}
             None!

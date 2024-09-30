@@ -74,6 +74,7 @@ with open('teamsurveys.yaml', 'r') as file:
     allteamsurveys = yaml.safe_load(file)
 
 teamsurvey =  None
+nextteamsurvey = None
 if allteamsurveys:
     for survey in allteamsurveys:
         if survey['name'] != '':
@@ -81,6 +82,10 @@ if allteamsurveys:
                 ts_open_date = datetime.strptime(
                     survey['opendate'],
                     "%a %b %d").replace(year=today.year)
+                # catch the next team survey
+                # (assuming entries are sorted in teamsurveys.yaml)
+                if ts_open_date >= today and not nextteamsurvey:
+                    nextteamsurvey = survey
                 if survey['closedate'] != '':
                     ts_close_date = datetime.strptime(
                         survey['closedate'],
@@ -91,6 +96,8 @@ if allteamsurveys:
 
 
 
+if nextteamsurvey:
+    nextteamsurvey['link'] = ''
 
 today = datetime.now()
 
@@ -99,7 +106,7 @@ output = {
     "projects": projects,
     "recitation": recitation,
     "lectures": lectures,
-    "teamsurvey" : teamsurvey
+    "teamsurvey" : (teamsurvey if teamsurvey != None else nextteamsurvey)
 }
 
 with open(r'this_week.yaml', 'w') as file:
