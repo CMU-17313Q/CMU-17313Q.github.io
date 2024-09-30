@@ -492,11 +492,11 @@
     name: ''
     numDays: 0
   lecture:
-    link: 'readings/R8'
+    link: ''
     name: 'QA: Code Review and Static Analysis'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R8'
+    name: 'How To Code Review Like A Human'
   recitation:
     handout: ''
     name: ''
