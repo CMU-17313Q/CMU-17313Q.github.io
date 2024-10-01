@@ -536,8 +536,8 @@
   recitation:
     handout: ''
     name: 'Recitation 5: Midterm Review'
-    quiz: ''
-    slides: ''
+    quiz: 'https://www.gradescope.com/courses/837681/assignments/4855002/'
+    slides: 'https://docs.google.com/presentation/d/1KB-GuLwOaqMOgENwetMf5dR07I4U1YD69ANMVKECd3M/edit?usp=sharing'
 
 - date: Sun Oct 06
   homework:
