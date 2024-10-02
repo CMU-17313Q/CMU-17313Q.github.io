@@ -492,7 +492,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/11-code-review-static-analysis.pdf'
     name: 'QA: Code Review and Static Analysis'
   reading:
     link: 'readings/R8'
