@@ -222,7 +222,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/06-teams.pdf'
+    link: 'assets/pdfs/06-teams-communication.pdf'
     name: 'Software Teams and Communication'
   reading:
     link: 'readings/R5'
