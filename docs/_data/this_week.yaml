@@ -6,13 +6,7 @@ lectures:
     link: readings/midterm1-instructions
     name: Instructions and Past Exams
 
-projects:
-- date: Sun Sep 29
-  deadline: Due Thu, Oct 10th @ 11:59pm
-  end_date: 2024-10-11 00:00:00
-  link: /projects/P2
-  name: P2C - Second Sprint
-  numDays: 10
+projects: []
 
 recitation:
   date: Thu Oct 10
