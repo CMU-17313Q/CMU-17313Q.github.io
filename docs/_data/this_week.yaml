@@ -1,19 +1,17 @@
 lectures:
-- date: Sun Oct 06
+- date: Sun Oct 13
   link: ''
-  name: Midterm 1
-  reading:
-    link: readings/midterm1-instructions
-    name: Instructions and Past Exams
+  name: NO CLASS (Fall Break)
+- date: Tue Oct 15
+  link: ''
+  name: NO CLASS (Fall Break)
+- date: Thu Oct 17
+  link: ''
+  name: NO CLASS (Fall Break)
 
 projects: []
 
-recitation:
-  date: Thu Oct 10
-  handout: ''
-  name: Recitation 6
-  quiz: ''
-  slides: ''
+recitation: null
 
 teamsurvey:
   closedate: Sun Oct 20
