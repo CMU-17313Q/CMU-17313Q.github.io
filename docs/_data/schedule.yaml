@@ -618,8 +618,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: 'assets/pdfs/13-CI-Cloud Computing.pdf'
+    name: 'CI and Cloud Computing'
   reading:
     link: ''
     name: ''
