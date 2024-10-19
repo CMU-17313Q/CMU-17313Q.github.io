@@ -1,17 +1,13 @@
-lectures:
-- date: Sun Oct 13
-  link: ''
-  name: NO CLASS (Fall Break)
-- date: Tue Oct 15
-  link: ''
-  name: NO CLASS (Fall Break)
-- date: Thu Oct 17
-  link: ''
-  name: NO CLASS (Fall Break)
+lectures: []
 
 projects: []
 
-recitation: null
+recitation:
+  date: Thu Oct 24
+  handout: ''
+  name: Recitation 7
+  quiz: ''
+  slides: ''
 
 teamsurvey:
   closedate: Sun Oct 20
