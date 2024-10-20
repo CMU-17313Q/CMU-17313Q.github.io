@@ -20,17 +20,17 @@ Secondly, evaluating existing tools and practices beyond simple linting or unit 
 ## Deliverables and Deadlines
 There are two (2) deadlines for this project. This project is worth a total of 120 points.
 
-**Checkpoint Deliverables** – 35 points – due Sunday, October 22, 11:59pm
+**Checkpoint Deliverables** – 35 points – due Sunday, October 27th, 11:59pm
 
 - [Deployed Application (25 pts)](#deployed-application-25-pts)
 - [Tools Checkpoint (10 pts)](#tools-checkpoint-10-pts)
 
-**Final Deliverables** – 65 points – due Sunday, October 29, 11:59pm
+**Final Deliverables** – 65 points – due Sunday, November 3rd, 11:59pm
 
 - [Tool Analysis Design Doc (50 pts)](#tool-analysis-design-doc-60-pts)
 - [Tool Integration (15 pts)](#tool-integration-15-pts)
 
-**Extra Credit (Individual)** - 6 points - due Sunday, October 29, 11:59pm
+**Extra Credit (Individual)** - 6 points - due Sunday, November 3rd, 11:59pm
 
 - [Feature Review (6 pts)](#feature-review-6-pts)
 
@@ -42,7 +42,9 @@ There are two (2) deadlines for this project. This project is worth a total of 1
 
 ### Deployed Application (25 pts)
 
-Your team will be using Microsoft Azure for the deployment of the NodeBB application. Further instructions on how to deploy can be found [here](https://docs.google.com/document/d/19nnfaVRHDe4-y5zAK9FcPLxEvhuli81sj3FesTLhO3g/edit?usp=sharing).
+Your team will be using Microsoft Azure for the deployment of the NodeBB application. Further instructions on how to deploy can be found [here](https://docs.google.com/document/d/19nnfaVRHDe4-y5zAK9FcPLxEvhuli81sj3FesTLhO3g/edit?usp=sharing). If you run into issues with a certain step, leave a comment on the doc. If you find a solution to that issue, reply to your comment with the solution. This will help others who find the same issue.
+
+NOTE: You will be given your team's login details over slack. Do not use your andrewid to login to Azure.
 
 Once you have successfully deployed your website, make sure to test within your team to ensure that your added feature(s) from Project 2 are properly integrated.
 
