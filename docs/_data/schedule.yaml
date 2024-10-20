@@ -721,10 +721,10 @@
 
 - date: Sun Oct 20
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 6
+    deadline: "Due Sun Oct 27 @ 11:59pm"
+    link: "/projects/P3"
+    name: "Project 3A: Checkpoint"
+    numDays: 5
   lecture:
     link: ''
     name: ''
@@ -811,10 +811,10 @@
 
 - date: Sun Oct 27
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: "Due Sun Nov 3 @ 11:59pm"
+    link: "/projects/P3"
+    name: "Project 3B: Final"
+    numDays: 5
   lecture:
     link: ''
     name: ''
