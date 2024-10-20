@@ -42,14 +42,14 @@ There are two (2) deadlines for this project. This project is worth a total of 1
 
 ### Deployed Application (25 pts)
 
-Your team will be using Google Cloud Platform for the deployment of the NodeBB application. Further instructions on how to deploy can be found [here](/projects/P3/deployment).
+Your team will be using Microsoft Azure for the deployment of the NodeBB application. Further instructions on how to deploy can be found [here](https://docs.google.com/document/d/19nnfaVRHDe4-y5zAK9FcPLxEvhuli81sj3FesTLhO3g/edit?usp=sharing).
 
 Once you have successfully deployed your website, make sure to test within your team to ensure that your added feature(s) from Project 2 are properly integrated.
 
 By the checkpoint deadline you should
 
 - Submit a link to the deployed site onto Gradescope
-- Add your deployed site to this [public spreadsheet](https://docs.google.com/spreadsheets/d/1eb9TWeP4X-deuvQHutRBf9c-fd9CnFJs-i6ayvYDpSo/edit?usp=sharing), alongside your team name & UserGuide.md (as a link to the file on GitHub) that your team submitted for Project 2. This will be used in [Feature Review](#feature-review-6-pts) for extra credit.
+- Add your deployed site to this [public spreadsheet](https://docs.google.com/spreadsheets/d/1kAxsQHB2CQMyPw5Y_QdPzd18RaLuhxmmFWDtN-5CQk8/edit?usp=sharing), alongside your team name & UserGuide.md (as a link to the file on GitHub) that your team submitted for Project 2. This will be used in [Feature Review](#feature-review-6-pts) for extra credit.
 
 ### Tools Checkpoint (10 pts)
 
@@ -184,7 +184,7 @@ Note that this is an **individual** task, unlike the rest of project.
 
 ### Feature Review (6 pts)
 
-For extra credit, you will conduct reviews of features developed by three other teams' project. Pick **three** teams's deployment from the [public spreadsheet](https://docs.google.com/spreadsheets/d/1eb9TWeP4X-deuvQHutRBf9c-fd9CnFJs-i6ayvYDpSo/edit?usp=sharing) to review.
+For extra credit, you will conduct reviews of features developed by three other teams' project. Pick **three** teams's deployment from the [public spreadsheet](https://docs.google.com/spreadsheets/d/1kAxsQHB2CQMyPw5Y_QdPzd18RaLuhxmmFWDtN-5CQk8/edit?usp=sharing) to review.
 
 For each team, you will submit a review of their feature(s). You will need to test the feature(s) as described in their UserGuide and provide feedback on the following:
 
@@ -195,7 +195,7 @@ For each team, you will submit a review of their feature(s). You will need to te
 To qualify for extra credit, you will have to submit your review:
 
 - on Gradescope
-- in the appropriate sheet in the [public spreadsheet](https://docs.google.com/spreadsheets/d/1eb9TWeP4X-deuvQHutRBf9c-fd9CnFJs-i6ayvYDpSo/edit?usp=sharing). There should be one sheet per team, and you should add your review to the sheet for the team you are reviewing.
+- in the appropriate sheet in the [public spreadsheet](https://docs.google.com/spreadsheets/d/1kAxsQHB2CQMyPw5Y_QdPzd18RaLuhxmmFWDtN-5CQk8/edit?usp=sharing). There should be one sheet per team, and you should add your review to the sheet for the team you are reviewing.
 
 ## Grading
 To receive full credit for the checkpoint, we expect:
@@ -214,7 +214,7 @@ To receive full credit for the final deadline, we expect:
 
 To receive full credit for the extra credit, we expect:
 
-- [ ] Your review of three different teams' features on Gradescope and on the [public spreadsheet](https://docs.google.com/spreadsheets/d/1eb9TWeP4X-deuvQHutRBf9c-fd9CnFJs-i6ayvYDpSo/edit?usp=sharing), addressing the three questions described.
+- [ ] Your review of three different teams' features on Gradescope and on the [public spreadsheet](https://docs.google.com/spreadsheets/d/1kAxsQHB2CQMyPw5Y_QdPzd18RaLuhxmmFWDtN-5CQk8/edit?usp=sharing), addressing the three questions described.
 ## Resources & Documentation
 
 ### Starter List of Tools
