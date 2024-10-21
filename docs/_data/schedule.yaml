@@ -763,10 +763,10 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Software Quality'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R9'
+    name: 'Technical Debt'
   recitation:
     handout: ''
     name: ''
