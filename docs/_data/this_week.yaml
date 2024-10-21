@@ -1,4 +1,10 @@
-lectures: []
+lectures:
+- date: Tue Oct 22
+  link: ''
+  name: Software Quality
+  reading:
+    link: readings/R9
+    name: Technical Debt
 
 projects:
 - date: Sun Oct 20
