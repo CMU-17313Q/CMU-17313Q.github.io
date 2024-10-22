@@ -16,10 +16,10 @@ projects:
 
 recitation:
   date: Thu Oct 24
-  handout: /recitations/reci7-docker
-  name: 'Recitation 7: Docker & Containerization'
-  quiz: https://www.gradescope.com/courses/837681/assignments/4799171
-  slides: https://docs.google.com/presentation/d/13ivsLsFeBBdTdKzDzerwpCZ40qgjmpX25DnJCgEezcI/edit?usp=sharing
+  handout: /recitations/reci6-deployment
+  name: 'Recitation 6: Extreme Startup Game'
+  quiz: https://www.gradescope.com/courses/837681/assignments/4854999/outline/
+  slides: https://docs.google.com/presentation/d/1SzM1pJipt0npahqTl5l1mZ_56yFQzVtkBNZEPMBhECQ/edit?usp=sharing
 
 teamsurvey:
   closedate: Sun Oct 27
