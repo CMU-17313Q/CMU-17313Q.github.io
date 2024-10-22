@@ -47,7 +47,7 @@ There's quite a lot to learn about CI/CD. If you're interested in learning more,
 
   
 
-For this recitation, we'll be working with a basic web app built on Next.js that responds to HTTP requests. Your job on Tuesday during the ~Extreme Startup~ game will be to parse these requests and figure out what the correct response is. Today we'll focus on setting up the app so that everything is in place for the game.
+For this recitation, we'll be working with a basic web app built on Next.js that responds to HTTP requests. Your job on Thursday during the ~Extreme Startup~ game will be to parse these requests and figure out what the correct response is. Today we'll focus on setting up the app so that everything is in place for the game.
 
   
 
