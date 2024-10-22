@@ -6,7 +6,7 @@ You should have downloaded Docker. If you haven't follow the installation instru
 
 ## Setup Instructions (10 min):
 
-Fork [this repo](https://github.com/CMU-17313Q/f23-docker-recitation) and clone it.
+Fork [this repo](https://github.com/CMU-17313Q/f24-docker-recitation) and clone it.
 
 ## Overview
 
