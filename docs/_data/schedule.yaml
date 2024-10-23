@@ -726,11 +726,11 @@
     name: "Project 3A: Checkpoint"
     numDays: 5
   lecture:
-    link: ''
-    name: ''
+    link: 'assets/pdfs/14-continuous-deployment.pdf'
+    name: 'Continuous Deployment'
   reading:
-    link: ''
-    name: ''
+    link: 'recitations/deployment-workshop-f24'
+    name: 'Cloud Deployment Activity'
   recitation:
     handout: ''
     name: ''
