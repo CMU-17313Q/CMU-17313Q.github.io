@@ -1,4 +1,4 @@
-# Cloud Deployment Workshop
+# Cloud Deployment Activity
 
 
 
@@ -90,3 +90,4 @@ To test that the continuous deployments are working as expected, and familiarize
 5. Commit and push your changes
 6. Once pushed, verify that CD is functioning correctly by checking that a new deployment is triggered on Vercel dashboard.
 7. Once the deployments are complete manually verify that both support the query you just implemented.
+8. Submit a link to your deployed app to
