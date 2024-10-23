@@ -1,4 +1,10 @@
 lectures:
+- date: Sun Oct 20
+  link: assets/pdfs/14-continuous-deployment.pdf
+  name: Continuous Deployment
+  reading:
+    link: recitations/deployment-workshop-f24
+    name: Cloud Deployment Activity
 - date: Tue Oct 22
   link: ''
   name: Software Quality
