@@ -1,4 +1,10 @@
 lectures:
+- date: Sun Oct 20
+  link: assets/pdfs/14-continuous-deployment.pdf
+  name: Continuous Deployment
+  reading:
+    link: recitations/deployment-workshop-f24
+    name: Cloud Deployment Activity
 - date: Tue Oct 22
   link: ''
   name: Software Quality
@@ -9,17 +15,17 @@ lectures:
 projects:
 - date: Sun Oct 20
   deadline: Due Sun Oct 27 @ 11:59pm
-  end_date: 2024-10-25 00:00:00
+  end_date: 2024-10-28 00:00:00
   link: /projects/P3
   name: 'Project 3A: Checkpoint'
-  numDays: 5
+  numDays: 6
 
 recitation:
   date: Thu Oct 24
-  handout: /recitations/reci7-docker
-  name: 'Recitation 7: Docker & Containerization'
-  quiz: https://www.gradescope.com/courses/837681/assignments/4799171
-  slides: https://docs.google.com/presentation/d/13ivsLsFeBBdTdKzDzerwpCZ40qgjmpX25DnJCgEezcI/edit?usp=sharing
+  handout: /recitations/reci6-deployment
+  name: 'Recitation 6: Extreme Startup Game'
+  quiz: https://www.gradescope.com/courses/837681/assignments/4854999/outline/
+  slides: https://docs.google.com/presentation/d/1SzM1pJipt0npahqTl5l1mZ_56yFQzVtkBNZEPMBhECQ/edit?usp=sharing
 
 teamsurvey:
   closedate: Sun Oct 27
