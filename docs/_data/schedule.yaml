@@ -762,7 +762,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/15-software quality.pdf'
     name: 'Software Quality'
   reading:
     link: 'readings/R9'
