@@ -1,4 +1,10 @@
-lectures: []
+lectures:
+- date: Tue Oct 29
+  link: ''
+  name: ML for Software Engineers
+  reading:
+    link: readings/R10
+    name: Intro to Large Language Models
 
 projects:
 - date: Mon Oct 28
