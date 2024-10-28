@@ -853,10 +853,10 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'ML for Software Engineers'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R10'
+    name: 'Intro to Large Language Models'
   recitation:
     handout: ''
     name: ''
