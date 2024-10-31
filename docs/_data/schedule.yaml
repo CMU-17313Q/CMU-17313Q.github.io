@@ -816,8 +816,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: 'assets/pdfs/16-Technical Debt.pdf'
+    name: 'Technical Debt'
   reading:
     link: ''
     name: ''
@@ -852,7 +852,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/17-ML for SE.pdf'
     name: 'ML for Software Engineers'
   reading:
     link: 'readings/R10'
