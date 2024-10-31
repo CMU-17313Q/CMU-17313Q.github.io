@@ -16,10 +16,10 @@ projects:
 
 recitation:
   date: Thu Oct 31
-  handout: ''
+  handout: https://colab.research.google.com/drive/1akxB69GscjC88JpiXBu18VukZmB26VL-?usp=sharing
   name: 'Recitation 7: LLMs'
-  quiz: ''
-  slides: ''
+  quiz: https://www.gradescope.com/courses/837681/assignments/5249258
+  slides: https://docs.google.com/presentation/d/14De-DJB4Dc0A8TPu6CG9r0roEraSZtPmDY7COlLqc9U/edit?usp=sharing
 
 teamsurvey:
   closedate: Sun Nov 3
