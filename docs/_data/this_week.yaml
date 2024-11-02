@@ -1,13 +1,4 @@
-lectures:
-- date: Sun Oct 27
-  link: assets/pdfs/16-Technical Debt.pdf
-  name: Technical Debt
-- date: Tue Oct 29
-  link: assets/pdfs/17-ML for SE.pdf
-  name: ML for Software Engineers
-  reading:
-    link: readings/R10
-    name: Intro to Large Language Models
+lectures: []
 
 projects:
 - date: Mon Oct 28
@@ -18,11 +9,11 @@ projects:
   numDays: 5
 
 recitation:
-  date: Thu Oct 31
-  handout: https://colab.research.google.com/drive/1akxB69GscjC88JpiXBu18VukZmB26VL-?usp=sharing
-  name: 'Recitation 7: LLMs'
-  quiz: https://www.gradescope.com/courses/837681/assignments/5249258
-  slides: https://docs.google.com/presentation/d/14De-DJB4Dc0A8TPu6CG9r0roEraSZtPmDY7COlLqc9U/edit?usp=sharing
+  date: Thu Nov 07
+  handout: ''
+  name: Recitation 9
+  quiz: ''
+  slides: ''
 
 teamsurvey:
   closedate: Sun Nov 3
