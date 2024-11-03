@@ -901,9 +901,9 @@
 
 - date: Sun Nov 03
   homework:
-    deadline: ''
-    link: ''
-    name: ''
+    deadline: ""
+    link: ""
+    name: ""
     numDays: 0
   lecture:
     link: ''
@@ -919,10 +919,10 @@
 
 - date: Mon Nov 04
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Due Sun November 10 @ 11:59pm"
+    link: "/projects/P4"
+    name: "Project 4A: Checkpoint"
+    numDays: 5
   lecture:
     link: ''
     name: ''
@@ -1009,10 +1009,10 @@
 
 - date: Mon Nov 11
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: "Due Sun November 17 @ 11:59pm"
+    link: "/projects/P4"
+    name: "Project 4B: Final Deliverables"
+    numDays: 5
   lecture:
     link: ''
     name: ''
