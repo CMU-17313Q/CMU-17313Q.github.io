@@ -29,23 +29,21 @@ As everything is just settling down, your CEO bursts back into the room!! There'
 Some of you may think that it’s unfair for this change to come up unexpectedly, especially since we didn’t inform you before P3, but keep in mind that this is just like real life! Working in a company means having to deal with unexpected circumstances, which more often than not contain some aspect concerning money. We're looking to see how well you can adapt to this new situation, and we want you to have this experience before you're dealing with the pressure of real company money. Rest assured, if your team needs more credits to finish the project, we will not be taking off points.
 
 ## Deliverables and Deadlines
-There are three (3) deadlines for the project. This project is worth a total of 125 points.
+There are two (2) deadlines for the project. This project is worth a total of 125 points.
 
-**Checkpoint #1 Deliverables** – 55 pts - due Sunday, November 10, 11:59pm
+**Checkpoint Deliverables** – 65 pts - due Monday, November 11, 11:59pm
 
 - [Architectural Design Document (40 pts)](#architectural-design-document-40-points)
 - [Basic LLM Experiment (15 pts)](#basic-llm-experiment-15-points)
-
-**Checkpoint #2 Deliverables** – 10 pts - due Sunday, November 17, 11:59pm
-
 - [LLM Experiment Integration Checkpoint (10 pts)](#llm-experiment-integration-checkpoint-10-points)
+
 
 **Final Deliverables** - 60 pts - due Sunday, November 17, 11:59pm
 
 - [Final LLM Experiment Implementation (30 pts)](#final-llm-experiment-implementation-30-points)
 - [Evaluation Report (30 pts)](#evaluation-report-30-points)
 
-## Checkpoint #1 Deliverables
+## Checkpoint Deliverables
 
 ### Architectural Design Document (40 points)
 
@@ -117,13 +115,11 @@ For full credit, your submission should have at least four mock tests that deal 
 
 You should download and submit a .ipynb copy of your Colab notebook (with outputs) to Gradescope.
 
-## Checkpoint #2 Deliverables
-
 ### LLM Experiment Integration Checkpoint (10 points)
 
-For this checkpoint, you are expected to have successfully integrated the provided UI code into your project. Additionally, you must implement and deploy a server-side functionality that returns a hardcoded response. This step is crucial to ensure you are on track. We have provided some initial code on [this repo](https://github.com/CMU-17313Q/translator-service/tree/f24).
+For this task, you are expected to have successfully integrated the provided UI code into your project. Additionally, you must implement and deploy a server-side functionality that returns a hardcoded response. This step is crucial to ensure you are on track. We have provided some initial code on [this repo](https://github.com/CMU-17313Q/translator-service/tree/f24).
 
-Furthermore, your server-side code must include unit and mock tests. To accomplish this, you must move the tests you wrote in the previous checkpoint to the repo and integrate them into the CI pipeline.
+Furthermore, your server-side code must include unit and mock tests. To accomplish this, you must copy the tests you wrote in the notebook to the repo and integrate them into the CI pipeline.
 
 ## Final Deliverables
 
@@ -169,14 +165,11 @@ To receive full credit for the first checkpoint, we expect:
 - [ ] An uploaded PDF design document outlining your research into the existing codebase architecture, the quality requirements considered by your team, alternative solutions, and a final justification & timeline for your selected integration plan
 - [ ] A link to your Colab notebook completing all of the setup and basic LLM experiment steps outlined by the previous section
 
-To receive full credit for the second checkpoint, we expect:
 
+To receive full credit for the final deadline, we expect:
 - [ ] A functional integration of the UI code into your NodeBB application.
 - [ ] A preliminary implementation of the translation feature using the starter code, including CI with unit and mock tests.
 - [ ] An integrated deployment of your NodeBB and the translation service on Azure.
-
-To receive full credit for the final deadline, we expect:
-
 - [ ] A functional translation feature, as described in your design document, integrated into your NodeBB application and deployed on Azure.
 - [ ] An uploaded PDF report discussing your evaluation findings addressing all the sections outlined above
 
