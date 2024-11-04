@@ -164,11 +164,13 @@ To receive full credit for the first checkpoint, we expect:
 
 - [ ] An uploaded PDF design document outlining your research into the existing codebase architecture, the quality requirements considered by your team, alternative solutions, and a final justification & timeline for your selected integration plan
 - [ ] A link to your Colab notebook completing all of the setup and basic LLM experiment steps outlined by the previous section
+- [ ] A functional integration of the UI code into your NodeBB application.
+- [ ] A preliminary implementation of the translation feature using the starter code, including CI with unit and mock tests.
+
 
 
 To receive full credit for the final deadline, we expect:
-- [ ] A functional integration of the UI code into your NodeBB application.
-- [ ] A preliminary implementation of the translation feature using the starter code, including CI with unit and mock tests.
+
 - [ ] An integrated deployment of your NodeBB and the translation service on Azure.
 - [ ] A functional translation feature, as described in your design document, integrated into your NodeBB application and deployed on Azure.
 - [ ] An uploaded PDF report discussing your evaluation findings addressing all the sections outlined above
