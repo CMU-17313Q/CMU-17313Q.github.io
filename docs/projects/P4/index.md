@@ -119,14 +119,14 @@ You should download and submit a .ipynb copy of your Colab notebook (with output
 
 For this task, you are expected to have successfully integrated the provided UI code into your project. Additionally, you must implement and deploy a server-side functionality that returns a hardcoded response. This step is crucial to ensure you are on track. We have provided some initial code on [this repo](https://github.com/CMU-17313Q/translator-service/tree/f24).
 
-Furthermore, your server-side code must include unit and mock tests. To accomplish this, you must copy the tests you wrote in the notebook to the repo and integrate them into the CI pipeline.
-
 ## Final Deliverables
 
 ### Final LLM Experiment Implementation (30 points)
 
 The final step is to implement this LLM feature into your team's NodeBB project. Your implementation should include the UI code you integrated in Checkpoint #2. You should also integrate the code you developed as a part of the LLM experiment, but you may modify it as needed to successfully integrate the functionality into your code.
 **Because this is the last Project to use NodeBB, commit to your repo, and we will grade your final repository state**  Reach out to your TA if you have any questions.
+
+Furthermore, your server-side code must include unit and mock tests. To accomplish this, you must copy the tests you wrote in the notebook to the repo and integrate them into the CI pipeline.
 
 ### Evaluation Report (30 points)
 
