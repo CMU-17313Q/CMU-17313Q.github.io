@@ -5,11 +5,11 @@ lectures:
 
 projects:
 - date: Tue Nov 12
-  deadline: Due Sun November 17 @ 11:59pm
-  end_date: 2024-11-18 00:00:00
+  deadline: Due Monday November 18 @ 11:59pm
+  end_date: 2024-11-19 00:00:00
   link: /projects/P4
   name: 'Project 4B: Final Deliverables'
-  numDays: 4
+  numDays: 5
 
 recitation: null
 
