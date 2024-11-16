@@ -1,4 +1,10 @@
-lectures: []
+lectures:
+- date: Sun Nov 17
+  link: ''
+  name: Open Source
+  reading:
+    link: readings/R11
+    name: Revolution OS
 
 projects:
 - date: Tue Nov 12
