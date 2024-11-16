@@ -1,7 +1,4 @@
-lectures:
-- date: Thu Nov 14
-  link: ''
-  name: NO CLASS (Day for Community Engagement)
+lectures: []
 
 projects:
 - date: Tue Nov 12
@@ -11,7 +8,12 @@ projects:
   name: 'Project 4B: Final Deliverables'
   numDays: 5
 
-recitation: null
+recitation:
+  date: Thu Nov 21
+  handout: ''
+  name: Recitation 10
+  quiz: ''
+  slides: ''
 
 teamsurvey:
   closedate: Sun Nov 17
