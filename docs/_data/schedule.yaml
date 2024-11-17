@@ -906,8 +906,8 @@
     name: ""
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: "assets/pdfs/18-SE for ML 1.pdf"
+    name: 'Software Engineering for ML Applications (I)'
   reading:
     link: ''
     name: ''
@@ -949,7 +949,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Recitation 8: Feedback workshop'
     quiz: ''
     slides: ''
 
@@ -979,13 +979,13 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'NO CLASS (Break)'
   reading:
     link: ''
     name: ''
   recitation:
     handout: ''
-    name: 'Recitation 9'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -996,8 +996,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ""
-    name: ''
+    link: "assets/pdfs/19-SE for ML 2.pdf"
+    name: 'Software Engineering for ML Applications (II)'
   reading:
     link: ''
     name: ''
@@ -1039,7 +1039,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Recitation 9: Action Plan'
     quiz: ''
     slides: ''
 
