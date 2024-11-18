@@ -1027,7 +1027,7 @@
 
 - date: Tue Nov 12
   homework:
-    deadline: "Due Monday November 18 @ 11:59pm"
+    deadline: "Due <strike>Monday November 18 @ 11:59pm</strike>Tuesday November 19 @ 4pm"
     link: "/projects/P4"
     name: "Project 4B: Final Deliverables"
     numDays: 5
