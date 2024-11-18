@@ -1117,10 +1117,10 @@
 
 - date: Tue Nov 19
   homework:
-    deadline: ""
-    link: ""
-    name: ""
-    numDays: 0
+    deadline: "Due Sunday November 24 @ 11:59pm"
+    link: "/projects/P5"
+    name: "Project 5A: Task Selection"
+    numDays: 4
   lecture:
     link: ''
     name: ''
@@ -1171,10 +1171,10 @@
 
 - date: Sun Nov 24
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 5
   lecture:
     link: ''
     name: ''
@@ -1189,10 +1189,10 @@
 
 - date: Mon Nov 25
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: "Due Thursday November 28 @ 11:59pm"
+    link: "/projects/P5"
+    name: "Project 5A: Checkpoint Presentation"
+    numDays: 4
   lecture:
     link: ''
     name: ''
@@ -1261,10 +1261,10 @@
 
 - date: Sun Dec 01
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: "Due Thursday December 12 @ 11:59pm"
+    link: "/projects/P5"
+    name: "Project 5B&5C: Final Presentation & Reflection"
+    numDays: 10
   lecture:
     link: ''
     name: ''

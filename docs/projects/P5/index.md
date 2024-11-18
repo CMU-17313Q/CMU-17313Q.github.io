@@ -14,31 +14,32 @@
 
 ## Project Description
 
-Your high-level goal is to produce and submit a non-trivial modification or extension to an open-source project in a way that maximizes the chances that the project maintainers accept it.
+Your high-level goal is to produce and submit a non-trivial modification or extension to an open-source project in a way that maximizes the chances that the project maintainers accept it. In past semesters, we've had teams merge code into popular open source projects like CPython, Pandas, and MyPy - see our [Hall of Fame](/hall-of-fame) for details.
 
 If you demonstrate to us that your change has been accepted and integrated into the project’s code base, you will get **20 bonus points**. Your team will select an open source project, select a change to implement, actually contribute to the project, and present your insights to the class. You will individually reflect on your teamwork and open source experience.
 
 ## Deliverables and Deadlines
-This will is your final project with your group. There are 3 deadlines for this project. The project is worth a total of 320 points (~18% of your final grade).
+This will is your final project with your group. There are 3 deadlines for this project. The project is worth a total of 400 points (~24% of your final grade). 
 
-A) [**Project & Task Selection**](/projects/P5/1_projectcheck) – 80 points – due Tuesday, November 21st, 11:59pm
+A) [**Project & Task Selection**](1_projectcheck.md) – 80 points – due Sunday, November 24th, 11:59pm
 
-- Check-In Presentation (80 pts) - **Held on Tuesday, November 21st**
+- Project selection - **due Sunday, November 24th**
+- Check-In Presentation (slides + recording) (80 pts) - **due Thursday November 28th**
 
-B) [**Project Final Report & Presentations**](/projects/P5/2_projectfinal) – 220 points – due Wednesday, December 6th, 11:59pm
+B) [**Project Final Report & Presentations**](2_projectfinal.md) – 300 points – due Thursday, December 12th, 11:59pm
 
-- Project Report (120 pts)
+- Project Report (200 pts) 
 - *Extra Credit (20 pts)*
-- Project Presentation (100 points) - **Held during exam timeslot on Thursday, December 7th, 8:30am - 11:30am**
+- Project Presentation (100 points) - **Held during exam timeslot on Thursday, December 12th, 2:30-5:30 pm**
 
-C) [**Individual Reflections**](/projects/P5/2_projectfinal) – 20 points – due Thursday, December 7th, 11:59pm
+C) [**Individual Reflections**](2_projectfinal.md) – 20 points – due Thursday, December 12th, 2:30-5:30 pm
 
 - Reflections & Peer Review (20 pts)
 
 !!! tip
 
-    **This is a large assignment spanning from now until your final exam timeslot.** We estimate that this project will take each student on the team on average 8-10 hours/week over the next 3 weeks, for a total of 30 hours. We **highly recommend** reading through the entire assignment before starting so you are aware of our expectations for the later deliverables.
-
+    **This is a large assignment spanning from now until your final exam timeslot.** We estimate that this project will take each student on the team on average 8 hours/week over the next 4 weeks. We **highly recommend** reading through the entire assignment before starting so you are aware of our expectations for the later deliverables.
+    
     To manage all of the write-ups, we recommend saving the pages as a PDF to print or annotate on as you work through the assignment with your team.
 
 !!! attention "Contributions"
