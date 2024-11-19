@@ -15,11 +15,11 @@ projects:
   numDays: 4
 
 recitation:
-  date: Thu Nov 21
-  handout: ''
-  name: Recitation 10
-  quiz: ''
-  slides: ''
+  date: Tue Nov 19
+  handout: /recitations/reci10-open-source
+  name: 'Recitation 10: OSP Scavenger Hunt'
+  quiz: https://www.gradescope.com/courses/837681/assignments/4799177/
+  slides: https://docs.google.com/presentation/d/1qWXfHNSFF6vqye_8FWU_GHY0DxlhPBVBE4QCmkbspa8/edit?usp=sharing
 
 teamsurvey:
   closedate: Sun Nov 24
