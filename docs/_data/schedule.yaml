@@ -950,8 +950,8 @@
   recitation:
     handout: ''
     name: 'Recitation 8: Feedback workshop'
-    quiz: ''
-    slides: ''
+    quiz: 'https://www.gradescope.com/courses/837681/assignments/5271853/'
+    slides: 'https://docs.google.com/presentation/d/1pLe3b_uhRKQkG1doE6YPvUYNDDRYzG3xDYTBlLCl3OU/edit?usp=sharing'
 
 - date: Wed Nov 06
   homework:
@@ -1040,8 +1040,8 @@
   recitation:
     handout: ''
     name: 'Recitation 9: Action Plan'
-    quiz: ''
-    slides: ''
+    quiz: 'https://www.gradescope.com/courses/837681/assignments/5271189'
+    slides: 'https://docs.google.com/presentation/d/1fGztnFkEHckZxhsEWyKKoqfpB6f0QeY2ooCa15k6VAI/edit?usp=sharing'
 
 - date: Wed Nov 13
   homework:
@@ -1128,10 +1128,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
+    handout: '/recitations/reci10-open-source'
+    name: 'Recitation 10: OSP Scavenger Hunt'
+    quiz: 'https://www.gradescope.com/courses/837681/assignments/4799177/'
+    slides: 'https://docs.google.com/presentation/d/1qWXfHNSFF6vqye_8FWU_GHY0DxlhPBVBE4QCmkbspa8/edit?usp=sharing'
 
 - date: Wed Nov 20
   homework:
@@ -1165,7 +1165,7 @@
     name: ''
   recitation:
     handout: ''
-    name: 'Recitation 10'
+    name: ''
     quiz: ''
     slides: ''
 
