@@ -1,10 +1,13 @@
 lectures:
 - date: Sun Nov 17
-  link: ''
+  link: assets/pdfs/20-Open Source.pdf
   name: Open Source
   reading:
     link: readings/R11
     name: Revolution OS
+- date: Thu Nov 21
+  link: assets/pdfs/21-Licenses and Dependencies.pdf
+  name: Licenses and Dependencies
 
 projects:
 - date: Tue Nov 19
