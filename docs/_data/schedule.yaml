@@ -1086,7 +1086,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/20-Open Source.pdf'
     name: 'Open Source'
   reading:
     link: 'readings/R11'
@@ -1158,8 +1158,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: 'assets/pdfs/21-Licenses and Dependencies.pdf'
+    name: 'Licenses and Dependencies'
   reading:
     link: ''
     name: ''
