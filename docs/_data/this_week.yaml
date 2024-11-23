@@ -1,13 +1,7 @@
 lectures:
-- date: Sun Nov 17
-  link: assets/pdfs/20-Open Source.pdf
-  name: Open Source
-  reading:
-    link: readings/R11
-    name: Revolution OS
-- date: Thu Nov 21
-  link: assets/pdfs/21-Licenses and Dependencies.pdf
-  name: Licenses and Dependencies
+- date: Tue Nov 26
+  link: ''
+  name: Midterm 2
 
 projects:
 - date: Tue Nov 19
@@ -16,13 +10,19 @@ projects:
   link: /projects/P5
   name: 'Project 5A: Task Selection'
   numDays: 4
+- date: Mon Nov 25
+  deadline: Due Thursday November 28 @ 11:59pm
+  end_date: 2024-11-29 00:00:00
+  link: /projects/P5
+  name: 'Project 5A: Checkpoint Presentation'
+  numDays: 4
 
 recitation:
-  date: Tue Nov 19
-  handout: /recitations/reci10-open-source
-  name: 'Recitation 10: OSP Scavenger Hunt'
-  quiz: https://www.gradescope.com/courses/837681/assignments/4799177/
-  slides: https://docs.google.com/presentation/d/1qWXfHNSFF6vqye_8FWU_GHY0DxlhPBVBE4QCmkbspa8/edit?usp=sharing
+  date: Thu Nov 28
+  handout: ''
+  name: Recitation 11
+  quiz: ''
+  slides: ''
 
 teamsurvey:
   closedate: Sun Nov 24
