@@ -1215,8 +1215,8 @@
     link: ''
     name: 'Midterm 2'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/midterm2-instructions'
+    name: 'Instructions and Sample Questions'
   recitation:
     handout: ''
     name: ''
