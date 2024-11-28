@@ -4,7 +4,7 @@
 
 **Project & Task Selection** – 80 points
 
-- [Project Selectiion](#open-source-project-selection) - enter project name and URL in the spreadsheet by  Sunday, November 24th 11:59 pm
+- [Project Selection](#open-source-project-selection) - enter project name and URL in the spreadsheet by  Sunday, November 24th 11:59 pm
 - [Task Selection Checkpoint Presentation](#checkpoint-presentation-80-pts) – slides and video recording due Thursday, November 28th, 11:59pm
 
 
