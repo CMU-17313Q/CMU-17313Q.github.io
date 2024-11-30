@@ -1,17 +1,17 @@
-lectures:
-- date: Tue Nov 26
-  link: ''
-  name: Midterm 2
-  reading:
-    link: readings/midterm2-instructions
-    name: Instructions and Sample Questions
+lectures: []
 
-projects: []
+projects:
+- date: Sun Dec 01
+  deadline: Due Thursday December 12 @ 11:59pm
+  end_date: 2024-12-13 00:00:00
+  link: /projects/P5
+  name: 'Project 5B&5C: Final Presentation & Reflection'
+  numDays: 10
 
 recitation:
-  date: Thu Nov 28
+  date: Thu Dec 05
   handout: ''
-  name: Recitation 11
+  name: No Recitation
   quiz: ''
   slides: ''
 
