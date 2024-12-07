@@ -8,12 +8,7 @@ projects:
   name: 'Project 5B&5C: Final Presentation & Reflection'
   numDays: 10
 
-recitation:
-  date: Thu Dec 05
-  handout: ''
-  name: No Recitation
-  quiz: ''
-  slides: ''
+recitation: null
 
 teamsurvey:
   closedate: Thu Dec 12
