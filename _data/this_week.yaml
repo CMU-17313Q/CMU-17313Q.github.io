@@ -1,0 +1,18 @@
+lectures: []
+
+projects:
+- date: Sun Dec 01
+  deadline: Due Thursday December 12 @ 11:59pm
+  end_date: 2024-12-13 00:00:00
+  link: /projects/P5
+  name: 'Project 5B&5C: Final Presentation & Reflection'
+  numDays: 10
+
+recitation: null
+
+teamsurvey:
+  closedate: Thu Dec 12
+  deadline: Thu Dec 12 @ 11:59pm
+  link: https://forms.gle/Gqr1KTvkHZfLFdJx5
+  name: Final Team Survey 12 (Dec 1 -  Dec 12)
+  opendate: Thu Dec 5
