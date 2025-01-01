@@ -4,4 +4,9 @@ projects: []
 
 recitation: null
 
-teamsurvey: null
+teamsurvey:
+  closedate: Sun Oct 6
+  deadline: Sun Oct 6 @ 11:59pm
+  link: ''
+  name: Team Survey 4 (Sep 29 -  Oct 5)
+  opendate: Thu Oct 3
