@@ -1176,8 +1176,8 @@
     name: ""
     numDays: 5
   lecture:
-    link: ''
-    name: ''
+    link: ''assets/pdfs/22-Ethics.pdf''
+    name: 'Ethics'
   reading:
     link: ''
     name: ''
@@ -1248,14 +1248,14 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: ''assets/pdfs/22-Ethics.pdf''
+    name: 'Ethics'
   reading:
     link: ''
     name: ''
   recitation:
     handout: ''
-    name: 'Recitation 11'
+    name: ''
     quiz: ''
     slides: ''
 
@@ -1266,8 +1266,8 @@
     name: "Project 5B&5C: Final Presentation & Reflection"
     numDays: 10
   lecture:
-    link: ''
-    name: ''
+    link: 'assets/pdfs/24-Security and Privacy.pdf''
+    name: 'Security and Privacy'
   reading:
     link: ''
     name: ''
@@ -1302,8 +1302,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: 'assets/pdfs/24-Security and Privacy.pdf''
+    name: 'Security and Privacy'
   reading:
     link: ''
     name: ''
@@ -1338,8 +1338,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: '''
+    name: 'Semester Review'
   reading:
     link: ''
     name: ''
