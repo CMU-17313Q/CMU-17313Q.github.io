@@ -1,33 +1,24 @@
-lectures:
-- date: 
-  link: 
-  name: 
-- date: 
-  link: 
-  name: 
-  reading:
-    link: 
-    name: 
+lectures: []
 
 projects:
-- date: 
-  deadline: 
-  end_date: 
-  homework: 
-  link: 
-  name: ''
-  numDays: 0
+- date: Sun Aug 24
+  deadline: Due Sun Aug 31 @ 11:59pm
+  end_date: 2025-09-01 00:00:00
+  homework: null
+  link: /projects/P1
+  name: 'Project 1A: Build Checkpoint'
+  numDays: 6
 
 recitation:
-  date: 
-  handout: 
-  name: ''
-  quiz: 
-  slides: 
+  date: Sun Aug 24
+  handout: /recitations/rec0-nodebb
+  name: 'Recitation 0: NodeBB'
+  quiz: ''
+  slides: ''
 
 teamsurvey:
-  closedate: 
-  deadline: 
+  closedate: Sun Oct 6
+  deadline: Sun Oct 6 @ 11:59pm
   link: ''
-  name: 
-  opendate: 
+  name: Team Survey 4 (Sep 29 -  Oct 5)
+  opendate: Thu Oct 3
