@@ -15,7 +15,7 @@ The primary form of communication within this course is through Slack. We will m
 
 The instructor, TA, and CAs will also hold weekly office hours to provide support with course materials and projects. You can find the office hours schedule updated weekly here on the course website.
 
-You can contact the course staff via both Slack and email. Your team will also have assigned CAs as your primary point of contact for additional support with assignment or recitation-related questions. When contacting instructors or your designated CAs, please email/message the instructor, TA, and designated CA at the same time.
+You can contact the course staff via both [Slack](https://join.slack.com/t/17-313f25/shared_invite/zt-3boqyw4dx-R6S_Q281BCkxRX9jBjOYRg) and email. Your team will also have assigned CAs as your primary point of contact for additional support with assignment or recitation-related questions. When contacting instructors or your designated CAs, please email/message the instructor, TA, and designated CA at the same time.
 
 ## Teamwork
 Teamwork is an essential part of this course. Most projects are done in teams of 3-5 students. Teams will be assigned by the instructors and stay together for multiple projects. Most projects have a component that is graded for the entire group and a component that is graded individually.
