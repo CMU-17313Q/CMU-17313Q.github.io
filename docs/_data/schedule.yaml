@@ -12,8 +12,8 @@
     link: ''
     name: ''
   recitation:
-    handout: '/recitations/rec0-nodebb'
-    name: 'Recitation 0: NodeBB'
+    handout: '/recitations/rec1-nodebb'
+    name: 'Recitation 1: NodeBB'
     quiz: ''
     slides: ''
 
