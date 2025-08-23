@@ -13,7 +13,7 @@ In this course, we will be building on a piece of open source software, [NodeBB]
 
 We  will be using NodeBB for the majority of the semester, and we want to start by having you become familiar with the software.
 
-You can find an instance of the software deployed at: [Class NodeBB](http://nodebb-cmuq.eastus2.cloudapp.azure.com/)
+You can find an instance of the software deployed at: [Class NodeBB](http://nodebb-313.eastus2.cloudapp.azure.com/)
 
 !!! warning "Unsecured Website"
     You might see a security warning from your browser when accessing the class NodeBB, since it uses an HTTP (unsecured) connection rather than HTTPS. You can safely
