@@ -1,10 +1,10 @@
 - date: Sun Aug 24
   homework:
     homework:
-    deadline: "Due Sun Aug 31 @ 11:59pm"
-    link: "/projects/P1"
-    name: "Project 1A: Build Checkpoint"
-    numDays: 6
+    deadline: ""
+    link: ""
+    name: ""
+    numDays: 0
   lecture:
     link: ""
     name: ''
