@@ -1,13 +1,6 @@
 lectures: []
 
-projects:
-- date: Sun Aug 24
-  deadline: Due Sun Aug 31 @ 11:59pm
-  end_date: 2025-09-01 00:00:00
-  homework: null
-  link: /projects/P1
-  name: 'Project 1A: Build Checkpoint'
-  numDays: 6
+projects: []
 
 recitation:
   date: Sun Aug 24
@@ -17,8 +10,8 @@ recitation:
   slides: ''
 
 teamsurvey:
-  closedate: Sun Oct 6
-  deadline: Sun Oct 6 @ 11:59pm
+  closedate: Tue Sep 16
+  deadline: Tue Sep 16 @ 11:59pm
   link: ''
-  name: Team Survey 4 (Sep 29 -  Oct 5)
-  opendate: Thu Oct 3
+  name: Team Survey 1 (Sep 7 -  Sep 11)
+  opendate: Wed Sep 10
