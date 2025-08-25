@@ -1,4 +1,13 @@
-lectures: []
+lectures:
+- date: Mon Aug 25
+  link: assets/pdfs/01-Intro.pdf
+  name: Intro
+- date: Wed Aug 27
+  link: ''
+  name: Software Archeology and Anthropology
+  reading:
+    link: readings/R1
+    name: Software Archaeology
 
 projects:
 - date: Sun Aug 24
