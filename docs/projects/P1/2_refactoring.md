@@ -24,8 +24,7 @@ Your task is to remove one or more Qlty-reported issues by refactoring code and 
 Before jumping into the codebase, please review the [course syllabus](/syllabus) and be sure you have access to each of the following:
 
 - [Course Slack](https://join.slack.com/t/17-313f25/shared_invite/zt-3boqyw4dx-R6S_Q281BCkxRX9jBjOYRg) -
-- [Canvas]()
-- [Gradescope]()
+- [Gradescope](https://www.gradescope.com/courses/1096661)
 
 If you run into any trouble accessing the above or have any questions, reach out to the instructors.
 
@@ -75,7 +74,7 @@ qlty smells public/src/path/to/file.js
 
 ### GitHub Issue (20 pts)
 
-First, choose a single Qlty-reported “smell” in a JavaScript file and open a GitHub issue in the [class repository](https://github.com/CMU-313/NodeBB/issues) to declare which file and issue you will be working on.
+First, choose a single Qlty-reported “smell” in a JavaScript file and open a GitHub issue in the [class repository](https://github.com/CMU-17313Q/NodeBB/issues) to declare which file and issue you will be working on.
 
 For the task, the file must:
 
