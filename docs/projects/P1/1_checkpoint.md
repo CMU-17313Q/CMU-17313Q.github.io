@@ -8,7 +8,7 @@
 
 ### Repository Setup
 
-Fork the [class-specific repository]() into your personal GitHub account.
+Fork the [class-specific repository](https://github.com/CMU-17313Q/NodeBB) into your personal GitHub account.
 After forking, ensure **GitHub Actions** are enabled for your fork by clicking the green button under the **Actions** tab.
 
 !!! warning
