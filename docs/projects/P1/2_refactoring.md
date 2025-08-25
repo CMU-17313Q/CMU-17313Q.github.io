@@ -2,7 +2,7 @@
 
 ## Deliverables
 
-Starter Task - 95 points - due Sunday, August 31st, 11:59PM
+Starter Task - 95 points - due Sunday, September 7th, 11:59PM
 
 - [GitHub Issue](#github-issue-20-pts) (20 pts)
 - [Code Refactoring and Validation](#code-refactoring-and-validation-10-pts) (10 pts)
