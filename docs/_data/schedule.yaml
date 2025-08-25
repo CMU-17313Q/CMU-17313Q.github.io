@@ -23,8 +23,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: "assets/pdfs/01-Intro.pdf"
+    name: 'Intro'
   reading:
     link: ''
     name: ''
@@ -44,8 +44,8 @@
     link: ""
     name: ''
   reading:
-    link: "readings/R1"
-    name: 'Software Archaeology'
+    link: ""
+    name: ''
   recitation:
     handout: ''
     name: ''
@@ -60,10 +60,10 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Software Archeology and Anthropology'
   reading:
-    link: ''
-    name: ''
+    link: "readings/R1"
+    name: 'Software Archaeology'
   recitation:
     handout: ''
     name: ''
