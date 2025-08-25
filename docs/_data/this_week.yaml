@@ -1,6 +1,12 @@
 lectures: []
 
-projects: []
+projects:
+- date: Sun Aug 24
+  deadline: Due Sun Sep 1 @ 11:59pm
+  end_date: 2025-09-01 00:00:00
+  link: /projects/P1
+  name: 'Project 1A: Build Checkpoint'
+  numDays: 6
 
 recitation:
   date: Sun Aug 24
