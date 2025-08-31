@@ -1,6 +1,6 @@
 - date: Sun Aug 24
   homework:
-    deadline: "Due Sun Sep 1 @ 11:59pm"
+    deadline: "Due Sun Aug 31 @ 11:59pm"
     link: "/projects/P1"
     name: "Project 1A: Build Checkpoint"
     numDays: 6
@@ -23,8 +23,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: "assets/pdfs/01-Intro.pdf"
+    name: 'Intro'
   reading:
     link: ''
     name: ''
@@ -60,10 +60,10 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Software Archeology and Anthropology'
   reading:
-    link: ''
-    name: ''
+    link: "readings/R1"
+    name: 'Software Archaeology'
   recitation:
     handout: ''
     name: ''
@@ -102,22 +102,22 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Recitation 2: Intro to Git'
     quiz: ''
     slides: ''
 
 - date: Mon Sep 01
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: "Due Sun Sept 7th @ 11:59pm"
+    link: "/projects/P1"
+    name: "Project 1B: Starter Task"
+    numDays: 5
   lecture:
     link: ''
-    name: ''
+    name: 'Metrics and Measurement'
   reading:
-    link: ''
-    name: ''
+    link: "readings/R2"
+    name: 'Metrics and Measurement'
   recitation:
     handout: ''
     name: ''
@@ -150,10 +150,10 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Case Study 737MAX'
   reading:
-    link: ''
-    name: ''
+    link: "readings/R3"
+    name: 'Boeing 737 MAX'
   recitation:
     handout: ''
     name: ''
@@ -192,22 +192,22 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Recitation 3: Team Contracts'
     quiz: ''
     slides: ''
 
 - date: Mon Sep 08
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: "Due Sun Sept 16th @ 11:59pm"
+    link: ""
+    name: "Project 2A"
+    numDays: 7
   lecture:
     link: ''
-    name: ''
+    name: 'Process & Planning'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R4'
+    name: 'The Toyota Production System'
   recitation:
     handout: ''
     name: ''
@@ -240,10 +240,10 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Teams and Communication'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R5'
+    name: 'How to Work Well on Teams'
   recitation:
     handout: ''
     name: ''
@@ -324,16 +324,16 @@
 
 - date: Wed Sep 17
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: "Due Sun Sept 28th @ 11:59pm"
+    link: ""
+    name: "Project 2B"
+    numDays: 8
   lecture:
     link: ''
-    name: ''
+    name: 'Architecture: Intro and Overview'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R6'
+    name: 'Who needs an architect?'
   recitation:
     handout: ''
     name: ''
@@ -372,7 +372,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Recitation 4: TBD'
     quiz: ''
     slides: ''
 
@@ -384,7 +384,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Architecture: Design Docs'
   reading:
     link: ''
     name: ''
@@ -420,10 +420,10 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Architecture: Microservices'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R7'
+    name: 'Microservices'
   recitation:
     handout: ''
     name: ''
@@ -462,22 +462,22 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'P2B Checkpoint Presentations'
     quiz: ''
     slides: ''
 
 - date: Mon Sep 29
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: "Due Sun Oct 9th @ 11:59pm"
+    link: ""
+    name: "Project 2C"
+    numDays: 9
   lecture:
     link: ''
-    name: ''
+    name: 'Software Risk'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R8'
+    name: 'How to Code Review like a Human'
   recitation:
     handout: ''
     name: ''
@@ -510,7 +510,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'QA: Static Analysis'
   reading:
     link: ''
     name: ''
@@ -552,7 +552,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Recitation 5: Midterm 1 Review'
     quiz: ''
     slides: ''
 
@@ -564,7 +564,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'QA: Dynamic Analysis Tools'
   reading:
     link: ''
     name: ''
@@ -600,10 +600,10 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'MIDTERM 1'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/midterm1-instructions'
+    name: 'Instructions & Past Exams'
   recitation:
     handout: ''
     name: ''
@@ -654,7 +654,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'NO CLASS (Fall Break)'
   reading:
     link: ''
     name: ''
@@ -690,7 +690,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'NO CLASS (Fall Break)'
   reading:
     link: ''
     name: ''
@@ -720,10 +720,10 @@
 
 - date: Sun Oct 19
   homework:
-    deadline: ""
+    deadline: "Due Sun Oct 26th @ 11:59pm"
     link: ""
-    name: ""
-    numDays: 0
+    name: "Project 3A"
+    numDays: 6
   lecture:
     link: ''
     name: ''
@@ -732,7 +732,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Recitation 6: Extreme Startup'
     quiz: ''
     slides: ''
 
@@ -744,7 +744,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'CI + Cloud Computing'
   reading:
     link: ''
     name: ''
@@ -780,7 +780,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Continuous Deployment'
   reading:
     link: ''
     name: ''
@@ -822,22 +822,22 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Recitation 7: LLMs'
     quiz: ''
     slides: ''
 
 - date: Mon Oct 27
   homework:
-    deadline: ""
+    deadline: "Due Sun Nov 2nd @ 11:59pm"
     link: ""
-    name: ""
-    numDays: 0
+    name: "Project 3B"
+    numDays: 5
   lecture:
     link: ''
-    name: ''
+    name: 'Software Quality'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R9'
+    name: 'Technical Debt'
   recitation:
     handout: ''
     name: ''
@@ -870,7 +870,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Software Testing - Technical Debt'
   reading:
     link: ''
     name: ''
@@ -912,22 +912,22 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Recitation 8: Feedback'
     quiz: ''
     slides: ''
 
 - date: Mon Nov 03
   homework:
-    deadline: ""
+    deadline: "Due Sun Nov 9th @ 11:59pm"
     link: ""
-    name: ""
-    numDays: 0
+    name: "Project 4A"
+    numDays: 5
   lecture:
     link: ''
-    name: ''
+    name: 'ML for Software Engineers'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R10'
+    name: 'Intro to LLMs'
   recitation:
     handout: ''
     name: ''
@@ -960,7 +960,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'SE for ML Applications 1'
   reading:
     link: ''
     name: ''
@@ -1002,19 +1002,19 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Recitation 9: Action Plan'
     quiz: ''
     slides: ''
 
 - date: Mon Nov 10
   homework:
-    deadline: ""
+    deadline: "Due Sun Nov 16th @ 11:59pm"
     link: ""
-    name: ""
-    numDays: 0
+    name: "Project 4B"
+    numDays: 5
   lecture:
     link: ''
-    name: ''
+    name: 'SE for ML Applications 2'
   reading:
     link: ''
     name: ''
@@ -1092,22 +1092,22 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Recitation 10: OSP'
     quiz: ''
     slides: ''
 
 - date: Mon Nov 17
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: "Due Sun Nov 23rd @ 11:59pm"
+    link: ""
+    name: "Project 5A"
+    numDays: 5
   lecture:
     link: ''
-    name: ''
+    name: 'Open-Source Software'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R10'
+    name: 'Revolution OS'
   recitation:
     handout: ''
     name: ''
@@ -1140,7 +1140,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Dependencies + Patents'
   reading:
     link: ''
     name: ''
@@ -1182,19 +1182,19 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'P5A Checkpoint Presentation'
     quiz: ''
     slides: ''
 
 - date: Mon Nov 24
   homework:
-    deadline: ""
+    deadline: "Due Sun Dec 4th @ 11:59pm"
     link: ""
-    name: ""
-    numDays: 0
+    name: "Project 5B"
+    numDays: 9
   lecture:
     link: ''
-    name: ''
+    name: 'Ethics'
   reading:
     link: ''
     name: ''
@@ -1230,7 +1230,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Security + Privacy'
   reading:
     link: ''
     name: ''
@@ -1272,7 +1272,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'Recitation 11: Midterm 2 Review'
     quiz: ''
     slides: ''
 
@@ -1284,10 +1284,10 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'MIDTERM 2'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/midterm2-instructions'
+    name: 'Instructions & Past Exams'
   recitation:
     handout: ''
     name: ''
@@ -1320,7 +1320,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Guest Lecture'
   reading:
     link: ''
     name: ''

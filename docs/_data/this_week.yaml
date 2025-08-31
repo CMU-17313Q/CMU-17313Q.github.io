@@ -1,11 +1,35 @@
-lectures: []
+lectures:
+- date: Mon Sep 01
+  link: ''
+  name: Metrics and Measurement
+  reading:
+    link: readings/R2
+    name: Metrics and Measurement
+- date: Wed Sep 03
+  link: ''
+  name: Case Study 737MAX
+  reading:
+    link: readings/R3
+    name: Boeing 737 MAX
 
-projects: []
+projects:
+- date: Sun Aug 24
+  deadline: Due Sun Aug 31 @ 11:59pm
+  end_date: 2025-09-01 00:00:00
+  link: /projects/P1
+  name: 'Project 1A: Build Checkpoint'
+  numDays: 6
+- date: Mon Sep 01
+  deadline: Due Sun Sept 7th @ 11:59pm
+  end_date: 2025-09-08 00:00:00
+  link: /projects/P1
+  name: 'Project 1B: Starter Task'
+  numDays: 5
 
 recitation:
-  date: Sun Aug 24
-  handout: /recitations/rec1-nodebb
-  name: 'Recitation 1: NodeBB'
+  date: Thu Sep 04
+  handout: ''
+  name: ' '
   quiz: ''
   slides: ''
 
