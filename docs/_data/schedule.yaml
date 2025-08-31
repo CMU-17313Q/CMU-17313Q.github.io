@@ -101,10 +101,10 @@
     link: ""
     name: ''
   recitation:
-    handout: ''
+    handout: '/recitations/reci2-github'
     name: 'Recitation 2: Intro to Git'
-    quiz: ''
-    slides: ''
+    quiz: 'https://www.gradescope.com/courses/1096661/assignments/6569784/'
+    slides: 'https://docs.google.com/presentation/d/1_T3hZphISBGZqXEEc_Nx92_YF-djVHv1/edit?usp=sharing&ouid=115732152274655493451&rtpof=true&sd=true'
 
 - date: Mon Sep 01
   homework:

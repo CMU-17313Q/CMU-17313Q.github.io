@@ -1,8 +1,8 @@
 ---
-title: Recitation 1 - Git Collaboration
+title: Recitation 2 - Git Collaboration
 ---
 
-# Recitation 1: Using Git & Github for Collaborative Development
+# Recitation 2: Using Git & Github for Collaborative Development
 
 ## Overview
 
