@@ -13,12 +13,6 @@ lectures:
     name: Boeing 737 MAX
 
 projects:
-- date: Sun Aug 24
-  deadline: Due Sun Aug 31 @ 11:59pm
-  end_date: 2025-09-01 00:00:00
-  link: /projects/P1
-  name: 'Project 1A: Build Checkpoint'
-  numDays: 6
 - date: Mon Sep 01
   deadline: Due Sun Sept 7th @ 11:59pm
   end_date: 2025-09-08 00:00:00
