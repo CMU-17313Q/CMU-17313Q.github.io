@@ -2,18 +2,19 @@
 
 ## Deliverables
 
-**First Sprint** – 95 points – due Thursday, September 26th, 11:59pm
+**First Sprint** – 95 points – due Sunday, September 28th, 11:59pm
 
-- [Process & Implementation Interim Snapshot](#process--implementation-interim-50-pts) (50 pts)
-- [Checkpoint Presentation](#checkpoint-presentation-45-pts) (45 pts) - **Held in Recitation on Thursday, September 26th**
+- [Process & Implementation Interim](#process-and-implementation-interim-50-pts) (50 pts)
+- [Checkpoint Presentation](#checkpoint-presentation-45-pts) (45 pts) - **Held in Recitation on Sunday, September 28th**
 
 
-## Process & Implementation Interim (50 pts)
+## Process and Implementation Interim (50 pts)
 
 Start by cloning the team repository and merging your individual changes from Project 1 into your team repository using proper git flow. Once everyone has properly set up the repository on their local machines and committed their changes, you can now start development.
 
+You should follow best practices for collaborative development such as using feature branches, pull requests, and code review. Individual changes should be committed to properly named branches for each core feature being implemented and make use of pull requests to merge changes together. 
 
-You should follow best practices for collaborative development such as using feature branches, pull requests, and code review. Individual changes should be committed to properly named branches for each core feature being implemented and make use of pull requests to merge changes together.
+A helpful resource for naming commits to practice best habits and make it easier for your teammates to review your code is [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/). Consider using this format to ensure your PRs have atomic, well named commits.
 
 Be sure to **review each other’s code** - both from a quality assurance standpoint, but also so you have a better understanding of the codebase. Although code reviews can be done asynchronously, we encourage the first few to be done synchronously so you can discuss the changes with your teammates and learn more about the codebase.
 
@@ -26,7 +27,7 @@ Submit a link to your repository and your Github Project board onto Gradescope. 
 
 ## Checkpoint Presentation (45 pts)
 
-During the Week 5 recitation slot (**Thursday September 26th**), your group will give a 8-minute presentation describing your current progress, followed by a short 1-2 minute Q&A session where you can get feedback from the CAs and your peers.
+During the Week 5 recitation slot (**Monday February 10th**), your group will give a 10-minute presentation describing your current progress, followed by a short 1-2 minute Q&A session where you can get feedback from the TAs and your peers.
 
 Your slides should include the following information (the recommended slides amount is in parentheses):
 
@@ -48,9 +49,9 @@ What are some current risks and/or questions that your team has after completing
 If you did not meet your development goals, you should outline what you plan to proactively change for this upcoming sprint.<br/>
 
 !!! note "A Note on Participation"
-    **Participation from all team members during the presentation is required.** If you are unable to attend in-person, send a Slack message to the course staff with justifications **at least 24 hours before the start of the recitation**. You will then be permitted to present by submitting a recording of your segment of the presentation, which your teammate will play during the presentation.
+    **Participation from all team members during the presentation is required.** If you are unable to attend in-person, send a Slack message to your recitation TAs with justifications **at least 24 hours before the start of your recitation**. You will then be permitted to present by submitting a recording of your segment of the presentation, which your teammate will play during the presentation.
 
-The presentation slides should be exported into a PDF and submitted to Gradescope by the Thursday deadline.
+The presentation slides should be exported into a PDF and submitted to Gradescope by the Tuesday deadline.
 
 
 ## Grading
@@ -65,7 +66,7 @@ To receive full credit for the implementation, we expect:
 
 To receive full credit for the presentation, we expect:
 
-- [ ] All team members to be present for the presentation (or have contacted the instructor ahead of time to request an absence) and to contribute towards presenting their team’s progress
+- [ ] All team members to be present for the presentation (or have contacted their TAs ahead of time to request an absence) and to contribute towards presenting their team’s progress
 - [ ] All of the material described above covered in the presentation
 - [ ] PDF Slides uploaded to Gradescope for grading & feedback
 
