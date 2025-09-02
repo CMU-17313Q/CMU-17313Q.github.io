@@ -285,7 +285,8 @@ Coming Soon!
             <div class="staffer-links">
                 <a href="mailto:{{instructor.email}}"><span class="material-symbols-outlined">
                     mail
-                </span></a>
+                </span></a><br />
+		Office hours <a href="https://calendar.app.google/Yp8YDXz2f5zJaBok7" style=""> by appointment </a><br />
                 {% if instructor.website %}
                 <a href="{{instructor.website}}" target="_blank"><span class="material-symbols-outlined">
                     public
