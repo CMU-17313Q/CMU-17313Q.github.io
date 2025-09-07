@@ -12,9 +12,12 @@
 
 Start by cloning the team repository and merging your individual changes from Project 1 into your team repository using proper git flow. Once everyone has properly set up the repository on their local machines and committed their changes, you can now start development.
 
-You should follow best practices for collaborative development such as using feature branches, pull requests, and code review. Individual changes should be committed to properly named branches for each core feature being implemented and make use of pull requests to merge changes together. 
+You should follow best practices for collaborative development such as using feature branches, pull requests, and code review. Individual changes should be committed to properly named branches for each core feature being implemented and make use of pull requests to merge changes together.
 
 A helpful resource for naming commits to practice best habits and make it easier for your teammates to review your code is [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/). Consider using this format to ensure your PRs have atomic, well named commits.
+
+!!! tip
+    We highly encourage taking a look at both [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) and this (REALLY USEFUL) [guide](https://docs.google.com/document/d/1KM_yAxJbqPvX-iQYx7Tkb5yA6Ehy7-nTvtV43idl9sI/edit?usp=sharing) for making good issues, commits and PRs.
 
 Be sure to **review each other’s code** - both from a quality assurance standpoint, but also so you have a better understanding of the codebase. Although code reviews can be done asynchronously, we encourage the first few to be done synchronously so you can discuss the changes with your teammates and learn more about the codebase.
 
@@ -27,7 +30,7 @@ Submit a link to your repository and your Github Project board onto Gradescope. 
 
 ## Checkpoint Presentation (45 pts)
 
-During the Week 5 recitation slot (**Monday February 10th**), your group will give a 10-minute presentation describing your current progress, followed by a short 1-2 minute Q&A session where you can get feedback from the TAs and your peers.
+During the Week 5 recitation slot (**Sunday September 28th**), your group will give a 10-minute presentation describing your current progress, followed by a short 1-2 minute Q&A session where you can get feedback from the TAs and your peers.
 
 Your slides should include the following information (the recommended slides amount is in parentheses):
 
