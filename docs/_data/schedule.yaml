@@ -149,7 +149,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'https://docs.google.com/presentation/d/1ViXTQFkQHmIEb390Pg1gm9uTtoGTevqSDH_JohNasbU/edit?usp=sharing'
     name: 'Case Study 737MAX'
   reading:
     link: "readings/R3"
