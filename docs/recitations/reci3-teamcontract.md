@@ -1,8 +1,8 @@
 ---
-title: Recitation 2 - Team Contract Workshop
+title: Recitation 3 - Team Contract Workshop
 ---
 
-# Recitation 2: Team Contract Workshop
+# Recitation 3: Team Contract Workshop
 
 ## Overview
 

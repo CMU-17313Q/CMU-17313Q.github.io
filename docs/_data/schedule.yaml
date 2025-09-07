@@ -191,15 +191,15 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
+    handout: '/recitations/reci3-teamcontract'
     name: 'Recitation 3: Team Contracts'
-    quiz: ''
-    slides: ''
+    quiz: 'https://www.gradescope.com/courses/1096661/assignments/6569740'
+    slides: 'https://docs.google.com/presentation/d/1jgZfBqM5XisPlEi__L5MnPs_vRO5mPeDiIYkidqZtf4/edit?usp=sharing'
 
 - date: Mon Sep 08
   homework:
     deadline: "Due Sun Sept 16th @ 11:59pm"
-    link: ""
+    link: "/projects/P2"
     name: "Project 2A"
     numDays: 7
   lecture:
@@ -325,7 +325,7 @@
 - date: Wed Sep 17
   homework:
     deadline: "Due Sun Sept 28th @ 11:59pm"
-    link: ""
+    link: "/projects/P2"
     name: "Project 2B"
     numDays: 8
   lecture:
@@ -469,7 +469,7 @@
 - date: Mon Sep 29
   homework:
     deadline: "Due Sun Oct 9th @ 11:59pm"
-    link: ""
+    link: "/projects/P2"
     name: "Project 2C"
     numDays: 9
   lecture:
