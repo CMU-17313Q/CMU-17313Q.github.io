@@ -16,28 +16,33 @@
 
 On the 17-313 Slack workspace, create a new **private** Slack channel that includes all your team members and the two TAs who are your team mentors (these are the same TAs that run your recitation — if you are unsure of who they are, ask in `#general`).
 
-Use this Slack channel to collectively decide on a **team name**. Your team name should be unique, pronounceable, short, and something you would be proud to shout in your team cheer on the streets of Pittsburgh in the presence of small, impressionable, multilingual children. Once you have a team name, rename your team Slack channel to `#team-<teamname>`.
+Use this Slack channel to collectively decide on a **team name**. Your team name should be unique, pronounceable, short, and something you would be proud to shout in your team cheer on the streets of Doha in the presence of small, impressionable, multilingual children. Once you have a team name, rename your team Slack channel to `#team-<teamname>`.
 
-You can use this Slack channel for subsequent project-team related discussions or specialized Q&A with your TA mentors for the rest of the semester.
+You can use this Slack channel for subsequent project-team related discussions or specialized Q&A with your CA mentors for the rest of the semester.
 
 ### GitHub Repository
 
 You will be working on your team repository for this project. Once you have decided on a team name, go to the link below to set up your team:
 
-[--]()
+[https://classroom.github.com/a/sDOyL0t5](https://classroom.github.com/a/sDOyL0t5)
 
 !!! warning
     After you join a team on GitHub, you cannot change teams! Make sure that **only one** of you creates the team, and make sure that the remaining teammates join the right team.
 
 Once you enter your team name, Github will automatically create a repository for your team. You should then create a **Github Project board** for your repository (you can follow the steps from the [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) or the note below).
 
+!!! tip
+    From previous semesters, this guide [GitHub Exercise](/projects/P1/github/#setting-up-a-project-board) gives more specifics on good issue writing, commit writing and PRs. TAs have created this more recent [guide](https://docs.google.com/document/d/1KM_yAxJbqPvX-iQYx7Tkb5yA6Ehy7-nTvtV43idl9sI/edit?usp=sharing) for making good PRs and commits.
+    
 !!! note "Setting up a Project Kanban Board and Creating Issues"
-    Project boards are a great way to track development. While there are lots of great external tools such as Trello or Jira, GitHub provides their own project boards for us to use with great integration support of their other features. To create a Project Kanban follow the steps below: 
+    Project boards are a great way to track development. While there are lots of great external tools such as Trello or Jira, GitHub provides their own project boards for us to use with great integration support of their other features. 
+    
+     To create a Project Kanban follow the steps below: 
 
-    - Create a project board by clicking on the Projects tab, and then "New project" under the "Link a project" drop down button. Use the "Board" template.
-    - Under the Issues tab, have a teammate create an issue for adding team member names to the README
-    - Assign yourself to the issue, and add the issues to the project Kanban board you just created under the "Todo" column using the "Projects" option(two fields below "Assignees")
-    - Share the Kanban/Project board with your team or make it public so they have access to it.
+  - Click on the Projects tab in your team repo, and then the "+ New project" button. This will create a new Project Kanban board directly linked to the team repo. Use the "Board" template.
+    - Share the Kanban/Project board with your team or make it public so they have access to it. (Even if they have access to the repo, they might not have access to the board initially. To manage access, click on the three dots in the top right and click on "Settings" and then "Manage access.")
+    - Have a team member add an issue for adding team member names to the README into the "Todo" column using the "+ Add item" button at the bottom of the column. OR under the Issues tab of the team repo, have a teammate create an issue and then link the issue to the Project Kanban board using the "Projects" field (two fields below "Assignees") on the right-hand side. Specify the status as "Todo."
+    - Assign yourself to the issue.
 
 
 You should use this team repository for all your development, and be sure to use good development practices, including keeping your commits cohesive and your commit messages informative. The same resources mentioned above provide more details on our guidelines.
@@ -88,7 +93,7 @@ When and how will your team meet? What modality would it be? <br/><br/>
 A strong recommendation would be to set up a recurring 1hr meeting blocked out for the rest of the semester, so that your team does not have to scramble to find a common meeting time each week. Teams that have recurring meetings are generally more successful in the class.<br/><br/>
 
 1. **Responsibilities**<br/>
-How will you divide responsibilities for each project? During meetings, who will be in charge of note taking, organizing & running those meetings? <br/><br/>
+How will you divide responsibilities for each project? During meetings, who will be in charge of note-taking, organizing & running those meetings? <br/><br/>
 From past courses, we noticed the natural emergence of a project manager in teams, who ensures the project moves towards completion. We highly suggest that you consider how your team would rotate that role amongst team members over the course of the remaining projects. Throughout the semester, we will ask for documentation of your meeting notes, so be sure to keep them organized (we recommend using a shared Drive folder).<br/><br/>
 
 1. **Equitable Contribution & Conflict Resolution**<br/>
@@ -100,7 +105,7 @@ Feel free to seek the assistance of TAs and instructors in drafting this documen
 !!! note
     We will ask you to reference, reflect upon, and refine this document throughout this semester, and we will evaluate your team's process strategies and interactions through what you outline in this contract. Please ensure that everyone on your team thoroughly discusses each of the above sections and agree with the final decisions.
 
-Once you have completed the contract itself, have all members sign and date the document as an indicator that all members have read the document and agreed to uphold all outlined items. Then, save the file as a PDF and upload it to Gradescope. Only one team member needs to make the submission; they can then add the rest of the teammates as group members for a group submission. 
+Once you have completed the contract itself, have all members sign and date the document as an indicator that all members have read the document and agreed to uphold all outlined items. Then, save the file as a PDF and upload it to Gradescope. **Only one team member needs to make the submission; they can then add the rest of the teammates as group members for a group submission**. 
 
 We also **highly recommend** that you [bookmark](https://slack.com/help/articles/205239997-Pin-messages-and-bookmark-links) the teamwork contract in your team’s Slack channel.
 
