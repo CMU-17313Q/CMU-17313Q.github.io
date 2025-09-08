@@ -13,12 +13,6 @@ lectures:
     name: How to Work Well on Teams
 
 projects:
-- date: Mon Sep 01
-  deadline: Due Sun Sept 7th @ 11:59pm
-  end_date: 2025-09-08 00:00:00
-  link: /projects/P1
-  name: 'Project 1B: Starter Task'
-  numDays: 5
 - date: Mon Sep 08
   deadline: Due Sun Sept 16th @ 11:59pm
   end_date: 2025-09-17 00:00:00
