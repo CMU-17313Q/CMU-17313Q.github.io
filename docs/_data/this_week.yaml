@@ -1,12 +1,12 @@
 lectures:
 - date: Mon Sep 08
-  link: ''
+  link: assets/pdfs/05-process.pdf
   name: Process & Planning
   reading:
     link: readings/R4
     name: The Toyota Production System
 - date: Wed Sep 10
-  link: ''
+  link: assets/pdfs/06-teams-communication.pdf
   name: Teams and Communication
   reading:
     link: readings/R5
