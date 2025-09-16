@@ -61,7 +61,7 @@ For each code-based deliverable, we will look at a snapshot of your repository a
 
 ### Teamwork Self-Assessment
 
-As the course moves into team-based projects, we will be releasing weekly self-assessments, each worth one participation point. These are meant to be short surveys and should not take more than a few minutes. They are intended to help you reflect on your team's process and prompt you to think about how to improve it. The first one will be released on **Thursday, September 11th** and due the following **Wednesday, September 17th** (at 11:59pm). Typically, they will be released on Thursdays and due the following Wednesday.
+As the course moves into team-based projects, we will be releasing weekly self-assessments, each worth one participation point. These are meant to be short surveys and should not take more than a few minutes. They are intended to help you reflect on your team's process and prompt you to think about how to improve it. The first one will be released on **Thursday, September 11th** and due the following **Sunday, September 14th** (at 11:59pm). Typically, they will be released on Thursdays and due the following Sunday.
 
 
 ## Main Deliverables
