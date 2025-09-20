@@ -1,16 +1,13 @@
 lectures:
-- date: Sun Sep 14
+- date: Mon Sep 22
   link: ''
-  name: NO CLASS
-- date: Mon Sep 15
+  name: 'Architecture: Design Docs'
+- date: Wed Sep 24
   link: ''
-  name: NO CLASS
-- date: Wed Sep 17
-  link: ''
-  name: 'Architecture: Intro and Overview'
+  name: 'Architecture: Microservices'
   reading:
-    link: readings/R6
-    name: Who needs an architect?
+    link: readings/R7
+    name: Microservices
 
 projects:
 - date: Wed Sep 17
@@ -20,7 +17,12 @@ projects:
   name: Project 2B
   numDays: 8
 
-recitation: null
+recitation:
+  date: Sun Sep 21
+  handout: ''
+  name: 'Recitation 4: TBD'
+  quiz: ''
+  slides: ''
 
 teamsurvey:
   closedate: Sun Sep 21
