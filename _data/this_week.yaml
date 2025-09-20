@@ -1,0 +1,32 @@
+lectures:
+- date: Mon Sep 22
+  link: ''
+  name: 'Architecture: Design Docs'
+- date: Wed Sep 24
+  link: ''
+  name: 'Architecture: Microservices'
+  reading:
+    link: readings/R7
+    name: Microservices
+
+projects:
+- date: Wed Sep 17
+  deadline: Due Sun Sept 28th @ 11:59pm
+  end_date: 2025-09-29 00:00:00
+  link: /projects/P2
+  name: Project 2B
+  numDays: 8
+
+recitation:
+  date: Sun Sep 21
+  handout: ''
+  name: 'Recitation 4: TBD'
+  quiz: ''
+  slides: ''
+
+teamsurvey:
+  closedate: Sun Sep 21
+  deadline: Sun Sep 21 @ 11:59pm
+  link: https://forms.gle/buTRsfQQY6eM89Gf6
+  name: Team Survey 2 (Sep 18 -  Sept 21)
+  opendate: Thu Sep 18
