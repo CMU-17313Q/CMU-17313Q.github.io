@@ -371,10 +371,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: 'Recitation 4: TBD'
-    quiz: ''
-    slides: ''
+    handout: '/recitations/reci4-archeology
+    name: 'Recitation 4: Software Archeaology'
+    quiz: 'https://www.gradescope.com/courses/1096661/assignments/6569747'
+    slides: 'https://docs.google.com/presentation/d/1U7k2tFHvEzDtZGeVC6SWi0eeuzOzFBoMLom5rk_uZQw/edit?usp=sharing'
 
 - date: Mon Sep 22
   homework:

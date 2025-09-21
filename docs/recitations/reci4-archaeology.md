@@ -1,8 +1,8 @@
 ---
-title: Recitation 3 - Software Archaeology
+title: Recitation 4 - Software Archaeology
 ---
 
-# Recitation 3: Software Archaeology
+# Recitation 4: Software Archaeology
 
 ## Overview
 
@@ -10,11 +10,11 @@ In today’s recitation, we will practice implementing a new feature for the Nod
 
 **Let's implement a new feature!**
 
-Check out [this issue](https://github.com/CMU-17313Q/NodeBB-F24-R3/issues/1) of the feature request. NodeBB should suggest a new username if existing username is taken.
+Check out [this issue](https://github.com/CMU-17313Q/NodeBB-F25-R4/issues/1) of the feature request. NodeBB should suggest a new username if existing username is taken.
 
 ## Task 0: Clone the repo
 
-- Fork [this repository](https://github.com/CMU-17313Q/NodeBB-F24-R3) and clone it. Follow the directions for further installation on the readme.
+- Fork [this repository](https://github.com/CMU-17313Q/NodeBB-F25-R4) and clone it. Follow the directions for further installation on the readme.
 
 
 ## Task 1: Reproduce the existing behaviour
