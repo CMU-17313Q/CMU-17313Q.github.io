@@ -19,13 +19,13 @@ projects:
 
 recitation:
   date: Sun Sep 21
-  handout: /recitations/reci4-archeology
+  handout: /recitations/reci4-archaeology
   name: 'Recitation 4: Software Archeaology'
   quiz: https://www.gradescope.com/courses/1096661/assignments/6569747
   slides: https://docs.google.com/presentation/d/1U7k2tFHvEzDtZGeVC6SWi0eeuzOzFBoMLom5rk_uZQw/edit?usp=sharing
 
 teamsurvey:
-  closedate: Sun Sep 22
+  closedate: Mon Sep 22
   deadline: Sun Sep 21 @ 11:59pm
   link: https://forms.gle/buTRsfQQY6eM89Gf6
   name: Team Survey 2 (Sep 18 -  Sept 21)
