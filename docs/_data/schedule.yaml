@@ -384,7 +384,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Architecture: Design Docs'
+    name: 'Architecture: Microservices'
   reading:
     link: ''
     name: ''
@@ -420,7 +420,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Architecture: Microservices'
+    name: 'Architecture: Microservices (II) & Design Docs'
   reading:
     link: 'readings/R7'
     name: 'Microservices'
