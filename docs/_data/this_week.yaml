@@ -1,10 +1,10 @@
 lectures:
 - date: Mon Sep 22
   link: ''
-  name: 'Architecture: Design Docs'
+  name: 'Architecture: Microservices'
 - date: Wed Sep 24
   link: ''
-  name: 'Architecture: Microservices'
+  name: 'Architecture: Microservices (II) & Design Docs'
   reading:
     link: readings/R7
     name: Microservices
