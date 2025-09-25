@@ -329,7 +329,7 @@
     name: "Project 2B"
     numDays: 8
   lecture:
-    link: ''
+    link: 'assets/pdfs/07-intro-to-architecture.pdf'
     name: 'Architecture: Intro and Overview'
   reading:
     link: 'readings/R6'
@@ -383,7 +383,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/08-microservices.pdf'
     name: 'Architecture: Microservices'
   reading:
     link: ''
@@ -419,7 +419,7 @@
     name: ""
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/09-design-docs.pdf'
     name: 'Architecture: Microservices (II) & Design Docs'
   reading:
     link: 'readings/R7'
