@@ -1,9 +1,9 @@
 lectures:
 - date: Mon Sep 22
-  link: ''
+  link: assets/pdfs/08-microservices.pdf
   name: 'Architecture: Microservices'
 - date: Wed Sep 24
-  link: ''
+  link: assets/pdfs/09-design-docs.pdf
   name: 'Architecture: Microservices (II) & Design Docs'
   reading:
     link: readings/R7
