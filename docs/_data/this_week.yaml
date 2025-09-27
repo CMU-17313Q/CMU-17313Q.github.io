@@ -1,13 +1,13 @@
 lectures:
-- date: Mon Sep 22
-  link: assets/pdfs/08-microservices.pdf
-  name: 'Architecture: Microservices'
-- date: Wed Sep 24
-  link: assets/pdfs/09-design-docs.pdf
-  name: 'Architecture: Microservices (II) & Design Docs'
+- date: Mon Sep 29
+  link: ''
+  name: Software Risk
   reading:
-    link: readings/R7
-    name: Microservices
+    link: readings/R8
+    name: How to Code Review like a Human
+- date: Wed Oct 01
+  link: ''
+  name: 'QA: Static Analysis'
 
 projects:
 - date: Wed Sep 17
@@ -16,13 +16,19 @@ projects:
   link: /projects/P2
   name: Project 2B
   numDays: 8
+- date: Mon Sep 29
+  deadline: Due Sun Oct 9th @ 11:59pm
+  end_date: 2025-10-10 00:00:00
+  link: /projects/P2
+  name: Project 2C
+  numDays: 9
 
 recitation:
-  date: Sun Sep 21
-  handout: /recitations/reci4-archaeology
-  name: 'Recitation 4: Software Archeaology'
-  quiz: https://www.gradescope.com/courses/1096661/assignments/6569747
-  slides: https://docs.google.com/presentation/d/1U7k2tFHvEzDtZGeVC6SWi0eeuzOzFBoMLom5rk_uZQw/edit?usp=sharing
+  date: Sun Sep 28
+  handout: ''
+  name: P2B Checkpoint Presentations
+  quiz: ''
+  slides: ''
 
 teamsurvey:
   closedate: Mon Sep 29
