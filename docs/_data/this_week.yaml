@@ -10,12 +10,6 @@ lectures:
   name: 'QA: Static Analysis'
 
 projects:
-- date: Wed Sep 17
-  deadline: Due Sun Sept 28th @ 11:59pm
-  end_date: 2025-09-29 00:00:00
-  link: /projects/P2
-  name: Project 2B
-  numDays: 8
 - date: Mon Sep 29
   deadline: Due Sun Oct 9th @ 11:59pm
   end_date: 2025-10-10 00:00:00
@@ -31,8 +25,8 @@ recitation:
   slides: ''
 
 teamsurvey:
-  closedate: Mon Sep 29
-  deadline: Sun Sep 28 @ 11:59pm
-  link: https://forms.gle/wQa9QUAofob551nH9
-  name: Team Survey 3 (Sept 25 -  Sept 28)
-  opendate: Thu Sep 25
+  closedate: Sun Oct 5
+  deadline: Sun Oct 5 @ 11:59pm
+  link: ''
+  name: Team Survey 4 (Oct 2 -  Oct 5)
+  opendate: Thu Oct 2
