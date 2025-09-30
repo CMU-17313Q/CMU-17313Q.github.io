@@ -1,6 +1,6 @@
 lectures:
 - date: Mon Sep 29
-  link: ''
+  link: assets/pdfs/10-risk.pdf
   name: Software Risk
   reading:
     link: readings/R8
