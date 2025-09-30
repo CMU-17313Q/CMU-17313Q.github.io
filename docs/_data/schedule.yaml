@@ -473,7 +473,7 @@
     name: "Project 2C"
     numDays: 9
   lecture:
-    link: ''
+    link: 'assets/pdfs/10-risk.pdf'
     name: 'Software Risk'
   reading:
     link: 'readings/R8'
