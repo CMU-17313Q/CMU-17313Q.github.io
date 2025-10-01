@@ -6,7 +6,7 @@ lectures:
     link: readings/R8
     name: How to Code Review like a Human
 - date: Wed Oct 01
-  link: ''
+  link: assets/pdfs/11-static-analysis.pdf
   name: 'QA: Static Analysis'
 
 projects:
