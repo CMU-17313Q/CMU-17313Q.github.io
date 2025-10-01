@@ -509,7 +509,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/11-static-analysis.pdf'
     name: 'QA: Static Analysis'
   reading:
     link: ''
