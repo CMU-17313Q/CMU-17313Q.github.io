@@ -1,13 +1,13 @@
 lectures:
-- date: Mon Sep 29
-  link: assets/pdfs/10-risk.pdf
-  name: Software Risk
+- date: Mon Oct 06
+  link: ''
+  name: 'QA: Dynamic Analysis Tools'
+- date: Wed Oct 08
+  link: ''
+  name: MIDTERM 1
   reading:
-    link: readings/R8
-    name: How to Code Review like a Human
-- date: Wed Oct 01
-  link: assets/pdfs/11-static-analysis.pdf
-  name: 'QA: Static Analysis'
+    link: readings/midterm1-instructions
+    name: Instructions & Past Exams
 
 projects:
 - date: Mon Sep 29
@@ -18,9 +18,9 @@ projects:
   numDays: 9
 
 recitation:
-  date: Sun Sep 28
+  date: Sun Oct 05
   handout: ''
-  name: P2B Checkpoint Presentations
+  name: 'Recitation 5: Midterm 1 Review'
   quiz: ''
   slides: ''
 
