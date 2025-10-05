@@ -6,7 +6,7 @@ title: Recitation 5 - Midterm Review
 
 ## Overview
 
-As we have our midterm scheduled for Sunday, October 6th, this recitation slot will be used for a midterm review. Complete the exams from past years listed below and come to recitation with any questions!
+As we have our midterm scheduled for Wednesday, October 8th, the SUnday recitation slot will be used for a midterm review. Complete the exams from past years listed below and come to recitation with any questions!
 
 **Note: As we have not yet covered software engineering for ML this semester, please ignore those questions. The SE4ML material will not appear on the exam.**
 
