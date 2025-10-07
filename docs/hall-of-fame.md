@@ -32,16 +32,14 @@ A list of student groups with links to their merged PRs in open source projects.
 |Just Relax | Aisha Al-Subaie, Aboud Abdalla, Huda Joad, Maria Aidarus, Rama Sulaiman | [LearnDB](https://github.com/learn-awesome/learndb) | [#76](https://github.com/learn-awesome/learndb/pull/76) |
 |Generation Z| Maryam Rahmatullah, Ruban Faisal, Steve Ndayambaje, Ghalya Johar, Abdulraouf Abdelzaher | [Tenantee](https://github.com/zvonimirr/tenantee) | [#504](https://github.com/zvonimirr/tenantee/pull/504) |
 |Nirvana| Al Dana Al-Naemi, Alanoud Al Thani, Anushka Satpute, Ulan Seitkaliyev, Abdulla Al-Sulaiti | [Noisekun](https://github.com/mateusfg7/Noisekun) | [#627](https://github.com/mateusfg7/Noisekun/pull/627) |
-|-->
+
 
 ## 2024 Fall
 
-TBD
-<!-
 | Group Name | Team Members | Project | Merged PRs |
 | ---------- | ------------ | ------- | ---------- |
 | Syntax Squad |	Abdallah Almana, Abdulwahab Al-Rumaihi, Hiba Hamad, Najoud Al-Talib, Reem Kensouh | [Diary Vault](https://github.com/SankethBK/diaryvault) |[#268](https://github.com/SankethBK/diaryvault/pull/268)|
 | Guardians of the Git | Sarim Faraz, May Khin, Rayyan Ahmed, Fatima Al-Haddad, Safa Amin | [Couchers](https://github.com/Couchers-org/couchers) | [#52](https://github.com/Couchers-org/couchers/pull/5298) |
 | ELEV8 | Aya Abdel Hamid, Ashwaq Taib, Haya Al Kubaisi, Mohamed Elsayed, Aadi Nair | [Activist.org](https://github.com/activist-org/activist) | [#1059](https://github.com/activist-org/activist/pull/1059) |
 | Karrak | Raman Saparkhan, Retaj Sharaf, Abdallah Abdaljalil, Khadija Warraich, Khalifa Al Thani | [FreshRSS](https://github.com/FreshRSS/FreshRSS/)| [#7092](https://github.com/FreshRSS/FreshRSS/pull/7092) | 
--->
+
