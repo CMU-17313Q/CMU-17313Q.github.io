@@ -1,6 +1,6 @@
 lectures:
 - date: Mon Oct 06
-  link: ''
+  link: assets/pdfs/12-dynamic-analysis.pdf
   name: 'QA: Dynamic Analysis Tools'
 - date: Wed Oct 08
   link: ''
@@ -25,7 +25,7 @@ recitation:
   slides: ''
 
 teamsurvey:
-  closedate: Sun Oct 19
+  closedate: Mon Oct 20
   deadline: Sun Oct 19 @ 11:59pm
   link: ''
   name: Team Survey 5 (Oct 9 -  Oct 19)
