@@ -1,22 +1,23 @@
 lectures:
-- date: Mon Oct 06
-  link: assets/pdfs/12-dynamic-analysis.pdf
-  name: 'QA: Dynamic Analysis Tools'
-- date: Wed Oct 08
+- date: Sun Oct 12
   link: ''
-  name: MIDTERM 1
-  reading:
-    link: readings/midterm1-instructions
-    name: Instructions & Past Exams
+  name: NO CLASS (Fall Break)
+- date: Mon Oct 13
+  link: ''
+  name: NO CLASS (Fall Break)
+- date: Tue Oct 14
+  link: ''
+  name: NO CLASS (Fall Break)
+- date: Wed Oct 15
+  link: ''
+  name: NO CLASS (Fall Break)
+- date: Thu Oct 16
+  link: ''
+  name: NO CLASS (Fall Break)
 
 projects: []
 
-recitation:
-  date: Sun Oct 05
-  handout: ''
-  name: 'Recitation 5: Midterm 1 Review'
-  quiz: ''
-  slides: ''
+recitation: null
 
 teamsurvey:
   closedate: Mon Oct 20
