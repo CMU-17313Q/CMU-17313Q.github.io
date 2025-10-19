@@ -1,8 +1,8 @@
 ---
-title: Recitation 4 - Team Dysfunction
+title: Recitation 6 - Team Dysfunction
 ---
  
-# Recitation 4: Team Dysfunction
+# Recitation 6: Team Dysfunction
  
 ## Overview
 

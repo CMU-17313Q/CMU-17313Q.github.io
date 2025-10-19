@@ -551,7 +551,7 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
+    handout: 'readings/midterm1-instructions'
     name: 'Recitation 5: Midterm 1 Review'
     quiz: ''
     slides: ''
@@ -731,10 +731,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: 'Recitation 6: Extreme Startup'
-    quiz: ''
-    slides: ''
+    handout: '/recitations/reci6-dysfunction'
+    name: 'Recitation 6: Team Dysfunction'
+    quiz: 'https://www.gradescope.com/courses/1096661/assignments/6569769'
+    slides: 'https://docs.google.com/presentation/d/1TH817FfA75enfeFTZO7vDrhmb9_bR4wG8pb8_CwKG70/edit?usp=sharing'
 
 - date: Mon Oct 20
   homework:
