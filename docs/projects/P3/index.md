@@ -7,7 +7,6 @@
 - Practically assess and compare the costs and benefits of existing static and dynamic bug-finding tools
 - Integrate CI/CD tools into development practice
 
-
 ## Project Context
 
 Adding continuous integration for quality assurance is a critical part of software development. Although you have been testing your new system this whole time, you are now setting out to establish sustained practices that can be used moving forward as you iterate over and continue to improve your system.
@@ -16,48 +15,43 @@ Your manager has assigned you two major tasks. Firstly, establishing a deploymen
 
 Secondly, evaluating existing tools and practices beyond simple linting or unit testing, then producing a report on the cost/benefit tradeoffs and risks of them. You will also select and integrate one (or more!) of these tools into your development process.
 
-
 ## Deliverables and Deadlines
-There are two (2) deadlines for this project. This project is worth a total of 120 points.
 
-**Checkpoint Deliverables** – 35 points – due Sunday, October 27th, 11:59pm
+There are two (2) deadlines for this project. This project is worth a total of 100 points.
+
+**Checkpoint Deliverables** – 35 points – due Sunday, October 26th, 11:59pm
 
 - [Deployed Application (25 pts)](#deployed-application-25-pts)
 - [Tools Checkpoint (10 pts)](#tools-checkpoint-10-pts)
 
-**Final Deliverables** – 65 points – due Sunday, November 3rd, 11:59pm
+**Final Deliverables** – 65 points – due Sunday, November 1st, 11:59pm
 
-- [Tool Analysis Design Doc (50 pts)](#tool-analysis-design-doc-60-pts)
+- [Tool Analysis Design Doc (50 pts)](#tool-analysis-design-doc-50-pts)
 - [Tool Integration (15 pts)](#tool-integration-15-pts)
 
-**Extra Credit (Individual)** - 6 points - due Sunday, November 3rd, 11:59pm
+**Extra Credit (Individual)** - 6 points - due Tuesday, November 4th, 11:59pm
 
 - [Feature Review (6 pts)](#feature-review-6-pts)
-
-!!! info "Work Distribution"
-    There are two main focuses in this project: deployment and static/dynamic analysis. For the purposes of equitable distribution of labor, we recommend that you nominate one of your members to act as the SRE for this assignment who will be primarily responsible for deployment, and have all other teammates focus on tool research and integration.
 
 
 ## Checkpoint Deliverables
 
 ### Deployed Application (25 pts)
 
-Your team will be using Microsoft Azure for the deployment of the NodeBB application. Further instructions on how to deploy can be found [here](https://docs.google.com/document/d/19nnfaVRHDe4-y5zAK9FcPLxEvhuli81sj3FesTLhO3g/edit?usp=sharing). If you run into issues with a certain step, leave a comment on the doc. If you find a solution to that issue, reply to your comment with the solution. This will help others who find the same issue.
-
-NOTE: You will be given your team's login details over slack. Do not use your andrewid to login to Azure.
+Your team will be using Linux Virtual Machines (VMs) hosted at CMUQ for the deployment of the NodeBB application. Further instructions on how to deploy can be found [here](https://docs.google.com/document/d/1O5_1TUkuTQ61_V8LN-o-fB2aZpHykCN-ktfjpbW-dcE/edit?usp=sharing).
 
 Once you have successfully deployed your website, make sure to test within your team to ensure that your added feature(s) from Project 2 are properly integrated.
 
 By the checkpoint deadline you should
 
 - Submit a link to the deployed site onto Gradescope
-- Add your deployed site to this [public spreadsheet](https://docs.google.com/spreadsheets/d/1kAxsQHB2CQMyPw5Y_QdPzd18RaLuhxmmFWDtN-5CQk8/edit?usp=sharing), alongside your team name & UserGuide.md (as a link to the file on GitHub) that your team submitted for Project 2. This will be used in [Feature Review](#feature-review-6-pts) for extra credit.
+- Add your deployed site to this [public spreadsheet](https://docs.google.com/spreadsheets/d/1px3U7U1TzfZGGifei1S0duTbujZpwq7mIFXyQeIALbI/edit?usp=sharing), alongside your team name & UserGuide.md that your team submitted for Project 2. This will be used in [Feature Review](#feature-review-6-pts) for extra credit.
 
 ### Tools Checkpoint (10 pts)
 
 Before jumping into tool integration, your manager would like you to research what existing analysis tools are out there that can be used with NodeBB. You will evaluate the tools, and eventually document your findings in a design document for your final deliverable.
 
-First, identify and experiment with **at least N-1 potential static and dynamic analysis tools** that are applicable to your system, where N is the number of people in your team. We provide a [starter list of tools](#starter-list-of-tools) in the resources section below to help you get started, but you are not limited to these tools.
+First, identify and experiment with **at least N potential static and dynamic analysis tools** that are applicable to your system, where N is the number of people in your team. We provide a [starter list of tools](#starter-list-of-tools) in the resources section below to help you get started, but you are not limited to these tools.
 
 In your selection of tools, you should
 
@@ -71,17 +65,17 @@ For each tool that you assess
 1. Create a separate testing branch in your repository (named appropriately for the tool you’re testing) to integrate the tool into your project and test out its capabilities
 2. Create a pull request to the main branch from each of these testing branches. The PR should have
 
-      - **Concrete evidence that you had successfully installed the tool** through trackable file changes demonstrating that extra files/NPM packages were installed.
-      - **Artifacts that demonstrate that you have successfully run the tool on your repository.** Acceptable artifacts include output files generated by the tool, or a text file containing the terminal output from the tool; you may also attach screenshots as additional pieces of evidence. They can be attached to the Pull Request in either the description or follow-up comments.
+   - **Concrete evidence that you had successfully installed the tool** through trackable file changes demonstrating that extra files/NPM packages were installed.
+   - **Artifacts that demonstrate that you have successfully run the tool on your repository.** Acceptable artifacts include output files generated by the tool, or a text file containing the terminal output from the tool; you may also attach screenshots as additional pieces of evidence. They can be attached to the Pull Request in either the description or follow-up comments.
 
 !!! note "Grading Note"
-    We will not be grading the quality or quantity of any code you put into these testing branches/PRs, just the evidence that you have successfully installed and run the tool.
+      We will not be grading the quality or quantity of any code you put into these testing branches/PRs, just the evidence that you have successfully installed and run the tool.
 
 In your evaluations, consider & experiment with the types of customization that are appropriate or necessary for this tool, both a priori (before they can be used in your project) and over time. Assess the strengths and weaknesses of each tool/technique, both quantitatively and qualitatively.
 
 Consider some of the following questions:
 
-- What types of problems are you hoping your tooling will catch?  What types of problems does this particular tool catch?
+- What types of problems are you hoping your tooling will catch? What types of problems does this particular tool catch?
 - What types of customization are possible or necessary?
 - How can/should this tool be integrated into a development process?
 - Are there many false positives? False negatives? True positive reports about things you don’t care about?
@@ -94,12 +88,16 @@ Consider some of the following questions:
 
 By the checkpoint deadline, your team will submit
 
-- your **initial list of the N-1 tools** that your team plans on exploring, and
+- your **initial list of the N tools** that your team plans on exploring, and
 - links to the **PRs that demonstrate that you have successfully installed and run each of these tools**
 
 ## Final Deliverables
 
 ### Tool Analysis Design Doc (50 pts)
+
+!!! warning "Individual Grade Adjustments"
+    This document is something that we expect the team to work on together.  However, we will be asking who worked on what part of the document, and in the case that a sub-section of the document is low quality AI slop, we will be only penalizing the author of that section, NOT the entire team.  To this end, we will be requiring that develop the document in the Google Drive folder that has been shared with your team by your CA.
+
 
 Create a Design Document/RFC that includes:
 
@@ -112,7 +110,7 @@ Below, we provide more detailed instructions and page limit recommendations for 
 
 #### Tool Evaluations (~N pages)
 
-For each of the N-1 tools explored by your team, you must provide:
+For each of the N tools explored by your team, you must provide:
 
 - Name and high-level description of what the tool does and a link to its documentation/source
 - Whether the tool is used for static or dynamic analysis
@@ -132,10 +130,10 @@ You **must recommend at least one tool**, even if it’s with reservations.
 This section should address the different factors to take into consideration when integrating a new tool. At minimum, you should address the following:
 
 - **Technical Questions**
-    - How are you integrating the tool (high-level)? At what point in the development/deployment process shall it be integrated? What sorts of customization or configuration will you be using?
-    - If you added any specific configuration to allow the main branch of your repository to pass its status checks, add the justification for those decisions in this section.
+  - How are you integrating the tool (high-level)? At what point in the development/deployment process shall it be integrated? What sorts of customization or configuration will you be using?
+  - If you added any specific configuration to allow the main branch of your repository to pass its status checks, add the justification for those decisions in this section.
 - **Social Integration Questions**
-    - How do you foresee the team using the tool during their development process? Consider the incentives & deterrents to the developers when it comes to using the tool, and their personal motivation to use it.
+  - How do you foresee the team using the tool during their development process? Consider the incentives & deterrents to the developers when it comes to using the tool, and their personal motivation to use it.
 
 Your answers should be based on your experiences running the tools on your team repository and be grounded in data from your research on different factors such as tool usability, output, and customizability.
 
@@ -172,9 +170,10 @@ To be considered successfully integrated, the tool must:
 - **Pass** when run on your codebase. This is indicated by having a green checkmark.
 
 !!! note "Ensuring Passing Checks"
-    In order to ensure your checks pass successfully, you may have to make additional changes to your repository, such as fixing reported issues or tweaking tool configuration.
+    In order to ensure your checks pass successfully, you may have to make additional changes to your repository, such as fixing reported issues or tweaking tool configuration.  These changes should be documented and addressed in your design document.
 
-    These changes should be documented and addressed in your design document. Continually failing builds show you have *not* completely integrated the tool into your workflow.
+!!! warning "Failing CI builds"
+     Continually failing builds show you have *not* completely integrated the tool into your workflow.
 
 On Gradescope, submit a link to your repository and a link to one of the successful GitHub Action runs.
 
@@ -186,9 +185,9 @@ Note that this is an **individual** task, unlike the rest of project.
 
 ### Feature Review (6 pts)
 
-For extra credit, you will conduct reviews of features developed by three other teams' project. Pick **three** teams's deployment from the [public spreadsheet](https://docs.google.com/spreadsheets/d/1kAxsQHB2CQMyPw5Y_QdPzd18RaLuhxmmFWDtN-5CQk8/edit?usp=sharing) to review.
+For extra credit, you will conduct reviews of features developed by three other teams' project. Pick **three** teams's deployment from the [public spreadsheet](https://docs.google.com/spreadsheets/d/1quQQ7obbUTK7yyHKqHYQV7ol17pCbR8wiktxOi_idiU/edit?usp=sharing) to review, 1 from your own section, and 2 from other sections.
 
-For each team, you will submit a review of their feature(s). You will need to test the feature(s) as described in their UserGuide and provide feedback on the following:
+For each team, you will submit a review of their feature(s) on the appropriately titled Google Sheet. You will need to test the feature(s) as described in their UserGuide and provide feedback on the following:
 
 1. How was the experience of using the feature(s), would this be something you think would help enable better communication between faculty and students and why?
 2. How do you think the feature can be improved? and/or What do you think the feature did well in?
@@ -197,47 +196,49 @@ For each team, you will submit a review of their feature(s). You will need to te
 To qualify for extra credit, you will have to submit your review:
 
 - on Gradescope
-- in the appropriate sheet in the [public spreadsheet](https://docs.google.com/spreadsheets/d/1kAxsQHB2CQMyPw5Y_QdPzd18RaLuhxmmFWDtN-5CQk8/edit?usp=sharing). There should be one sheet per team, and you should add your review to the sheet for the team you are reviewing.
+- in the appropriate sheet for the group you want to review in the [public spreadsheet](https://docs.google.com/spreadsheets/d/1px3U7U1TzfZGGifei1S0duTbujZpwq7mIFXyQeIALbI/edit?usp=sharing). There should be one sheet per team, and you should add your review to the sheet for the team you are reviewing.
 
 ## Grading
+
 To receive full credit for the checkpoint, we expect:
 
 - [ ] A link to your successfully deployed web application for your team repository
-- [ ] A list of N-1 different static and dynamic analysis tools, where N is the number of members on your team. This list must satisfy all the following criteria:
-    - Contain at least one static analysis tool
-    - Contain at least one dynamic analysis tool
-    - Contain at least one tool not on our starter list of tools
-- [ ] Links to N-1 pull requests for each of the selected tools containing evidence of the tool being run at least once on your repository
+- [ ] A list of N different static and dynamic analysis tools, where N is the number of members on your team. This list must satisfy all the following criteria:
+  - Contain at least one static analysis tool
+  - Contain at least one dynamic analysis tool
+  - Contain at least one tool not on our starter list of tools
+- [ ] Links to N pull requests for each of the selected tools containing evidence of the tool being run at least once on your repository
 
 To receive full credit for the final deadline, we expect:
 
+- [ ] A link to your successfully run CD GitHub action that deploys the website while following proper GitHub practices in handling deployment secrets
 - [ ] A design document describing your research into each of the potential tools, justification for your selection of integrated tool(s), and your final integration plan
 - [ ] A link to a successful run of a GitHub Action that demonstrates your integration of your selected tool(s) into your team workflow
 
 To receive full credit for the extra credit, we expect:
 
-- [ ] Your review of three different teams' features on Gradescope and on the [public spreadsheet](https://docs.google.com/spreadsheets/d/1kAxsQHB2CQMyPw5Y_QdPzd18RaLuhxmmFWDtN-5CQk8/edit?usp=sharing), addressing the three questions described.
+- [ ] Your review of three different teams' features on Gradescope and on the [public spreadsheet](https://docs.google.com/spreadsheets/d/1px3U7U1TzfZGGifei1S0duTbujZpwq7mIFXyQeIALbI/edit?usp=sharing), addressing the three questions described.
+
 ## Resources & Documentation
 
 ### Starter List of Tools
 
 NodeBB is built in Javascript/Typescript using Node.js and uses Benchpress for its frontend templating. Below are non-exhaustive lists of analysis tools that are available.
 
-For other resources, [Awesome Static Analysis page](https://github.com/david-a-wheeler/awesome-static-analysis) and [Awesome Dynamic Analysis page](https://github.com/analysis-tools-dev/dynamic-analysis) have extensive listings of available static and dynamic analysis tools for a pretty hefty list of programming languages.
+For other resources, [Software Testing Magazine - Open Source JavaScript Code Analysis](https://www.softwaretestingmagazine.com/tools/open-source-javascript-code-analysis/), [Awesome Static Analysis page](https://github.com/david-a-wheeler/awesome-static-analysis), and [Awesome Dynamic Analysis page](https://github.com/analysis-tools-dev/dynamic-analysis) have extensive listings of available static and dynamic analysis tools for a pretty hefty list of programming languages.
 
 Some of the tools already have existing GitHub Actions workflows on GitHub Marketplace; use your Googling skills, and see what you find!
 
 #### Static Tools
 
 - [flow](https://flow.org/): Static type checker for JavaScript
-- [JScent](https://github.com/moskirathe/JScent): Program analyzer for detecting “code smells”
-- [JSHint](https://jshint.com/docs/): Used to flag suspicious usage in JavaScript programs
+- [jshint](https://jshint.com/docs/): Used to flag suspicious usage in JavaScript programs
 - [StandardJS](https://standardjs.com/)/[ts-standard](https://github.com/standard/ts-standard): Static analysis tool for code quality within JavaScript/TypeScript projects
 - [Retire.js](https://retirejs.github.io/retire.js/): Finds library/node module vulnerabilities within your project
 
 #### Dynamic Tools
 
-- [Iroh](https://maierfelix.github.io/Iroh/): Runtime code tracking and visualization
 - [Jalangi](https://github.com/Samsung/jalangi2): Framework for dynamic analyses in JavaScript
 - [Fast-Fuzz](https://www.npmjs.com/package/fast-fuzz): Fuzzing framework for TypeScript
 - [Stryker Mutator](https://stryker-mutator.io/): Mutation testing tool for JavaScript
+- [k6](https://github.com/grafana/k6): Open source tool for load testing
