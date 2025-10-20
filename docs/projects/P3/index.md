@@ -24,7 +24,7 @@ There are two (2) deadlines for this project. This project is worth a total of 1
 - [Deployed Application (25 pts)](#deployed-application-25-pts)
 - [Tools Checkpoint (10 pts)](#tools-checkpoint-10-pts)
 
-**Final Deliverables** – 65 points – due Sunday, November 1st, 11:59pm
+**Final Deliverables** – 65 points – due Sunday, November 2nd, 11:59pm
 
 - [Tool Analysis Design Doc (50 pts)](#tool-analysis-design-doc-50-pts)
 - [Tool Integration (15 pts)](#tool-integration-15-pts)
