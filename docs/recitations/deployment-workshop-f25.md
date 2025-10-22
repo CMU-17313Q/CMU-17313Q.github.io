@@ -87,6 +87,6 @@ To test that the continuous deployments are working as expected, and familiarize
 6. Commit and push your changes
 7. Once pushed, verify that CD is functioning correctly by checking that a new deployment is triggered on Vercel dashboard.
 8. Once the deployments are complete manually verify that both support the query you just implemented.
-9. Submit a link to your deployed app to
+9. Submit a link to your deployed app [here](https://forms.gle/E9TniRRFLtxeBV3C8)
 
 Once this is complete, you will be ready for the game next week. Good job and good luck!
