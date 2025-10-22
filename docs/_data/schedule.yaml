@@ -743,7 +743,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/13-ci-cloudcomputing.pdf'
     name: 'CI + Cloud Computing'
   reading:
     link: ''
@@ -782,8 +782,8 @@
     link: ''
     name: 'Continuous Deployment'
   reading:
-    link: ''
-    name: ''
+    link: 'recitations/deployment-workshop-f25'
+    name: 'Cloud Deployment Activity'
   recitation:
     handout: ''
     name: ''
