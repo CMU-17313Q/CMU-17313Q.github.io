@@ -1,10 +1,13 @@
 lectures:
 - date: Mon Oct 20
-  link: ''
+  link: assets/pdfs/13-ci-cloudcomputing.pdf
   name: CI + Cloud Computing
 - date: Wed Oct 22
   link: ''
   name: Continuous Deployment
+  reading:
+    link: recitations/deployment-workshop-f25
+    name: Cloud Deployment Activity
 
 projects:
 - date: Sun Oct 19
