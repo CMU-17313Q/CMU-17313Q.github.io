@@ -779,7 +779,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/14-deployment.pdf'
     name: 'Continuous Deployment'
   reading:
     link: 'recitations/deployment-workshop-f25'
