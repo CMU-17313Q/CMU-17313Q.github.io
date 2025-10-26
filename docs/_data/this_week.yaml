@@ -1,13 +1,13 @@
 lectures:
 - date: Mon Oct 27
   link: ''
+  name: Extreme Startup Game
+- date: Wed Oct 29
+  link: ''
   name: Software Quality
   reading:
     link: readings/R9
     name: Technical Debt
-- date: Wed Oct 29
-  link: ''
-  name: Software Testing - Technical Debt
 
 projects:
 - date: Sun Oct 19
