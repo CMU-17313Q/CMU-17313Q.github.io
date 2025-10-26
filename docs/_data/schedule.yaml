@@ -821,10 +821,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: 'Recitation 7: LLMs'
-    quiz: ''
-    slides: ''
+    handout: 'recitations/reci7-team-feedback'
+    name: 'Recitation 7: Feedback'
+    quiz: 'https://www.gradescope.com/courses/1096661/assignments/6569777'
+    slides: 'https://docs.google.com/presentation/d/1Nn83bNSCAGNozuofJFRgp5iYGW4aeSKCeZuKHm49G-Q/edit?usp=sharing'
 
 - date: Mon Oct 27
   homework:
