@@ -833,7 +833,7 @@
     name: "Project 3B"
     numDays: 5
   lecture:
-    link: ''
+    link: 'assets/pdfs/15-extreme-startup.pdf'
     name: 'Extreme Startup Game'
   reading:
     link: ''
