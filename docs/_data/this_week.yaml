@@ -1,13 +1,13 @@
 lectures:
-- date: Mon Oct 27
-  link: assets/pdfs/15-extreme-startup.pdf
-  name: Extreme Startup Game
-- date: Wed Oct 29
+- date: Mon Nov 03
   link: ''
-  name: Software Quality
+  name: ML for Software Engineers
   reading:
-    link: readings/R9
-    name: Technical Debt
+    link: readings/R10
+    name: Intro to LLMs
+- date: Wed Nov 05
+  link: ''
+  name: SE for ML Applications 1
 
 projects:
 - date: Mon Oct 27
@@ -16,13 +16,19 @@ projects:
   link: projects/P3
   name: Project 3B
   numDays: 5
+- date: Mon Nov 03
+  deadline: Due Sun Nov 9th @ 11:59pm
+  end_date: 2025-11-10 00:00:00
+  link: ''
+  name: Project 4A
+  numDays: 5
 
 recitation:
-  date: Sun Oct 26
-  handout: recitations/reci7-team-feedback
-  name: 'Recitation 7: Feedback'
-  quiz: https://www.gradescope.com/courses/1096661/assignments/6569777
-  slides: https://docs.google.com/presentation/d/1Nn83bNSCAGNozuofJFRgp5iYGW4aeSKCeZuKHm49G-Q/edit?usp=sharing
+  date: Sun Nov 02
+  handout: ''
+  name: 'Recitation 8: Feedback'
+  quiz: ''
+  slides: ''
 
 teamsurvey:
   closedate: Mon Nov 3
