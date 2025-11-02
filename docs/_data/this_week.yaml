@@ -25,10 +25,10 @@ projects:
 
 recitation:
   date: Sun Nov 02
-  handout: ''
-  name: 'Recitation 8: Feedback'
-  quiz: ''
-  slides: ''
+  handout: recitations/reci8-actionplan
+  name: 'Recitation 8: Action Plan'
+  quiz: https://www.gradescope.com/courses/1096661/assignments/6569733
+  slides: https://docs.google.com/presentation/d/1diuIH-HzXGtCcshd4dxr940Ws49SxvHVOLk_c_HHMOw/edit?usp=sharing
 
 teamsurvey:
   closedate: Mon Nov 3
