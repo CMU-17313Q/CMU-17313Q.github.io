@@ -833,11 +833,11 @@
     name: "Project 3B"
     numDays: 5
   lecture:
-    link: ''
-    name: 'Software Quality'
+    link: 'assets/pdfs/15-extreme-startup.pdf'
+    name: 'Extreme Startup Game'
   reading:
-    link: 'readings/R9'
-    name: 'Technical Debt'
+    link: ''
+    name: ''
   recitation:
     handout: ''
     name: ''
@@ -870,10 +870,10 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Software Testing - Technical Debt'
+    name: 'Software Quality'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R9'
+    name: 'Technical Debt'
   recitation:
     handout: ''
     name: ''
