@@ -63,7 +63,7 @@ By the checkpoint deadline, your team will submit your design document to Grades
 For this checkpoint, you are expected to have successfully integrated the provided UI code into your project. Additionally, you must implement and deploy a server-side functionality that returns a hardcoded response. This step is crucial to ensure you are on track.
 For this, you will work in a seperate repository. Similar to P2, you will create a repository using the following github classroom link:
 
-[https://classroom.github.com/a/ TBD](TBD)
+[https://classroom.github.com/a/hh-3__S2](https://classroom.github.com/a/hh-3__S2)
 
 
 !!! warning
