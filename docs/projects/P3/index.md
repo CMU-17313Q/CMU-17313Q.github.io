@@ -185,7 +185,7 @@ Note that this is an **individual** task, unlike the rest of project.
 
 ### Feature Review (6 pts)
 
-For extra credit, you will conduct reviews of features developed by three other teams' project. Pick **three** teams's deployment from the [public spreadsheet](https://docs.google.com/spreadsheets/d/1quQQ7obbUTK7yyHKqHYQV7ol17pCbR8wiktxOi_idiU/edit?usp=sharing) to review, 1 from your own section, and 2 from other sections.
+For extra credit, you will conduct reviews of features developed by three other teams' project. Pick **three** teams's deployment from the [public spreadsheet](https://docs.google.com/spreadsheets/d/1px3U7U1TzfZGGifei1S0duTbujZpwq7mIFXyQeIALbI/edit?usp=sharing) to review.
 
 For each team, you will submit a review of their feature(s) on the appropriately titled Google Sheet. You will need to test the feature(s) as described in their UserGuide and provide feedback on the following:
 
