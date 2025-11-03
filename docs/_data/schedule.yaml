@@ -869,7 +869,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/16-software-quality.pdf'
     name: 'Software Quality'
   reading:
     link: 'readings/R9'
@@ -923,11 +923,11 @@
     name: "Project 4A"
     numDays: 5
   lecture:
-    link: ''
-    name: 'ML for Software Engineers'
+    link: 'assets/pdfs/17-technical-debt.pdf'
+    name: 'Software Quality - Technical Debt'
   reading:
-    link: 'readings/R10'
-    name: 'Intro to LLMs'
+    link: ''
+    name: ''
   recitation:
     handout: ''
     name: ''
@@ -960,10 +960,10 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'SE for ML Applications 1'
+    name: 'ML for SE'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R10'
+    name: 'Intro to LLMs'
   recitation:
     handout: ''
     name: ''
@@ -1014,7 +1014,7 @@
     numDays: 5
   lecture:
     link: ''
-    name: 'SE for ML Applications 2'
+    name: 'SE for ML Applications'
   reading:
     link: ''
     name: ''
