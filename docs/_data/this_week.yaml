@@ -10,12 +10,6 @@ lectures:
   name: SE for ML Applications 1
 
 projects:
-- date: Mon Oct 27
-  deadline: Due Sun Nov 2nd @ 11:59pm
-  end_date: 2025-11-03 00:00:00
-  link: projects/P3
-  name: Project 3B
-  numDays: 5
 - date: Mon Nov 03
   deadline: Due Sun Nov 9th @ 11:59pm
   end_date: 2025-11-10 00:00:00
@@ -31,8 +25,8 @@ recitation:
   slides: https://docs.google.com/presentation/d/1diuIH-HzXGtCcshd4dxr940Ws49SxvHVOLk_c_HHMOw/edit?usp=sharing
 
 teamsurvey:
-  closedate: Mon Nov 3
-  deadline: Sun Nov 2 @ 11:59pm
-  link: https://forms.gle/n4dbwfCFNvEYS17C7
-  name: Team Survey 7 (Oct 30 -  Nov 2)
-  opendate: Thu Oct 30
+  closedate: Mon Nov 10
+  deadline: Sun Nov 9 @ 11:59pm
+  link: ''
+  name: Team Survey 8 (Nov 6 -  Nov 9)
+  opendate: Thu Nov 6
