@@ -35,8 +35,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.superfences
@@ -85,8 +85,8 @@ nav:
        - "Project 3: Continuous Integration + Deployment":
            - projects/P3/index.md
            - "Deployment Instructions": projects/P3/deployment.md
- #      - "Project 4: Architecting an LLM Integration":
-#           - projects/P4/index.md
+       - "Project 4: Architecting an LLM Integration":
+           - projects/P4/index.md
 #       - "Project 5: Open Source Excursion":
 #          - projects/P5/index.md
 #          - "5A Project and Task Selection": projects/P5/1_projectcheck.md
