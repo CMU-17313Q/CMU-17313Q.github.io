@@ -1,13 +1,13 @@
 lectures:
-- date: Mon Nov 03
-  link: assets/pdfs/17-technical-debt.pdf
-  name: Software Quality - Technical Debt
-- date: Wed Nov 05
+- date: Mon Nov 10
   link: ''
-  name: ML for SE
-  reading:
-    link: readings/R10
-    name: Intro to LLMs
+  name: SE for ML Applications
+- date: Wed Nov 12
+  link: ''
+  name: NO CLASS
+- date: Thu Nov 13
+  link: ''
+  name: NO CLASS
 
 projects:
 - date: Mon Nov 03
@@ -16,13 +16,19 @@ projects:
   link: projects/P4
   name: Project 4A
   numDays: 5
+- date: Mon Nov 10
+  deadline: Due Sun Nov 16th @ 11:59pm
+  end_date: 2025-11-17 00:00:00
+  link: ''
+  name: Project 4B
+  numDays: 5
 
 recitation:
-  date: Sun Nov 02
-  handout: recitations/reci8-actionplan
-  name: 'Recitation 8: Action Plan'
-  quiz: https://www.gradescope.com/courses/1096661/assignments/6569733
-  slides: https://docs.google.com/presentation/d/1diuIH-HzXGtCcshd4dxr940Ws49SxvHVOLk_c_HHMOw/edit?usp=sharing
+  date: Sun Nov 9
+  handout: ''
+  name: 'Recitation 9:'
+  quiz: ''
+  slides: ''
 
 teamsurvey:
   closedate: Mon Nov 10
