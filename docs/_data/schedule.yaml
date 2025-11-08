@@ -1001,8 +1001,8 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: 'Recitation 9:'
+    handout: '/recitations/reci9-docker'
+    name: 'Recitation 9: Microservices and Docker'
     quiz: ''
     slides: ''
 
