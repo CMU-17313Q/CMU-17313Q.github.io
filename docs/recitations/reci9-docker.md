@@ -21,18 +21,16 @@ During this recitation, students will create a simple FastAPI app, containerize 
 The course staff is building an internal API to support dashboards and check-ins for project teams in 17-313.
 An existing microservice already exposes team names by team ID.
 
-Try it out:
-`GET https://appbox.qatar.cmu.edu/313-teams/team_name/<team_id>`
+Try it out [here](https://appbox.qatar.cmu.edu/313-teams/team_name/1)
 
 Example:
 ```json
 { "team_name": "nodegpt" }
 ```
 
-Now, the staff needs a more complete endpoint that returns both the team name and the team mentor (from Recitation 3: Team Contracts).
-Your task is to build a new service that provides an endpoint `GET /team_info/<team_id>` that calls the existing microservice and enriches the response with the mentor’s name.
+Now, the staff needs a more complete endpoint that returns both the team name and the team mentor. Your task is to build a **new service** that provides an endpoint `GET /team_info/<team_id>` that calls the existing microservice and enriches the response with the mentor’s name.
 
-The endpoint has to return a JSON object in the following form:
+The endpoint of your service has to return a JSON object in the following form:
 
 ```json
 {
@@ -55,7 +53,7 @@ You can find the mentor assignment information in the **Recitation 3: Team Contr
    pip install -r requirements.txt
    uvicorn app.main:app --host 0.0.0.0 --port 8080
    ```
-   and by verifying the endpoint visting [http://localhost:8080/team_info/1]([http://localhost:8080/team_info/1).  You should receive a JSON response with the team name, and CA name. Your job is to implement the information for all the teams.
+   and by verifying the endpoint visting [localhost:8080/team_info/1](http://localhost:8080/team_info/1).  You should receive a JSON response with the team name, and CA name. Your job is to implement the information for all the teams.
 4. Now that the implementation is complete, let's dockerize the service. Complete the `Dockerfile`. You can use the slides and this [link](https://docs.docker.com/engine/reference/builder/) as resources.
 5. Create the docker image using the command below, and check that the image has been created.
    ```
