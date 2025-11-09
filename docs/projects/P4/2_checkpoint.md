@@ -16,7 +16,6 @@ Each student will be responsible for answering individual reflection questions o
 
 The reflection will be a series of questions answered on Gradescope.
 
-
 ## Grading
 To receive full credit for the final deadline, we expect:
 
