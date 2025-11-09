@@ -38,4 +38,4 @@ There are two (2) deadlines for the project. This project is worth a total of 12
 [**Final Deliverables (Implementation and Evaluation)**](./2_checkpoint.md) - 60 pts - due Sunday, November 16, 11:59pm
 
 - [Final LLM Experiment Implementation (30 pts)](./2_checkpoint.md#final-llm-experiment-implementation-30-points)
-- [Individual Reflection (30 pts)](./2_checkpoint.md#evaluation-report-30-points)
+- [Individual Reflection (30 pts)](./2_checkpoint.md#individual-reflection-30-points)
