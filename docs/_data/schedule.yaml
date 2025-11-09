@@ -1003,8 +1003,8 @@
   recitation:
     handout: '/recitations/reci9-docker'
     name: 'Recitation 9: Microservices and Docker'
-    quiz: ''
-    slides: ''
+    quiz: 'https://www.gradescope.com/courses/1096661/assignments/7128651'
+    slides: 'https://docs.google.com/presentation/d/1_rGyA8P3OU9lWCxwZLuyA6-CqWO29zwTjkQ658M_Bns/edit?usp=sharing'
 
 - date: Mon Nov 10
   homework:
