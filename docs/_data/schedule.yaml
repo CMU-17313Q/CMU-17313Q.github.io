@@ -959,8 +959,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'ML for SE'
+    link: 'assets/pdfs/18-AI-for-SE.pdf'
+    name: 'ML/AI for SE'
   reading:
     link: 'readings/R10'
     name: 'Intro to LLMs'
@@ -1013,8 +1013,8 @@
     name: "Project 4B"
     numDays: 5
   lecture:
-    link: ''
-    name: 'SE for ML Applications'
+    link: 'assets/pdfs/19-SE-for-AI.pdf'
+    name: 'SE for ML/AI Applications'
   reading:
     link: ''
     name: ''
