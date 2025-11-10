@@ -1,7 +1,7 @@
 lectures:
 - date: Mon Nov 10
-  link: ''
-  name: SE for ML Applications
+  link: assets/pdfs/19-SE-for-AI.pdf
+  name: SE for ML/AI Applications
 - date: Wed Nov 12
   link: ''
   name: NO CLASS
