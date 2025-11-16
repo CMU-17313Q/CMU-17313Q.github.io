@@ -4,13 +4,13 @@
 
 **Project & Task Selection** – 80 points
 
-- [Project Selection](#open-source-project-selection) - enter project name and URL in the spreadsheet by  Sunday, November 24th 11:59 pm
-- [Task Selection Checkpoint Presentation](#checkpoint-presentation-80-pts) – slides and video recording due Thursday, November 28th, 11:59pm
+- [Project Selection](#open-source-project-selection) - enter project name and URL in the spreadsheet by  Tuesday, November 18th 11:59 pm
+- [Task Selection Checkpoint Presentation](#checkpoint-presentation-80-pts) – slides due Suday, November 23rd, 11:59 pm (in class presentation during recitation)
 
 
 ## Open Source Project Selection
 
-You may select any active open source project in any language, as long as it's not already being selected on by another team. You can find a list of open source projects selected by other teams on the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1ZwGCx7GtnCX1jFxbRtYVSQ1efwPa_jr3fs70z3Q6Uu0/edit?usp=sharing)**.
+You may select any active open source project in any language, as long as it's not already being selected on by another team. You can find a list of open source projects selected by other teams on the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1Zk2w9Xo0aoIScUVxJVhzeAtCZMJHEEe4pkQrdGSt9_s/edit?usp=sharing)**.
 
 Here are some helpful resources for finding open source projects:
 
@@ -21,7 +21,7 @@ Here are some helpful resources for finding open source projects:
 - [A list of beginner friendly projects](https://github.com/MunGell/awesome-for-beginners)
 - [Apache projects](http://www.apache.org/)
 - [Mozilla projects](https://firefox-source-docs.mozilla.org/contributing/contributing_to_mozilla.html)
-- You may also check the other sheets in the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1ZwGCx7GtnCX1jFxbRtYVSQ1efwPa_jr3fs70z3Q6Uu0/edit?usp=sharing)** which will include Projects and whether they were merged into main.
+- You may also check the other sheets in the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1Zk2w9Xo0aoIScUVxJVhzeAtCZMJHEEe4pkQrdGSt9_s/edit?usp=sharing)** which will include Projects and whether they were merged into main.
 
 You may want to consider any open-source projects you have used before, or are interested in using in the future!
 
@@ -29,7 +29,7 @@ The open source project you pick should be ^^active^^ and ^^have multiple contri
 
 If you have questions on if we would consider a project active, contact the course staff.
 
-Once you have selected a project, add it to the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1ZwGCx7GtnCX1jFxbRtYVSQ1efwPa_jr3fs70z3Q6Uu0/edit?usp=sharing)**. We highly recommend you also think about potential tasks (see below) before finalizing on a project, as your success depends heavily on the chosen task.
+Once you have selected a project, add it to the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1Zk2w9Xo0aoIScUVxJVhzeAtCZMJHEEe4pkQrdGSt9_s/edit?usp=sharing)**. We highly recommend you also think about potential tasks (see below) before finalizing on a project, as your success depends heavily on the chosen task.
 
 ## Task Selection
 
@@ -55,13 +55,14 @@ As per previous project, ^^plan before you start coding^^. You should identify r
 
 ## Checkpoint Presentation (80 pts)
 
-- Presentations are **7 minutes long**
+- Presentations are **5-7 minutes long**
 - Participation from all team members during the presentation is **required**
+- You will be presenting the slide deck live in recitation on Sunday, November 23rd.
 
 
 **Your group presentation will serve as a check-in to determine if the open source project and task(s) chosen were reasonable**
 
-Your **7-minute** checkpoint presentation should include (the recommended slides amount is in parenthesis):
+Your **5-7-minute** checkpoint presentation should include (the recommended slides amount is in parenthesis):
 
 1.	**Overview and Justification** (~1 slide)
     An overview on the project you selected, summarizing the relevant characteristics you considered when making your selection. Beyond whatever additional information you collect in your research, include at least a name, a website link, and a brief description of the project (what it does, who uses it, etc).
@@ -100,4 +101,4 @@ Your **7-minute** checkpoint presentation should include (the recommended slides
     - We expect you to identify risks that are specific to your project and team. For example, if you are working on a project that is written in a language that none of your team members have used before, you should identify this as a risk and discuss how you will mitigate it.
     - We will not accept risks that are generic to all open source projects (e.g., "the project may be abandoned"), or risks that are generic to all software development projects (e.g., "the project may have bugs").
 
-Submit the presentation deck listed above as a **single PDF** file per team to **Gradescope** and upload a video recording in this [Google drive folder](https://drive.google.com/drive/folders/1ZGm-F5to9E20vBVmIVtXHiKi7_9Uces3?usp=sharing).
+Submit the presentation deck listed above as a **single PDF** file per team to **Gradescope**. You will be presenting the slide deck live in recitation on Sunday, November 23rd.

@@ -1099,7 +1099,7 @@
 - date: Mon Nov 17
   homework:
     deadline: "Due Sun Nov 23rd @ 11:59pm"
-    link: ""
+    link: "projects/P5"
     name: "Project 5A"
     numDays: 5
   lecture:
@@ -1189,7 +1189,7 @@
 - date: Mon Nov 24
   homework:
     deadline: "Due Sun Dec 4th @ 11:59pm"
-    link: ""
+    link: "projects/P5"
     name: "Project 5B"
     numDays: 9
   lecture:

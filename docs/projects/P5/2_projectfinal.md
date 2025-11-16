@@ -2,15 +2,15 @@
 
 ## Deliverables
 
-**Project Report and Presentation** – due Thursday, December 12th, 11:59pm
+**Project Report and Presentation** – due Wednesday, December 10th, 11:59pm
 
 - [Project Report](#project-report-200-pts) (200 pts)
 - [Extra Credit](#project-report-200-pts) (20 pts)
 - [Project Presentation Slides](#project-presentations-100-pts) (100 points, graded based on presentation)
 
-**Presentation Date** – Thursday, December 12th, 2:30-5:30pm, during exam timeslot
+**Presentation Date** – Wednesday, December 10th, 8:30-11:30 am, during exam timeslot
 
-**Reflection** – due Thursday, December 12th, 11:59pm
+**Reflection** – due Wednesday, December 10th, 11:59pm
 
 - [Reflections & Peer Review](#individual-reflection-peer-evaluations-20-pts) (20 pts)
 
@@ -62,7 +62,7 @@ The goal of the presentation is primarily to share with the class the project to
 
     Your summary of your experiences can be at whatever level of detail you think is interesting or informative. Given the time limit, selecting and highlighting the one or two most important or interesting observations is likely more useful than trying to be complete.
 
-You must upload your slides as **a single PDF document** to Gradescope by **Thursday, December 12th, 11:59pm**.
+You must upload your slides as **a single PDF document** to Gradescope by **Wednesday, December 10th, 11:59pm**.
 
 ## Project Report (200 pts)
 
