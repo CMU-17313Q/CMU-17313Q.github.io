@@ -1091,10 +1091,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
+    handout: '/recitations/reci10-open-source'
     name: 'Recitation 10: OSP'
-    quiz: ''
-    slides: ''
+    quiz: 'https://www.gradescope.com/courses/1096661/assignments/6569779/'
+    slides: 'https://docs.google.com/presentation/d/1VDkjGL0oc03EYe9jwjQ3xR5bJr62NmiBAGYp2-ZGqNU/edit?usp=sharing'
 
 - date: Mon Nov 17
   homework:
