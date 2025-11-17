@@ -10,12 +10,6 @@ lectures:
   name: Dependencies + Patents
 
 projects:
-- date: Mon Nov 10
-  deadline: Due Sun Nov 16th @ 11:59pm
-  end_date: 2025-11-17 00:00:00
-  link: projects/P4
-  name: Project 4B
-  numDays: 5
 - date: Mon Nov 17
   deadline: Due Sun Nov 23rd @ 11:59pm
   end_date: 2025-11-24 00:00:00
@@ -31,8 +25,8 @@ recitation:
   slides: https://docs.google.com/presentation/d/1VDkjGL0oc03EYe9jwjQ3xR5bJr62NmiBAGYp2-ZGqNU/edit?usp=sharing
 
 teamsurvey:
-  closedate: Mon Nov 17
-  deadline: Sun Nov 16 @ 11:59pm
-  link: https://forms.gle/7YCMMLkmt1ck5VB28
-  name: Team Survey 9 (Nov 11 -  Nov 16)
-  opendate: Tue Nov 11
+  closedate: Mon Nov 24
+  deadline: Sun Nov 23 @ 11:59pm
+  link: ''
+  name: Team Survey 10 (Nov 20 -  Nov 23)
+  opendate: Thu Nov 20
