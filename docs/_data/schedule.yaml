@@ -1104,7 +1104,7 @@
     numDays: 5
   lecture:
     link: ''
-    name: 'Open-Source Software'
+    name: 'Open Source I - Definition and Licenses'
   reading:
     link: 'readings/R11'
     name: 'Revolution OS'
@@ -1140,7 +1140,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Dependencies + Patents'
+    name: 'Open Source II - Dependencies'
   reading:
     link: ''
     name: ''
