@@ -1,13 +1,13 @@
 lectures:
 - date: Mon Nov 17
   link: ''
-  name: Open-Source Software
+  name: Open Source I - Definition and Licenses
   reading:
     link: readings/R11
     name: Revolution OS
 - date: Wed Nov 19
   link: ''
-  name: Dependencies + Patents
+  name: Open Source II - Dependencies
 
 projects:
 - date: Mon Nov 17
