@@ -1,13 +1,10 @@
 lectures:
-- date: Mon Nov 17
+- date: Mon Nov 24
   link: ''
-  name: Open Source I - Definition and Licenses
-  reading:
-    link: readings/R11
-    name: Revolution OS
-- date: Wed Nov 19
+  name: Ethics
+- date: Wed Nov 26
   link: ''
-  name: Open Source II - Dependencies
+  name: Security + Privacy
 
 projects:
 - date: Mon Nov 17
@@ -16,13 +13,19 @@ projects:
   link: projects/P5
   name: Project 5A
   numDays: 5
+- date: Mon Nov 24
+  deadline: Due Sun Dec 4th @ 11:59pm
+  end_date: 2025-12-05 00:00:00
+  link: projects/P5
+  name: Project 5B
+  numDays: 9
 
 recitation:
-  date: Sun Nov 16
-  handout: /recitations/reci10-open-source
-  name: 'Recitation 10: OSP'
-  quiz: https://www.gradescope.com/courses/1096661/assignments/6569779/
-  slides: https://docs.google.com/presentation/d/1VDkjGL0oc03EYe9jwjQ3xR5bJr62NmiBAGYp2-ZGqNU/edit?usp=sharing
+  date: Sun Nov 23
+  handout: ''
+  name: P5A Checkpoint Presentation
+  quiz: ''
+  slides: ''
 
 teamsurvey:
   closedate: Mon Nov 24
