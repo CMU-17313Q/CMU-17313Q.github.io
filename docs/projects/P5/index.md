@@ -23,16 +23,16 @@ This will is your final project with your group. There are 3 deadlines for this 
 
 A) [**Project & Task Selection**](1_projectcheck.md) – 80 points – due Sunday, November 24th, 11:59pm
 
-- Project selection - **due Sunday, November 24th**
-- Check-In Presentation (slides + recording) (80 pts) - **due Thursday November 28th**
+- Project selection - **due Tuesday, November 18th**
+- Check-In Presentation (80 pts) - **due Sunday November 23rd**
 
-B) [**Project Final Report & Presentations**](2_projectfinal.md) – 300 points – due Thursday, December 12th, 11:59pm
+B) [**Project Final Report & Presentations**](2_projectfinal.md) – 300 points – due Wednesday, December 10th, 11:59pm
 
 - Project Report (200 pts) 
 - *Extra Credit (20 pts)*
-- Project Presentation (100 points) - **Held during exam timeslot on Thursday, December 12th, 2:30-5:30 pm**
+- Project Presentation (100 points) - **Held during exam timeslot on Wednesday, December 10th 8:30-11:30 am**
 
-C) [**Individual Reflections**](2_projectfinal.md) – 20 points – due Thursday, December 12th, 2:30-5:30 pm
+C) [**Individual Reflections**](2_projectfinal.md) – 20 points – due Wednesday, December 10th, 11:59pm
 
 - Reflections & Peer Review (20 pts)
 
