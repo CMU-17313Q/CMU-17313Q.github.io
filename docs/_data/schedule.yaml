@@ -1103,7 +1103,7 @@
     name: "Project 5A"
     numDays: 5
   lecture:
-    link: ''
+    link: 'assets/pdfs/20-21-Open-Source-Deps.pdf'
     name: 'Open Source I - Definition and Licenses'
   reading:
     link: 'readings/R11'
@@ -1139,7 +1139,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/20-21-Open-Source-Deps.pdf'
     name: 'Open Source II - Dependencies'
   reading:
     link: ''
@@ -1193,8 +1193,8 @@
     name: "Project 5B"
     numDays: 9
   lecture:
-    link: ''
-    name: 'Ethics'
+    link: 'assets/pdfs/22-security.pdf'
+    name: 'Security'
   reading:
     link: ''
     name: ''
@@ -1229,8 +1229,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Security + Privacy'
+    link: 'assets/pdfs/23-privacy.pdf'
+    name: 'Privacy'
   reading:
     link: ''
     name: ''
@@ -1320,7 +1320,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Guest Lecture'
+    name: 'TBD'
   reading:
     link: ''
     name: ''
