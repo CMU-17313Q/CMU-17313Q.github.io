@@ -1,10 +1,10 @@
 lectures:
 - date: Mon Nov 24
-  link: ''
-  name: Ethics
+  link: assets/pdfs/22-security.pdf
+  name: Security
 - date: Wed Nov 26
-  link: ''
-  name: Security + Privacy
+  link: assets/pdfs/23-privacy.pdf
+  name: Privacy
 
 projects:
 - date: Mon Nov 24
