@@ -1,10 +1,13 @@
 lectures:
-- date: Mon Nov 24
-  link: assets/pdfs/22-security.pdf
-  name: Security
-- date: Wed Nov 26
-  link: assets/pdfs/23-privacy.pdf
-  name: Privacy
+- date: Mon Dec 01
+  link: ''
+  name: MIDTERM 2
+  reading:
+    link: readings/midterm2-instructions
+    name: Instructions & Past Exams
+- date: Wed Dec 03
+  link: ''
+  name: TBD
 
 projects:
 - date: Mon Nov 24
@@ -15,9 +18,9 @@ projects:
   numDays: 9
 
 recitation:
-  date: Sun Nov 23
+  date: Sun Nov 30
   handout: ''
-  name: P5A Checkpoint Presentation
+  name: 'Recitation 11: Midterm 2 Review'
   quiz: ''
   slides: ''
 
