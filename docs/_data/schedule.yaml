@@ -1273,8 +1273,8 @@
   recitation:
     handout: ''
     name: 'Recitation 11: Midterm 2 Review'
-    quiz: ''
-    slides: ''
+    quiz: 'https://www.gradescope.com/courses/1096661/assignments/7229194'
+    slides: 'https://docs.google.com/document/d/1c8gBaOOGNhga__aYCuNLoss3h1JE4PsNIybkaVpfCvg/edit?usp=sharing'
 
 - date: Mon Dec 01
   homework:
