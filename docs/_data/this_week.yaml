@@ -1,13 +1,16 @@
 lectures:
-- date: Sun Aug 23
-  link: assets/pdfs/01-Intro.pdf
-  name: Intro
-- date: Tue Aug 25
-  link: assets/pdfs/02-SWE with AI.pdf
-  name: SE with AI
+- date: Sun Aug 30
+  link: ''
+  name: Metrics and Measurements
   reading:
-    link: readings/R1
-    name: From Technical Debt to Cognitive Debt
+    link: readings/R2
+    name: Metrics and Measurements
+- date: Tue Sep 01
+  link: ''
+  name: Case Study 737MAX
+  reading:
+    link: readings/R3
+    name: Case Study 737MAX
 
 projects:
 - date: Sun Aug 23
@@ -16,13 +19,14 @@ projects:
   link: projects/P1
   name: 'Project 1A: Build Checkpoint'
   numDays: 6
+- date: Mon Aug 31
+  deadline: Due Sun Sep 6th @ 11:59pm
+  end_date: 2026-09-07 00:00:00
+  link: projects/P1
+  name: 'Project 1B: Starter Task'
+  numDays: 5
 
-recitation:
-  date: Mon Aug 24
-  handout: recitations/reci1-githubdevcontainers
-  name: 'Recitation 1: GitHub, Dev Containers, and TypeScript'
-  quiz: https://gradescope.com/courses/1360202/assignments/8461221/
-  slides: ''
+recitation: null
 
 teamsurvey:
   closedate: Wed Sep 16
