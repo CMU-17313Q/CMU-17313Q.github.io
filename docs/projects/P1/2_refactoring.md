@@ -154,7 +154,7 @@ You should soon see another comment by the `github-actions` bot informing you th
 ![Bot Issue Assignment](../../assets/images/hw/bot_assignment.png)
 
 ??? info "Why Bot Assignment?"
-	You might be curious as to why we are using a GitHub bot instead of directly assigning yourself to the issue. As you aren’t officially recognized as a collaborator of CMU-313/opencode, GitHub adds some restrictions to your permissions for security purposes, including not being able to assign yourself to an issue. Hence, we are using a bot to work around these restrictions. This is similar to how you would request issues on an Open Source project!
+	You might be curious as to why we are using a GitHub bot instead of directly assigning yourself to the issue. As you aren’t officially recognized as a collaborator of CMU-17313Q/opencode, GitHub adds some restrictions to your permissions for security purposes, including not being able to assign yourself to an issue. Hence, we are using a bot to work around these restrictions. This is similar to how you would request issues on an Open Source project!
 
 	For future projects, you will have full control over these GitHub features such as managing assignees, adding labels, creating milestones, and more.
 
@@ -208,7 +208,7 @@ This will redirect you to a pull request template for this assignment where you 
       const handle = document.getElementById('handle').value.trim();
       const branch = document.getElementById('branch').value.trim();
       if (!handle || !branch) { alert('Enter your GitHub username and branch name.'); return; }
-      const url = `https://github.com/CMU-313/opencode/compare/main...${encodeURIComponent(handle)}:${encodeURIComponent(branch)}?expand=1&template=p1b-starter-task.md`;
+      const url = `https://github.com/CMU-17313Q/opencode/compare/main...${encodeURIComponent(handle)}:${encodeURIComponent(branch)}?expand=1&template=p1b-starter-task.md`;
       window.open(url, '_blank');
     ">
         <label>
