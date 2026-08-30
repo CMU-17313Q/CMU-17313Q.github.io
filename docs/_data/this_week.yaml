@@ -26,7 +26,12 @@ projects:
   name: 'Project 1B: Starter Task'
   numDays: 5
 
-recitation: null
+recitation:
+  date: Mon Aug 31
+  handout: recitations/reci2-github
+  name: 'Recitation 2: Git Collaboration'
+  quiz: ''
+  slides: ''
 
 teamsurvey:
   closedate: Wed Sep 16
