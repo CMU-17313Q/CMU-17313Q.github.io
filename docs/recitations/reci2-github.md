@@ -38,7 +38,6 @@ Our GH actions pipeline suggests that the main branch is broken! Let’s walk th
 
 - Click through the build output and take a look at why eslint is failing. Take note of the names of each file - you should use these when naming your issues!
 - On GitHub, under the **Project** tab, have one person create a new project with the "Board" template. Make sure to set the project to public and invite your partner as a collaborator
-- Go back to the **Project** tab on the repository page and add the project board
 - Under the **Issues** tab, have the other person create an issue for for correctly translating each typescript file that fails the eslint workflow
 - Assign yourselves to both issues, one for each person
 - Add the two issues to the project Kanban board under the Todo column
