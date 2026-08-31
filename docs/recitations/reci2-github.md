@@ -79,4 +79,4 @@ git push --set-upstream origin <your-branch-name>
 
 - Click on the **Actions** tab. If you have resolved all the issues correctly, the tests and linter should now pass, and a green check should show
 
-Remember to do Recitation Quiz 1 on Gradescope! Please only open it after you have completed all the steps above.
+Remember to do [Recitation 2 quiz](https://www.gradescope.com/courses/1360202/assignments/8521417) on Gradescope! Please only open it after you have completed all the steps above.
