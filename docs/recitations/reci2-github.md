@@ -51,7 +51,29 @@ Our GH actions pipeline suggests that the main branch is broken! Let’s walk th
       npm run lint
       ```
     - Fix any lint errors before committing.
-- Commits should start with a verb, and what it does to the codebase (e.g. _"Remove faulty condition from getCustomerDetails"_, _"Fix failing CompositeTestCase"_, _"Fix issue #21"_ )
+- Commits should start with a verb, and what it does to the codebase (e.g. _"Remove faulty condition from getCustomerDetails"_, _"Fix failing CompositeTestCase"_, _"Fix issue #21"_)
+- The `main` branch may have changed since you created your branch. Before pushing your branch, we need to make sure your changes are based on the latest version of `main`. To do that:
+    - Go to `main`: 
+        ```bash
+        git checkout main
+        ```
+    - Download the latest commits and branches: 
+        ```bash
+        git fetch origin
+        ```
+    - Update `main` to reflect the changes on the cloud: 
+        ```bash
+        git pull
+        ```
+    - Go back to your branch: 
+        ```bash
+        git checkout <your-branch-name>
+        ```
+    - Rebase your branch onto the updated `main`: 
+        ```bash
+        git rebase main
+        ```
+    - Resolve conflicts, if any
 - Push the branch to remote
 
 ```
