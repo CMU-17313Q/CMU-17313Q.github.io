@@ -32,7 +32,7 @@
     handout: 'recitations/reci1-githubdevcontainers'
     name: 'Recitation 1: GitHub, Dev Containers, and TypeScript'
     quiz: 'https://gradescope.com/courses/1360202/assignments/8461221/'
-    slides: ''
+    slides: 'assets/pdfs/Recitation-01-Setup.pdf'
 
 - date: Tue Aug 25
   homework:
