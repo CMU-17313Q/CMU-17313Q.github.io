@@ -340,6 +340,7 @@ Coming Soon!
                 <a href="mailto:{{assistant.email}}"><span class="material-symbols-outlined">
                     mail
                 </span></a>
+                Office hours <a href="https://calendar.app.google/zdagEejde357hGa1A" style="font-size: inherit; color: #f45b5b;">by appointment</a><br />
                 {% if assistant.website %}
                 <a href="{{assistant.website}}" target="_blank"><span class="material-symbols-outlined">
                     public
