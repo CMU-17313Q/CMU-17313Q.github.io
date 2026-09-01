@@ -121,8 +121,8 @@
   recitation:
     handout: 'recitations/reci2-github'
     name: 'Recitation 2: Git Collaboration'
-    quiz: ''
-    slides: ''
+    quiz: 'https://www.gradescope.com/courses/1360202/assignments/8521417'
+    slides: 'assets/pdfs/Recitation-02-Git.pdf'
 - date: Tue Sep 01
   homework:
     deadline: ''
