@@ -24,8 +24,8 @@ recitation:
   date: Mon Aug 31
   handout: recitations/reci2-github
   name: 'Recitation 2: Git Collaboration'
-  quiz: ''
-  slides: ''
+  quiz: https://www.gradescope.com/courses/1360202/assignments/8521417
+  slides: assets/pdfs/Recitation-02-Git.pdf
 
 teamsurvey:
   closedate: Wed Sep 16
