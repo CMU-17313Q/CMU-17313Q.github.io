@@ -128,7 +128,7 @@ Pick two questions you think would meaningfully test whether a classmate underst
 
 ### GitHub Issue (25 pts)
 
-First, choose a single Qlty-reported “smell” in a TypeScript file and open a GitHub issue in the [class repository](https://github.com/CMU-1731Q/opencode/issues) using the **P1B Starter Task Issue template** to declare which smell you will be working on.
+First, choose a single Qlty-reported “smell” in a TypeScript file and open a GitHub issue in the [class repository](https://github.com/CMU-17313Q/opencode/issues) using the **P1B Starter Task Issue template** to declare which smell you will be working on.
 
 ![GitHub Issue Template](../../assets/images/hw/p1b_issue_template.png)
 
