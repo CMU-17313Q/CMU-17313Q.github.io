@@ -130,7 +130,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/04-Case-Study-737MAX.pdf'
     name: 'Case Study 737MAX'
   reading:
     link: "readings/R3"
