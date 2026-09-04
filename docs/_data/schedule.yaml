@@ -185,10 +185,10 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Process & Planning'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R4'
+    name: 'The Toyota Production System'
   recitation:
     handout: ''
     name: ''
@@ -221,10 +221,10 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Teams & Communication'
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R5'
+    name: 'How to Work Well on Teams'
   recitation:
     handout: ''
     name: ''
