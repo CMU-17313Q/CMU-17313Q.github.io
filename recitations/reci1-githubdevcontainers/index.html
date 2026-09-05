@@ -1,0 +1,1670 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../projects/P1/documentation/">
+      
+      
+        <link rel="next" href="../reci2-github/">
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
+    
+    
+      
+        <title>Recitation 1 - GitHub, Dev Containers, and Typescript - CMU 17-313: Foundations of Software Engineering (Qatar)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#recitation-1-github-dev-containers-and-typescript-due-monday-august-24th-1159pm" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="CMU 17-313: Foundations of Software Engineering (Qatar)" class="md-header__button md-logo" aria-label="CMU 17-313: Foundations of Software Engineering (Qatar)" data-md-component="logo">
+      
+  <img src="../../assets/images/17313_numberbox.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CMU 17-313: Foundations of Software Engineering (Qatar)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Recitation 1 - GitHub, Dev Containers, and Typescript
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../overview/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Course Overview
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../syllabus/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Syllabus
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../projects/P1/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Projects
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Recitations
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../hall-of-fame/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Hall of Fame
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://www.gradescope.com/courses/1360202" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Gradescope
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CMU 17-313: Foundations of Software Engineering (Qatar)" class="md-nav__button md-logo" aria-label="CMU 17-313: Foundations of Software Engineering (Qatar)" data-md-component="logo">
+      
+  <img src="../../assets/images/17313_numberbox.png" alt="logo">
+
+    </a>
+    CMU 17-313: Foundations of Software Engineering (Qatar)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Course Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../syllabus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Syllabus
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Projects
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Projects
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../projects/P1/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Project 1: Hello, opencode!
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            Project 1: Hello, opencode!
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projects/P1/1_checkpoint/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    1A Build Checkpoint
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projects/P1/2_refactoring/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    1B Starter Task
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projects/P1/development-tools-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Development Tools Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projects/P1/developmentContainer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Devcontainers Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projects/P1/git-commands-reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Git Commands Reference
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projects/P1/documentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resources and Documentation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Recitations
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Recitations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Recitation 1 - GitHub, Dev Containers, and TypeScript
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Recitation 1 - GitHub, Dev Containers, and TypeScript
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-1-create-your-own-github-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity 1: Create Your Own GitHub Repository
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-2-install-the-required-software" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity 2: Install the Required Software
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Activity 2: Install the Required Software">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#visual-studio-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visual Studio Code
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git" class="md-nav__link">
+    <span class="md-ellipsis">
+      Git
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#github-cli" class="md-nav__link">
+    <span class="md-ellipsis">
+      GitHub CLI
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-3-authenticate-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity 3: Authenticate GitHub
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-4-clone-your-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity 4: Clone Your Repository
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-5-open-your-repository-in-vs-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity 5: Open Your Repository in VS Code
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-6-set-up-a-dev-container" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity 6: Set Up a Dev Container
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Activity 6: Set Up a Dev Container">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install-the-dev-containers-extension" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install the Dev Containers Extension
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#start-docker-desktop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Start Docker Desktop
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-7-create-the-dev-container-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity 7: Create the Dev Container Configuration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-8-reopen-the-repository-in-the-dev-container" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity 8: Reopen the Repository in the Dev Container
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-9-test-nodejs-inside-the-container" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity 9: Test Node.js Inside the Container
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-10-translate-a-simple-code-into-typescript" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity 10: Translate a simple code into TypeScript
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-11-commit-and-push-your-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity 11: Commit and Push Your Work
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-repository-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final Repository Structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#submission" class="md-nav__link">
+    <span class="md-ellipsis">
+      Submission
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reci2-github/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Recitation 2 - Git Collaboration
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hall-of-fame/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hall of Fame
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.gradescope.com/courses/1360202" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gradescope
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-1-create-your-own-github-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity 1: Create Your Own GitHub Repository
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-2-install-the-required-software" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity 2: Install the Required Software
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Activity 2: Install the Required Software">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#visual-studio-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visual Studio Code
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git" class="md-nav__link">
+    <span class="md-ellipsis">
+      Git
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#github-cli" class="md-nav__link">
+    <span class="md-ellipsis">
+      GitHub CLI
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-3-authenticate-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity 3: Authenticate GitHub
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-4-clone-your-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity 4: Clone Your Repository
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-5-open-your-repository-in-vs-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity 5: Open Your Repository in VS Code
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-6-set-up-a-dev-container" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity 6: Set Up a Dev Container
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Activity 6: Set Up a Dev Container">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install-the-dev-containers-extension" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install the Dev Containers Extension
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#start-docker-desktop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Start Docker Desktop
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-7-create-the-dev-container-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity 7: Create the Dev Container Configuration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-8-reopen-the-repository-in-the-dev-container" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity 8: Reopen the Repository in the Dev Container
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-9-test-nodejs-inside-the-container" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity 9: Test Node.js Inside the Container
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-10-translate-a-simple-code-into-typescript" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity 10: Translate a simple code into TypeScript
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-11-commit-and-push-your-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity 11: Commit and Push Your Work
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-repository-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final Repository Structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#submission" class="md-nav__link">
+    <span class="md-ellipsis">
+      Submission
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="recitation-1-github-dev-containers-and-typescript-due-monday-august-24th-1159pm">Recitation 1: GitHub, Dev Containers, and Typescript - DUE Monday August 24th, 11:59pm<a class="headerlink" href="#recitation-1-github-dev-containers-and-typescript-due-monday-august-24th-1159pm" title="Permanent link">&para;</a></h1>
+<div class="admonition warning">
+<p class="admonition-title">Long Recitation</p>
+<p>Because this is the first recitation and you are still familiarizing yourself with the development environment you will use this semester, you may find it a bit overwhelming. For this reason, you have until the end of the day to complete it. By completing this recitation, you are essentially getting started with P1.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Before You Begin</p>
+<p>The instructions below are designed to work for most students. However, your operating system or configuration may differ from what we expect, and some commands may not work as described. Do not panic—ask a member of the course staff for help. The purpose of this recitation is to identify and resolve any initial setup problems now so that you do not have to worry about them later in the course.</p>
+</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<p>After this recitation, students should be able to set up their development environment, create and clone a GitHub repository, run a TypeScript program, and use a Docker-based development container through Visual Studio Code. These skills will prepare students to work on P1 and other development projects throughout the course.</p>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" checked/><span class="task-list-indicator"></span></label> You have a <a href="https://github.com/">GitHub</a> account</li>
+</ul>
+<h2 id="activity-1-create-your-own-github-repository">Activity 1: Create Your Own GitHub Repository<a class="headerlink" href="#activity-1-create-your-own-github-repository" title="Permanent link">&para;</a></h2>
+<p>Create a new GitHub repository using the following settings:</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Repository name</strong></td>
+<td><code>{ANDREW-ID}-17313-reci1</code></td>
+</tr>
+<tr>
+<td><strong>Visibility</strong></td>
+<td>Public</td>
+</tr>
+<tr>
+<td><strong>README</strong></td>
+<td>On</td>
+</tr>
+</tbody>
+</table>
+<p>Then click <strong>Create repository</strong>.</p>
+<blockquote>
+<p><strong>Important:</strong> Your repository must remain <strong>public</strong> because you will submit a link to it.</p>
+</blockquote>
+<h2 id="activity-2-install-the-required-software">Activity 2: Install the Required Software<a class="headerlink" href="#activity-2-install-the-required-software" title="Permanent link">&para;</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Already Set?</p>
+<p>If you already have Visual Studio Code and Git installed, you can skip this step.</p>
+</div>
+<h3 id="visual-studio-code">Visual Studio Code<a class="headerlink" href="#visual-studio-code" title="Permanent link">&para;</a></h3>
+<p>Install <strong>Visual Studio Code</strong>:</p>
+<p><a href="https://code.visualstudio.com/download?_exp_download=d53503e735">Download Visual Studio Code</a></p>
+<h3 id="git">Git<a class="headerlink" href="#git" title="Permanent link">&para;</a></h3>
+<p>Install Git:</p>
+<p><a href="https://git-scm.com/install/">Install Git</a></p>
+<p>If Visual Studio Code was already open when you installed Git, <strong>restart Visual Studio Code</strong>.</p>
+<p>Verify that Git is installed by opening a terminal and running:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>--version
+</code></pre></div>
+<p>You should see the installed Git version.</p>
+<h3 id="github-cli">GitHub CLI<a class="headerlink" href="#github-cli" title="Permanent link">&para;</a></h3>
+<p>Install the <strong>GitHub CLI</strong>. You will use it to authenticate your GitHub account.</p>
+<p><a href="https://cli.github.com/">Install GitHub CLI</a></p>
+<p>If Visual Studio Code was already open when you installed GitHub CLI, <strong>restart Visual Studio Code</strong>.</p>
+<h2 id="activity-3-authenticate-github">Activity 3: Authenticate GitHub<a class="headerlink" href="#activity-3-authenticate-github" title="Permanent link">&para;</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Already Set?</p>
+<p>You may already have an authenticated GitHub session if you have used Git in the past. If so, skip this step.</p>
+</div>
+<p>In the VS Code terminal, run:</p>
+<div class="highlight"><pre><span></span><code>gh<span class="w"> </span>auth<span class="w"> </span>login
+</code></pre></div>
+<p>Follow the prompts and select:</p>
+<div class="highlight"><pre><span></span><code>? Where do you use GitHub?
+&gt; GitHub.com
+
+? What is your preferred protocol for Git operations on this host?
+&gt; HTTPS
+
+? Authenticate Git with your GitHub credentials?
+&gt; Yes
+
+? How would you like to authenticate GitHub CLI?
+&gt; Login with a web browser
+</code></pre></div>
+<p>Complete the authentication process in your web browser.</p>
+<h2 id="activity-4-clone-your-repository">Activity 4: Clone Your Repository<a class="headerlink" href="#activity-4-clone-your-repository" title="Permanent link">&para;</a></h2>
+<p>First, navigate to the folder where you want your local repository to live.</p>
+<p>You can use the VS Code terminal to navigate to the desired directory:</p>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>&lt;path-to-your-folder&gt;
+</code></pre></div>
+<p>On your GitHub repository page, click the green <strong><code>&lt;&gt; Code</code></strong> button.</p>
+<p>Select <strong>HTTPS</strong> and copy your repository URL.</p>
+<p>Then clone the repository:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>&lt;repo-URL&gt;
+</code></pre></div>
+<p>For example:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/&lt;your-username&gt;/&lt;your-repository&gt;.git
+</code></pre></div>
+<h2 id="activity-5-open-your-repository-in-vs-code">Activity 5: Open Your Repository in VS Code<a class="headerlink" href="#activity-5-open-your-repository-in-vs-code" title="Permanent link">&para;</a></h2>
+<p>Open the repository folder in Visual Studio Code:</p>
+<p><strong>File → Open Folder</strong></p>
+<p>Select the folder that was created when you cloned your repository.</p>
+<p>Then open a new terminal:</p>
+<p><strong>Terminal → New Terminal</strong></p>
+<p>You should now be working inside your repository.</p>
+<h2 id="activity-6-set-up-a-dev-container">Activity 6: Set Up a Dev Container<a class="headerlink" href="#activity-6-set-up-a-dev-container" title="Permanent link">&para;</a></h2>
+<p>Dev Containers allow you to develop inside a consistent, containerized environment. We will discuss containers in more detail later in the course. For now, you should know that Dev Containers simplify the installation and configuration of the development tools required for a project.</p>
+<p>In this recitation, we will work with TypeScript, so the Dev Container will provide Node.js and the other tools needed to develop and run the project.</p>
+<p>You will need:</p>
+<ol>
+<li>Docker Desktop</li>
+<li>The VS Code Dev Containers extension</li>
+</ol>
+<h3 id="install-the-dev-containers-extension">Install the Dev Containers Extension<a class="headerlink" href="#install-the-dev-containers-extension" title="Permanent link">&para;</a></h3>
+<p>Install the <strong>Dev Containers</strong> extension for Visual Studio Code:</p>
+<p><a href="https://code.visualstudio.com/docs/devcontainers/tutorial">VS Code Dev Containers Tutorial</a></p>
+<h3 id="start-docker-desktop">Start Docker Desktop<a class="headerlink" href="#start-docker-desktop" title="Permanent link">&para;</a></h3>
+<p>Open <strong>Docker Desktop</strong> and make sure the Docker engine is running.</p>
+<p>Verify Docker from the VS Code terminal:</p>
+<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>version
+</code></pre></div>
+<p>You should see information for both the:</p>
+<ul>
+<li><strong>Client</strong></li>
+<li><strong>Server</strong></li>
+</ul>
+<p>If you only see the client or receive an error, make sure Docker Desktop is running before continuing.</p>
+<hr />
+<h2 id="activity-7-create-the-dev-container-configuration">Activity 7: Create the Dev Container Configuration<a class="headerlink" href="#activity-7-create-the-dev-container-configuration" title="Permanent link">&para;</a></h2>
+<p>Inside your repository, create a directory named:</p>
+<div class="highlight"><pre><span></span><code>.devcontainer
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Note the . (dot) in front of the directory name</p>
+</div>
+<p>Your repository should now look like:</p>
+<div class="highlight"><pre><span></span><code>{ANDREW-ID}-17313-reci1/
+├── .devcontainer/
+└── README.md
+</code></pre></div>
+<p>Inside <code>.devcontainer</code>, create a file named:</p>
+<div class="highlight"><pre><span></span><code>devcontainer.json
+</code></pre></div>
+<p>Add the following configuration:</p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;TypeScript Recitation&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;image&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;node:24-slim&quot;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Your final structure should be:</p>
+<div class="highlight"><pre><span></span><code>{ANDREW-ID}-17313-reci1/
+├── .devcontainer/
+    └── devcontainer.json
+└── README.md
+</code></pre></div>
+<h2 id="activity-8-reopen-the-repository-in-the-dev-container">Activity 8: Reopen the Repository in the Dev Container<a class="headerlink" href="#activity-8-reopen-the-repository-in-the-dev-container" title="Permanent link">&para;</a></h2>
+<p>Open the VS Code Command Palette:</p>
+<p><strong>Ctrl + Shift + P</strong></p>
+<p>Search for:</p>
+<div class="highlight"><pre><span></span><code>Reopen in Container
+</code></pre></div>
+<p>and select:</p>
+<p><strong>Dev Containers: Reopen in Container</strong></p>
+<p>VS Code will now reopen your repository inside the Docker container.</p>
+<blockquote>
+<p><strong>Note:</strong> The first time you do this, VS Code may take a few moments to download the Node.js image and configure the container.</p>
+</blockquote>
+<hr />
+<h2 id="activity-9-test-nodejs-inside-the-container">Activity 9: Test Node.js Inside the Container<a class="headerlink" href="#activity-9-test-nodejs-inside-the-container" title="Permanent link">&para;</a></h2>
+<p>Once the container has started, open a new terminal:</p>
+<p><strong>Terminal → New Terminal</strong></p>
+<p>You should now be inside the container.</p>
+<p>Run this command:</p>
+<div class="highlight"><pre><span></span><code>node<span class="w"> </span>-v
+</code></pre></div>
+<p>Verify that the Node.js installation runs successfully.</p>
+<div class="highlight"><pre><span></span><code>v24.19.0
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">What Did You Accomplish?</p>
+<p>You now have Node.js installed and running inside a container without modifying your local machine's configuration. Everyone who uses this Dev Container will have the same development environment—including the exact same version of Node.js. This is particularly useful when working in a team because it ensures that everyone uses the same development tools and avoids compatibility issues caused by differences in local configurations.</p>
+</div>
+<h2 id="activity-10-translate-a-simple-code-into-typescript">Activity 10: Translate a simple code into TypeScript<a class="headerlink" href="#activity-10-translate-a-simple-code-into-typescript" title="Permanent link">&para;</a></h2>
+<p>This semester, you will be working on the open-source project opencode. Like
+most modern web codebases, opencode is written in TypeScript. Most students
+start this course without ever having used TypeScript, because of that, becoming
+familiar with TypeScript is a learning goal for this class. Picking up a new
+language quickly from documentation, rather than waiting for it to be taught to
+you, is itself a skill this course (and most software jobs) will ask of you
+repeatedly, so before you dive into the codebase, you should spend some time
+learning TypeScript on your own.</p>
+<p>We recommend using the official TypeScript Handbook (or any other resource you
+find helpful, there are many YouTube videos) and online resources of your
+choosing, study (at least) the following core topics:</p>
+<ul>
+<li>Basic types &amp; type annotations (string, number, arrays, functions)</li>
+<li>Unions, literals, and narrowing</li>
+<li>Object shapes: interfaces and type aliases</li>
+<li>Tooling, config, and ecosystem (tsconfig.json, flags, frameworks)</li>
+</ul>
+<p>For now, you will spend a few minutes learning the very basics to translate this code. You can collaborate with other students in this activity and/or ask a CA for help.</p>
+<p>Inside your repository, create a new file named:</p>
+<div class="highlight"><pre><span></span><code>greet_students.ts
+</code></pre></div>
+<p>Your repository should now contain:</p>
+<div class="highlight"><pre><span></span><code>{ANDREW-ID}-17313-reci1/
+├── .devcontainer/
+├── greet_students.ts
+└── README.md
+</code></pre></div>
+<p>Open the file <code>greet_students.ts</code> and write the TypeScript code that is equivalent ot the following Python code:</p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">greet_students</span><span class="p">(</span><span class="n">names</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">min_length</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+ <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">names</span><span class="p">:</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">name</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="n">min_length</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Hello, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">! Your name is long enough.&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Hello, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">!&quot;</span><span class="p">)</span>
+
+<span class="n">students</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Alice&quot;</span><span class="p">,</span> <span class="s2">&quot;Bob&quot;</span><span class="p">,</span> <span class="s2">&quot;Charlie&quot;</span><span class="p">,</span> <span class="s2">&quot;David&quot;</span><span class="p">]</span>
+<span class="n">greet_students</span><span class="p">(</span><span class="n">students</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+</code></pre></div>
+<p>Run your TypeScript program:</p>
+<div class="highlight"><pre><span></span><code>node<span class="w"> </span>greet_students.ts
+</code></pre></div>
+<p>Verify that your program runs successfully.</p>
+<h2 id="activity-11-commit-and-push-your-work">Activity 11: Commit and Push Your Work<a class="headerlink" href="#activity-11-commit-and-push-your-work" title="Permanent link">&para;</a></h2>
+<p>Before submitting, make sure your repository contains all required files.</p>
+<p>Your repository should look similar to:</p>
+<div class="highlight"><pre><span></span><code>{ANDREW-ID}-17313-reci1/
+├── .devcontainer/
+│   └── devcontainer.json
+├── greet_students.ts
+└── README.md
+</code></pre></div>
+<p>Check the status of your repository:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>status
+</code></pre></div>
+<p>You will notice that Git detects all of your new files (<code>.devcontainer/</code> and <code>greet_students.ts</code>) as untracked, except <code>README.md</code>, which has been in the repository since it was created back in Activity 1.
+Add your changes:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>.devcontainer<span class="w"> </span>greet_students.ts
+</code></pre></div>
+<p>Commit your changes:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;recitation 01 for {ANDREW-ID}&quot;</span>
+</code></pre></div>
+<p>Push your commit to GitHub:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>main
+</code></pre></div>
+<p>Refresh your GitHub repository page and verify that your files are visible.</p>
+<h2 id="final-repository-structure">Final Repository Structure<a class="headerlink" href="#final-repository-structure" title="Permanent link">&para;</a></h2>
+<p>Your repository should look like:</p>
+<div class="highlight"><pre><span></span><code>{ANDREW-ID}-17313-reci1/
+├── .devcontainer/
+│   └── devcontainer.json
+├── greet_students.ts
+└── README.md
+</code></pre></div>
+<h2 id="submission">Submission<a class="headerlink" href="#submission" title="Permanent link">&para;</a></h2>
+<p>Submit the <strong>link to your GitHub repository</strong>.</p>
+<p>Before submitting, verify that:</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> The repository name is <code>{ANDREW-ID}-17313-reci1</code>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> The repository is <strong>public</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <code>greet_students.ts</code> is present.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <code>.devcontainer/devcontainer.json</code> is present.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Your code runs successfully inside the Dev Container.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Your latest changes have been committed.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Your latest commit has been pushed to GitHub.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> The repository link you submit is accessible without signing in.</li>
+</ul>
+<p><strong>Submission:</strong> Submit the URL to your public GitHub repository on <a href="https://gradescope.com/courses/1360202/assignments/8461221/">Gradescope</a>!</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+<footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.tracking", "navigation.indexes", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,36 @@
+lectures:
+- date: Sun Sep 06
+  link: ''
+  name: Process & Planning
+  reading:
+    link: readings/R4
+    name: The Toyota Production System
+- date: Tue Sep 08
+  link: ''
+  name: Teams & Communication
+  reading:
+    link: readings/R5
+    name: How to Work Well on Teams
+
+projects:
+- date: Mon Aug 31
+  deadline: Due Sun Sep 6th @ 11:59pm
+  end_date: 2026-09-07 00:00:00
+  link: projects/P1
+  name: 'Project 1B: Starter Task'
+  numDays: 5
+- date: Mon Sep 07
+  deadline: Due Sun Sep 13th @ 11:59pm
+  end_date: 2026-09-14 00:00:00
+  link: ''
+  name: Project 2A
+  numDays: 5
+
+recitation: null
+
+teamsurvey:
+  closedate: Wed Sep 16
+  deadline: Wed Sep 16 @ 11:59pm
+  link: ''
+  name: Team Survey 1 (Sep 11 -  Sep 16)
+  opendate: Fri Sep 11
