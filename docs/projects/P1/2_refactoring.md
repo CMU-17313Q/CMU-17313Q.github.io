@@ -259,7 +259,7 @@ To receive full credit for this project, we expect:
 
 - [ ] **Code Refactoring & Validation (20 pts)**
 	- [ ] Target smell reduced/removed (same scope) with before/after Qlty evidence
- 	- [ ] `bun lint` and `bun test` pass locally
+ 	- [ ] `bun lint` and `bun test` pass locally for your changes
  	- [ ] Test coverage results showing change covered
     - [ ] Test output showing tests passing.
 
