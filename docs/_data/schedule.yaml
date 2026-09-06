@@ -198,7 +198,7 @@
 - date: Mon Sep 07
   homework:
     deadline: 'Due Sun Sep 13th @ 11:59pm'
-    link: ''
+    link: 'projects/P2'
     name: 'Project 2A'
     numDays: 5
   lecture:
@@ -208,9 +208,9 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
-    quiz: ''
+    handout: 'recitations/reci3-teamcontract'
+    name: 'Recitation 3: Team Contract'
+    quiz: 'https://www.gradescope.com/courses/1360202/assignments/8577415'
     slides: ''
 
 - date: Tue Sep 08
