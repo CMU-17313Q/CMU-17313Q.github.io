@@ -11,7 +11,7 @@ After this recitation, students will have met their teams and completed a rough 
 
 ## Activity 1: Get to know your team!
 
-See team assignments [here](). Do some quick intros, then get ready for...
+Do some quick intros, then get ready for...
 
 ### **Activity 1A: Similarities!**
 
@@ -62,10 +62,3 @@ Here are **some** important questions to consider regarding distributing respons
 -   What steps will the team take if a member is contributing too little, and at what point will this issue be escalated to the instructors?
 
 Remember to do [Recitation 3 quiz](https://www.gradescope.com/courses/1360202/assignments/8577415) on Gradescope! Please only open it after you have completed all the steps above.
-
-### **Activity 3: Group Reflection**
-
-Think of this as your team's very first meeting! Spend five minutes reflecting on it. What went well? Did you notice anything that can be improved upon in future meetings? For instance, were everyone’s ideas heard? Did everyone do their best to contribute? Do you have anything to add to your team contract? Remember to be constructive and tactful!
-
-### **Activity 4: Class Discussion**
-Share 2-3 interesting things your team added to your contract!
