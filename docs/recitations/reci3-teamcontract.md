@@ -11,7 +11,7 @@ After this recitation, students will have met their teams and completed a rough 
 
 ## Activity 1: Get to know your team!
 
-See team assignments [here](). Do some quick intros, then get ready for...
+See team assignments [here](https://docs.google.com/spreadsheets/d/1-wU6WqI7D1UAmK42omlTsU-sh7BTkLdnrRqUfeSPxsM/edit?usp=sharing). Do some quick intros, then get ready for...
 
 ### **Activity 1A: Similarities!**
 
@@ -21,7 +21,7 @@ In your group, spend 5 minutes finding 5 things that every group member has in c
 
 As part of Project 2, you’ll need to come up with a name for your team. Do so now!
 
-As per the project handout, your name should be *“unique, pronounceable, short, and something you would be proud to shout in your team cheer on the streets of Pittsburgh in the presence of small, impressionable, multilingual children.”*
+As per the project handout, your name should be *“unique, pronounceable, short, and something you would be proud to shout in your team cheer on the streets of Qatar in the presence of small, impressionable, multilingual children.”*
 
 After you come up with your team name, tell the course staff. They will create a Google Drive folder and share with all team members. The team contract you will start developing during this recitation and later submit for P2A should be created in this folder, **as well as any future TEAM documents**. This will allow TAs to check edit history for grading.
 
