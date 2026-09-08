@@ -211,7 +211,7 @@
     handout: 'recitations/reci3-teamcontract'
     name: 'Recitation 3: Team Contract'
     quiz: 'https://www.gradescope.com/courses/1360202/assignments/8577415'
-    slides: ''
+    slides: 'assets/pdfs/Recitation-03-Team-Contracts.pdf'
 
 - date: Tue Sep 08
   homework:
