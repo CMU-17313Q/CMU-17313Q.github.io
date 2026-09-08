@@ -30,7 +30,7 @@ Detailed information for each of the deadlines has been split into its own subpa
     This is a large assignment spanning from now until Fall Break. We estimate that this project will take each student on the team on average 8 hours/week over the next 5 weeks, for a total of 40 hours. We highly recommend reading through the entire assignment before starting so you are aware of our expectations for the later deliverables.
 
 
-A) [**Team Process & Planning**](1_teamprocess.md) – 70 points – due Sunday, September 13th, 11:59pm
+A) [**Team Process & Planning**](1_teamprocess.md) – 70 points – due Tuesday, September 15th, 11:59pm
 
 - **Prerequisite:** Team Setup
 - Teamwork Contract (35 pts)
