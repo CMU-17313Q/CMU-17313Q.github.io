@@ -7,6 +7,11 @@
   lecture:
     link: 'assets/pdfs/01-Intro.pdf'
     name: Intro
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -25,6 +30,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -43,6 +53,11 @@
   lecture:
     link: 'assets/pdfs/02-SWE with AI.pdf'
     name: 'SE with AI'
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: 'readings/R1'
     name: 'From Technical Debt to Cognitive Debt'
@@ -61,6 +76,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -79,6 +99,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -97,6 +122,11 @@
   lecture:
     link: 'assets/pdfs/03-Metrics-and-Measurements.pdf'
     name: 'Metrics and Measurements'
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: 'readings/R2'
     name: 'Metrics and Measurements'
@@ -115,6 +145,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -132,6 +167,11 @@
   lecture:
     link: 'assets/pdfs/04-Case-Study-737MAX.pdf'
     name: 'Case Study 737MAX'
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: "readings/R3"
     name: 'Case Study 737MAX'
@@ -150,6 +190,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -168,6 +213,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -186,6 +236,11 @@
   lecture:
     link: ''
     name: 'Process & Planning'
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: 'readings/R4'
     name: 'The Toyota Production System'
@@ -200,10 +255,15 @@
     deadline: 'Due Tue Sep 15th @ 11:59pm'
     link: 'projects/P2'
     name: 'Project 2A'
-    numDays:7
+    numDays: 7
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -222,6 +282,11 @@
   lecture:
     link: ''
     name: 'Teams & Communication'
+  problemset:
+    deadline: 'Due Tue Sep 15th @ 11:59pm'
+    link: 'problemsets/PS1'
+    name: 'Problem Set 1'
+    numDays: 5
   reading:
     link: 'readings/R5'
     name: 'How to Work Well on Teams'
@@ -240,6 +305,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -258,6 +328,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -276,6 +351,11 @@
   lecture:
     link: ''
     name: NO CLASS
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -294,6 +374,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -312,6 +397,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -330,6 +420,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -348,6 +443,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -366,6 +466,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: 'Quiz 1'
+    numDays: 1
   reading:
     link: ''
     name: ''
@@ -384,6 +489,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -402,6 +512,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -420,6 +535,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -438,6 +558,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -456,6 +581,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -474,6 +604,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -492,6 +627,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -510,6 +650,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -528,6 +673,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -546,6 +696,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -564,6 +719,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -582,6 +742,11 @@
   lecture:
     link: ''
     name: MIDTERM 1
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: readings/midterm1-instructions
     name: Instructions & Past Exams
@@ -600,6 +765,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -618,6 +788,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -636,6 +811,11 @@
   lecture:
     link: ''
     name: NO CLASS (Fall Break)
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -654,6 +834,11 @@
   lecture:
     link: ''
     name: NO CLASS (Fall Break)
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -672,6 +857,11 @@
   lecture:
     link: ''
     name: NO CLASS (Fall Break)
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -690,6 +880,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -708,6 +903,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -726,6 +926,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -744,6 +949,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -762,6 +972,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -780,6 +995,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -798,6 +1018,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -816,6 +1041,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -834,6 +1064,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -852,6 +1087,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -870,6 +1110,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -888,6 +1133,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -906,6 +1156,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -924,6 +1179,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -942,6 +1202,11 @@
   lecture:
     link: assets/pdfs/18-AI-for-SE.pdf
     name: ML/AI for SE
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: readings/R10
     name: Intro to LLMs
@@ -960,6 +1225,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -978,6 +1248,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -996,6 +1271,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -1014,6 +1294,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -1032,6 +1317,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -1050,6 +1340,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -1068,6 +1363,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -1086,6 +1386,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -1104,6 +1409,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -1122,6 +1432,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -1140,6 +1455,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -1158,6 +1478,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -1176,6 +1501,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -1194,6 +1524,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -1212,6 +1547,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -1230,6 +1570,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -1248,6 +1593,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -1266,6 +1616,11 @@
   lecture:
     link: ''
     name: MIDTERM 2
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: readings/midterm2-instructions
     name: Instructions & Past Exams
@@ -1284,6 +1639,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -1302,6 +1662,11 @@
   lecture:
     link: ''
     name: TBD
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -1320,6 +1685,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''
@@ -1338,6 +1708,11 @@
   lecture:
     link: ''
     name: ''
+  problemset:
+    deadline: ''
+    link: ''
+    name: ''
+    numDays: 0
   reading:
     link: ''
     name: ''

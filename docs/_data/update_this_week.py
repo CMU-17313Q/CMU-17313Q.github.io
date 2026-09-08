@@ -35,6 +35,7 @@ todays_weekday = (today.weekday() + 2) % 7
 start_date = today - timedelta(todays_weekday)
 
 projects = []
+problemsets = []
 recitation = None
 lectures = []
 
@@ -56,6 +57,11 @@ if schedule:
             projects[-1]['date'] = schedule_day['date']
             projects[-1]['end_date'] = add_business_days(schedule_day['date'], schedule_day['homework']['numDays'], current_date.year)
 
+        if schedule_day['problemset']['name'] != '':
+            problemsets.append(schedule_day['problemset'])
+            problemsets[-1]['date'] = schedule_day['date']
+            problemsets[-1]['end_date'] = add_business_days(schedule_day['date'], schedule_day['problemset']['numDays'], current_date.year)
+
         if week_start_date:
             if schedule_day['lecture']['name'] != '':
                 lectures.append(schedule_day['lecture'])
@@ -69,6 +75,7 @@ if schedule:
                 recitation['date'] = schedule_day['date']
 
 projects = list(filter(lambda project: project['end_date'] > today, projects))
+problemsets = list(filter(lambda problemset: problemset['end_date'] > today, problemsets))
 
 with open('teamsurveys.yaml', 'r') as file:
     allteamsurveys = yaml.safe_load(file)
@@ -104,6 +111,7 @@ today = datetime.now()
 
 output = {
     "projects": projects,
+    "problemsets": problemsets,
     "recitation": recitation,
     "lectures": lectures,
     "teamsurvey" : (teamsurvey if teamsurvey != None else nextteamsurvey)

@@ -156,6 +156,44 @@ hide:
 
 <div class="card">
     <div class="header">
+        Problem Sets & Quizzes
+    </div>
+    <div class="content">
+        {% if this_week.problemsets %}
+            {% for problemset in this_week.problemsets %}
+                <div class="homework-name">
+                    {{ problemset.name }}
+                </div>
+
+                <div class="homework-date">
+                    <span class="material-symbols-outlined">calendar_month</span>
+                    Released {{ problemset.date }}
+                </div>
+
+                {% if problemset.deadline != "" %}
+                <div class="homework-date">
+                    <span class="material-symbols-outlined">calendar_month</span>
+                    {{ problemset.deadline }}
+                </div>
+                {% endif %}
+
+                {% if problemset.link != "" %}
+                <a class="label label-red" href="{{problemset.link}}">
+                    <span class="material-symbols-outlined">description</span>Handout
+                </a>
+                {% endif %}
+                {% if not loop.last %}
+                <hr/>
+                {% endif %}
+            {% endfor %}
+        {% else %}
+            None!
+        {% endif %}
+    </div>
+</div>
+
+<div class="card">
+    <div class="header">
         Feedback
     </div>
     <div class="content">
@@ -187,7 +225,7 @@ hide:
 {%- set schedule = extra.schedule -%}
 
 {% if schedule %}
-{% set ns = namespace(recitation_days_left=0, homework_days_left=0) %}
+{% set ns = namespace(recitation_days_left=0, homework_days_left=0, problemset_days_left=0) %}
 
 <table>
     <thead>
@@ -195,6 +233,7 @@ hide:
         <th><b>Lecture</b></th>
         <th><b>Reading</b></th>
         <th><b>Recitation</b></th>
+        <th><b>Problem Sets / Quiz</b></th>
         <th><b>Project Deadline</b></th>
     </thead>
     <tbody>
@@ -252,6 +291,28 @@ hide:
                 {% endif %}
             {% endif %}
 
+
+            {% if schedule_day.problemset.name != "" %}
+                <td rowspan="{{schedule_day.problemset.numDays}}"><span class="schedule-problemset">
+                    <b>{{schedule_day.problemset.name}}</b>
+                    <br/>
+                    {{schedule_day.problemset.deadline}}
+                    <br/>
+
+                    {% if schedule_day.problemset.link != "" %}
+                    <a class="label label-gold" href="{{schedule_day.problemset.link}}">
+                        <span class="material-symbols-outlined">description</span>Handout
+                    </a>
+                    {% endif %}
+                </span></td>
+                {% set ns.problemset_days_left = schedule_day.problemset.numDays - 1 %}
+            {% else %}
+                {% if ns.problemset_days_left > 0 %}
+                    {% set ns.problemset_days_left = ns.problemset_days_left - 1 %}
+                {% else %}
+                    <td><span class="schedule-problemset"></span></td>
+                {% endif %}
+            {% endif %}
 
             {% if schedule_day.homework.name != "" %}
                 <td rowspan="{{schedule_day.homework.numDays}}"><span class="schedule-homework">
