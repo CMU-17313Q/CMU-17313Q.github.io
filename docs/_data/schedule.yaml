@@ -234,7 +234,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: 'assets/pdfs/06-Process.pdf'
+    link: 'assets/pdfs/05-Process.pdf'
     name: 'Process & Planning'
   problemset:
     deadline: ''
@@ -280,7 +280,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/06-Teams.pdf'
     name: 'Teams & Communication'
   problemset:
     deadline: 'Due Tue Sep 15th @ 11:59pm'
