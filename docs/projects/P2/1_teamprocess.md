@@ -2,7 +2,7 @@
 
 ## Deliverables
 
-**Team Process & Planning** – 70 points – due Sunday, September 13th, 11:59pm
+**Team Process & Planning** – 70 points – due Tuesday, September 15th, 11:59pm
 
 - **Prerequisite:** [Team Setup](#team-setup)
 - [Teamwork Contract](#teamwork-contract-35-pts) (35 pts)
@@ -20,16 +20,11 @@ You can use this Slack channel for subsequent project-team related discussions o
 
 ### GitHub Repository
 
-You will be working on your team repository for this project. Once you have decided on a team name, go to the link below to set up your team:
 
-**TBD** — GitHub Classroom has been shut down; team repository setup instructions will be updated here.
+Your team will get a repository created in the course organization. Your TA's will send you that information via Slack.
 
+You should then create a **GitHub Project board** for your repository (you can follow the steps from the [GitHub Exercise](/assignments/P1/github.md/#setting-up-a-project-board) or the note below).
 
-!!! warning
-    After you join a team on GitHub, you cannot change teams! Make sure that **only one** of you creates the team, and make sure that the remaining teammates join the right team.
-
-
-Once you enter your team name, Github will automatically create a repository for your team. You should then create a **Github Project board** for your repository (you can follow the steps from the [GitHub Exercise](/projects/P1/github#setting-up-a-project-board) or the note below).
 
 !!! tip
     From previous semesters, this guide [GitHub Exercise](/projects/P1/github/) gives more specifics on good issue writing, commit writing and PRs. TAs have created this more recent [guide](https://docs.google.com/document/d/1edD2SSXu3d3TqYb_XzywiG4dpct6KVFhbT3PYZwItQM/edit?usp=sharing) for making good PRs and commits.
