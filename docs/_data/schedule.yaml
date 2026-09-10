@@ -234,7 +234,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/06-Process.pdf'
     name: 'Process & Planning'
   problemset:
     deadline: ''
@@ -373,7 +373,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'NO CLASS'
   problemset:
     deadline: ''
     link: ''
@@ -396,7 +396,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Design Docs'
   problemset:
     deadline: ''
     link: ''
@@ -404,7 +404,7 @@
     numDays: 0
   reading:
     link: ''
-    name: ''
+    name: 'No Pre-lecture Reading'
   recitation:
     handout: ''
     name: ''
