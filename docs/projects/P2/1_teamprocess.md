@@ -34,14 +34,22 @@ Once you enter your team name, Github will automatically create a repository for
 !!! tip
     From previous semesters, this guide [GitHub Exercise](/projects/P1/github/) gives more specifics on good issue writing, commit writing and PRs. TAs have created this more recent [guide](https://docs.google.com/document/d/1edD2SSXu3d3TqYb_XzywiG4dpct6KVFhbT3PYZwItQM/edit?usp=sharing) for making good PRs and commits.
 
-!!! note "Setting up a Project Kanban Board and Creating Issues"
+!!! note "Setting up a Project Board and Creating Issues"
     Project boards are a great way to track development. While there are lots of great external tools such as Trello or Jira, GitHub provides their own project boards for us to use with great integration support of their other features.
 
-    To create a Project Kanban, follow the steps below (only one member has to do this):
+    To create a Project board, follow the steps below (only one member has to do this):
 
-    - Click on the Projects tab in your team repo, and then the "+ New project" button. This will create a new Project Kanban board directly linked to the team repo. Use the "Board" template.
-    - Share the Kanban/Project board with your team or make it public so they have access to it. (Even if they have access to the repo, they might not have access to the board initially. To manage acces, click on the three dots in the top right and click on "Settings" and then "Manage access.")
-    - Have a team member add an issue for adding team member names to the README into the "Todo" column using the "+ Add item" button at the bottom of the column. OR under the Issues tab of the team repo, have a teammate create an issue and then link the issue to the Project Kanban board using the "Projects" field (two fields below "Assignees") on the right-hand side. Specify the status as "Todo."
+    - Click on the Projects tab in your team repo, and then the "New project" button. This will create a new Project directly linked to the team repo. Use the "Board" template.
+    - Share the Project with your team or make it public so they have access to it. (Even if they have access to the repo, they might not have access to the board initially). To manage acces:
+        - Navigate to your specific GitHub Project board.
+        - In the top-right corner, click the `...` icon to open the project menu.
+        - Click  Settings to open the project settings.
+        - In the left sidebar, select Manage access.
+        - To add someone: Under "Invite collaborators", search for the username or email address of the person you want to add.
+        - To modify roles: Locate the collaborator, click the Role drop-down menu, and select their new access tier.
+        - To revoke access: Click Remove next to the user's name.
+
+    - Have a team member add an issue for adding team member names to the README into the "Todo" column using the "+ Add item" button at the bottom of the column. OR under the Issues tab of the team repo, have a teammate create an issue and then link the issue to the Project board using the "Projects" field (two fields below "Assignees") on the right-hand side. Specify the status as "Todo."
     - Assign yourself to the issue.
 
 
@@ -53,7 +61,7 @@ We will be grading you on how well you follow the process we used for Project 1 
 - When creating issue, assign team members and tag with appropriate labels
 - Create a pull request and reference the issue it will be resolving
 - Provide feedback to pull requests
-- Use a Kanban board to track your workflow
+- Use a Project board to track your workflow
 
 For this project, you will create issues or pull requests **directly in your team repository**. We will use your commit history and issue/pull request activity on Github to assess both your teamwork process and each member’s individual contributions towards the project. It is **not** acceptable for one person to commit all the work after synchronizing through other means.
 
@@ -170,7 +178,7 @@ Convert the feature(s) you decide to implement into technical requirements (i.e.
 !!! note "Scoping Sprint 1 Issues"
     Each team member will individually implement their own issue during the First Sprint (see [2B First Sprint](2_firstsprint.md)) on their own feature branch — even issues that are part of the same larger feature should be scoped so a single person can own and implement their piece end-to-end. Keep this in mind when deciding how finely to break down your Backlog.
 
-You should actively assign and move these issues across your Kanban board as your team makes progress.
+You should actively assign and move these issues across your board as your team makes progress.
 
 !!! note "A Note on Grading"
     We **will not** assess how accurately you predicted your development process, nor will we be giving points based on the complexity or quality of your changes. The focus of our evaluations will be on how you decompose the problem, how you respond to unexpected circumstances, and how you analyze and reflect on your experience later on.
