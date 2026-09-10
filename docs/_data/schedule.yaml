@@ -413,10 +413,10 @@
 
 - date: Wed Sep 16
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Monday Sep 28th @ 11:59pm'
+    link: 'projects/P2'
+    name: 'Project 2B'
+    numDays: 9
   lecture:
     link: ''
     name: ''
