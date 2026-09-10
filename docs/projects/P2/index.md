@@ -37,7 +37,7 @@ A) [**Team Process & Planning**](1_teamprocess.md) – 70 points – due Tuesday
 - Project Planning (35 pts)
 - *Extra Credit (2 pts)*
 
-B) [**First Sprint**]() – 95 points – due Monday, September 28th, 11:59pm
+B) [**First Sprint**](2_firstsprint.md) – 95 points – due Monday, September 28th, 11:59pm
 
 - Checkpoint Presentation (45 pts) - Slides due Sunday, September 27th, 11:59pm, **Presentation held during Recitation on Monday, September 28th**
 - Individual Process & Implementation Interim (50 pts)
