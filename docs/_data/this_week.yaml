@@ -36,8 +36,8 @@ recitation:
   slides: assets/pdfs/Recitation-03-Team-Contracts.pdf
 
 teamsurvey:
-  closedate: Wed Sep 16
-  deadline: Wed Sep 16 @ 11:59pm
-  link: ''
-  name: Team Survey 1 (Sep 11 -  Sep 16)
-  opendate: Fri Sep 11
+  closedate: Mon Sep 14
+  deadline: Mon Sep 14 @ 11:59pm
+  link: https://forms.gle/NRfDryfDDAutj1xMA
+  name: Team Survey 1 (Sep 8 -  Sep 14)
+  opendate: Tue Sep 8
