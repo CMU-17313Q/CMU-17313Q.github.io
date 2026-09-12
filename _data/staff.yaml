@@ -1,0 +1,36 @@
+- name: Almiqdad Elzein
+  role: Teaching Assistant
+  email: aelzein@andrew
+  website:
+  photo: aelzein.jpg
+
+- name: Eduardo Feo-Flushing
+  role: Instructor
+  email: efeoflus@andrew
+  website: https://efeoflushing.com/
+  photo: efeoflus.jpg
+
+- name: Khadija Warraich
+  role: Course Assistant
+  email: kwarraich@andrew
+  website:
+  photo: kwarraich.jpg
+
+- name: Jeremy Ru
+  role: Course Assistant
+  email: zru@andrew
+  website:
+  photo: zru.jpg
+
+- name: Faiz Moazam
+  role: Course Assistant
+  email: fmoazam@andrew
+  website:
+  photo: fmoazam.jpg
+
+
+- name: Anurag Aryal
+  role: Course Assistant
+  email: aaryal@andrew
+  website:
+  photo: aaryal.jpg
