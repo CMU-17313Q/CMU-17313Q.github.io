@@ -253,7 +253,7 @@
 - date: Mon Sep 07
   homework:
     deadline: 'Due Tue Sep 15th @ 11:59pm'
-    link: 'projects/P2'
+    link: 'projects/P2/1_teamprocess'
     name: 'Project 2A'
     numDays: 7
   lecture:
@@ -414,7 +414,7 @@
 - date: Wed Sep 16
   homework:
     deadline: 'Due Monday Sep 28th @ 11:59pm'
-    link: 'projects/P2'
+    link: 'projects/P2/2_firstsprint'
     name: 'Project 2B'
     numDays: 9
   lecture:
