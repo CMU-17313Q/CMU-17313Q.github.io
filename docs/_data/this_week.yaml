@@ -12,13 +12,7 @@ lectures:
     link: ''
     name: No Pre-lecture Reading
 
-problemsets:
-- date: Tue Sep 08
-  deadline: Due Tue Sep 15th @ 11:59pm
-  end_date: 2026-09-15 00:00:00
-  link: problemsets/PS1
-  name: Problem Set 1
-  numDays: 5
+problemsets: []
 
 projects:
 - date: Mon Sep 07
@@ -39,6 +33,6 @@ recitation: null
 teamsurvey:
   closedate: Mon Sep 21
   deadline: Mon Sep 21 @ 11:59pm
-  link: ''
+  link: https://forms.gle/5qJAHNNsogEEDuaXA
   name: Team Survey 2 (Sep 15 -  Sept 21)
   opendate: Tue Sep 15
