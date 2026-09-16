@@ -1,0 +1,32 @@
+lectures:
+- date: Sun Sep 13
+  link: ''
+  name: NO CLASS
+- date: Mon Sep 14
+  link: ''
+  name: NO CLASS
+- date: Tue Sep 15
+  link: ''
+  name: Design Docs
+  reading:
+    link: ''
+    name: No Pre-lecture Reading
+
+problemsets: []
+
+projects:
+- date: Wed Sep 16
+  deadline: Due Monday Sep 28th @ 11:59pm
+  end_date: 2026-09-29 00:00:00
+  link: projects/P2/2_firstsprint
+  name: Project 2B
+  numDays: 9
+
+recitation: null
+
+teamsurvey:
+  closedate: Mon Sep 21
+  deadline: Mon Sep 21 @ 11:59pm
+  link: https://forms.gle/5qJAHNNsogEEDuaXA
+  name: Team Survey 2 (Sep 15 -  Sept 21)
+  opendate: Tue Sep 15
