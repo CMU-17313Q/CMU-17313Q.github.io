@@ -465,15 +465,15 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Software Specifications'
   problemset:
     deadline: ''
     link: ''
     name: 'Quiz 1'
     numDays: 1
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R6'
+    name: 'Painless Functional Specifications'
   recitation:
     handout: ''
     name: ''
