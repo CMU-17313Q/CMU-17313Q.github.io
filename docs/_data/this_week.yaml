@@ -1,18 +1,18 @@
 lectures:
-- date: Sun Sep 13
+- date: Sun Sep 20
   link: ''
-  name: NO CLASS
-- date: Mon Sep 14
-  link: ''
-  name: NO CLASS
-- date: Tue Sep 15
-  link: ''
-  name: Design Docs
+  name: Software Specifications
   reading:
-    link: ''
-    name: No Pre-lecture Reading
+    link: readings/R6
+    name: Painless Functional Specifications
 
-problemsets: []
+problemsets:
+- date: Sun Sep 20
+  deadline: ''
+  end_date: 2026-09-21 00:00:00
+  link: ''
+  name: Quiz 1
+  numDays: 1
 
 projects:
 - date: Wed Sep 16
