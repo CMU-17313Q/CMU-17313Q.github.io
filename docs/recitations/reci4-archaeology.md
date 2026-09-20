@@ -6,48 +6,68 @@ title: Recitation 4 - Software Archaeology
 
 ## Overview
 
-In today’s recitation, we will practice implementing a new feature for the NodeBB codebase.
+In today's recitation, we will practice implementing a new feature in the OpenCode codebase.
 
-**Let's implement a new feature!**
-
-Check out [this issue](https://github.com/CMU-17313Q/NodeBB-F25-R4/issues/1) of the feature request. NodeBB should suggest a new username if existing username is taken.
+You will begin by exploring OpenCode as a user. You will then use what you observed to investigate the codebase and trace the implementation of a specific behavior. Finally, you will modify the code and submit your changes as a pull request.
 
 ## Task 0: Clone the repo
 
-- Fork [this repository](https://github.com/CMU-17313Q/NodeBB-F25-R4) and clone it. Follow the directions for further installation on the readme.
+- Fork [this repository](https://github.com/CMU-17313Q/OpenCode-f26-R04) and clone it. Follow the directions for further installation on the README.
 
 
 ## Task 1: Reproduce the existing behaviour
 
-- After you've successfully ran the program, go through it to reproduce the current behaviour.
+Before we change anything, let's first understand how OpenCode currently behaves.
+
+Start OpenCode and spend a few minutes exploring the application. Your goal is to understand the behavior that you will modify in the next task.
+
+Start OpenCode using the development setup provided for this recitation:
+
+- Install dependencies: 
+    ```bash
+    bun install
+    ```
+- Start OpenCode: 
+    ```bash
+    bun dev
+    ```
+
+Verify that the application starts successfully and that you can interact with it.
+
+**Important:** You may be able to launch OpenCode successfully but receive a provider error when attempting to send a prompt. For this recitation, you do not need to configure an AI provider.
 
 ## Task 2: Diving into the code and implement the new behavior
 
-Let’s learn more about this feature! Your high-level goal is to identify the code producing the current feature. We’d like you to dive into the codebase and “excavate” the code.
+Now that you have explored OpenCode as a user, let's investigate how its existing behavior is implemented. Your goal is to identify the code responsible for the behavior you observed. Think of this as software archaeology: start with something you can observe, then work backwards through the codebase to discover how it is implemented.
 
-Try some or all of the following tasks, and think about whether you’re doing them statically or dynamically. It’s okay if you don’t get to all of these tasks.
+**Explore the OpenCode codebase**
 
+- Look through the directory structure.
+- Identify the parts of the codebase that seem relevant to the behavior you explored in Task 1.
 
-- Explore the NodeBB directory
-- Understand how current features are implemented.
-- Can you identify whether to modify the front-end or back-end
-  code of the program?
-  - Frontend code is located in public directory
-  - Backend code is located in `src` directory
-- Can you identify the keywords that you would like to search in the repository?
-  - Error message that is currently showing.
-- Use your IDE to jump to a definition implicated in the code you’re debugging (If you are using VSCode, click on F12 to go to a function definition or variable declaration, then alt+left to go back when you are done).
+**Search for relevant code**
 
+- What keywords could you search for?
+- Can you find a string, command, variable, function, or component related to the behavior you observed?
+- Use repository search to find where it appears.
+
+**Trace the behavior**
+
+- Once you find a relevant piece of code, follow the functions, components, or modules it interacts with.
+- Try to understand the path from the user's action to the resulting behavior.
+
+**Navigate the codebase**
+
+- Use your IDE to jump to definitions and declarations.
+- In VS Code, you can press F12 to go to a definition and Alt+Left to return to where you were.
+- Use these tools to follow the code rather than manually searching through every file.
 
 ## Task 3: Making a Pull Request
 
 If you’ve finished all that,
 
 - Add and commit your changes
-- Push the code to your forked repository.
-- Create a pull request that links the issue.
+- Push the code to the repository.
 - Submit your pull request.
 
-## Task 4 (Optional): Suggest a unique username
-
-Can you suggest a unique username by querying the backend server again? For example, if `test123` is taken, you should check if `test1231` is taken, then `test1232`, etc. You should display a username that has not yet been registered by anyone.
+Remember to do [Recitation 4 quiz](https://www.gradescope.com/courses/1360202/assignments/8685282) on Gradescope! Please only open it after you have completed all the steps above.
