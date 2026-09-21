@@ -16,7 +16,12 @@ projects:
   name: Project 2B
   numDays: 9
 
-recitation: null
+recitation:
+  date: Mon Sep 21
+  handout: recitations/reci4-archaeology
+  name: 'Recitation 4: Software Archaeology '
+  quiz: ''
+  slides: ''
 
 teamsurvey:
   closedate: Mon Sep 28
