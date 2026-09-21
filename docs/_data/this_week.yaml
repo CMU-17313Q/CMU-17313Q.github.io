@@ -6,13 +6,7 @@ lectures:
     link: readings/R6
     name: Painless Functional Specifications
 
-problemsets:
-- date: Sun Sep 20
-  deadline: ''
-  end_date: 2026-09-21 00:00:00
-  link: ''
-  name: Quiz 1
-  numDays: 1
+problemsets: []
 
 projects:
 - date: Wed Sep 16
@@ -25,8 +19,8 @@ projects:
 recitation: null
 
 teamsurvey:
-  closedate: Mon Sep 21
-  deadline: Mon Sep 21 @ 11:59pm
-  link: https://forms.gle/5qJAHNNsogEEDuaXA
-  name: Team Survey 2 (Sep 15 -  Sept 21)
-  opendate: Tue Sep 15
+  closedate: Mon Sep 28
+  deadline: Mon Sep 28 @ 11:59pm
+  link: ''
+  name: Team Survey 3 (Sep 22 -  Sept 28)
+  opendate: Tue Sep 22
