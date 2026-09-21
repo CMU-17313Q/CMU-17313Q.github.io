@@ -498,8 +498,8 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
+    handout: 'recitations/reci4-archaeology'
+    name: 'Recitation 4: Software Archaeology '
     quiz: ''
     slides: ''
 
