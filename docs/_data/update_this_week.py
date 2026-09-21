@@ -98,7 +98,7 @@ if allteamsurveys:
                         survey['closedate'],
                         "%a %b %d").replace(year=today.year)
 
-                    if ts_open_date <= today and today <= ts_close_date:
+                    if ts_open_date.date() <= today.date() and today.date() <= ts_close_date.date():
                         teamsurvey = survey
 
 
