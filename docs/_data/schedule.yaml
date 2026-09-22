@@ -501,7 +501,7 @@
     handout: 'recitations/reci4-archaeology'
     name: 'Recitation 4: Software Archaeology '
     quiz: ''
-    slides: ''
+    slides: 'assets/pdfs/Recitation-4-Software-Archaeology.pdf'
 
 - date: Tue Sep 22
   homework:

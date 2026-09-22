@@ -21,7 +21,7 @@ recitation:
   handout: recitations/reci4-archaeology
   name: 'Recitation 4: Software Archaeology '
   quiz: ''
-  slides: ''
+  slides: 'assets/pdfs/Recitation-4-Software-Archaeology.pdf'
 
 teamsurvey:
   closedate: Mon Sep 22
