@@ -395,7 +395,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/07-Design-Docs.pdf'
     name: 'Design Docs'
   problemset:
     deadline: ''
@@ -511,7 +511,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Software Quality'
   problemset:
     deadline: ''
     link: ''
@@ -519,7 +519,7 @@
     numDays: 0
   reading:
     link: ''
-    name: ''
+    name: 'No Pre-lecture Reading'
   recitation:
     handout: ''
     name: ''
