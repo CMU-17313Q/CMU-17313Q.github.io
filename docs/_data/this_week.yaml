@@ -5,6 +5,12 @@ lectures:
   reading:
     link: readings/R6
     name: Painless Functional Specifications
+- date: Tue Sep 22
+  link: ''
+  name: Software Quality
+  reading:
+    link: ''
+    name: No Pre-lecture Reading
 
 problemsets: []
 
