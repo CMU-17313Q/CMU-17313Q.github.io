@@ -464,7 +464,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/08-Software-Specs.pdf'
     name: 'Software Specifications'
   problemset:
     deadline: ''
