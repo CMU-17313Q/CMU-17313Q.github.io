@@ -43,7 +43,7 @@ B) [**First Sprint**](2_firstsprint.md) – 95 points – due Monday, September 
 - Individual Process & Implementation Interim (50 pts)
 - *Extra Credit (2 pts)*
 
-C) [**Second Sprint**]() – 110 points – due Thursday, October 8th, 11:59pm
+C) [**Second Sprint**](3_secondsprint.md) – 110 points – due Thursday, October 8th, 11:59pm
 
 - Individual Final Implementation (60 pts)
 - Team Integration (30 pts)
