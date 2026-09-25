@@ -579,16 +579,16 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: ''
+    link: 'readings/R7'
+    name: 'Fuzz-testing in the AI era'
   problemset:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R7'
+    name: 'Fuzz-testing in the AI era'
   recitation:
     handout: ''
     name: ''
