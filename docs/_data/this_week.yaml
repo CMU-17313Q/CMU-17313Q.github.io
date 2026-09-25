@@ -1,6 +1,6 @@
 lectures:
 - date: Sun Sep 20
-  link: ''
+  link: assets/pdfs/08-Software-Specs.pdf
   name: Software Specifications
   reading:
     link: readings/R6
