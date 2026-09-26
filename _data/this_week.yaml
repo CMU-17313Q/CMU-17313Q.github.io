@@ -1,0 +1,37 @@
+lectures:
+- date: Sun Sep 27
+  link: readings/R7
+  name: Fuzz-testing in the AI era
+  reading:
+    link: readings/R7
+    name: Fuzz-testing in the AI era
+
+problemsets: []
+
+projects:
+- date: Wed Sep 16
+  deadline: Due Monday Sep 28th @ 11:59pm
+  end_date: 2026-09-29 00:00:00
+  link: projects/P2/2_firstsprint
+  name: Project 2B
+  numDays: 9
+- date: Tue Sep 29
+  deadline: Due Thursday October 8th @ 11:59pm
+  end_date: 2026-10-09 00:00:00
+  link: projects/P2/3_secondsprint
+  name: Project 2C
+  numDays: 8
+
+recitation:
+  date: Mon Sep 28
+  handout: ''
+  name: Checkpoint Presentation
+  quiz: ''
+  slides: ''
+
+teamsurvey:
+  closedate: Mon Sep 28
+  deadline: Mon Sep 28 @ 11:59pm
+  link: https://forms.gle/von8NNemt3WfV2RNA
+  name: Team Survey 3 (Sep 23 -  Sept 28)
+  opendate: Tue Sep 23
