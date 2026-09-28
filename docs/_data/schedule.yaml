@@ -510,7 +510,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/09-Software-Quality.pdf'
     name: 'Software Quality'
   problemset:
     deadline: ''
