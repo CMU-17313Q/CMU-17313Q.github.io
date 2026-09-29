@@ -5,6 +5,12 @@ lectures:
   reading:
     link: readings/R7
     name: Fuzz-testing in the AI era
+- date: Tue Sep 29
+  link: ''
+  name: Property-Based Testing
+  reading:
+    link: ''
+    name: No Pre-lecture Reading
 
 problemsets: []
 
