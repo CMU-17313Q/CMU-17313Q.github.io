@@ -579,8 +579,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: 'readings/R7'
-    name: 'Fuzz-testing in the AI era'
+    link: 'assets/pdfs/10-Fuzz-Testing.pdf'
+    name: 'Fuzz-testing'
   problemset:
     deadline: ''
     link: ''
