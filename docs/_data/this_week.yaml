@@ -1,7 +1,7 @@
 lectures:
 - date: Sun Sep 27
-  link: readings/R7
-  name: Fuzz-testing in the AI era
+  link: assets/pdfs/10-Fuzz-Testing.pdf
+  name: Fuzz-testing
   reading:
     link: readings/R7
     name: Fuzz-testing in the AI era
