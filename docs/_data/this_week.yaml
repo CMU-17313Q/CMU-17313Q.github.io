@@ -6,7 +6,7 @@ lectures:
     link: readings/R7
     name: Fuzz-testing in the AI era
 - date: Tue Sep 29
-  link: ''
+  link: assets/pdfs/11-PBT.pdf
   name: Property-Based Testing
   reading:
     link: ''
