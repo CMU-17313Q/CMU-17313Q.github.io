@@ -625,7 +625,7 @@
     name: 'Project 2C'
     numDays: 8
   lecture:
-    link: ''
+    link: 'assets/pdfs/11-PBT.pdf'
     name: 'Property-Based Testing'
   problemset:
     deadline: ''
