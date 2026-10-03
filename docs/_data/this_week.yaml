@@ -1,16 +1,10 @@
 lectures:
-- date: Sun Sep 27
-  link: assets/pdfs/10-Fuzz-Testing.pdf
-  name: Fuzz-testing
+- date: Tue Oct 06
+  link: ''
+  name: MIDTERM 1
   reading:
-    link: readings/R7
-    name: Fuzz-testing in the AI era
-- date: Tue Sep 29
-  link: assets/pdfs/11-PBT.pdf
-  name: Property-Based Testing
-  reading:
-    link: ''
-    name: No Pre-lecture Reading
+    link: readings/midterm1-instructions
+    name: Instructions & Past Exams
 
 problemsets: []
 
@@ -22,12 +16,7 @@ projects:
   name: Project 2C
   numDays: 8
 
-recitation:
-  date: Mon Sep 28
-  handout: ''
-  name: Checkpoint Presentation
-  quiz: ''
-  slides: ''
+recitation: null
 
 teamsurvey:
   closedate: Mon Oct 5
