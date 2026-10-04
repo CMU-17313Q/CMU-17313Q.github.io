@@ -695,7 +695,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Static Analysis'
   problemset:
     deadline: ''
     link: ''
@@ -703,7 +703,7 @@
     numDays: 0
   reading:
     link: ''
-    name: ''
+    name: 'No Pre-lecture Reading'
   recitation:
     handout: ''
     name: ''
