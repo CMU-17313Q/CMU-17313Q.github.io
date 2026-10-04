@@ -1,4 +1,10 @@
 lectures:
+- date: Sun Oct 04
+  link: ''
+  name: Static Analysis
+  reading:
+    link: ''
+    name: No Pre-lecture Reading
 - date: Tue Oct 06
   link: ''
   name: MIDTERM 1
