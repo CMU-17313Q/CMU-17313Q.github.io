@@ -728,9 +728,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
+    handout: 'assets/pdfs/17313_midterm_review_sols.pdf'
+    name: 'Midterm 1 Review'
     quiz: ''
+    link: ''
     slides: ''
 
 - date: Tue Oct 06
