@@ -22,7 +22,13 @@ projects:
   name: Project 2C
   numDays: 8
 
-recitation: null
+recitation:
+  date: Mon Oct 05
+  handout: assets/pdfs/17313_midterm_review_sols.pdf
+  link: ''
+  name: Midterm 1 Review
+  quiz: ''
+  slides: ''
 
 teamsurvey:
   closedate: Mon Oct 5
