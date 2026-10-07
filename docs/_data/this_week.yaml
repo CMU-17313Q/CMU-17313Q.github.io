@@ -30,4 +30,9 @@ recitation:
   quiz: ''
   slides: ''
 
-teamsurvey: null
+teamsurvey:
+  closedate: Sat Oct 10
+  deadline: Sat Oct 10 @ 11:59pm
+  link: https://forms.gle/M56bLQMumvwcMH199
+  name: Team Survey 5 (Oct 6 - Oct 10)
+  opendate: Tue Oct 6
