@@ -14,13 +14,7 @@ lectures:
 
 problemsets: []
 
-projects:
-- date: Tue Sep 29
-  deadline: Due Thursday October 8th @ 11:59pm
-  end_date: 2026-10-09 00:00:00
-  link: projects/P2/3_secondsprint
-  name: Project 2C
-  numDays: 8
+projects: []
 
 recitation:
   date: Mon Oct 05
