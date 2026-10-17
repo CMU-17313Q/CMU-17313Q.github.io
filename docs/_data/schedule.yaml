@@ -694,7 +694,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/12-Static-Analysis.pdf'
     name: 'Static Analysis'
   problemset:
     deadline: ''
