@@ -83,8 +83,9 @@ nav:
            - "2A Team Process & Planning": projects/P2/1_teamprocess.md
            - "2B First Sprint": projects/P2/2_firstsprint.md
            - "2C Second Sprint": projects/P2/3_secondsprint.md
-#       - "Project 3: Continuous Integration + Deployment":
-#           - projects/P3/index.md
+       - "Project 3: Continuous Integration + Deployment":
+           - "3A Deployment and CI": projects/P3/P3A.md
+           - "3B Tool Analysis and Integration": projects/P3/2_finalsubmission.md
 #           - "Deployment Instructions": projects/P3/deployment.md
 #       - "Project 4: Architecting an LLM Integration":
 #           - projects/P4/index.md
