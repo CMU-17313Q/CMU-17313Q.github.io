@@ -1,201 +1,187 @@
-
 # Recitation 6: Deployment
 
-  
+
 
 ## Overview
 
 Throughout this recitation, students will:
 
-  
+
 
 * Understand the fundamental steps involved in deployment
-
-* Learn about CI/CD and the basics of how to set it up in a Github repo
-
-* Get hands on experience deploying with Fly.io (or Vercel as a backup)
-
-* Set up the Extreme Startup web app for use in Tuesday's (3/14) lecture
-
-  
+                                                                * Get hands on experience deploying OpenCode
 
 ## Definitions
 
-  
+                                                                In this recitation, you will deploy an OpenCode instance on this repo on a server, so that anyone on the CMU network can open a browser and start a session using it. First, fork 
+[this repo](https://github.com/CMU-17313Q/OpenCode-F26-Reci-7) under your GitHub account.
 
-Before we begin, we have to understand our goals with CI/CD. It is a software development approach that utilizes frequent, automated testing and deployment to ensure that changes to the codebase can be rapidly and safely incorporated into the production environment.
-
-  
-
-**Continuous Integration (CI)** refers to the practice of automatically building and testing the codebase whenever new changes are introduced. This involves integrating code changes from multiple developers into a shared repository and running automated tests to ensure that the changes do not break the existing functionality.
-
-  
-
-**Continuous Deployment/Delivery (CD)** refers to the practice of automatically deploying code changes to the production environment after they have been tested and approved. Continuous Deployment involves automatically deploying changes to the production environment as soon as they pass automated tests, while Continuous Delivery involves deploying changes to a staging environment for further testing and approval before being deployed to production.
-
-  
-
-Together, CI/CD enables software teams to rapidly and safely develop, test, and deploy changes to the codebase, improving the speed and quality of software delivery while reducing the risk of errors and downtime.
-
-  
-
-There's quite a lot to learn about CI/CD. If you're interested in learning more, [click here!](https://about.gitlab.com/topics/ci-cd/)
-
-  
-
-## Task 0: Prep
-
-  
-
-For this recitation, we'll be working with a basic web app built on Next.js that responds to HTTP requests. Your job on Thursday during the ~Extreme Startup~ game will be to parse these requests and figure out what the correct response is. Today we'll focus on setting up the app so that everything is in place for the game.
-
-  
-
-The steps to do this are as follows:
-
-!!! warning
-	Do not use codespaces for this task, and the rest of the recitation. Everything must be done locally.
-
-1. Fork this repo: [https://github.com/CMU-313/basic-web-app](https://github.com/CMU-313/basic-web-app).
-
-2. Follow the instructions in the readme to run the development server locally.
-
-3. Install the Fly.io CLI and set up the Fly.io account that you'll use to host your app. Complete steps 1-3 of the instructions [here](https://fly.io/docs/hands-on/).
-
-4. In your local basic-web-app repo, run `fly launch` followed by `fly open`
-
-  
-
-Now check your [fly.io dashboard](https://fly.io/dashboard) to monitor your app deployment.
-
-  
-
-This has already been a lot of instructions, so good job for getting this far!!!
-
-  
-
-**Note: Fly.io offers a free tier and you should not be required to enter any credit card info for the purposes of this recitation. If you get a message saying that a credit card is required, you can complete the recitation using Vercel instead. See the backup instructions below.**
-
-  
-
-## Task 1: Continuous Deployment
-
-  
-
-Next, we'll setup CD. Our goal is to set up a GitHub action that links to our Fly.io account and automatically redeploys a new version of our app whenever a new change is pushed into the main branch.
-
-  
-
-The steps to do this are as follows:
-
-  
-
-1. Get a Fly API token with `flyctl auth token`.
-
-2. Go to your fork on GitHub and click Settings.
-
-3. Go to Secrets and Variables > Actions and create a repository secret called `FLY_API_TOKEN` with the value of the token from the previous step. This is how GitHub will link to your Fly.io account.
-
-4. Double check that `fly.toml` (the config file fly.io uses for deployment) is not listed in your `.gitignore`.
-
-5. Create a new file `.github/workflows/fly.yml`.This is the file that will outline instructions for the GitHub action.
-
-6. Fill the file with the contents listed under step 8 [here](https://fly.io/docs/app-guides/continuous-deployment-with-github-actions/).
-
-7. Commit and push your changes!
-
-  
-
-Now let's take a step back and understand what we've done. First, we generated an authorization token and used it to connect Fly.io to our GitHub repo. Then, we created a `fly.yml` file setting up a GitHub action that automatically runs the deployment commands whenever a push is made to the main branch. See if you can figure out which lines do what in the code above!
-
-  
-
-Now, look through the codebase and try to change the header on your app's frontend while testing with the local development server. Once you have made your changes, commit and push them. Back on GitHub, you should see the Action trigger and your app will redeploy!
-
-  
-
-With this complete, you'll be able to quickly iterate and any changes you make and push to your fork will be automatically deployed. Cool!
-
-  
-
-## Bonus Task: Continuous Integration
-
-  
-
-While the steps above are all that is required for the ~Extreme Startup~ game, we'll spend the rest of the recitation setting up CI for our repo as well. For our purposes, we'll set up an action that runs ESLint and our Jest tests whenever we push to the repo.
-
-  
-
-The process will be similar to above.
-
-  
-
-1. Create a new `.github/workflows/test.yml`
-
-2. Copy the following into the files and fill in the blanks appropriately!
-
+```text
+Browser ──► Nginx ──► Docker container ──► OpenCode web server
 ```
 
-name: __BLANK 1__
+- OpenCode runs inside a [Docker](https://cmu-17313q.github.io/projects/P1/development-tools-guide/#docker) container
+- [Nginx](https://nginx.org/) is the only public entry point. It listens on a specific port and forwards web requests to OpenCode.
 
-on:
 
-push:
+Replace anything in `<ANGLE_BRACKETS>` with your team’s values:
 
-branches:
+- `<ANDREW-ID>`: Your andrew ID
+- `<REPO_URL>`: HTTP link to the repository
+- `<REPO_DIR>`: Repo directory account
+- `<VM-HOSTNAME>`: Hostname of the machine you will use in this recitation
 
-- main
+In this recitation, you will be provided with the hostname of the VM where your application will be deployed. Each student can connect to this VM via ssh:
 
-jobs:
-
-__BLANK 2__:
-
-runs-on: ubuntu-latest
-
-name: __BLANK 3__
-
-steps:
-
-- uses: actions/checkout@v3
-
-- uses: bahmutov/npm-install@v1
-
-- run: npm run __BLANK 4__ (Run ESLint)
-
-- run: __BLANK 5__ (Run Jest)
-
+```bash
+ssh <ANDREW-ID>@<VM-HOSTNAME>
 ```
 
-  
+Authenticate with your GitHub account and follow the prompts:
 
-Hint: Look at the readme of the basic-web-app repo!
+```bash
+gh auth login
+```
 
-  
+Clone your the repository into your home directory:
 
-**Note: In an ideal world, you would condition the deployment action on this action, such that your app is only deployed if the linter and tests pass. Sadly, our world is not ideal :(, but if you want to learn more, click [here](https://docs.github.com/en/actions/using-jobs/using-conditions-to-control-job-execution) and [here](https://docs.github.com/en/actions/learn-github-actions/expressions)!**
+```bash
+cd ~
+git clone <REPO_URL>
+cd <REPO_DIR>
+```
 
-  
+## Step 1: Creating Your Own Dockerfile
 
-Once this is complete, you will be ready for the game tomorrow. Good job and good luck!
+You will create your own Docker image to run OpenCode. Write a Dockerfile that defines the environment needed to run your team's OpenCode application. Your Dockerfile should specify an appropriate base image, install the required system dependencies, set the working directory, prepare the application dependencies, and define how the OpenCode web server is started. You can refer to the official instruction set for writing a Dockerfile. Make sure your Dockerfile installs the necessary dependencies and starts the OpenCode webserver.
 
-  
+In production, we want the applications we serve to work without us having to maintain a constant connection with the machine that is serving them. Additionally, we need the applications to restart automatically if the machine reboots. To achieve these two objectives, we need to configure Docker Compose to run the application in the background and automatically restart the container when the machine starts up again.                                     
+Create a docker-compose.yml file in your project directory on the VM, alongside your Dockerfile and add the configuration below.
 
-Remember to do Recitation 6 Quiz on Gradescope!
 
-  
+```xml
+services:
+  opencode-<ANDREW-ID>:
+    build: .
+    ports:
+      - '127.0.0.1:4096:4096'
+    restart: unless-stopped
+```
 
-## Vercel Backup Instructions
+- This creates a service called `opencode`.
+- `build: .` tells Docker Compose to build a Docker image using the `Dockerfile` in the current directory
+- `127.0.0.1:4096:4096` under `ports` instructs Docker to forward network traffic from port 4096 on the VM's local interface (127.0.0.1) to port 4096 inside the container.
+- `restart: unless-stopped`: instructs Docker to automatically restart the container if it stops unexpectedly or when Docker restarts, unless the container has been explicitly stopped by the user.
 
-  
+## Step 2: Start The OpenCode Service
 
-### Task 0
+From the root of your repository, use Docker Compose to start the services listed in `docker-compose.yml` (in our case, `opencode`):
 
-See the instructions [here](https://docs.google.com/document/d/1FINHlDBRLeBjR65KyJ1zDtObvQC8ydjqV36-w6Zwex0/edit#heading=h.xbhcc8nupq1s) to setup a Vercel deployment.
+```bash
+docker compose up --build -d
+```
 
-### Task 1
+- The `-build` flag tells Docker Compose to build / rebuild the Docker image before strating the container
+- The `-d` flaq Runs the containers in the background (detached mode). This allows the service to be independent of the current ssh session
 
-To learn how to setup a deployment GitHub action for Vercel, see [here](https://vercel.com/guides/how-can-i-use-github-actions-with-vercel).
+## Step 3: Set Up Nginx
 
-### Task 2
+So far, we have OpenCode running inside a Docker container. OpenCode listens for HTTP requests on port 4096 inside the container. Docker forwards requests from the VM's local address, 127.0.0.1:4096, to port 4096 inside the container.
 
-Same as above!
+However, OpenCode is not yet accessible to users on other computers. This is intentional: our Docker configuration binds port 4096 to 127.0.0.1, making it accessible only from the VM itself.
+
+To allow users on other computers within CMU Qatar to access OpenCode, we will configure Nginx as a reverse proxy. Nginx will listen for incoming HTTP requests and forward them to OpenCode through the container in which OpenCode’s web server is running.
+
+With this configuration, users can access OpenCode through the VM's public hostname and port, while OpenCode itself remains bound to the VM's local interface.
+
+The request flow will be:
+
+- **A user opens `http://<VM-HOSTNAME>:<PORT>` in their browser:** If the default HTTP port (80) is used, `<PORT>` can be omitted, and the user can access `http://<VM-HOSTNAME>`. Similarly, if HTTPS is configured on the default port (443), the user can access `https://<VM-HOSTNAME>` without specifying the port.
+
+- **The request reaches Nginx:** The browser sends an HTTP request to the virtual machine (VM), where Nginx is listening for incoming connections on the specified port.
+
+- **Nginx forwards the request to OpenCode:**  Nginx forwards the incoming request to the host machine's local port, which is mapped to the port exposed by the Docker container running OpenCode.
+
+- **Nginx forwards the request to OpenCode:**  Nginx forwards the incoming request to the host machine's local port, which is mapped to the port exposed by the Docker container running OpenCode.
+
+- **OpenCode processes the request and returns a response:** OpenCode processes the HTTP request and sends an HTTP response back to the browser through Nginx, which forwards the response to the user.
+
+
+We will create a Nginx configuration that listens on port 80, forward browser requests to http://127.0.0.1:4096 , and pass through the headers needed for normal HTTP and WebSocket connections.
+
+Open a configuration file:
+
+```bash
+sudo vim /etc/nginx/sites-available/opencode
+```
+
+Enter the following configuration for handling HTTP requests.
+
+```xml
+server {
+    listen 80;
+    listen [::]:80;
+    server_name <VM-HOSTNAME>;
+
+    location / {
+        proxy_pass http://127.0.0.1:4096;
+
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+```
+
+Here's what the important parts mean:
+
+- `listen 80;` — Nginx receives requests on port 80.
+
+- `listen [::]:80`; allows Nginx to listen for HTTP connections over IPv6 alongside IPv4
+
+- `server_name ...;` — matches your VM's hostname.
+
+`proxy_pass http://127.0.0.1:4096;` — forwards requests to OpenCode.
+
+The remaining directives preserve request information and support WebSocket connections.
+
+Create a symbolic link from sites-enabled to the new file in sites-available. This tells Nginx to load the OpenCode configuration when it reloads.
+
+```bash
+sudo ln -s /etc/nginx/sites-available/opencode /etc/nginx/sites-enabled/opencode
+```
+
+Reload Nginx to activate the OpenCode configuration:
+
+```bash
+sudo systemctl reload nginx
+```
+
+From a remote machine, open the web interface on the following URL:
+
+```bash
+http://<VM-HOSTNAME>:<PORT>/
+```
+
+## Step 5: Restarting Service at Reboot
+
+Your container is currently running. To make sure it automatically comes back after a VM reboot, we need two things:
+
+- Docker must start automatically when the VM boots.
+
+```bash
+sudo systemctl enable docker
+```
+
+`systemctl` is the command-line tool used to manage services through systemd, Ubuntu's service manager.
+
+- The OpenCode container must have a restart policy telling Docker to restart it.
+
+This is already achieved by the `restart: unless-stopped` line in the `docker-compose.yml` file
+
+**You now have a working OpenCode web application that you can securely access through your browser, and it will automatically come back online if the server restarts.!**
+
