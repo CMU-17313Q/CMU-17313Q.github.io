@@ -1,13 +1,13 @@
 lectures:
-- date: Sun Oct 11
+- date: Sun Oct 18
   link: ''
-  name: NO CLASS (Fall Break)
-- date: Mon Oct 12
+  name: Dynamic Analysis
+  reading:
+    link: ''
+    name: No Pre-lecture Reading
+- date: Tue Oct 20
   link: ''
-  name: NO CLASS (Fall Break)
-- date: Tue Oct 13
-  link: ''
-  name: NO CLASS (Fall Break)
+  name: CI/CD
 
 problemsets: []
 

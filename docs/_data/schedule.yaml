@@ -694,7 +694,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/12-Static-Analysis.pdf'
     name: 'Static Analysis'
   problemset:
     deadline: ''
@@ -926,7 +926,7 @@
     numDays: 7
   lecture:
     link: ''
-    name: ''
+    name: 'Dynamic Analysis'
   problemset:
     deadline: ''
     link: ''
@@ -934,7 +934,7 @@
     numDays: 0
   reading:
     link: ''
-    name: ''
+    name: 'No Pre-lecture Reading'
   recitation:
     handout: ''
     name: ''
@@ -972,7 +972,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'CI/CD'
   problemset:
     deadline: ''
     link: ''
