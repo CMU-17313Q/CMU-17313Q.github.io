@@ -30,7 +30,7 @@ In Project 3A, you will **run your team's own coding agent** on a server so that
 
 ### Deployed Application (20 pts)
 
-Your team will be using Linux Virtual Machines (VMs) hosted at CMU for the deployment of your opencode application. Further instructions on how to deploy can be found [here](https://docs.google.com/document/d/1T2nF-hgj5RMgpWIy1R3Lp25GWZrA549bFKkuTUGSmkw/edit?usp=sharing). 
+Your team will be using Linux Virtual Machines (VMs) hosted at CMU for the deployment of your opencode application. Further instructions on how to deploy can be found [here](https://docs.google.com/document/d/1T2nF-hgj5RMgpWIy1R3Lp25GWZrA549bFKkuTUGSmkw/edit?usp=sharing). For Continuous Deployment, refer to [this document](https://docs.google.com/document/d/18JgkIm_qO1sNsniEr1oheGQ3ytRxaSiwY1KvvidatFE/edit?usp=sharing)
 
 This step matters beyond just getting a link to share: following the deployment instructions generates a GitHub Actions workflow in your repository that automatically deploys on changes to `main`.
 

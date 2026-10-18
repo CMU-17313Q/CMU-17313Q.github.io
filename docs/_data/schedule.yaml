@@ -959,8 +959,8 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
+    handout: 'recitations/reci6-deployment'
+    name: 'Recitation 6'
     quiz: ''
     slides: ''
 
