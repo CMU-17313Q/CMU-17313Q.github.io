@@ -7,26 +7,10 @@ nav_order: 10
 
 ## Deliverables
 
-
 **Deployment & CI Design** – 35 points – due Monday, October 26, 2026, 11:59PM
-
 
 - [Deployed Application (20 pts)](#deployed-application-20-pts)
 - [CI/CD Pipeline Design Document (15 pts)](#cicd-pipeline-design-document-group-15-pts)
-
-
-## Learning Goals
-
-- Learn how to deploy a full-stack application
-- Gain hands-on experience with analysis tools, including setting up, customizing, and using them
-- Practically assess and compare the costs and benefits of existing static and dynamic bug-finding tools
-- Integrate CI tooling into development practice using GitHub Actions
-
-## Project Context
-
-Your team has been building on **OpenCode**. Until now, the agent has only ever run on your own laptops, inside your own terminals. That is fine for the people who built it, but it is not how a product gets into the hands of real users.
-
-In Project 3A, you will **run your team's own coding agent** on a server so that anyone with a browser (within CMUQ's network) can reach it. In other words: your team is going to run its own coding agent as a service.
 
 ### Deployed Application (20 pts)
 
@@ -91,4 +75,3 @@ To receive full credit for the checkpoint, we expect:
  - Contain at least one check not on our starter list of tools
  - Contain no overlaps between teammates, and no duplication of tooling opencode's pipeline already runs
 - [ ] Each check's subsection must contain a justification and integration plan as described above
-

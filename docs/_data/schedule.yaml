@@ -920,10 +920,10 @@
 
 - date: Sun Oct 18
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Monday October 26th @ 11:59pm'
+    link: 'projects/P3/1_checkpoint'
+    name: 'Project 3A'
+    numDays: 7
   lecture:
     link: ''
     name: ''
@@ -943,10 +943,10 @@
 
 - date: Mon Oct 19
   homework:
-    deadline: 'Due Monday October 26th @ 11:59pm'
-    link: 'projects/P3/P3A'
-    name: 'Project 3A'
-    numDays: 6
+    deadline: ''
+    link: ''
+    name: ''
+    numDays:
   lecture:
     link: ''
     name: ''
@@ -1081,10 +1081,10 @@
 
 - date: Tue Oct 27
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Monday November 2nd @ 11:59pm'
+    link: 'projects/P3/2_finalsubmission'
+    name: 'Project 3B'
+    numDays: 5
   lecture:
     link: ''
     name: ''
