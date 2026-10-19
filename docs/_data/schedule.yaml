@@ -960,9 +960,9 @@
     name: ''
   recitation:
     handout: 'recitations/reci6-deployment'
-    name: 'Recitation 6'
+    name: 'Recitation 6: Deployment'
     quiz: ''
-    slides: ''
+    slides: 'assets/pdfs/Recitation-06-Deployment-Intro.pdf'
 
 - date: Tue Oct 20
   homework:

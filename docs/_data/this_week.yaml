@@ -22,8 +22,8 @@ projects:
 recitation:
   date: Mon Oct 19
   handout: recitations/reci6-deployment
-  name: Recitation 6
+  name: 'Recitation 6: Deployment'
   quiz: ''
-  slides: ''
+  slides: 'assets/pdfs/Recitation-06-Deployment-Intro.pdf'
 
 teamsurvey: null
