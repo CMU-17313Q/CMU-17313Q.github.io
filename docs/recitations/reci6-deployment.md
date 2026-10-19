@@ -5,16 +5,16 @@
 ## Overview
 
 Throughout this recitation, students will:
-
-
-
 * Understand the fundamental steps involved in deployment
-                                                                * Get hands on experience deploying OpenCode
+* Get hands on experience deploying OpenCode
 
 ## Definitions
 
-                                                                In this recitation, you will deploy an OpenCode instance on this repo on a server, so that anyone on the CMU network can open a browser and start a session using it. First, fork
-[this repo](https://github.com/CMU-17313Q/OpenCode-F26-Reci-7) under your GitHub account.
+In this recitation, you will deploy an OpenCode instance on this repo on a
+server, so that anyone on the CMU network can open a browser and start a session
+using it. First, fork [this
+repo](https://github.com/CMU-17313Q/OpenCode-F26-Reci-7) under your GitHub
+account.
 
 ```text
 Browser ──► Docker container ──► OpenCode web server
