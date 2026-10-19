@@ -1,7 +1,6 @@
 # Recitation 6: Deployment
 
 
-
 ## Overview
 
 Throughout this recitation, students will:
@@ -29,7 +28,7 @@ Replace anything in `<ANGLE_BRACKETS>` with your team’s values:
 - `<ANDREW-ID>`: Your andrew ID
 - `<REPO_URL>`: HTTP link to the repository
 - `<REPO_DIR>`: Repo directory account
-- `<VM-HOSTNAME>`: Hostname of the machine you will use in this recitation
+- `<VM-HOSTNAME>`: Hostname of the machine you will use in this recitation (`crs-17313-demo.qatar.cmu.edu`)
 
 In this recitation, you will be provided with the hostname of the VM where your application will be deployed. Each student can connect to this VM via ssh:
 
