@@ -8,6 +8,9 @@ lectures:
 - date: Tue Oct 20
   link: ''
   name: CI/CD
+  reading:
+    link: readings/R8
+    name: 'Knightmare: A DevOps Cautionary Tale'
 
 problemsets: []
 
