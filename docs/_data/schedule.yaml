@@ -979,8 +979,8 @@
     name: ''
     numDays: 0
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R8'
+    name: 'Knightmare: A DevOps Cautionary Tale'
   recitation:
     handout: ''
     name: ''
