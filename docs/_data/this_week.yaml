@@ -26,4 +26,9 @@ recitation:
   quiz: ''
   slides: assets/pdfs/Recitation-06-Deployment-Intro.pdf
 
-teamsurvey: null
+teamsurvey:
+  closedate: Mon Oct 26
+  deadline: Mon Oct 26 @ 11:59pm
+  link: ''
+  name: Team Survey 6 (Oct 20 - Oct 26)
+  opendate: Tue Oct 20
