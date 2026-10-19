@@ -5,6 +5,7 @@
 ## Overview
 
 Throughout this recitation, students will:
+
 * Understand the fundamental steps involved in deployment
 * Get hands on experience deploying OpenCode
 
@@ -21,7 +22,6 @@ Browser ──► Docker container ──► OpenCode web server
 ```
 
 - OpenCode runs inside a [Docker](https://cmu-17313q.github.io/projects/P1/development-tools-guide/#docker) container
-- [Nginx](https://nginx.org/) is the only public entry point. It listens on a specific port and forwards web requests to OpenCode.
 
 
 Replace anything in `<ANGLE_BRACKETS>` with your team’s values:
@@ -83,4 +83,4 @@ docker compose up -d
 - The `-d` flaq Runs the containers in the background (detached mode). This allows the service to be independent of the current ssh session
 
 
-**You now have a working OpenCode web application that you can access through your browser at http://crs-17313-demo.qatar.cmu.edu:<YOUR_PORT>, and it will automatically come back online if the server restarts.!**
+**You now have a working OpenCode web application that you can access through your browser at `http://crs-17313-demo.qatar.cmu.edu:<YOUR_PORT>`, and it will automatically come back online if the server restarts.!**
