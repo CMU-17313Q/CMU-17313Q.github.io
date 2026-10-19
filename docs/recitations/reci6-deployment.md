@@ -82,5 +82,6 @@ docker compose up -d
 ```
 - The `-d` flaq Runs the containers in the background (detached mode). This allows the service to be independent of the current ssh session
 
+Submit your URL to OpenCode to [GradeScope](https://www.gradescope.com/courses/1360202/assignments/8896144)
 
 **You now have a working OpenCode web application that you can access through your browser at `http://crs-17313-demo.qatar.cmu.edu:<YOUR_PORT>`, and it will automatically come back online if the server restarts.!**
