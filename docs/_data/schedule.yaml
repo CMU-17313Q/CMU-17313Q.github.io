@@ -982,7 +982,7 @@
     link: 'readings/R8'
     name: 'Knightmare: A DevOps Cautionary Tale'
   recitation:
-    handout: ''
+    handout: 'recitations/deployment-workshop-f26'
     name: ''
     quiz: ''
     slides: ''
