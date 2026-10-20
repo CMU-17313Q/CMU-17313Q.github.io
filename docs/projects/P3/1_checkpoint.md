@@ -66,7 +66,7 @@ By the checkpoint deadline, your team will submit to Gradescope:
 
 To receive full credit for the checkpoint, we expect:
 
-
+- [ ] A link to your successfully run CD GitHub action that deploys the website while following proper GitHub practices in handling deployment secrets
 - [ ] A link to your successfully deployed web application for your team repository, with the auto-deploy GitHub Actions workflow in place
 - [ ] A link to your CI/CD Pipeline Design Document. Your team's selected checks must satisfy all the following criteria:
  - Contain at least one code quality / static analysis check

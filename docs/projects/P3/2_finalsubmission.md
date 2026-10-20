@@ -103,7 +103,6 @@ To qualify for extra credit, you will have to submit your reviews:
 To receive full credit for the final deadline, we expect:
 
 
-- [ ] A link to your successfully run CD GitHub action that deploys the website while following proper GitHub practices in handling deployment secrets
 - [ ] A link to your individual PR demonstrating that you successfully installed, ran, and merged your check, with evidence and a note on what changed versus the design doc plan
 - [ ] A link to a successful run of the full GitHub Actions pipeline (all teammates' checks + deploy) on your team's main branch
 
