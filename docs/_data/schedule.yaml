@@ -1089,10 +1089,10 @@
     link: ''
     name: ''
   problemset:
+    name: 'Quiz 2'
     deadline: ''
     link: ''
-    name: ''
-    numDays: 0
+    numDays: 1
   reading:
     link: ''
     name: ''
