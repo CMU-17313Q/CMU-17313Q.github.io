@@ -1,6 +1,6 @@
 lectures:
 - date: Sun Oct 18
-  link: ''
+  link: assets/pdfs/13-Dynamic-Analysis.pdf
   name: Dynamic Analysis
   reading:
     link: ''
@@ -12,7 +12,13 @@ lectures:
     link: readings/R8
     name: 'Knightmare: A DevOps Cautionary Tale'
 
-problemsets: []
+problemsets:
+- date: Wed Oct 21
+  deadline: Due Sun Oct 25th @ 11:59pm
+  end_date: 2026-10-26 00:00:00
+  link: problemsets/PS2
+  name: Problem Set 2
+  numDays: 3
 
 projects:
 - date: Sun Oct 18
