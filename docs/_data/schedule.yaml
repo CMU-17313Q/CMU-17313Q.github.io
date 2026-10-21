@@ -925,7 +925,7 @@
     name: 'Project 3A'
     numDays: 7
   lecture:
-    link: ''
+    link: 'assets/pdfs/13-Dynamic-Analysis.pdf'
     name: 'Dynamic Analysis'
   problemset:
     deadline: ''
