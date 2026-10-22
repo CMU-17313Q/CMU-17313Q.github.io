@@ -1048,8 +1048,8 @@
     name: ''
     numDays: 0
   reading:
-    link: ''
-    name: ''
+    link: 'recitations/deployment-workshop-f26'
+    name: 'Deployment Workshop'
   recitation:
     handout: ''
     name: ''
