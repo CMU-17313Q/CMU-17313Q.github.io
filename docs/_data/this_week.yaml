@@ -1,4 +1,10 @@
-lectures: []
+lectures:
+- date: Sun Oct 25
+  link: ''
+  name: Deployment Workshop
+  reading:
+    link: recitations/deployment-workshop-f26
+    name: Deployment Workshop
 
 problemsets:
 - date: Wed Oct 21
