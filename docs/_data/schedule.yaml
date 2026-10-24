@@ -1041,7 +1041,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Deployment Workshop'
   problemset:
     deadline: ''
     link: ''
@@ -1201,16 +1201,16 @@
     name: ''
     numDays: 0
   lecture:
-    link: assets/pdfs/18-AI-for-SE.pdf
-    name: ML/AI for SE
+    link: ''
+    name: ''
   problemset:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   reading:
-    link: readings/R10
-    name: Intro to LLMs
+    link: ''
+    name: ''
   recitation:
     handout: ''
     name: ''
