@@ -136,7 +136,7 @@ Briefly explain how these changes will help you become a more effective teammate
 
 ## Submission
 
-Submit your responses individually to the **Team Dysfunction** assignment on [Gradescope](https://www.gradescope.com/courses/1360202/assignments/8937948).
+Submit your responses individually to the **Team Dysfunction** assignment on [Gradescope](https://www.gradescope.com/courses/1360202/assignments/8937970).
 
 ## Key Takeaways
 
