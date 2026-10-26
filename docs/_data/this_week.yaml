@@ -28,7 +28,12 @@ projects:
   name: Project 3B
   numDays: 5
 
-recitation: null
+recitation:
+  date: Sun Oct 25
+  handout: recitations/reci7-dysfunction
+  name: 'Recitation 7: Team Dysfunction'
+  quiz: ''
+  slides: ''
 
 teamsurvey:
   closedate: Mon Oct 26
