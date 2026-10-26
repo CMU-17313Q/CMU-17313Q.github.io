@@ -2,7 +2,7 @@
 title: Recitation 7 - Team Dysfunction
 ---
 
-# Recitation: Team Dysfunction
+# Recitation 7: Team Dysfunction
 
 ## Overview
 
