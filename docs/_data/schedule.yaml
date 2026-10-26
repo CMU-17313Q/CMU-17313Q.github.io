@@ -1087,7 +1087,7 @@
     numDays: 5
   lecture:
     link: ''
-    name: ''
+    name: 'Guest Lecture by Prof. David Garlan - Software Architecture
   problemset:
     name: 'Quiz 2'
     deadline: ''
@@ -1205,9 +1205,9 @@
     name: ''
   problemset:
     deadline: ''
+    name: 'Quiz 3'
     link: ''
-    name: ''
-    numDays: 0
+    numDays: 1
   reading:
     link: ''
     name: ''
@@ -1321,8 +1321,8 @@
   problemset:
     deadline: ''
     link: ''
-    name: ''
-    numDays: 0
+    name: 'Quiz 4'
+    numDays: 1
   reading:
     link: ''
     name: ''
@@ -1436,8 +1436,8 @@
   problemset:
     deadline: ''
     link: ''
-    name: ''
-    numDays: 0
+    name: 'Quiz 5'
+    numDays: 1
   reading:
     link: ''
     name: ''
@@ -1551,8 +1551,8 @@
   problemset:
     deadline: ''
     link: ''
-    name: ''
-    numDays: 0
+    name: 'Quiz 6'
+    numDays: 1
   reading:
     link: ''
     name: ''
