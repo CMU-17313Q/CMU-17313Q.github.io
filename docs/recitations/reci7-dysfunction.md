@@ -84,7 +84,7 @@ If your team did not experience a significant dysfunction, discuss a smaller coo
 
 Consider the following scenario:
 
-Your software engineering team is approaching the P3 deadline.
+Your software engineering team is approaching a project deadline.
 
 - Two team members have completed their assigned features.
 - One team member is behind schedule and has not communicated their progress.
@@ -94,7 +94,7 @@ Your software engineering team is approaching the P3 deadline.
 
 **(a)** Identify two of the Five Dysfunctions of a Team illustrated in this scenario. For each dysfunction, explain which behaviors demonstrate it.
 
-**(b)** Suppose you are a member of this team. Describe two specific actions you would take immediately to help the team recover and successfully complete P3.
+**(b)** Suppose you are a member of this team. Describe two specific actions you would take immediately to help the team recover and successfully complete the project.
 
 **(c)** Suggest one teamwork practice that could have prevented these problems from occurring.
 
