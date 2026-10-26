@@ -1051,8 +1051,8 @@
     link: 'recitations/deployment-workshop-f26'
     name: 'Deployment Workshop'
   recitation:
-    handout: ''
-    name: ''
+    handout: 'recitations/reci7-dysfunction'
+    name: 'Recitation 7: Team Dysfunction'
     quiz: ''
     slides: ''
 
