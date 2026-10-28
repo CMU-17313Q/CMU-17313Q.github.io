@@ -1,4 +1,4 @@
-# Problem Set 2
+# Problem Set 3
 
 Read the following [questions](https://docs.google.com/document/d/1zn31piXgc8IjANBwt8mvOsThN8MEhu9nOiwChXQ8AYc/edit?usp=sharing)
 
