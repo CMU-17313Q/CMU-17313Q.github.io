@@ -971,7 +971,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/14-CICD.pdf'
     name: 'CI/CD'
   problemset:
     deadline: ''
@@ -1040,7 +1040,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/15-DeploymentWorkshop.pdf'
     name: 'Deployment Workshop'
   problemset:
     deadline: ''
