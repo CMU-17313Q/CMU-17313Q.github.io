@@ -1189,10 +1189,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
+    handout: 'recitations/reci8-interviews'
+    name: 'Recitation 8 - Interviews'
     quiz: ''
-    slides: ''
+    slides: 'assets/pdfs/Recitation-8-slides.pdf'
 
 - date: Tue Nov 03
   homework:
