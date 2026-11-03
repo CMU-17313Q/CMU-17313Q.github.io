@@ -28,4 +28,5 @@ There are two (2) deadlines for this project. This project is worth a total of 1
 
 - Individual Pipeline Integration (45 pts)
 - Final Working Pipeline (Group) (20 pts)
+- _Team Extra Credit_: Make your features accessible [**Update: November 2**] (6 pts)
 - _Extra Credit_: Feature Review (6 pts)
