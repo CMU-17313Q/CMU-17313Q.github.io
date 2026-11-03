@@ -1196,10 +1196,10 @@
 
 - date: Tue Nov 03
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Sunday November 10th @ 11:59pm'
+    link: 'projects/P4/1_elicit'
+    name: 'Project 4A'
+    numDays: 6
   lecture:
     link: ''
     name: ''

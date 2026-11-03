@@ -2,7 +2,7 @@
 
 ## Deliverables
 
-**Interviews & Requirements** – 55 points – due Tuseday, November 9, 2026, 11:59PM
+**Interviews & Requirements** – 55 points – due Tuesday, November 10, 2026, 11:59PM
 
 - [Target Declaration & Interview Script (15 pts)](#target-declaration-interview-script-15-pts)
 - [Interviews & Notes (20 pts)](#interviews-notes-20-pts)
@@ -13,8 +13,8 @@
 
 You'll do all of your Project 4A work in one Google Doc, the **P4A Workbook**. It has a section for each deliverable, and each section starts on its own page.
 
-1. [Make a copy of the P3 Workbook template](https://docs.google.com/document/d/10TxByrb5e_HDunrS-bE0roAqWZM18i6K/copy).
-2. Move your copy into your team's Google Drive folder (the one your TAs shared with you at the start of the semester), and name it `P4A Workbook – <andrewid>`.
+1. [Make a copy of the P4 Workbook template](https://docs.google.com/document/d/10TxByrb5e_HDunrS-bE0roAqWZM18i6K/copy).
+2. Move your copy into your team's Google Drive folder (the one we shared with you at the start of the semester), and name it `P4A Workbook – <andrewid>`.
 3. Fill in each section as you go. Replace the gray instructions with your own work, and don't delete the page breaks.
 
 ## Choosing a Target Feature
@@ -29,7 +29,7 @@ You will each explicitly declare **one opencode feature** to interview users abo
 
 ### Shared Features
 
-Students who pick the same feature may collaborate on the interview script and run interviews together, but you must disclose it: who you worked with and which parts were shared. You still need three interviews (one of each kind below), and every student present at a shared interview can count it toward their three. Your requirements and reflection must be your own.
+Students who pick the same feature may collaborate on the interview script and run interviews together, but you must disclose it: who you worked with and which parts were shared. **Add this information in Section 8 of your workbook**. You still need three interviews (one of each kind below), and every student present at a shared interview can count it toward their three. Your requirements and reflection must be your own.
 
 ## Target Declaration & Interview Script (15 pts)
 
@@ -60,7 +60,7 @@ Adapt these to your feature. "What should never happen?" is a starting point; "I
 Run **three** interviews about your target feature, one with each kind of interviewee:
 
 1. **A classmate who is not on your team.** A real opencode user who doesn't know your feature's internals.
-2. **A member of course staff.** A TA or instructor. Sign up for a slot using the sign-up sheet that will be posted in Slack. Staff interviews are short (about 10 minutes), so come prepared.
+2. **A member of course staff.** A CA or instructor. Sign up for a slot using the sign-up sheet that will be posted in Slack. Staff interviews are short (about 10 minutes), so come prepared.
 3. **Someone outside the course.** Anyone who has used an AI coding tool (opencode, Claude Code, Cursor, Copilot, and so on), such as a developer friend, a colleague from an internship, or a student in another program. They bring the least course bias.
 
 For each interview, take notes in sections 4–6 of your workbook that record what the interviewee actually said, as close to their words as you can. Number every line so you can cite it later: `C-1`, `C-2`, … for the classmate, `S-1`, … for staff, and `O-1`, … for the outside interviewee. Your notes should also show which script questions you asked, and any follow-ups you added on the spot.
@@ -102,7 +102,7 @@ Answer the following questions in the **Project 4A: Reflection** assignment on G
 
 ## Submission
 
-Project 3 has **two** Gradescope submissions, both due Monday, November 9, 2026, 11:59PM:
+Project 4 has **two** Gradescope submissions, both due Tuesday, November 10, 2026, 11:59PM:
 
 1. **Project 4A: Elicit.** Download your workbook as a PDF (File → Download → PDF) and upload it.
 2. **Project 4A: Reflection.** Type your answers to the three [reflection questions](#reflection).
@@ -128,4 +128,3 @@ To receive full credit for the requirements and reflection, we expect:
 - [ ] Every requirement cites the interview note(s) it came from
 - [ ] Answers on Gradescope to the three reflection questions: which questions worked, what you'd change, and which requirements came from only one kind of interviewee
 - [ ] A collaboration disclosure, if you shared any part of the work
-
