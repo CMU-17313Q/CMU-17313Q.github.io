@@ -90,8 +90,11 @@ if allteamsurveys:
         if survey['name'] != '':
             if survey['opendate'] != '':
                 ts_open_date = datetime.strptime(
-                    survey['opendate'],
-                    "%a %b %d").replace(year=today.year)
+                    f"{survey['opendate']} {today.year}",
+                    "%a %b %d %Y")
+#                ts_open_date = datetime.strptime(
+#                    survey['opendate'],
+#                    "%a %b %d").replace(year=today.year)
                 # catch the next team survey
                 # (assuming entries are sorted in teamsurveys.yaml)
                 if ts_open_date >= today and not nextteamsurvey:
