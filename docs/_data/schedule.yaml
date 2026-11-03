@@ -1155,7 +1155,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/17-Architecture-II.pdf'
     name: 'Software Architecture (II)'
   problemset:
     deadline: ''
