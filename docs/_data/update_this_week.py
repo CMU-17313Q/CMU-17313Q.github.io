@@ -4,7 +4,8 @@ import yaml
 def add_business_days(start_date, add_days, current_year):
     rem_days_to_add = add_days
 
-    current_date = datetime.strptime(start_date, "%a %b %d").replace(year=current_year)
+    #current_date = datetime.strptime(start_date, "%a %b %d").replace(year=current_year)
+    current_date = datetime.strptime(f"{start_date} {current_year}", "%a %b %d %Y")
 
     while rem_days_to_add > 0:
         current_date += timedelta(days=1)
