@@ -15,6 +15,7 @@ nav_order: 20
 
 - [Individual Pipeline Integration (45 pts)](#individual-pipeline-integration-45-pts)
 - [Final Working Pipeline (Group) (20 pts)](#final-working-pipeline-group-20-pts)
+- [_Team Extra Credit_ (6 pts)](#team-extra-credit-feature-review-6-pts)
 - [_Extra Credit_ (6 pts)](#extra-credit-feature-review-6-pts)
 
 
@@ -63,11 +64,25 @@ This configuration must have been justified in your design document under the In
    In order to ensure your checks pass successfully, you may have to make additional changes to your repository, such as fixing reported issues or tweaking check configuration. These changes should be documented and addressed in your design document.
 
 
-!!! warning "Failing CI builds" 
+!!! warning "Failing CI builds"
    Continually failing builds show you have _not_ completely integrated the pipeline into your workflow.
 
 
 On Gradescope, submit a link to your repository and a link to one successful run of the full pipeline (all checks + deploy) on your codebase.
+
+### Team Extra Credit: Making your features accessible (6 pts)
+
+**Update: November 2, 2026** To test your features, other students may need to use OpenCode with an existing codebase. In our deployment, OpenCode runs inside a container and can access only files available within that container, including any directories explicitly mounted into it. Cloning a repository onto your computer or elsewhere on the VM does not automatically make it accessible to OpenCode.
+
+One way to support this workflow is to let users clone a repository directly into the container through the web UI. We have implemented this functionality for you: see this [commit](https://github.com/CMU-17313Q/opencode/commit/85177945f7d73cd5d9b2aaefc9546e8fa9d7ce22).
+
+To integrate these changes into your team's OpenCode repository, you can either:
+
+- Cherry-pick the commit: Add the source repository as a Git remote, fetch its commits, and cherry-pick the provided commit onto a branch in your repository. Resolve any conflicts and test the result before merging.
+
+- Apply the changes manually: Review the commit's diff and carefully copy the relevant changes into your repository, adapting them to your implementation.
+
+These changes are provided as a suggested solution. You are welcome to implement another approach, as long as other students can load a codebase and test your features through your deployed application.
 
 
 ### Extra Credit: Feature Review (6 pts)
@@ -111,4 +126,3 @@ To receive full credit for the extra credit, we expect:
 
 
 - [ ] Your review of three different teams' features on Gradescope and on the [public spreadsheet](https://docs.google.com/spreadsheets/d/1bnivhQ6Yz5eP4KzesP_QgxbtS1lnkM64AxJsm63ILlU/edit?usp=sharing), addressing the three questions described.
-
