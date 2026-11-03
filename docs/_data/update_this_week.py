@@ -101,8 +101,12 @@ if allteamsurveys:
                     nextteamsurvey = survey
                 if survey['closedate'] != '':
                     ts_close_date = datetime.strptime(
-                        survey['closedate'],
-                        "%a %b %d").replace(year=today.year)
+                        f"{survey['closedate']} {today.year}",
+                        "%a %b %d %Y")
+
+#                    ts_close_date = datetime.strptime(
+#                        survey['closedate'],
+#                        "%a %b %d").replace(year=today.year)
 
                     if ts_open_date.date() <= today.date() and today.date() <= ts_close_date.date():
                         teamsurvey = survey
