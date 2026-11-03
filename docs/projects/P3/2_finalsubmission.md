@@ -15,7 +15,7 @@ nav_order: 20
 
 - [Individual Pipeline Integration (45 pts)](#individual-pipeline-integration-45-pts)
 - [Final Working Pipeline (Group) (20 pts)](#final-working-pipeline-group-20-pts)
-- [_Team Extra Credit_ (6 pts)](#team-extra-credit-feature-review-6-pts)
+- [_Team Extra Credit_ (6 pts)](#team-extra-credit-making-your-features-accessible-6-pts)
 - [_Extra Credit_ (6 pts)](#extra-credit-feature-review-6-pts)
 
 
