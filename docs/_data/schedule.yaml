@@ -1086,7 +1086,7 @@
     name: 'Project 3B'
     numDays: 5
   lecture:
-    link: ''
+    link: 'assets/pdfs/16-Architecture Intro-DGarlan.pdf'
     name: 'Guest Lecture by Prof. David Garlan - Software Architecture'
   problemset:
     name: 'Quiz 2'
