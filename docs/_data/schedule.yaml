@@ -971,7 +971,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/14-CICD.pdf'
     name: 'CI/CD'
   problemset:
     deadline: ''
@@ -1040,7 +1040,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/15-DeploymentWorkshop.pdf'
     name: 'Deployment Workshop'
   problemset:
     deadline: ''
@@ -1112,10 +1112,10 @@
     link: ''
     name: ''
   problemset:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Sun Nov 1st @ 11:59pm'
+    link: 'problemsets/PS3'
+    name: 'Problem Set 3'
+    numDays: 3
   reading:
     link: ''
     name: ''
@@ -1156,7 +1156,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Software Architecture (II)'
   problemset:
     deadline: ''
     link: ''
@@ -1164,7 +1164,7 @@
     numDays: 0
   reading:
     link: ''
-    name: ''
+    name: 'No Pre-lecture Reading'
   recitation:
     handout: ''
     name: ''
@@ -1189,10 +1189,10 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
+    handout: 'recitations/reci8-interviews'
+    name: 'Recitation 8 - Interviews'
     quiz: ''
-    slides: ''
+    slides: 'assets/pdfs/Recitation-8-slides.pdf'
 
 - date: Tue Nov 03
   homework:

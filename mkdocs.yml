@@ -87,8 +87,8 @@ nav:
            - projects/P3/index.md
            - "3A Deployment and CI": projects/P3/1_checkpoint.md
            - "3B Tool Analysis and Integration": projects/P3/2_finalsubmission.md
-       - "Project 4: Interviews":
-           - projects/P4/1_elicit.md
+#       - "Project 4: Interviews":
+#       - projects/P4/1_elicit.md
 #       - "Project 5: Open Source Excursion":
 #          - projects/P5/index.md
 #          - "5A Project and Task Selection": projects/P5/1_projectcheck.md
@@ -105,7 +105,7 @@ nav:
        - Recitation 6 - Deployment: recitations/reci6-deployment.md
        - Deployment Workshop - Activity: recitations/deployment-workshop-f26.md
        - Recitation 7 - Team Dysfunction: recitations/reci7-dysfunction.md
-      # - Recitation 8 - Team Feedback: recitations/reci8-team-feedback.md
+       - Recitation 8 - Interviews: recitations/reci8-interviews.md
       # - Recitation 9 - Machine Learning: recitations/reci9-ml.md
       # - Recitation 10 - Open Source Projects: recitations/reci10-open-source.md
       # - Recitation 11 - Open Source Project and Task Selection Check In: recitations/reci11-p5-checkin.md

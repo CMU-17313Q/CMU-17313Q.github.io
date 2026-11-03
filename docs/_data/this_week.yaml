@@ -9,13 +9,7 @@ lectures:
   link: ''
   name: Guest Lecture by Prof. David Garlan - Software Architecture
 
-problemsets:
-- date: Tue Oct 27
-  deadline: ''
-  end_date: 2026-10-28 00:00:00
-  link: ''
-  name: Quiz 2
-  numDays: 1
+problemsets: []
 
 projects:
 - date: Tue Oct 27
