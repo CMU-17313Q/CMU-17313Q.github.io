@@ -88,6 +88,7 @@ nav:
            - "3A Deployment and CI": projects/P3/1_checkpoint.md
            - "3B Tool Analysis and Integration": projects/P3/2_finalsubmission.md
        - "Project 4: Interviews":
+           - projects/P4/index.md
            - projects/P4/1_elicit.md
 #       - "Project 5: Open Source Excursion":
 #          - projects/P5/index.md
