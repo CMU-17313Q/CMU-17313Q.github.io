@@ -3,6 +3,7 @@ import yaml
 
 def add_business_days(start_date, add_days, current_year):
     rem_days_to_add = add_days
+
     current_date = datetime.strptime(start_date, "%a %b %d").replace(year=current_year)
 
     while rem_days_to_add > 0:
@@ -44,7 +45,8 @@ if schedule:
     current_date = start_date
 
     for schedule_day in schedule:
-        schedule_date = datetime.strptime(schedule_day['date'], "%a %b %d").replace(year=current_date.year)
+        schedule_date = datetime.strptime(f"{schedule_day['date']} {current_date.year}", "%a %b %d %Y")
+#        schedule_date = datetime.strptime(schedule_day['date'], "%a %b %d").replace(year=current_date.year)
         if not week_start_date and schedule_date > current_date:
             # We're at the current week!
             week_start_date = schedule_date
