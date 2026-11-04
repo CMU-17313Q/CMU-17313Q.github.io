@@ -1201,8 +1201,8 @@
     name: 'Project 4A'
     numDays: 6
   lecture:
-    link: ''
-    name: ''
+    link: 'assets/pdfs/18-Architectural-Characteristics.pdf'
+    name: 'Guest Lecture by Prof. Rafal Wlodarsky - Architectural Characteristics'
   problemset:
     deadline: ''
     name: 'Quiz 3'
@@ -1227,10 +1227,10 @@
     link: ''
     name: ''
   problemset:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Sun Nov 8th @ 11:59pm'
+    link: 'problemsets/PS4'
+    name: 'Problem Set 4'
+    numDays: 3
   reading:
     link: ''
     name: ''
