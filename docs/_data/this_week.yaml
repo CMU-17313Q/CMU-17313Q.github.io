@@ -5,8 +5,17 @@ lectures:
   reading:
     link: ''
     name: No Pre-lecture Reading
+- date: Tue Nov 03
+  link: assets/pdfs/18-Architectural-Characteristics.pdf
+  name: Guest Lecture by Prof. Rafal Wlodarsky - Architectural Characteristics
 
-problemsets: []
+problemsets:
+- date: Wed Nov 04
+  deadline: Due Sun Nov 8th @ 11:59pm
+  end_date: 2026-11-09 00:00:00
+  link: problemsets/PS4
+  name: Problem Set 4
+  numDays: 3
 
 projects:
 - date: Tue Nov 03
