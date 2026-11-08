@@ -1,7 +1,7 @@
 lectures:
 - date: Sun Nov 08
-  link: ''
-  name: Managing Software Risk and Technical Debt
+  link: assets/pdfs/19-Managing-Risk.pdf
+  name: Managing Software Risk and Technical Debt (I)
   reading:
     link: readings/R10
     name: Technical Debt
