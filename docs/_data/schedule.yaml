@@ -1304,9 +1304,9 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
-    quiz: ''
+    handout: 'recitations/reci9-propertybasedtesting'
+    name: 'Recitation 9: Property-based Testinng'
+    quiz: 'https://www.gradescope.com/courses/1360202/assignments/9023116'
     slides: ''
 
 - date: Tue Nov 10
