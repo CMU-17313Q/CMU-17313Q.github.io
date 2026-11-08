@@ -1196,7 +1196,7 @@
 
 - date: Tue Nov 03
   homework:
-    deadline: 'Due Sunday November 10th @ 11:59pm'
+    deadline: 'Due Tuesday November 10th @ 11:59pm'
     link: 'projects/P4/1_elicit'
     name: 'Project 4A'
     numDays: 6
@@ -1334,10 +1334,10 @@
 
 - date: Wed Nov 11
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Tuesday November 17th @ 11:59pm'
+    link: 'projects/P4/2_specify'
+    name: 'Project 4B'
+    numDays: 5
   lecture:
     link: ''
     name: ''

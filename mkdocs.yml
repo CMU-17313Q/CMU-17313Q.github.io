@@ -90,6 +90,7 @@ nav:
        - "Project 4: Interviews":
            - projects/P4/index.md
            - projects/P4/1_elicit.md
+           - projects/P4/2_specify.md
 #       - "Project 5: Open Source Excursion":
 #          - projects/P5/index.md
 #          - "5A Project and Task Selection": projects/P5/1_projectcheck.md

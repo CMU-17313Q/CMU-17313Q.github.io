@@ -30,7 +30,7 @@ set of new or already-implemented requirements, each with acceptance criteria.
 
 This is an **individual assignment**, though you will keep working inside your Project 2 team's repository and may collaborate with classmates who choose the same feature (see [Shared features](1_elicit.md#shared-features)).
 
-There is one (1) deadline for this project. This project is worth a total of 55 points.
+There are two (2) deadlines for this project. This project is worth a total of 120 points.
 
 [**Interviews & Requirements**](1_elicit.md) – 55 points – due Tuesday, November 10, 2026, 11:59PM
 
@@ -44,3 +44,12 @@ PDF, with your reflection answers in a separate Gradescope assignment. See
 
 !!! tip "Start scheduling interviews now"
     You need three interviews, including one with a member of course staff and one with someone outside the course. Those take time to schedule, so line them up on the first day, even before your script is finished.
+
+[**Properties & Fixes**](2_specify.md) – 65 points – due Tuesday, November 17, 2026, 11:59PM
+
+- Step 1: Review Your Requirements (Individual) (10 pts)
+- Step 2: Write Properties for Your Requirements (Individual) (40 pts)
+- Step 3: Run, Triage, and Fix (Individual) (15 pts)
+
+!!! tip "Resources"
+    [Recitation 9]() introduces fast-check and the kinds of properties you'll use here.
