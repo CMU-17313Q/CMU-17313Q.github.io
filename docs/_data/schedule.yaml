@@ -1270,8 +1270,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Managing Software Risk and Technical Debt'
+    link: 'assets/pdfs/19-Managing-Risk.pdf'
+    name: 'Managing Software Risk and Technical Debt (I)'
   problemset:
     deadline: ''
     link: ''
