@@ -1271,15 +1271,15 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Managing Software Risk and Technical Debt'
   problemset:
     deadline: ''
     link: ''
     name: ''
     numDays: 0
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R10'
+    name: 'Technical Debt'
   recitation:
     handout: ''
     name: ''
