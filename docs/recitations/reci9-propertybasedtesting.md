@@ -78,3 +78,34 @@ After each property, run `npm run test:intervals`, then `npm run mutants:interva
 
 
 After making the appropriate edits, commit your code to the `main` branch of your forked repository and link your commit or repo in your [Gradescope submission](https://www.gradescope.com/courses/1360202/assignments/9023116).
+
+
+## fast-check cheat sheet
+
+```typescript
+import fc from 'fast-check';
+
+// Running a property: check it with expect() inside the callback.
+fc.assert(
+  fc.property(arbA, arbB, (a, b) => {
+    expect(f(a, b)).toEqual(/* ... */);
+  }),
+);
+
+// Generators ("arbitraries")
+fc.integer({ min: -20, max: 20 })
+fc.nat(10)                                     // 0..10
+fc.constantFrom('A', 'B', 'C')
+fc.array(arb, { minLength: 1, maxLength: 5 })
+fc.tuple(arbA, arbB)
+fc.oneof(arbA, arbB)                           // sometimes one, sometimes the other
+fc.shuffledSubarray(xs, { minLength: xs.length, maxLength: xs.length }) // a shuffle of xs
+
+// Building new generators from old ones
+arb.map(x => f(x))                             // transform each value
+arb.chain(x => otherArbBuiltFrom(x))           // second value depends on the first
+arb.filter(x => ok(x))                         // discards values; use sparingly
+fc.pre(ok(x))                                  // same idea, inside the property
+```
+
+Docs: [https://fast-check.dev/docs/introduction/](https://fast-check.dev/docs/introduction/)
