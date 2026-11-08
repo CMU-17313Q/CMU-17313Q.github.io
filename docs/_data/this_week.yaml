@@ -1,4 +1,10 @@
-lectures: []
+lectures:
+- date: Sun Nov 08
+  link: ''
+  name: Managing Software Risk and Technical Debt
+  reading:
+    link: readings/R10
+    name: Technical Debt
 
 problemsets:
 - date: Wed Nov 04
