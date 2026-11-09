@@ -28,7 +28,12 @@ projects:
   name: Project 4B
   numDays: 5
 
-recitation: null
+recitation:
+  date: Mon Nov 09
+  handout: recitations/reci9-propertybasedtesting
+  name: 'Recitation 9: Property-based Testinng'
+  quiz: https://www.gradescope.com/courses/1360202/assignments/9023116
+  slides: ''
 
 teamsurvey:
   closedate: Mon Nov 9
