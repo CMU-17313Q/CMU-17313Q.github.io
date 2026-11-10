@@ -181,7 +181,7 @@ Submit to Gradescope:
 
 To receive full credit for reviewing your requirements, we expect:
 
-- [ ] Every Project 4A requirement either kept or revised, with the Changed in P4B? column filled in
+- [ ] Every Project 4A requirement either kept or revised, with the **Changed in P4B?** column filled in
 - [ ] For each revised requirement, the original wording, the revised wording, and a reason grounded in feasibility, a conflict, or checkability
 - [ ] Revised requirements that still trace back to the interview evidence
 
