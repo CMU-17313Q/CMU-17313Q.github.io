@@ -6,21 +6,9 @@ lectures:
     link: readings/R10
     name: Technical Debt
 
-problemsets:
-- date: Tue Nov 10
-  deadline: ''
-  end_date: 2026-11-11 00:00:00
-  link: ''
-  name: Quiz 4
-  numDays: 1
+problemsets: []
 
 projects:
-- date: Tue Nov 03
-  deadline: Due Tuesday November 10th @ 11:59pm
-  end_date: 2026-11-11 00:00:00
-  link: projects/P4/1_elicit
-  name: Project 4A
-  numDays: 6
 - date: Wed Nov 11
   deadline: Due Tuesday November 17th @ 11:59pm
   end_date: 2026-11-18 00:00:00
