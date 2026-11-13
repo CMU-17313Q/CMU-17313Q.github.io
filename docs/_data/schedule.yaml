@@ -1341,7 +1341,7 @@
   lecture:
     link: ''
     name: ''
-  problemset
+  problemset:
     deadline: 'Due Sun Nov 15th @ 11:59pm'
     link: 'problemsets/PS5'
     name: 'Problem Set 5'
