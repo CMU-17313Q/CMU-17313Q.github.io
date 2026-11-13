@@ -1341,11 +1341,11 @@
   lecture:
     link: ''
     name: ''
-  problemset:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+  problemset
+    deadline: 'Due Sun Nov 15th @ 11:59pm'
+    link: 'problemsets/PS5'
+    name: 'Problem Set 5'
+    numDays: 3
   reading:
     link: ''
     name: ''
