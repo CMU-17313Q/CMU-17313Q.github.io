@@ -1,0 +1,32 @@
+lectures: []
+
+problemsets:
+- date: Wed Nov 11
+  deadline: Due Sun Nov 15th @ 11:59pm
+  end_date: 2026-11-16 00:00:00
+  link: problemsets/PS5
+  name: Problem Set 5
+  numDays: 3
+- date: Tue Nov 17
+  deadline: ''
+  end_date: 2026-11-18 00:00:00
+  link: ''
+  name: Quiz 5
+  numDays: 1
+
+projects:
+- date: Wed Nov 11
+  deadline: Due Tuesday November 17th @ 11:59pm
+  end_date: 2026-11-18 00:00:00
+  link: projects/P4/2_specify
+  name: Project 4B
+  numDays: 5
+
+recitation: null
+
+teamsurvey:
+  closedate: Mon Nov 16
+  deadline: Mon Nov 16 @ 11:59pm
+  link: https://forms.gle/Z2uN7KaX3R8T8Hyg9
+  name: Team Survey 9 (Nov 10 - Nov 16)
+  opendate: Tue Nov 10
