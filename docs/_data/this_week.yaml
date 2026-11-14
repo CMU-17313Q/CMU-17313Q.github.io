@@ -1,13 +1,4 @@
-lectures:
-- date: Sun Nov 08
-  link: assets/pdfs/19-Managing-Risk.pdf
-  name: Managing Software Risk and Technical Debt (I)
-  reading:
-    link: readings/R10
-    name: Technical Debt
-- date: Tue Nov 10
-  link: assets/pdfs/20-Managing-Risk-TechnicalDebt.pdf
-  name: Managing Software Risk and Technical Debt (II)
+lectures: []
 
 problemsets:
 - date: Wed Nov 11
@@ -16,6 +7,12 @@ problemsets:
   link: problemsets/PS5
   name: Problem Set 5
   numDays: 3
+- date: Tue Nov 17
+  deadline: ''
+  end_date: 2026-11-18 00:00:00
+  link: ''
+  name: Quiz 5
+  numDays: 1
 
 projects:
 - date: Wed Nov 11
@@ -25,12 +22,7 @@ projects:
   name: Project 4B
   numDays: 5
 
-recitation:
-  date: Mon Nov 09
-  handout: recitations/reci9-propertybasedtesting
-  name: 'Recitation 9: Property-based Testinng'
-  quiz: https://www.gradescope.com/courses/1360202/assignments/9023116
-  slides: ''
+recitation: null
 
 teamsurvey:
   closedate: Mon Nov 16
