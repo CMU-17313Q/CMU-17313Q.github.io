@@ -1386,7 +1386,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Software Dependencies and Licenses'
   problemset:
     deadline: ''
     link: ''
@@ -1394,7 +1394,7 @@
     numDays: 0
   reading:
     link: ''
-    name: ''
+    name: 'No Pre-Lecture Reading'
   recitation:
     handout: ''
     name: ''
@@ -1432,15 +1432,15 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Open Source'
   problemset:
     deadline: ''
     link: ''
     name: 'Quiz 5'
     numDays: 1
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R11'
+    name: 'Revolution OS'
   recitation:
     handout: ''
     name: ''
