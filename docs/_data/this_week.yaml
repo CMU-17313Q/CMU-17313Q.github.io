@@ -1,4 +1,16 @@
-lectures: []
+lectures:
+- date: Sun Nov 15
+  link: ''
+  name: Software Dependencies and Licenses
+  reading:
+    link: ''
+    name: No Pre-Lecture Reading
+- date: Tue Nov 17
+  link: ''
+  name: Open Source
+  reading:
+    link: readings/R11
+    name: Revolution OS
 
 problemsets:
 - date: Wed Nov 11
