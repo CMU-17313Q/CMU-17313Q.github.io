@@ -1419,8 +1419,8 @@
     link: ''
     name: ''
   recitation:
-    handout: ''
-    name: ''
+    handout: 'recitations/reci10-open-source'
+    name: 'Recitation 10: Open Source Scavenger Hunt'
     quiz: ''
     slides: ''
 
