@@ -28,7 +28,12 @@ projects:
   name: Project 4B
   numDays: 5
 
-recitation: null
+recitation:
+  date: Mon Nov 16
+  handout: recitations/reci10-open-source
+  name: 'Recitation 10: Open Source Scavenger Hunt'
+  quiz: ''
+  slides: ''
 
 teamsurvey:
   closedate: Mon Nov 16
