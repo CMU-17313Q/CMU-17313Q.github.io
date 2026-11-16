@@ -3,7 +3,7 @@ title: Recitation 10 - Open Source Scavenger Hunt
 ---
 
 # Recitation 10: Open Source Scavenger Hunt
- 
+
 ## Context
 Open source software refers to software where the code is openly available, allowing contributors to freely run, modify, contribute, and redistribute the code. These projects provide a great learning experience of working with large codebases to beginner programmers, and give you the opportunity to contribute to software that’s used by a large number of community members.
 
@@ -27,10 +27,12 @@ Pick 3 projects that you are interested in pursing for Project 5. Compelete [thi
 ## Public Project Selection
 
 Once your team has decided on an open source project, add it to the [Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1FRmk0GLmR3QmG__qbCtskU5SrehUyD3IYPWz_vQG5Xk/edit?usp=sharing).
- 
+
 ## Resources
 - A list of beginner friendly projects: [https://github.com/MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners)
 - Github Showcase for new contributors: [https://github.com/showcases/great-for-new-contributors](https://github.com/MunGell/awesome-for-beginners)
 - Issues that are labeled “up-for-grabs”: [https://up-for-grabs.net](https://up-for-grabs.net)
 - Apache projects: [http://www.apache.org/](http://www.apache.org/)
 - Mozilla projects: [https://developer.mozilla.org/en-US/docs/MDN/Community/Contributing](https://developer.mozilla.org/en-US/docs/MDN/Community/Contributing)
+- OpenStreetMap projects: [https://github.com/openstreetmap](https://github.com/openstreetmap)
+- Digital Public Goods: [https://www.digitalpublicgoods.net/registry?category=1](https://www.digitalpublicgoods.net/registry?category=1)
