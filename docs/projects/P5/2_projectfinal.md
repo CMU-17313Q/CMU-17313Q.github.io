@@ -82,7 +82,6 @@ As a team, write your responses to the questions in this doc. After you finish, 
 ## Individual Reflection & Peer Evaluations (40 points)
 
 !!! note "Contributions"
-
     We want to ensure that everyone is participating fully in the final project. For this project, we will be assessing participation in a variety of ways, including: artifact evaluation, self & peer evaluation. Credit due for the team components of this project will be awarded based on evidence of full participation in the team. **Partial participation will receive partial credit.**
 
 
