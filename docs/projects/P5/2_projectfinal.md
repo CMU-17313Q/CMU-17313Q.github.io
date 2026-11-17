@@ -66,7 +66,7 @@ The goal of the presentation is primarily to share with the class the project to
 
     Your summary of your experiences can be at whatever level of detail you think is interesting or informative. Given the time limit, selecting and highlighting the one or two most important or interesting observations is likely more useful than trying to be complete.
 
-You must upload your slides as **a single PDF document** to Gradescope by **Sunday, December 6th, 1:00pm**.
+You must upload your slides as **a single PDF document** to [Gradescope](https://www.gradescope.com/courses/1360202/assignments/9078077) by **Sunday, December 6th, 1:00pm**.
 
 ## Project Report (60 points)
 
