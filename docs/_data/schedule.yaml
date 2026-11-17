@@ -1449,10 +1449,10 @@
 
 - date: Wed Nov 18
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Thu Nov 19 (Proj. Selection), Sun Nov 22 (Slides)'
+    link: "projects/P5"
+    name: 'Project 5A'
+    numDays: 4
   lecture:
     link: ''
     name: ''
@@ -1541,10 +1541,10 @@
 
 - date: Tue Nov 24
   homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: "Due Sun Dec 6th @ 11:59pm"
+    link: "projects/P5"
+    name: "Project 5B"
+    numDays: 9
   lecture:
     link: ''
     name: ''

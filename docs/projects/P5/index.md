@@ -48,24 +48,24 @@ This is your final project with your group. There are 3 parts to this project. T
 
 A) [**Project & Task Selection**](1_projectcheck.md) – 100 points
 
-- Project selection - **due Friday, November 21th, 11:59pm**
+- Project selection - **due Thursday, November 19th, 11:59pm**
 - Checkpoint Presentation (slide deck) (100 points) - **due Sunday, November 22th, 11:59pm**
 - In-Person Presentation of Check-In Slides - **Monday, November 23th during recitation**
 
 B) [**Project Final Report & Presentations**](2_projectfinal.md) – 160 points
 
-- Project Report (60 points) - **due Monday, December 6th, 1:00pm**
+- Project Report (60 points) - **due Sunday, December 6th, 1:00pm**
 - *Extra Credit (15 points)*
-- Project Presentation (100 points) - **Held during the final exam timeslot on Monday, December 6th, 1:00pm-4:00pm**
+- Project Presentation (100 points) - **Held during the final exam timeslot on Sunday, December 6th, 2:30pm-5:30pm**
 
 C) [**Individual Reflections**](2_projectfinal.md) – 40 points
 
-- Reflections & Peer Review (40 points) - **due Monday, December 6th, 11:59pm**
+- Reflections & Peer Review (40 points) - **due Sunday, December 6th, 11:59pm**
 
 !!! tip
 
     **This is a large assignment spanning from now until your final exam timeslot.** We estimate that this project will take each student on the team on average 11 hours/week over the next 3 weeks. We **highly recommend** reading through the entire assignment before starting so you are aware of our expectations for the later deliverables.
-    
+
     To manage all of the write-ups, we recommend saving the pages as a PDF to print or annotate on as you work through the assignment with your team.
 
 !!! attention "Contributions"
