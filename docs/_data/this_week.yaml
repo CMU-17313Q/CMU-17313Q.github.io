@@ -12,21 +12,9 @@ lectures:
     link: readings/R11
     name: Revolution OS
 
-problemsets:
-- date: Tue Nov 17
-  deadline: ''
-  end_date: 2026-11-18 00:00:00
-  link: ''
-  name: Quiz 5
-  numDays: 1
+problemsets: []
 
 projects:
-- date: Wed Nov 11
-  deadline: Due Tuesday November 17th @ 11:59pm
-  end_date: 2026-11-18 00:00:00
-  link: projects/P4/2_specify
-  name: Project 4B
-  numDays: 5
 - date: Wed Nov 18
   deadline: Due Thu Nov 19 (Proj. Selection), Sun Nov 22 (Slides)
   end_date: 2026-11-24 00:00:00
