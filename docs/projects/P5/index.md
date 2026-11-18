@@ -70,6 +70,6 @@ C) [**Individual Reflections**](2_projectfinal.md) – 40 points
 
 !!! attention "Contributions"
 
-    We want to ensure that everyone is participating fully in the final project. For this project, we will be assessing participation in a variety of ways, including: artifact evaluation, self & peer evaluation. Credit due for the team components of P6 will be awarded based on evidence of full participation in the team. **Partial participation will receive partial credit.**
+    We want to ensure that everyone is participating fully in the final project. For this project, we will be assessing participation in a variety of ways, including: artifact evaluation, self & peer evaluation. Credit due for the team components of P5 will be awarded based on evidence of full participation in the team. **Partial participation will receive partial credit.**
 
     If severe teamwork issues arise please contact the course staff.

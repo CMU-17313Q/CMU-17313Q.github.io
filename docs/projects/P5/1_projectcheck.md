@@ -26,7 +26,7 @@ Here are some helpful resources for finding open source projects:
 - [A list of beginner friendly projects](https://github.com/MunGell/awesome-for-beginners)
 - [Apache projects](http://www.apache.org/)
 - [Mozilla projects](https://firefox-source-docs.mozilla.org/contributing/contributing_to_mozilla.html)
-- You may also check the other sheets in the **[Public Project Selection Spreadsheet]((https://docs.google.com/spreadsheets/d/1FRmk0GLmR3QmG__qbCtskU5SrehUyD3IYPWz_vQG5Xk/edit?usp=sharing)** which will include Projects teams from past semesters have contributed to and whether or not their PRs were merged into main.
+- You may also check the other sheets in this **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1h2fk0PSsXqyByGr76BPYp8mDSUAwLbqP87ash0XV-Bs/edit?usp=sharing)** which will include Projects teams from past semesters have contributed to and whether or not their PRs were merged into main.
 
 You may want to consider any open-source projects you have used before, or are interested in using in the future!
 
@@ -36,7 +36,7 @@ If you have questions on if we would consider a project active, contact the cour
 
 Also check the project's **policy on AI-assisted contributions** before you choose it (see `CONTRIBUTING.md`, the pull request template, or ask the maintainers). If you plan to use AI tools for this project, pick a project whose policy allows it, and follow that policy in all of your code, pull requests, and messages to the community.
 
-Once you have selected a project, add it to the **[Public Project Selection Spreadsheet]((https://docs.google.com/spreadsheets/d/1FRmk0GLmR3QmG__qbCtskU5SrehUyD3IYPWz_vQG5Xk/edit?usp=sharing)**. We highly recommend you also think about potential tasks (see below) before finalizing on a project, as your success depends heavily on the chosen task(s).
+Once you have selected a project, add it to the **[Public Project Selection Spreadsheet](https://docs.google.com/spreadsheets/d/1FRmk0GLmR3QmG__qbCtskU5SrehUyD3IYPWz_vQG5Xk/edit?usp=sharing)**. We highly recommend you also think about potential tasks (see below) before finalizing on a project, as your success depends heavily on the chosen task(s).
 
 ## Task Selection
 
