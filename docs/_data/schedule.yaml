@@ -1431,7 +1431,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/22-Open-Source.pdf'
     name: 'Open Source'
   problemset:
     deadline: ''
