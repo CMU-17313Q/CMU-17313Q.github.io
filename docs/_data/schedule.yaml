@@ -1457,10 +1457,10 @@
     link: ''
     name: ''
   problemset:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
+    deadline: 'Due Sun Nov 22nd @ 11:59pm'
+    link: 'problemsets/PS6'
+    name: 'Problem Set 6'
+    numDays: 3
   reading:
     link: ''
     name: ''
