@@ -1385,7 +1385,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/21-Dependencies-Licenses.pdf'
     name: 'Software Dependencies and Licenses'
   problemset:
     deadline: ''
