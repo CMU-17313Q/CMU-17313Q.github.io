@@ -1,16 +1,10 @@
 lectures:
-- date: Sun Nov 15
-  link: assets/pdfs/21-Dependencies-Licenses.pdf
-  name: Software Dependencies and Licenses
+- date: Sun Nov 22
+  link: ''
+  name: Security & Privacy
   reading:
     link: ''
-    name: No Pre-Lecture Reading
-- date: Tue Nov 17
-  link: assets/pdfs/22-Open-Source.pdf
-  name: Open Source
-  reading:
-    link: readings/R11
-    name: Revolution OS
+    name: No Pre-lecture Reading
 
 problemsets:
 - date: Wed Nov 18
@@ -19,6 +13,12 @@ problemsets:
   link: problemsets/PS6
   name: Problem Set 6
   numDays: 3
+- date: Tue Nov 24
+  deadline: ''
+  end_date: 2026-11-25 00:00:00
+  link: ''
+  name: Quiz 6
+  numDays: 1
 
 projects:
 - date: Wed Nov 18
@@ -27,13 +27,14 @@ projects:
   link: projects/P5
   name: Project 5A
   numDays: 4
+- date: Tue Nov 24
+  deadline: Due Sun Dec 6th @ 11:59pm
+  end_date: 2026-12-07 00:00:00
+  link: projects/P5
+  name: Project 5B
+  numDays: 9
 
-recitation:
-  date: Mon Nov 16
-  handout: recitations/reci10-open-source
-  name: 'Recitation 10: Open Source Scavenger Hunt'
-  quiz: ''
-  slides: ''
+recitation: null
 
 teamsurvey:
   closedate: Mon Nov 23
