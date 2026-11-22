@@ -1501,7 +1501,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Security & Privacy'
+    name: 'Security'
   problemset:
     deadline: ''
     link: ''
@@ -1547,15 +1547,15 @@
     numDays: 9
   lecture:
     link: ''
-    name: ''
+    name: 'Privacy'
   problemset:
     deadline: ''
     link: ''
     name: 'Quiz 6'
     numDays: 1
   reading:
-    link: ''
-    name: ''
+    link: 'readings/R12'
+    name: 'Incomprehensible Disaster'
   recitation:
     handout: ''
     name: ''
