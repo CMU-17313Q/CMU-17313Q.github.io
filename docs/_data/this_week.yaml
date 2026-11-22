@@ -1,10 +1,16 @@
 lectures:
 - date: Sun Nov 22
   link: ''
-  name: Security & Privacy
+  name: Security
   reading:
     link: ''
     name: No Pre-lecture Reading
+- date: Tue Nov 24
+  link: ''
+  name: Privacy
+  reading:
+    link: readings/R12
+    name: Incomprehensible Disaster
 
 problemsets:
 - date: Wed Nov 18
