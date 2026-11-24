@@ -28,7 +28,12 @@ projects:
   name: Project 5B
   numDays: 9
 
-recitation: null
+recitation:
+  date: Mon Nov 23
+  handout: ''
+  name: P5 Checkpoint Presentation
+  quiz: ''
+  slides: ''
 
 teamsurvey:
   closedate: Mon Nov 30
