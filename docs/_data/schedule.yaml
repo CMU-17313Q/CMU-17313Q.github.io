@@ -1546,7 +1546,7 @@
     name: "Project 5B"
     numDays: 9
   lecture:
-    link: ''
+    link: 'assets/pdfs/24-Privacy.pdf'
     name: 'Privacy'
   problemset:
     deadline: ''
