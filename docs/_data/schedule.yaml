@@ -1500,7 +1500,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/23-Security.pdf'
     name: 'Security'
   problemset:
     deadline: ''
