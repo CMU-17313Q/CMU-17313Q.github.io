@@ -77,7 +77,7 @@ After completing and submitting the modification, write a report about the tasks
 
 Create a **copy** of the following Google Doc: [5B Project Report Template](https://docs.google.com/document/d/1rf0Q5UnebDjww4kuIpbxSwv7AqxD2Dc0WZwgS6_qs1Q/edit?usp=sharing). **Make sure the document is located within the Google Drive folder your TA shared with you at the beginning of the semester.**
 
-As a team, write your responses to the questions in this doc. After you finish, have **one team member** copy and paste the responses of each question into the corresponding question in the 5B Project Report assignment on **Gradescope**. (This is to facilitate grading feedback) Be sure to also provide the **link to the Google Doc**. Add **all group members** to the submission.
+As a team, write your responses to the questions in this doc. After you finish, have **one team member** copy and paste the responses of each question into the corresponding question in the 5B Project Report assignment on [Gradescope](https://www.gradescope.com/courses/1360202/assignments/9113317). (This is to facilitate grading feedback) Be sure to also provide the **link to the Google Doc**. Add **all group members** to the submission.
 
 ## Individual Reflection & Peer Evaluations (40 points)
 
@@ -107,4 +107,4 @@ Describe the specific work **each of your team members** have contributed toward
     - What have you learned about teamwork and your role in teamwork?
     - (Optional) Do you have any feedback on what we can do next year to help students work more effectively in teams? Bear in mind that the instructor-assigned heterogeneous teams of 3-5 students is non-negotiable. We anticipate problems as part of the learning experience, but would like to avoid unduly frustrating situations.
 
-A good reflection document will include concrete statements about lessons learned, with clear supporting evidence, such as examples, to support them. Submit your reflection on **Gradescope** by Sunday, December 6th, 11:59pm.
+A good reflection document will include concrete statements about lessons learned, with clear supporting evidence, such as examples, to support them. Submit your reflection on [Gradescope](https://www.gradescope.com/courses/1360202/assignments/9113318) by Sunday, December 6th, 11:59pm.
