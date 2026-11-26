@@ -6,11 +6,10 @@ title: Midterm 2
 
 ## Overview
 
-As we have our midterm scheduled for Tuesday, November 26th , review the sample questions listed below and come to recitation this Sunday with any questions!
-
+As we have our midterm scheduled for Sunday, November 29th, review the sample questions listed below for preparation. You can also review [this mock exam](https://docs.google.com/document/d/1f_TNIDW5VCxxT6AFzTIY6zkdOflaU91aHEDeTyvTppA/edit?usp=sharing) for extra practice!
 ## Cheat Sheet
 
-You are allowed to bring one double-sided A4 cheat sheet to the exam. You must submit your cheat sheet along with your exam. If you handwrite the cheat sheet yourself, you will receive **bonus points**. Printed cheat sheets are also permitted for use.
+You are allowed to bring one double-sided A4 cheat sheet to the exam. **Your cheat sheet must be hand-written**. Printed cheat sheets, including those handwritten digitally on a tablet and then printed, WILL NOT be permitted in the exam. Your cheat sheets will be examined before the exam starts.
 
 ## Sample Questions
 
