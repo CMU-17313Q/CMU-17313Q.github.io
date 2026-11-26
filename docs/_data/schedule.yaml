@@ -1650,7 +1650,7 @@
     name: ''
   recitation:
     handout: ''
-    name: ''
+    name: 'No Recitation (P5 OHs)'
     quiz: ''
     slides: ''
 
@@ -1662,7 +1662,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: TBD
+    name: 'Semester Overview + Ethics'
   problemset:
     deadline: ''
     link: ''
