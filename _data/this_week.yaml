@@ -1,0 +1,34 @@
+lectures:
+- date: Sun Nov 29
+  link: ''
+  name: MIDTERM 2
+  reading:
+    link: readings/midterm2-instructions
+    name: Instructions & Past Exams
+- date: Tue Dec 01
+  link: ''
+  name: Semester Overview + Ethics
+
+problemsets: []
+
+projects:
+- date: Tue Nov 24
+  deadline: Due Sun Dec 6th @ 11:59pm
+  end_date: 2026-12-07 00:00:00
+  link: projects/P5
+  name: Project 5B
+  numDays: 9
+
+recitation:
+  date: Mon Nov 30
+  handout: ''
+  name: No Recitation (P5 OHs)
+  quiz: ''
+  slides: ''
+
+teamsurvey:
+  closedate: Mon Nov 30
+  deadline: Mon Nov 30 @ 11:59pm
+  link: https://forms.gle/KpSdZZRim7MgzR6p8
+  name: Team Survey 11 (Nov 24 - Nov 30)
+  opendate: Tue Nov 24
